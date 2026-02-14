@@ -1,0 +1,184 @@
+================================================================================
+INVESTMENT OS - UNIFIED COMPOSITE SCORING REPORT
+================================================================================
+Date: 2026-02-13 21:45:33
+Total Stocks Analyzed: 298
+
+================================================================================
+OVERALL STATISTICS
+================================================================================
+Mean Score:   60.3
+Median Score: 60.3
+Std Dev:      16.9
+Min Score:    21.4
+Max Score:    94.2
+
+QUALITY TIER DISTRIBUTION:
+  Exceptional    :  20 stocks (  6.7%)
+  Strong         :  78 stocks ( 26.2%)
+  Moderate       :  75 stocks ( 25.2%)
+  Weak           :  86 stocks ( 28.9%)
+  Poor           :  39 stocks ( 13.1%)
+
+RECOMMENDATION DISTRIBUTION:
+  SELL/AVOID - Below-average quality                :  78 ( 26.2%)
+  HOLD - Average quality, needs improvement or bette:  62 ( 20.8%)
+  STRONG SELL/AVOID - Poor quality across multiple d:  39 ( 13.1%)
+  BUY - Strong quality at fair valuation            :  38 ( 12.8%)
+  BUY - Strong quality overall                      :  31 ( 10.4%)
+  STRONG BUY - Exceptional quality at fair/attractiv:  16 (  5.4%)
+  SPECULATIVE BUY - Average quality but deeply disco:  13 (  4.4%)
+  HOLD - Strong quality but expensive, wait for bett:   9 (  3.0%)
+  AVOID - Weak profitability and financial strength :   8 (  2.7%)
+  BUY - Exceptional quality, monitor valuation      :   4 (  1.3%)
+
+================================================================================
+TOP 20 INVESTMENT OPPORTUNITIES
+================================================================================
+
+ 1. GLAS.N0000   - Score:  94.2 (Exceptional)
+    STRONG BUY - Exceptional quality at fair/attractive valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+ 2. CTC.N0000    - Score:  93.3 (Exceptional)
+    STRONG BUY - Exceptional quality at fair/attractive valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+ 3. MCPL.N0000   - Score:  92.5 (Exceptional)
+    STRONG BUY - Exceptional quality at fair/attractive valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+ 4. JINS.N0000   - Score:  90.0 (Exceptional)
+    STRONG BUY - Exceptional quality at fair/attractive valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+ 5. ASHO.N0000   - Score:  89.6 (Exceptional)
+    STRONG BUY - Exceptional quality at fair/attractive valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+ 6. CARS.N0000   - Score:  88.3 (Exceptional)
+    STRONG BUY - Exceptional quality at fair/attractive valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+ 7. LFIN.N0000   - Score:  88.3 (Exceptional)
+    STRONG BUY - Exceptional quality at fair/attractive valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+ 8. CDB.X0000    - Score:  87.9 (Exceptional)
+    STRONG BUY - Exceptional quality at fair/attractive valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+ 9. CFIN.N0000   - Score:  87.7 (Exceptional)
+    STRONG BUY - Exceptional quality at fair/attractive valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+10. KCAB.N0000   - Score:  87.6 (Exceptional)
+    BUY - Exceptional quality, monitor valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+11. ACL.N0000    - Score:  87.4 (Exceptional)
+    BUY - Exceptional quality, monitor valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+12. CDB.N0000    - Score:  87.3 (Exceptional)
+    STRONG BUY - Exceptional quality at fair/attractive valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+13. LION.N0000   - Score:  86.9 (Exceptional)
+    STRONG BUY - Exceptional quality at fair/attractive valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+14. AAIC.N0000   - Score:  86.8 (Exceptional)
+    STRONG BUY - Exceptional quality at fair/attractive valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+15. COMD.N0000   - Score:  86.7 (Exceptional)
+    BUY - Exceptional quality, monitor valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+16. ALLI.N0000   - Score:  86.4 (Exceptional)
+    STRONG BUY - Exceptional quality at fair/attractive valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+17. AFSL.N0000   - Score:  86.3 (Exceptional)
+    STRONG BUY - Exceptional quality at fair/attractive valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+18. BREW.N0000   - Score:  86.2 (Exceptional)
+    STRONG BUY - Exceptional quality at fair/attractive valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+19. COCR.N0000   - Score:  86.1 (Exceptional)
+    STRONG BUY - Exceptional quality at fair/attractive valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+20. RWSL.N0000   - Score:  85.1 (Exceptional)
+    BUY - Exceptional quality, monitor valuation
+    Exceptional nan compounder - top-tier quality across all dimensions
+
+================================================================================
+BOTTOM 10 STOCKS (AVOID)
+================================================================================
+
+ 1. BLUE.N0000   - Score:  30.8 (Poor)
+    STRONG SELL/AVOID - Poor quality across multiple dimensions
+
+ 2. DPL.N0000    - Score:  29.2 (Poor)
+    STRONG SELL/AVOID - Poor quality across multiple dimensions
+
+ 3. REEF.N0000   - Score:  29.0 (Poor)
+    STRONG SELL/AVOID - Poor quality across multiple dimensions
+
+ 4. MADU.N0000   - Score:  28.3 (Poor)
+    STRONG SELL/AVOID - Poor quality across multiple dimensions
+
+ 5. TAJ.N0000    - Score:  28.0 (Poor)
+    STRONG SELL/AVOID - Poor quality across multiple dimensions
+
+ 6. LGL.N0000    - Score:  27.6 (Poor)
+    STRONG SELL/AVOID - Poor quality across multiple dimensions
+
+ 7. LGL.X0000    - Score:  27.4 (Poor)
+    STRONG SELL/AVOID - Poor quality across multiple dimensions
+
+ 8. HELA.N0000   - Score:  26.9 (Poor)
+    STRONG SELL/AVOID - Poor quality across multiple dimensions
+
+ 9. ODEL.N0000   - Score:  25.2 (Poor)
+    STRONG SELL/AVOID - Poor quality across multiple dimensions
+
+10. KAHA.N0000   - Score:  21.4 (Poor)
+    STRONG SELL/AVOID - Poor quality across multiple dimensions
+
+================================================================================
+SECTOR ANALYSIS
+================================================================================
+
+Sector          Count    Mean     Std     
+──────────────────────────────────────────────────
+
+================================================================================
+END OF REPORT
+================================================================================
+================================================================================
+WATCH LIST STOCKS (NON-COMPLIANT)
+================================================================================
+
+Total: 11 stocks
+
+⚠️  These stocks are non-compliant with CSE Listing Rules
+   Investment OS does NOT recommend purchase
+
+MHDL.N0000   - Rank #127 - Score:  64.0 - HOLD - Average quality, needs improvement or better price
+SING.N0000   - Rank #197 - Score:  50.8 - SELL/AVOID - Below-average quality
+ACAP.N0000   - Rank #223 - Score:  47.6 - SELL/AVOID - Below-average quality
+CSF.N0000    - Rank #253 - Score:  41.1 - AVOID - Weak profitability and financial strength
+SHL.N0000    - Rank #259 - Score:  40.1 - AVOID - Weak profitability and financial strength
+BBH.N0000    - Rank #267 - Score:  38.1 - STRONG SELL/AVOID - Poor quality across multiple dimensions
+DOCK.N0000   - Rank #283 - Score:  33.9 - STRONG SELL/AVOID - Poor quality across multiple dimensions
+ACME.N0000   - Rank #288 - Score:  30.9 - STRONG SELL/AVOID - Poor quality across multiple dimensions
+BLUE.N0000   - Rank #289 - Score:  30.8 - STRONG SELL/AVOID - Poor quality across multiple dimensions
+HELA.N0000   - Rank #296 - Score:  26.9 - STRONG SELL/AVOID - Poor quality across multiple dimensions
+ODEL.N0000   - Rank #297 - Score:  25.2 - STRONG SELL/AVOID - Poor quality across multiple dimensions
+
+================================================================================

@@ -1,0 +1,874 @@
+
+========================================
+WEEKLY SCORING START - 2026-02-12
+========================================
+
+========================================
+STEP 1: Locate Latest Data
+========================================
+[2026-02-12 06:04:32] Found latest data: /opt/investment-os/output/2026-02-12/cleaned_data.csv
+
+========================================
+STEP 2: Dimension 7 v1.0 (PRODUCTION)
+========================================
+[2026-02-12 06:04:32] Running v1.0 scorer...
+
+DIMENSION 7: MARKET SENTIMENT SCORER v1.0
+Investment OS - 7D Scoring Framework
+Date: January 1, 2026
+Version: 1.0 (Production - Percentile-Based)
+
+FRAMEWORK: Trading Activity + Price Momentum + Market Recognition
+
+PHILOSOPHY (Lynch):
+"The stock market is filled with individuals who know the price of everything, 
+but the value of nothing. However, when the market recognizes quality, it can 
+create powerful momentum. The key is to find quality companies before the market 
+does, or ride the wave when validation occurs."
+
+METHODOLOGY: EMPIRICAL PERCENTILE-BASED SCORING
+This dimension uses data-driven thresholds derived from actual CSE distribution,
+following industry best practices for quantitative analysis.
+
+ARCHITECTURE:
+Component 1 (40%): Trading Activity & Liquidity
+  - Relative volume (percentile-based: 90th, 75th, 50th, 25th)
+  - Uses actual CSE distribution, not arbitrary thresholds
+  
+Component 2 (35%): Price Momentum
+  - Total return performance (TR5Y, TR3Y, TR1Y)
+  - Percentile-based thresholds from CSE data
+  - Trend analysis (accelerating vs decelerating)
+  
+Component 3 (25%): Market Recognition
+  - Market cap size (percentile-based)
+  - Beta volatility (adjusted for CSE mean=0.37)
+
+CSE EMPIRICAL PERCENTILES (Data-Driven):
+TR5Y: 90th=546%, 75th=340%, 50th=180%, 25th=72%
+TR1Y: 90th=167%, 75th=102%, 50th=49%
+Market Cap: 90th=75B, 75th=26B, 50th=9B LKR
+RelVol: 90th=231, 75th=102, 50th=41
+Beta: 75th=0.60, 50th=0.34, 25th=0.12
+
+EXPECTED SCORES:
+CTC:  85-95 (mega cap, strong momentum, high liquidity)
+LION: 75-85 (strong momentum, good liquidity)
+LOLC: 60-75 (large cap but declining momentum)
+LOFC: 80-90 (strong performance, institutional favorite)
+JKH:  50-65 (large cap but declining sentiment)
+
+REGULATORY DEFENSE:
+"We evaluate market sentiment using empirically-derived percentile thresholds from 
+the Colombo Stock Exchange. Rather than arbitrary cutoffs, we use actual CSE 
+distribution (50th, 75th, 90th percentiles) to classify trading activity, price 
+momentum, and market capitalization. This data-driven approach aligns with 
+quantitative finance best practices and eliminates subjective bias."
+
+
+📂 Input CSV: /opt/investment-os/output/2026-02-12/cleaned_data.csv
+📊 Output CSV: dimension7_scores.csv
+📄 Output Report: dimension7_report.txt
+================================================================================
+DIMENSION 7: MARKET SENTIMENT SCORER v1.0
+================================================================================
+
+Loading data from: /opt/investment-os/output/2026-02-12/cleaned_data.csv
+Loaded 298 stocks
+
+Scoring stocks...
+  Processed 50/298 stocks...
+  Processed 100/298 stocks...
+  Processed 150/298 stocks...
+  Processed 200/298 stocks...
+  Processed 250/298 stocks...
+
+✅ Scoring complete!
+  Success: 298/298
+  Errors: 0/298
+
+✅ Scores saved: dimension7_scores.csv
+
+✅ Validation report saved: dimension7_report.txt
+
+🎯 Dimension 7 scoring complete!
+
+Files created:
+  • dimension7_scores.csv
+  • dimension7_report.txt
+[2026-02-12 06:04:32] v1.0 scoring complete: 299 stocks
+
+========================================
+STEP 3: Dimension 7 v2.0 Phase 1A (PARALLEL)
+========================================
+[2026-02-12 06:04:32] Running v2.0 Phase 1A scorer...
+================================================================================
+DIMENSION 7 SCORER V2.0 - PHASE 1A
+================================================================================
+✅ Loaded percentiles: cse_percentiles.json
+   Generated: 2026-01-07T08:15:52.028562
+   Stocks: 292
+
+📊 Loading CSE metrics: cse_metrics.csv
+   Stocks: 292
+
+🔢 Calculating D7 v2.0 Phase 1A scores...
+   Processed 50/292 stocks...
+   Processed 100/292 stocks...
+   Processed 150/292 stocks...
+   Processed 200/292 stocks...
+   Processed 250/292 stocks...
+
+💾 Scores saved: dimension7_v2_scores.csv
+📄 Report saved: dimension7_v2_report.txt
+
+📊 SCORING SUMMARY:
+   Total Stocks: 292
+   Mean Score: 50.1
+   Median Score: 50.3
+   Std Dev: 10.6
+   Range: 33.8 - 69.0
+
+🏆 TOP 10 STOCKS:
+ rank     symbol  dimension7_v2_score trade_density_class volatility_level
+    1 SAMP.N0000                 69.0               mixed         very_low
+    2 COMB.N0000                 69.0               mixed         very_low
+    3  HHL.N0000                 68.5               mixed              low
+    4  BIL.N0000                 68.5       institutional              low
+    5 SIRA.N0000                 68.5               mixed              low
+    6  JKH.N0000                 68.5               mixed              low
+    7  CIC.N0000                 68.0               mixed         moderate
+    8  ACL.N0000                 68.0               mixed         moderate
+    9  LGL.N0000                 68.0               mixed         moderate
+   10  RAL.N0000                 67.5       institutional             high
+
+🎯 TEST STOCKS:
+ rank     symbol  dimension7_v2_score  component1_trading_activity  component2_volatility_adj  component3_market_recognition
+    6  JKH.N0000                 68.5                         95.0                       55.0                           50.0
+   70 LOFC.N0000                 59.3                         72.0                       55.0                           50.0
+  118 LOLC.N0000                 54.3                         59.5                       55.0                           50.0
+  173  CTC.N0000                 45.8                         37.0                       60.0                           50.0
+  239 LION.N0000                 35.8                         12.0                       60.0                           50.0
+
+📊 TRADE DENSITY DISTRIBUTION:
+   Retail         : 151 stocks ( 51.7%)
+   Mixed          : 130 stocks ( 44.5%)
+   Institutional  :  11 stocks (  3.8%)
+
+================================================================================
+✅ D7 V2.0 PHASE 1A SCORING COMPLETE
+================================================================================
+[2026-02-12 06:04:33] v2.0 scoring complete: 293 stocks
+
+========================================
+STEP 4: v1.0 vs v2.0 Comparison
+========================================
+[2026-02-12 06:04:33] Generating comparison report...
+[2026-02-12 06:04:33] Comparison report generated: /opt/investment-os/comparisons/comparison_2026-02-12.txt
+
+========================================
+STEP 5: Dimensions 1-6 Scoring
+========================================
+[2026-02-12 06:04:33] Running Dimension 1...
+2026-02-12 06:04:33,733 - INFO - Loading data from /opt/investment-os/output/2026-02-12/cleaned_data.csv...
+2026-02-12 06:04:33,747 - INFO - Loaded 298 stocks with 246 columns
+2026-02-12 06:04:33,747 - INFO - Starting Dimension 1 scoring v2.1 for 298 stocks...
+2026-02-12 06:04:33,747 - INFO - Using 5Y average data + proper financial company evaluation...
+2026-02-12 06:04:33,763 - INFO - Scoring complete!
+2026-02-12 06:04:33,763 - INFO -   Total: 298
+2026-02-12 06:04:33,764 - INFO -   Scored: 291
+2026-02-12 06:04:33,764 - INFO -   Missing ROE 5Y: 17
+2026-02-12 06:04:33,764 - INFO -   Missing ROIC 5Y: 3
+2026-02-12 06:04:33,764 - INFO -   Used ROA proxy (financials): 22
+2026-02-12 06:04:33,764 - INFO -   Used profit margin (financials): 61
+2026-02-12 06:04:33,764 - INFO -   Buffett criteria: 36
+2026-02-12 06:04:33,764 - INFO - Saving scores to dimension1_scores.csv...
+2026-02-12 06:04:33,767 - INFO - Generating report...
+2026-02-12 06:04:33,773 - INFO - ================================================================================
+2026-02-12 06:04:33,773 - INFO - DIMENSION 1 SCORING v2.1 COMPLETE!
+2026-02-12 06:04:33,773 - INFO - Scores: dimension1_scores.csv
+2026-02-12 06:04:33,773 - INFO - Report: dimension1_report_v2.1.txt
+2026-02-12 06:04:33,773 - INFO - ================================================================================
+
+
+================================================================================
+DIMENSION 1: PROFITABILITY SCORING REPORT v2.1 (FINANCIAL FIX)
+Warren Buffett 1987 Methodology + Proper Financial Evaluation
+Generated: 2026-02-12 06:04:33
+
+IMPROVEMENTS IN v2.1:
+  ✓ Financial ROA scaled properly (3%+ = excellent, not poor)
+  ✓ Financial companies use Profit Margin (not Operating Margin)
+  ✓ Aligns with Buffett's actual approach to evaluating banks
+  ✓ Uses 5Y averages for stability
+  ✓ Capped penalties at -40 max
+================================================================================
+
+OVERALL STATISTICS:
+  Total stocks: 298
+  Successfully scored: 291
+  Missing ROE 5Y: 17
+  Missing ROIC 5Y: 3
+  Used ROA proxy (financials): 22
+  Used profit margin (financials): 61
+
+SCORE DISTRIBUTION:
+  Mean: 45.4
+  Median: 46.0
+  Std Dev: 24.3
+  Min: 2.0
+  Max: 100.0
+
+QUALITY DISTRIBUTION:
+  Poor Quality: 130 (43.6%)
+  Below Average: 75 (25.2%)
+  Good Quality: 42 (14.1%)
+  Moderate: 33 (11.1%)
+  Exceptional: 12 (4.0%)
+  Buffett Standard: 6 (2.0%)
+
+BUFFETT 1987 CRITERIA (Both Tests - 5Y Data):
+  Stocks meeting criteria: 36 (12.1%)
+  Benchmark: 2.5% of Fortune 1000 (1977-1986)
+  Your market: 12.1% (CSE stocks)
+
+TOP 10 PROFITABILITY SCORES:
+  APLA.N0000 Score: 100.0  ROE 5Y:   20.6%  ROIC 5Y:   24.6%  (Exceptional)
+  CTC.N0000  Score: 100.0  ROE 5Y:  235.6%  ROIC 5Y:  298.4%  (Exceptional)
+  GLAS.N0000 Score: 100.0  ROE 5Y:   31.0%  ROIC 5Y:   29.6%  (Exceptional)
+  KCAB.N0000 Score: 100.0  ROE 5Y:   24.5%  ROIC 5Y:   34.1%  (Exceptional)
+  PKME.N0000 Score: 100.0  ROE 5Y:   70.9%  ROIC 5Y:  167.5%  (Exceptional)
+  CSLK.N0000 Score:  99.1  ROE 5Y:   24.2%  ROIC 5Y:   21.3%  (Exceptional)
+  UCAR.N0000 Score:  98.8  ROE 5Y:   20.9%  ROIC 5Y:   23.2%  (Exceptional)
+  ACL.N0000  Score:  96.9  ROE 5Y:   19.8%  ROIC 5Y:   21.2%  (Exceptional)
+  SOY.N0000  Score:  94.3  ROE 5Y:   21.9%  ROIC 5Y:   34.7%  (Exceptional)
+  CIND.N0000 Score:  93.3  ROE 5Y:   18.8%  ROIC 5Y:   24.0%  (Exceptional)
+
+BOTTOM 10 PROFITABILITY SCORES:
+  ACME.N0000 Score:   2.0  ROE 5Y:    0.0%  (Poor Quality)
+  HELA.N0000 Score:   2.0  ROE 5Y:    0.0%  (Poor Quality)
+  KAHA.N0000 Score:   2.0  ROE 5Y:    0.0%  (Poor Quality)
+  ODEL.N0000 Score:   2.0  ROE 5Y:    0.0%  (Poor Quality)
+  TAJ.N0000  Score:   2.0  ROE 5Y:    0.0%  (Poor Quality)
+  INME.N0000 Score:   2.5  ROE 5Y:    0.0%  (Poor Quality)
+  COCO.N0000 Score:   5.0  ROE 5Y:   -1.3%  (Poor Quality)
+  COCO.X0000 Score:   5.0  ROE 5Y:   -1.3%  (Poor Quality)
+  YORK.N0000 Score:   5.0  ROE 5Y:    5.0%  (Poor Quality)
+  RIL.N0000  Score:   5.9  ROE 5Y:    2.5%  (Poor Quality)
+
+VALIDATION STOCKS (Key Comparisons):
+  v2.0: CTC=100✓, LION=89✓, LOLC=24✗, JKH=6✗
+  v2.1 Expected: CTC=100✓, LION=89✓, LOLC=60-70✓, JKH=6✓(fair)
+
+  CTC.N0000  Score: 100.0  ROE 5Y:  235.6%  (Exceptional)
+  LION.N0000 Score:  91.2  ROE 5Y:   26.3%  (Exceptional)
+  COMB.N0000 Score:  70.0  ROE 5Y:   14.2%  (Good Quality)
+  ABAN.N0000 Score:  66.4  ROE 5Y:   13.1%  (Moderate)
+  DIAL.N0000 Score:  46.8  ROE 5Y:    8.0%  (Below Average)
+  LOLC.N0000 Score:  34.6  ROE 5Y:   13.5%  (Poor Quality)
+  DOCK.N0000 Score:  10.0  ROE 5Y:  -51.6%  (Poor Quality)
+  JKH.N0000  Score:   7.6  ROE 5Y:    3.9%  (Poor Quality)
+
+KEY IMPROVEMENTS (v2.0 → v2.1):
+  Financial ROA Scaling:
+    Before: 3.4% ROA → 20 pts (poor)
+    After:  3.4% ROA → 88 pts (excellent) ✓
+
+  Financial Margin Metric:
+    Before: Operating Margin -7.9% → 20 pts
+    After:  Profit Margin 12.7% → 71 pts ✓
+
+================================================================================
+END OF REPORT
+================================================================================
+[2026-02-12 06:04:33] Dimension 1 complete
+[2026-02-12 06:04:33] Running Dimension 2...
+2026-02-12 06:04:34,112 - INFO - Loading data from /opt/investment-os/output/2026-02-12/cleaned_data.csv...
+2026-02-12 06:04:34,125 - INFO - Loaded 298 stocks with 246 columns
+2026-02-12 06:04:34,125 - INFO - Starting Dimension 2 scoring v1.1 for 298 stocks...
+2026-02-12 06:04:34,125 - INFO - NEW: Fortress balance sheet bonus + Extended ROA scoring
+2026-02-12 06:04:34,172 - INFO - Scoring complete!
+2026-02-12 06:04:34,172 - INFO -   Total: 298
+2026-02-12 06:04:34,172 - INFO -   Scored: 298
+2026-02-12 06:04:34,172 - INFO -   Industrial: 236
+2026-02-12 06:04:34,172 - INFO -   Financial: 62
+2026-02-12 06:04:34,172 - INFO -   Net cash: 86
+2026-02-12 06:04:34,172 - INFO -   Fortress bonus applied: 42
+2026-02-12 06:04:34,172 - INFO -   Fortress balance sheets: 82
+2026-02-12 06:04:34,173 - INFO - Saving scores to dimension2_scores.csv...
+2026-02-12 06:04:34,195 - INFO - Generating report...
+2026-02-12 06:04:34,207 - INFO - ================================================================================
+2026-02-12 06:04:34,207 - INFO - DIMENSION 2 SCORING v1.1 COMPLETE!
+2026-02-12 06:04:34,207 - INFO - Scores: dimension2_scores.csv
+2026-02-12 06:04:34,207 - INFO - Report: dimension2_report_v1.1.txt
+2026-02-12 06:04:34,207 - INFO - ================================================================================
+
+
+================================================================================
+DIMENSION 2: FINANCIAL STRENGTH SCORING REPORT v1.1 (FORTRESS FIX)
+Buffett's Balance Sheet Principles + Basel III Standards
+Generated: 2026-02-12 06:04:34
+
+IMPROVEMENTS IN v1.1:
+  ✓ Fortress Balance Sheet Bonus (zero debt = liquidity not a concern)
+  ✓ Extended ROA scoring (differentiates exceptional banks 5%+ from good 3%+)
+================================================================================
+
+OVERALL STATISTICS:
+  Total stocks: 298
+  Successfully scored: 298
+  Industrial companies: 236
+  Financial companies: 62
+  Net cash positions: 86
+  Fortress bonus applied: 42
+  Fortress balance sheets (90+): 82
+
+SCORE DISTRIBUTION:
+  Mean: 74.3
+  Median: 75.3
+  Std Dev: 19.2
+  Min: 18.2
+  Max: 100.0
+
+QUALITY DISTRIBUTION:
+  Fortress: 82 (27.5%)
+  Good: 54 (18.1%)
+  Moderate: 54 (18.1%)
+  Adequate: 47 (15.8%)
+  Strong: 46 (15.4%)
+  Weak: 15 (5.0%)
+
+TOP 10 FINANCIAL STRENGTH SCORES:
+  ACL.N0000  Score: 100.0  (Fortress  ) [Industrial]
+  CIND.N0000 Score: 100.0  (Fortress  ) [Industrial]
+  COMD.N0000 Score: 100.0  (Fortress  ) [Industrial]
+  CSLK.N0000 Score: 100.0  (Fortress  ) [Industrial]
+  ECL.N0000  Score: 100.0  (Fortress  ) [Industrial]
+  ELPL.N0000 Score: 100.0  (Fortress  ) [Industrial]
+  GLAS.N0000 Score: 100.0  (Fortress  ) [Industrial]
+  GRAN.N0000 Score: 100.0  (Fortress  ) [Industrial]
+  HPFL.N0000 Score: 100.0  (Fortress  ) [Industrial]
+  HSIG.N0000 Score: 100.0  (Fortress  ) [Industrial]
+
+VALIDATION STOCKS:
+  v1.0: CTC=80✗ (too low), LOLC=95✓, LOFC=95✗ (same as LOLC)
+  v1.1 Expected: CTC=90+✓, LOLC=95✓, LOFC=97+✓ (better than LOLC)
+
+  LOFC.N0000 Score:  94.8  (Fortress  ) [Financial (Basel III)]
+  LION.N0000 Score:  94.5  (Fortress  ) [Industrial]
+  ABAN.N0000 Score:  94.1  (Fortress  ) [Industrial]
+  LOLC.N0000 Score:  92.2  (Fortress  ) [Financial (Basel III)]
+  CTC.N0000  Score:  90.0  (Fortress  ) [Industrial]
+  JKH.N0000  Score:  54.5  (Moderate  ) [Industrial]
+  DOCK.N0000 Score:  39.1  (Weak      ) [Industrial]
+
+================================================================================
+END OF REPORT
+================================================================================
+[2026-02-12 06:04:34] Dimension 2 complete
+[2026-02-12 06:04:34] Running Dimension 3...
+2026-02-12 06:04:34,654 - INFO - Loading data from /opt/investment-os/output/2026-02-12/cleaned_data.csv...
+2026-02-12 06:04:34,667 - INFO - Loaded 298 stocks with 246 columns
+2026-02-12 06:04:34,667 - INFO - Starting Dimension 3 scoring for 298 stocks...
+2026-02-12 06:04:34,667 - INFO - Three-Pillar Framework: Relative, Intrinsic, Historical
+2026-02-12 06:04:34,688 - INFO - Scoring complete!
+2026-02-12 06:04:34,688 - INFO -   Total: 298
+2026-02-12 06:04:34,689 - INFO -   Scored: 298
+2026-02-12 06:04:34,689 - INFO -   Industrial: 236
+2026-02-12 06:04:34,689 - INFO -   Financial: 62
+2026-02-12 06:04:34,689 - INFO -   Deep Value (80+): 60
+2026-02-12 06:04:34,689 - INFO -   Overvalued (<40): 20
+2026-02-12 06:04:34,689 - INFO - Saving scores to dimension3_scores.csv...
+2026-02-12 06:04:34,694 - INFO - Generating report...
+2026-02-12 06:04:34,698 - INFO - ================================================================================
+2026-02-12 06:04:34,698 - INFO - DIMENSION 3 SCORING COMPLETE!
+2026-02-12 06:04:34,698 - INFO - Scores: dimension3_scores.csv
+2026-02-12 06:04:34,698 - INFO - Report: dimension3_report_v1.1.txt
+2026-02-12 06:04:34,698 - INFO - ================================================================================
+
+
+================================================================================
+DIMENSION 3: VALUATION SCORING REPORT v1.1 (COLUMN FIX)
+Graham/Buffett/Damodaran Three-Pillar Framework
+Generated: 2026-02-12 06:04:34
+
+FIXES IN v1.1:
+  ✓ Column name mapping corrected (peratio, pbratio, pfcfratio, etc.)
+
+THREE-PILLAR FRAMEWORK:
+  Pillar 1 (40%): Relative Valuation (P/E, P/FCF, EV/EBITDA)
+  Pillar 2 (35%): Intrinsic Value Gap (DCF, Graham Net-Net)
+  Pillar 3 (25%): Historical Context (Mean Reversion)
+================================================================================
+
+OVERALL STATISTICS:
+  Total stocks: 298
+  Successfully scored: 298
+  Industrial companies: 236
+  Financial companies: 62
+  Deep Value (80+): 60
+  Overvalued (<40): 20
+
+SCORE DISTRIBUTION:
+  Mean: 61.0
+  Median: 57.9
+  Std Dev: 16.5
+  Min: 27.6
+  Max: 92.5
+
+QUALITY DISTRIBUTION:
+  Fairly Valued: 78 (26.2%)
+  Slight Premium: 64 (21.5%)
+  Deep Value: 60 (20.1%)
+  Fair Value: 45 (15.1%)
+  Value: 31 (10.4%)
+  Overvalued: 20 (6.7%)
+
+TOP 10 VALUE OPPORTUNITIES:
+  AMF.N0000  Score:  92.5  (Deep Value     ) [financial]
+  GUAR.N0000 Score:  92.5  (Deep Value     ) [financial]
+  ABL.N0000  Score:  92.0  (Deep Value     ) [financial]
+  LOFC.N0000 Score:  91.2  (Deep Value     ) [financial]
+  PMB.N0000  Score:  90.6  (Deep Value     ) [financial]
+  HNBF.N0000 Score:  90.5  (Deep Value     ) [financial]
+  JINS.N0000 Score:  90.5  (Deep Value     ) [financial]
+  LOLC.N0000 Score:  90.3  (Deep Value     ) [financial]
+  HNBF.X0000 Score:  90.2  (Deep Value     ) [financial]
+  AAIC.N0000 Score:  89.7  (Deep Value     ) [financial]
+
+VALIDATION STOCKS:
+  LOFC.N0000 Score:  91.2  (Deep Value     ) [financial]
+  LOLC.N0000 Score:  90.3  (Deep Value     ) [financial]
+  CTC.N0000  Score:  79.3  (Value          ) [value]
+  LION.N0000 Score:  77.9  (Value          ) [value]
+  ABAN.N0000 Score:  73.0  (Value          ) [value]
+  JKH.N0000  Score:  36.0  (Overvalued     ) [value]
+
+================================================================================
+END OF REPORT
+================================================================================
+[2026-02-12 06:04:34] Dimension 3 complete
+[2026-02-12 06:04:34] Running Dimension 4...
+
+DIMENSION 4: GROWTH SCORER v1.2
+Investment OS - 7D Scoring Framework
+Date: December 31, 2025
+Version: 1.2 (Production)
+
+CHANGELOG v1.2:
+- FIX 1: Tightened negative ROE threshold from -10% to -5%
+- FIX 2: Added penalty for missing EPS data when revenue high (suspicious)
+- FIX 3: Increased severe value trap penalty to -40 (from -30)
+- FIX 4: Added NaN handling for earnings score with penalty
+- RESULT: 102 stocks corrected, eliminated ceiling effect
+
+FRAMEWORK: Sector-Relative Growth Quality Assessment
+
+PHILOSOPHY (Peter Lynch + Buffett):
+- Growth must be sustainable and capital-efficient
+- Sector context matters: 5% tobacco growth ≠ 5% tech growth  
+- Quality of growth (margin expansion) > quantity
+- Consistency beats volatility
+- Capital efficiency (growth without capex) is key
+
+ARCHITECTURE:
+Component 1 (40%): Revenue Growth Trajectory
+  - Multi-period growth (1Y, 3Y, 5Y) with recency weighting
+  - Sector-specific thresholds
+  - Consistency check (declining trend penalty)
+  
+Component 2 (35%): Earnings Growth Quality
+  - EPS growth vs revenue growth (margin expansion check)
+  - Earnings consistency (volatility penalty)
+  - Quality metrics (ROE trend, cash flow alignment)
+  
+Component 3 (25%): Growth Efficiency
+  - Capital intensity (Capex/Revenue)
+  - Revenue per employee (productivity)
+  - Asset turnover improvement
+
+SECTOR THRESHOLDS:
+Mature/Defensive (Tobacco, Utilities):
+  - Excellent: 5-10% revenue growth
+  - Good: 3-8%
+  - Fair: 0-5%
+  - Poor: <0%
+
+Growth/Cyclical (Consumer, Industrial):
+  - Excellent: 15-25%
+  - Good: 10-20%
+  - Fair: 5-15%
+  - Poor: <5%
+
+Financial Services:
+  - Excellent: 10-20%
+  - Good: 7-15%
+  - Fair: 3-10%
+  - Poor: <3%
+
+High Growth (Tech, E-commerce):
+  - Excellent: 25%+
+  - Good: 15-30%
+  - Fair: 10-20%
+  - Poor: <10%
+
+MODIFIERS:
++ Margin Expansion Bonus: +10 if gross/operating margins improving
++ Capital Efficiency Bonus: +10 if growth with declining capex intensity
++ Consistency Bonus: +5 if all periods positive growth
+- Volatility Penalty: -10 if growth wildly inconsistent
+- Margin Compression Penalty: -15 if revenue grows but margins shrink
+- Capital Intensive Penalty: -10 if growth requires excessive capex
+
+PENALTY CAP: -40 maximum (learned from Dimensions 1-3)
+
+EXPECTED SCORES:
+CTC:  80-90 (exceptional mature compounder - steady growth + margin expansion)
+LION: 55-65 (moderate industrial growth - stable but not high-growth)
+LOLC: 45-55 (weak financial growth - revenue growth but profitability issues)
+LOFC: 65-75 (strong financial growth - faster + better quality than LOLC)
+JKH:  0-15 (declining conglomerate - negative growth + margin compression)
+
+REGULATORY DEFENSE:
+"We evaluate growth using Peter Lynch's GARP (Growth At Reasonable Price) 
+methodology with sector-specific thresholds. A tobacco company growing 5% 
+is excellent (mature industry), while a tech company at 5% indicates decline. 
+We assess growth quality (margin expansion, capital efficiency) rather than 
+just top-line numbers."
+
+
+📂 Input CSV: /opt/investment-os/output/2026-02-12/cleaned_data.csv
+📊 Output CSV: dimension4_scores.csv
+📄 Output Report: dimension4_report.txt
+================================================================================
+DIMENSION 4: GROWTH SCORER v1.0
+================================================================================
+
+Loading data from: /opt/investment-os/output/2026-02-12/cleaned_data.csv
+Loaded 298 stocks
+
+Scoring stocks...
+  Processed 50/298 stocks...
+  Processed 100/298 stocks...
+  Processed 150/298 stocks...
+  Processed 200/298 stocks...
+  Processed 250/298 stocks...
+
+✅ Scoring complete!
+  Success: 298/298
+  Errors: 0/298
+
+✅ Scores saved: dimension4_scores.csv
+
+✅ Validation report saved: dimension4_report.txt
+
+🎯 Dimension 4 scoring complete!
+
+Files created:
+  • dimension4_scores.csv
+  • dimension4_report.txt
+[2026-02-12 06:04:35] Dimension 4 complete
+[2026-02-12 06:04:35] Running Dimension 5...
+
+DIMENSION 5: MANAGEMENT QUALITY SCORER v1.0
+Investment OS - 7D Scoring Framework
+Date: January 1, 2026
+Version: 1.0 (Production)
+
+CHANGELOG v1.0:
+- FIX 1: Adjusted TR5Y thresholds (50%+ = good, 150%+ = exceptional)
+- FIX 2: Added dividend growth sanity cap (100% max to catch outliers)
+- FIX 3: Added ROE <5% sanity check (cap at 50)
+- FIX 4: Added ROE decline >7pts sanity check (cap at 60)
+- FIX 5: Increased ROE decline penalties (-15 to -30)
+- RESULT: 2/5 validation passing, mean 61.0, healthy distribution
+
+FRAMEWORK: Capital Allocation + Governance + Track Record
+
+PHILOSOPHY (Buffett):
+"Management's job is to allocate capital wisely, treat shareholders fairly,
+and create long-term value."
+
+ARCHITECTURE:
+Component 1 (40%): Capital Allocation
+  - ROE trend (improving vs declining)
+  - Buyback quality (share count changes)
+  - Dividend consistency
+  
+Component 2 (30%): Corporate Governance
+  - Shareholder alignment (proxy: total return)
+  - Earnings transparency (consistency)
+  
+Component 3 (30%): Track Record
+  - Earnings consistency (coefficient of variation)
+  - Long-term value creation (total return 5Y)
+  - Profitability sustainability
+
+SECTOR THRESHOLDS:
+Mature/Defensive:
+  - High dividend expectations, stable ROE
+  - Red flags: Dividend cuts, ROE decline
+
+Growth/Industrial:
+  - ROE improvement expectations, value creation
+  - Red flags: Dilution without growth, negative returns
+
+Financial Services:
+  - Capital management, ROE >15%, consistent dividends
+  - Red flags: Capital raises, ROE <10%
+
+MODIFIERS:
++ Exceptional Value Creation: +20 if TR5Y >200%
++ Smart Buybacks: +15 if shares declining + ROE improving
++ Dividend Growth: +15 if dividends growing >10% consistently
+- Shareholder Dilution: -30 if massive share increases
+- Value Destruction: -20 if TR5Y <-30%
+- Dividend Cuts: -25 if dividends cut >20%
+
+EXPECTED SCORES:
+CTC:  85-95 (exceptional: ROE 277% up from 235%, monopoly management)
+LION: 75-85 (strong: ROE improving, consistent operations)
+LOLC: 40-55 (weak: ROE collapse 13%→5%, profitability issues)
+LOFC: 75-85 (strong: ROE stable, world-class management)
+JKH:  30-45 (poor: ROE declining, conglomerate complexity)
+
+REGULATORY DEFENSE:
+"We evaluate management quality using Buffett's capital allocation principles:
+ROE trends (return on shareholder equity), buyback discipline (share count
+changes), dividend consistency, and long-term value creation (total return).
+These metrics directly measure management's ability to compound shareholder
+value over time."
+
+
+📂 Input CSV: /opt/investment-os/output/2026-02-12/cleaned_data.csv
+📊 Output CSV: dimension5_scores.csv
+📄 Output Report: dimension5_report.txt
+================================================================================
+DIMENSION 5: MANAGEMENT QUALITY SCORER v1.0
+================================================================================
+
+Loading data from: /opt/investment-os/output/2026-02-12/cleaned_data.csv
+Loaded 298 stocks
+
+Scoring stocks...
+  Processed 50/298 stocks...
+  Processed 100/298 stocks...
+  Processed 150/298 stocks...
+  Processed 200/298 stocks...
+  Processed 250/298 stocks...
+
+✅ Scoring complete!
+  Success: 298/298
+  Errors: 0/298
+
+✅ Scores saved: dimension5_scores.csv
+
+✅ Validation report saved: dimension5_report.txt
+
+🎯 Dimension 5 scoring complete!
+
+Files created:
+  • dimension5_scores.csv
+  • dimension5_report.txt
+[2026-02-12 06:04:35] Dimension 5 complete
+[2026-02-12 06:04:35] Running Dimension 6...
+
+DIMENSION 6: BUSINESS QUALITY / MOAT SCORER v1.1
+Investment OS - 7D Scoring Framework
+Date: January 1, 2026
+Version: 1.1 (Production - Investment Vehicle Fix)
+
+CHANGELOG v1.1:
+- FIX: Investment vehicles (industry='Investment Advice') capped at 70
+- REASON: Investment trusts don't have traditional moats - compete on returns
+- AFFECTED: GUAR.N0000 (100.0 → 70.0) - Ceylon Guardian Investment Trust
+- METHODOLOGY: Should score on NAV discount, track record, fees (future v2.0)
+
+CHANGELOG v1.0:
+- FIX 1: Removed dependency on operatingmargin5y (data not available)
+- FIX 2: Financial sector uses profit margin, not operating margin (negative op margin OK)
+- FIX 3: Added financial sector sanity cap at 85 (non-monopoly businesses)
+- FIX 4: Relaxed retention CV thresholds for companies with strong margins (>25%)
+- FIX 5: Simplified pricing power to current margin only (no trend data)
+- RESULT: 4/5 validation passing (80%), mean 63.4, healthy distribution
+
+FRAMEWORK: Competitive Moat + Pricing Power + Customer Retention
+
+PHILOSOPHY (Buffett):
+"The key to investing is determining the competitive advantage of any given 
+company and, above all, the durability of that advantage. The products or 
+services that have wide, sustainable moats around them are the ones that 
+deliver rewards to investors."
+
+ARCHITECTURE:
+Component 1 (40%): Competitive Moat Width
+  - Gross margin (efficiency advantage)
+  - Operating margin stability (sustainable advantage)
+  - Market position indicators
+  
+Component 2 (30%): Pricing Power
+  - Operating margin level (can charge premium)
+  - Margin trends (pricing power sustainability)
+  - Gross margin level (cost advantage)
+  
+Component 3 (30%): Customer Retention / Switching Costs
+  - Revenue consistency (loyal customers)
+  - Earnings stability (predictable business)
+  - Growth consistency (customer base expansion)
+
+MOAT TYPES:
+1. Cost Advantage: Low operating costs, scale economies
+2. Brand Power: Premium pricing, customer loyalty
+3. Network Effects: Value increases with users
+4. Switching Costs: Expensive to change providers
+5. Regulatory/Legal: Licenses, patents, monopolies
+
+EXPECTED SCORES:
+CTC:  90-100 (monopoly: 78% margin, tobacco license, brand)
+LION: 75-85 (strong moat: brand power, distribution, 28% margin)
+LOLC: 60-75 (moderate moat: financial network, scale)
+LOFC: 70-80 (good moat: financial relationships, ROA 5.2%)
+JKH:  40-55 (weak moat: conglomerate, diverse, no focus)
+
+REGULATORY DEFENSE:
+"We evaluate business quality using Buffett's moat framework: competitive 
+advantages that allow companies to maintain high returns on capital. We assess 
+gross margins (cost advantage), operating margins (pricing power), and revenue 
+consistency (customer retention). These metrics identify businesses with 
+durable competitive advantages that can sustain profitability over decades."
+
+
+📂 Input CSV: /opt/investment-os/output/2026-02-12/cleaned_data.csv
+📊 Output CSV: dimension6_scores.csv
+📄 Output Report: dimension6_report.txt
+================================================================================
+DIMENSION 6: BUSINESS QUALITY / MOAT SCORER v1.0
+================================================================================
+
+Loading data from: /opt/investment-os/output/2026-02-12/cleaned_data.csv
+Loaded 298 stocks
+
+Scoring stocks...
+  Processed 50/298 stocks...
+  Processed 100/298 stocks...
+  Processed 150/298 stocks...
+  Processed 200/298 stocks...
+  Processed 250/298 stocks...
+
+✅ Scoring complete!
+  Success: 298/298
+  Errors: 0/298
+
+✅ Scores saved: dimension6_scores.csv
+
+✅ Validation report saved: dimension6_report.txt
+
+🎯 Dimension 6 scoring complete!
+
+Files created:
+  • dimension6_scores.csv
+  • dimension6_report.txt
+[2026-02-12 06:04:35] Dimension 6 complete
+
+========================================
+STEP 6: Composite Scoring (Production)
+========================================
+[2026-02-12 06:04:35] Running composite scorer v1.1 (with watch list)...
+[2026-02-12 06:04:35] IMPORTANT: Using v1.0 dimension 7 scores (production unchanged)
+
+================================================================================
+INVESTMENT OS - COMPOSITE SCORER v1.1 (With Watch List)
+================================================================================
+
+📂 Input files:
+  Dimension 1: dimension1_scores.csv
+  Dimension 2: dimension2_scores.csv
+  Dimension 3: dimension3_scores.csv
+  Dimension 4: dimension4_scores.csv
+  Dimension 5: dimension5_scores.csv
+  Dimension 6: dimension6_scores.csv
+  Dimension 7: dimension7_scores.csv
+
+📊 Output files:
+  Scores CSV: composite_scores.csv
+  Report TXT: composite_report.txt
+
+================================================================================
+LOADING DIMENSION SCORES
+================================================================================
+
+================================================================================
+LOADING DIMENSION SCORES
+================================================================================
+
+Loading dimension1...
+  ✅ Loaded 298 stocks as 'dimension1_profitability'
+
+Loading dimension2...
+  ✅ Loaded 298 stocks as 'dimension2_financial'
+
+Loading dimension3...
+  ✅ Loaded 298 stocks as 'dimension3_valuation'
+
+Loading dimension4...
+  ✅ Loaded 298 stocks as 'dimension4_growth'
+
+Loading dimension5...
+  ✅ Loaded 298 stocks as 'dimension5_management'
+
+Loading dimension6...
+  ✅ Loaded 298 stocks as 'dimension6_moat'
+
+Loading dimension7...
+  ✅ Loaded 298 stocks as 'dimension7_sentiment'
+
+✅ Total stocks after merge: 298
+Columns: ['symbol', 'sector', 'dimension1_profitability', 'dimension2_financial', 'dimension3_valuation', 'dimension4_growth', 'dimension5_management', 'dimension6_moat', 'dimension7_sentiment']
+
+================================================================================
+CALCULATING COMPOSITE SCORES
+================================================================================
+
+================================================================================
+CALCULATING COMPOSITE SCORES
+================================================================================
+  Processed 50/298 stocks...
+  Processed 100/298 stocks...
+  Processed 150/298 stocks...
+  Processed 200/298 stocks...
+  Processed 250/298 stocks...
+
+✅ Calculated composite scores for 298 stocks
+
+================================================================================
+APPLYING WATCH LIST OVERRIDES
+================================================================================
+✅ Loaded 18 watch list stocks from Supabase
+
+✅ Watch List Summary:
+   Total watch list stocks: 11
+   Recommendations overridden: 0
+
+   ✅ No BUY recommendations needed override (system working correctly!)
+
+✅ Scores saved: composite_scores.csv
+
+✅ Summary report saved: composite_report.txt
+
+✅ Watch list section added to report
+
+🎯 Composite scoring v1.1 complete!
+
+Files created:
+  • composite_scores.csv
+  • composite_report.txt
+
+✅ Watch list integration active
+[2026-02-12 06:04:37] Composite scoring complete: 299 stocks
+
+========================================
+STEP 7: Supabase Upload
+========================================
+[2026-02-12 06:04:37] Uploading composite scores to Supabase...
+usage: upload_composite_to_supabase.py [-h] --input INPUT [--date DATE]
+upload_composite_to_supabase.py: error: the following arguments are required: --input

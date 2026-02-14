@@ -1,0 +1,299 @@
+symbol,dimension6_moat,moat_score,pricing_score,retention_score,modifiers,penalties,sector,interpretation
+AAF.N0000,85.0,85,70,85,28,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+AAF.P0000,85.0,85,70,85,28,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+AAIC.N0000,85.0,85,65,78,10,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+ABAN.N0000,67.9,70,65,68,0,0,Industrial,Moderate Industrial moat - some competitive advantages
+ABL.N0000,52.5,30,75,70,20,-23,Financial,Weak Financial moat - limited competitive advantages
+ACAP.N0000,100.0,78,80,50,30,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+ACL.N0000,57.3,62,70,65,0,-8,Industrial,Moderate Industrial moat - some competitive advantages
+ACME.N0000,13.0,35,40,40,0,-25,Industrial,"Poor Industrial moat - commodity business, no advantages"
+AEL.N0000,77.8,62,70,80,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+AFS.N0000,85.80000000000001,82,65,85,8,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+AFSL.N0000,85.0,93,75,85,38,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+AGAL.N0000,53.400000000000006,56,70,60,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+AGPL.N0000,19.0,30,40,60,0,-23,Industrial,"Poor Industrial moat - commodity business, no advantages"
+AGST.N0000,30.9,30,40,73,0,-15,Industrial,"Poor Industrial moat - commodity business, no advantages"
+AGST.X0000,30.9,30,40,73,0,-15,Industrial,"Poor Industrial moat - commodity business, no advantages"
+AHPL.N0000,62.0,65,60,60,0,0,Industrial,Moderate Industrial moat - some competitive advantages
+AHUN.N0000,95.7,73,65,80,23,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+AINS.N0000,37.6,70,60,32,0,-18,Financial,"Poor Financial moat - commodity business, no advantages"
+ALLI.N0000,85.0,97,75,90,48,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+ALUM.N0000,91.4,71,60,90,18,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+AMF.N0000,85.0,100,80,90,53,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+AMSL.N0000,68.5,65,65,70,10,-8,Industrial,Moderate Industrial moat - some competitive advantages
+APLA.N0000,51.9,62,70,47,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+ASCO.N0000,47.5,65,65,40,0,-10,Industrial,Weak Industrial moat - limited competitive advantages
+ASHO.N0000,83.8,77,70,80,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+ASIR.N0000,92.5,70,65,90,18,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+ASIY.N0000,73.7,73,65,60,15,-8,Industrial,Strong Industrial moat - solid competitive advantages
+ASPH.N0000,30.0,80,40,32,20,-18,Industrial,"Poor Industrial moat - commodity business, no advantages"
+ATL.N0000,81.0,70,65,85,8,0,Financial,Strong Financial moat - solid competitive advantages
+ATLL.N0000,64.0,65,50,70,10,-8,Financial,Moderate Financial moat - some competitive advantages
+AUTO.N0000,30.0,51,40,55,0,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+BALA.N0000,6.600000000000001,30,60,32,0,-33,Industrial,"Poor Industrial moat - commodity business, no advantages"
+BBH.N0000,89.1,78,70,73,15,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+BERU.N0000,89.3,86,65,68,15,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+BFL.N0000,65.80000000000001,51,40,78,10,0,Industrial,Moderate Industrial moat - some competitive advantages
+BFN.N0000,84.5,80,70,65,20,-8,Financial,Strong Financial moat - solid competitive advantages
+BIL.N0000,30.0,51,40,78,10,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+BLUE.N0000,30.0,70,40,40,0,-10,Industrial,"Poor Industrial moat - commodity business, no advantages"
+BOGA.N0000,37.1,65,65,32,0,-18,Industrial,"Poor Industrial moat - commodity business, no advantages"
+BOPL.N0000,53.400000000000006,56,65,65,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+BPPL.N0000,34.400000000000006,51,40,40,0,-10,Industrial,"Poor Industrial moat - commodity business, no advantages"
+BREW.N0000,80.2,68,65,85,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+BRR.N0000,55.599999999999994,80,40,32,20,-18,Industrial,Moderate Industrial moat - some competitive advantages
+BRWN.N0000,30.0,51,40,78,10,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+BUKI.N0000,82.6,74,65,85,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+CABO.N0000,30.0,73,40,80,23,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+CALF.N0000,85.0,80,65,73,20,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+CALH.N0000,100.0,85,80,50,35,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+CALT.N0000,100.0,100,80,80,43,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+CARE.N0000,30.0,51,40,63,0,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+CARG.N0000,65.2,43,60,90,18,-15,Industrial,Moderate Industrial moat - some competitive advantages
+CARS.N0000,82.6,74,65,85,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+CBNK.N0000,63.0,30,70,90,18,-15,Financial,Moderate Financial moat - some competitive advantages
+CCS.N0000,66.8,47,60,90,18,-15,Industrial,Moderate Industrial moat - some competitive advantages
+CDB.N0000,85.0,93,75,90,48,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+CDB.X0000,85.0,93,75,90,48,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+CERA.N0000,47.5,65,65,40,0,-10,Industrial,Weak Industrial moat - limited competitive advantages
+CFI.N0000,100.0,85,80,80,43,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+CFIN.N0000,85.0,85,80,85,43,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+CFLB.N0000,73.80000000000001,56,60,78,10,0,Industrial,Strong Industrial moat - solid competitive advantages
+CFVF.N0000,100.0,100,80,90,53,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+CHL.N0000,97.1,73,65,78,25,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+CHL.X0000,97.1,73,65,78,25,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+CHMX.N0000,52.3,57,65,60,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+CHOT.N0000,94.5,80,65,70,30,-8,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+CIC.N0000,53.8,57,65,65,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+CIC.X0000,53.8,57,65,65,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+CIND.N0000,60.300000000000004,51,65,68,0,0,Industrial,Moderate Industrial moat - some competitive advantages
+CINS.N0000,65.3,57,65,70,10,-8,Financial,Moderate Financial moat - some competitive advantages
+CINS.X0000,65.3,57,65,70,10,-8,Financial,Moderate Financial moat - some competitive advantages
+CINV.N0000,100.0,93,80,73,35,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+CIT.N0000,100.0,90,80,80,38,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+CITH.N0000,84.1,73,60,73,15,0,Industrial,Strong Industrial moat - solid competitive advantages
+CITW.N0000,82.6,73,60,68,15,0,Industrial,Strong Industrial moat - solid competitive advantages
+CLND.N0000,93.2,73,80,60,30,-8,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+COCO.N0000,42.400000000000006,51,40,60,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+COCO.X0000,42.400000000000006,51,40,60,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+COCR.N0000,85.0,100,80,85,43,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+COLO.N0000,100.0,86,80,62,38,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+COMB.N0000,76.3,47,80,85,23,-15,Financial,Strong Financial moat - solid competitive advantages
+COMB.X0000,76.3,47,80,85,23,-15,Financial,Strong Financial moat - solid competitive advantages
+COMD.N0000,100.0,70,75,90,28,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+CONN.N0000,90.8,86,65,73,15,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+COOP.N0000,29.4,57,50,32,0,-18,Financial,"Poor Financial moat - commodity business, no advantages"
+CPRT.N0000,30.0,35,40,62,10,-15,Industrial,"Poor Industrial moat - commodity business, no advantages"
+CRL.N0000,85.0,80,50,78,30,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+CSD.N0000,100.0,80,80,80,43,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+CSF.N0000,53.0,35,80,50,15,-15,Industrial,Weak Industrial moat - limited competitive advantages
+CSLK.N0000,62.5,70,65,50,0,0,Industrial,Moderate Industrial moat - some competitive advantages
+CTBL.N0000,77.6,80,70,42,20,-8,Industrial,Strong Industrial moat - solid competitive advantages
+CTC.N0000,100.0,100,80,73,35,0,Mature,"Exceptional Mature moat - wide competitive advantage, pricing power"
+CTEA.N0000,49.5,65,40,65,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+CTHR.N0000,62.0,35,60,90,18,-15,Industrial,Moderate Industrial moat - some competitive advantages
+CTLD.N0000,29.6,65,40,32,0,-18,Industrial,"Poor Industrial moat - commodity business, no advantages"
+CWL.N0000,64.0,56,40,72,8,0,Industrial,Moderate Industrial moat - some competitive advantages
+CWM.N0000,20.5,30,40,65,0,-23,Industrial,"Poor Industrial moat - commodity business, no advantages"
+DFCC.N0000,83.0,35,80,90,33,-15,Financial,Strong Financial moat - solid competitive advantages
+DIAL.N0000,100.0,90,70,85,23,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+DIMO.N0000,54.300000000000004,51,40,73,0,0,Industrial,Weak Industrial moat - limited competitive advantages
+DIPD.N0000,49.900000000000006,51,60,65,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+DIST.N0000,100.0,93,80,85,38,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+DOCK.N0000,29.4,30,40,68,0,-15,Industrial,"Poor Industrial moat - commodity business, no advantages"
+DPL.N0000,30.0,51,40,40,0,-10,Industrial,"Poor Industrial moat - commodity business, no advantages"
+EAST.N0000,84.5,80,70,65,20,-8,Industrial,Strong Industrial moat - solid competitive advantages
+EBCR.N0000,76.19999999999999,62,60,78,10,0,Industrial,Strong Industrial moat - solid competitive advantages
+ECL.N0000,83.0,80,65,65,20,-8,Industrial,Strong Industrial moat - solid competitive advantages
+EDEN.N0000,84.1,73,60,73,15,0,Industrial,Strong Industrial moat - solid competitive advantages
+ELPL.N0000,67.3,62,65,70,10,-8,Industrial,Moderate Industrial moat - some competitive advantages
+EMER.N0000,11.0,30,40,40,0,-25,Industrial,"Poor Industrial moat - commodity business, no advantages"
+EML.N0000,26.0,35,40,50,0,-15,Industrial,"Poor Industrial moat - commodity business, no advantages"
+ETWO.N0000,100.0,73,80,90,48,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+EXT.N0000,30.0,80,40,68,20,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+FCT.N0000,100.0,93,80,85,38,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+GEST.N0000,79.5,70,60,85,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+GHLL.N0000,24.6,30,40,52,0,-15,Industrial,"Poor Industrial moat - commodity business, no advantages"
+GLAS.N0000,88.5,85,70,85,8,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+GRAN.N0000,78.6,64,65,85,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+GREG.N0000,79.9,71,60,85,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+GUAR.N0000,70.0,97,80,73,35,0,Financial,Strong Financial moat - solid competitive advantages
+HAPU.N0000,0.6000000000000014,30,40,32,0,-33,Industrial,"Poor Industrial moat - commodity business, no advantages"
+HARI.N0000,64.4,51,40,80,8,0,Industrial,Moderate Industrial moat - some competitive advantages
+HASU.N0000,82.6,78,60,78,10,0,Financial,Strong Financial moat - solid competitive advantages
+HAYC.N0000,47.50000000000001,51,65,52,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+HAYL.N0000,51.900000000000006,56,60,65,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+HBS.N0000,30.0,65,40,78,10,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+HDFC.N0000,18.5,30,65,40,0,-25,Financial,"Poor Financial moat - commodity business, no advantages"
+HELA.N0000,28.099999999999994,35,40,57,0,-15,Industrial,"Poor Industrial moat - commodity business, no advantages"
+HEXP.N0000,19.0,30,40,60,0,-23,Industrial,"Poor Industrial moat - commodity business, no advantages"
+HHL.N0000,76.3,62,60,85,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+HNB.N0000,76.3,47,80,85,23,-15,Financial,Strong Financial moat - solid competitive advantages
+HNB.X0000,76.3,47,80,85,23,-15,Financial,Strong Financial moat - solid competitive advantages
+HNBF.N0000,56.599999999999994,43,70,78,10,-15,Financial,Moderate Financial moat - some competitive advantages
+HNBF.X0000,56.599999999999994,43,70,78,10,-15,Financial,Moderate Financial moat - some competitive advantages
+HOPL.N0000,51.900000000000006,56,60,65,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+HPFL.N0000,38.6,65,70,32,0,-18,Mature,"Poor Mature moat - commodity business, no advantages"
+HPL.N0000,38.0,30,60,70,10,-23,Industrial,"Poor Industrial moat - commodity business, no advantages"
+HPWR.N0000,90.8,73,80,52,30,-8,Mature,"Exceptional Mature moat - wide competitive advantage, pricing power"
+HSIG.N0000,91.9,80,60,73,20,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+HUNA.N0000,30.0,70,40,55,0,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+HUNT.N0000,30.0,57,40,73,0,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+HVA.N0000,27.5,35,40,55,0,-15,Industrial,"Poor Industrial moat - commodity business, no advantages"
+INME.N0000,29.0,35,50,50,0,-15,Financial,"Poor Financial moat - commodity business, no advantages"
+JAT.N0000,92.5,70,65,90,18,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+JETS.N0000,94.9,80,70,73,20,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+JFP.N0000,59.3,62,65,50,0,0,Industrial,Moderate Industrial moat - some competitive advantages
+JINS.N0000,85.0,93,75,85,33,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+JKH.N0000,49.900000000000006,51,60,65,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+JKL.N0000,85.6,73,70,68,15,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+KAHA.N0000,13.0,35,40,40,0,-25,Industrial,"Poor Industrial moat - commodity business, no advantages"
+KCAB.N0000,75.30000000000001,56,65,78,10,0,Industrial,Strong Industrial moat - solid competitive advantages
+KFP.N0000,46.3,57,40,65,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+KGAL.N0000,31.500000000000007,51,65,32,0,-18,Industrial,"Poor Industrial moat - commodity business, no advantages"
+KHC.N0000,93.4,80,65,73,20,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+KHL.N0000,84.1,73,65,68,15,0,Industrial,Strong Industrial moat - solid competitive advantages
+KOTA.N0000,50.400000000000006,35,60,78,10,-15,Industrial,Weak Industrial moat - limited competitive advantages
+KPHL.N0000,30.0,65,40,73,0,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+KVAL.N0000,6.600000000000001,30,60,32,0,-33,Industrial,"Poor Industrial moat - commodity business, no advantages"
+KZOO.N0000,64.6,35,80,62,23,-15,Industrial,Moderate Industrial moat - some competitive advantages
+LALU.N0000,51.400000000000006,51,65,65,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+LAMB.N0000,73.9,56,60,85,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+LCBF.N0000,85.0,85,75,85,38,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+LCEY.N0000,60.300000000000004,51,60,73,0,0,Industrial,Moderate Industrial moat - some competitive advantages
+LDEV.N0000,25.0,30,60,60,0,-23,Industrial,"Poor Industrial moat - commodity business, no advantages"
+LFIN.N0000,85.0,97,80,90,53,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+LGIL.N0000,51.6,65,60,52,0,-8,Financial,Weak Financial moat - limited competitive advantages
+LGL.N0000,29.4,30,40,68,0,-15,Industrial,"Poor Industrial moat - commodity business, no advantages"
+LGL.X0000,29.4,30,40,68,0,-15,Industrial,"Poor Industrial moat - commodity business, no advantages"
+LHCL.N0000,57.0,65,65,65,0,-8,Industrial,Moderate Industrial moat - some competitive advantages
+LHL.N0000,93.4,80,70,68,20,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+LIOC.N0000,15.100000000000001,30,40,47,0,-23,Industrial,"Poor Industrial moat - commodity business, no advantages"
+LION.N0000,83.4,82,70,72,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+LITE.N0000,80.9,70,65,78,10,0,Industrial,Strong Industrial moat - solid competitive advantages
+LLUB.N0000,71.5,85,70,55,0,0,Industrial,Strong Industrial moat - solid competitive advantages
+LMF.N0000,77.4,51,40,90,18,0,Industrial,Strong Industrial moat - solid competitive advantages
+LOFC.N0000,85.0,97,80,65,35,-8,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+LOLC.N0000,69.2,73,50,60,15,-8,Financial,Moderate Financial moat - some competitive advantages
+LPL.N0000,80.8,73,70,52,15,0,Industrial,Strong Industrial moat - solid competitive advantages
+LPL.X0000,80.8,73,70,52,15,0,Industrial,Strong Industrial moat - solid competitive advantages
+LPRT.N0000,24.000000000000007,51,40,32,0,-18,Industrial,"Poor Industrial moat - commodity business, no advantages"
+LUMX.N0000,30.0,30,40,62,10,-15,Mature,"Poor Mature moat - commodity business, no advantages"
+LVEF.N0000,94.7,73,75,60,25,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+LVEN.N0000,100.0,73,80,62,38,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+LWL.N0000,50.8,57,60,60,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+MADU.N0000,38.9,35,60,73,0,-15,Industrial,"Poor Industrial moat - commodity business, no advantages"
+MAL.N0000,0.6000000000000014,30,40,32,0,-33,Industrial,"Poor Industrial moat - commodity business, no advantages"
+MAL.X0000,0.6000000000000014,30,40,32,0,-33,Industrial,"Poor Industrial moat - commodity business, no advantages"
+MARA.N0000,86.1,78,65,68,15,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+MASK.N0000,49.50000000000001,56,65,52,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+MBSL.N0000,38.4,30,65,73,0,-15,Financial,"Poor Financial moat - commodity business, no advantages"
+MCPL.N0000,100.0,86,80,85,38,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+MDL.N0000,30.0,65,40,55,0,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+MEL.N0000,75.1,65,70,67,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+MELS.N0000,61.800000000000004,51,65,73,0,0,Industrial,Moderate Industrial moat - some competitive advantages
+MERC.N0000,85.0,80,70,90,38,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+MFPE.N0000,56.900000000000006,56,65,50,0,0,Industrial,Moderate Industrial moat - some competitive advantages
+MGT.N0000,30.000000000000007,51,60,32,0,-18,Industrial,"Poor Industrial moat - commodity business, no advantages"
+MHDL.N0000,62.3,62,70,55,0,0,Industrial,Moderate Industrial moat - some competitive advantages
+MRH.N0000,30.0,65,40,60,0,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+MSL.N0000,30.0,80,40,68,20,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+MULL.N0000,30.0,51,40,57,0,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+NAMU.N0000,68.1,70,75,52,10,-8,Industrial,Moderate Industrial moat - some competitive advantages
+NDB.N0000,68.2,43,75,85,18,-15,Financial,Moderate Financial moat - some competitive advantages
+NEH.N0000,100.0,80,75,85,38,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+NHL.N0000,81.7,73,65,60,15,0,Industrial,Strong Industrial moat - solid competitive advantages
+NTB.N0000,85.0,47,80,90,33,-15,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+NTB.X0000,85.0,47,80,90,33,-15,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+ODEL.N0000,30.0,78,40,40,15,-10,Industrial,"Poor Industrial moat - commodity business, no advantages"
+OFEQ.N0000,30.0,73,40,57,15,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+ONAL.N0000,100.0,80,80,70,45,-8,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+OSEA.N0000,100.0,80,80,72,43,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+PABC.N0000,74.7,43,80,85,23,-15,Financial,Strong Financial moat - solid competitive advantages
+PACK.N0000,45.10000000000001,51,60,49,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+PALM.N0000,84.1,73,60,73,15,0,Industrial,Strong Industrial moat - solid competitive advantages
+PAP.N0000,96.9,86,75,50,25,0,Mature,"Exceptional Mature moat - wide competitive advantage, pricing power"
+PARA.N0000,30.0,51,40,73,0,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+PARQ.N0000,80.2,68,65,85,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+PEG.N0000,30.0,57,40,73,0,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+PHAR.N0000,30.0,85,40,69,28,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+PINS.N0000,37.1,65,65,32,0,-18,Financial,"Poor Financial moat - commodity business, no advantages"
+PKME.N0000,100.0,100,75,50,30,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+PLC.N0000,85.0,80,75,73,30,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+PLR.N0000,37.4,62,70,32,0,-18,Industrial,"Poor Industrial moat - commodity business, no advantages"
+PMB.N0000,85.0,85,70,90,38,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+RAL.N0000,19.0,30,40,60,0,-23,Industrial,"Poor Industrial moat - commodity business, no advantages"
+RCH.N0000,75.2,73,65,65,15,-8,Industrial,Strong Industrial moat - solid competitive advantages
+RCL.N0000,52.3,57,65,60,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+REEF.N0000,30.0,73,40,55,15,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+RENU.N0000,63.099999999999994,80,65,32,20,-18,Industrial,Moderate Industrial moat - some competitive advantages
+REXP.N0000,25.5,30,40,55,0,-15,Industrial,"Poor Industrial moat - commodity business, no advantages"
+RFL.N0000,79.0,65,65,85,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+RGEM.N0000,30.0,65,40,55,0,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+RHL.N0000,64.4,51,40,80,8,0,Industrial,Moderate Industrial moat - some competitive advantages
+RHL.X0000,64.4,51,40,80,8,0,Industrial,Moderate Industrial moat - some competitive advantages
+RHTL.N0000,69.80000000000001,73,65,47,15,-8,Industrial,Moderate Industrial moat - some competitive advantages
+RICH.N0000,46.9,57,60,47,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+RIL.N0000,74.3,57,65,80,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+RPBH.N0000,99.6,80,65,67,28,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+RWSL.N0000,82.5,70,70,85,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+SAMP.N0000,85.0,43,80,90,33,-15,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+SCAP.N0000,83.69999999999999,77,65,78,10,0,Financial,Strong Financial moat - solid competitive advantages
+SDB.N0000,6.600000000000001,30,60,32,0,-33,Financial,"Poor Financial moat - commodity business, no advantages"
+SDF.N0000,85.0,93,75,90,48,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+SEMB.N0000,63.0,30,70,90,18,-15,Financial,Moderate Financial moat - some competitive advantages
+SEMB.X0000,63.0,30,70,90,18,-15,Financial,Moderate Financial moat - some competitive advantages
+SERV.N0000,75.4,85,65,73,0,0,Industrial,Strong Industrial moat - solid competitive advantages
+SEYB.N0000,85.0,43,80,90,33,-15,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+SEYB.X0000,85.0,43,80,90,33,-15,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+SFCL.N0000,85.0,97,80,90,53,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+SFCL.R0000,85.0,97,80,90,53,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+SFIN.N0000,85.0,97,75,85,38,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+SHAW.N0000,100.0,80,80,85,43,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+SHL.N0000,67.9,70,60,73,0,0,Industrial,Moderate Industrial moat - some competitive advantages
+SHOT.N0000,91.9,80,65,68,20,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+SHOT.X0000,91.9,80,65,68,20,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+SIGV.N0000,94.9,80,70,73,20,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+SIL.N0000,30.0,51,40,40,0,-10,Industrial,"Poor Industrial moat - commodity business, no advantages"
+SING.N0000,24.0,30,40,50,0,-15,Industrial,"Poor Industrial moat - commodity business, no advantages"
+SINH.N0000,100.0,86,65,90,33,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+SINS.N0000,83.8,77,65,85,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+SIRA.N0000,82.6,74,65,85,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+SLND.N0000,96.2,80,80,44,35,-8,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+SLTL.N0000,78.9,65,65,78,10,0,Industrial,Strong Industrial moat - solid competitive advantages
+SMOT.N0000,67.1,68,65,68,0,0,Industrial,Moderate Industrial moat - some competitive advantages
+SOY.N0000,78.0,70,65,75,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+SPEN.N0000,69.80000000000001,73,65,47,15,-8,Industrial,Moderate Industrial moat - some competitive advantages
+STAF.N0000,73.7,73,65,60,15,-8,Industrial,Strong Industrial moat - solid competitive advantages
+SUN.N0000,69.4,70,65,73,0,0,Industrial,Moderate Industrial moat - some competitive advantages
+SWAD.N0000,30.0,65,40,55,0,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+TAFL.N0000,33.50000000000001,56,65,32,0,-18,Industrial,"Poor Industrial moat - commodity business, no advantages"
+TAJ.N0000,30.0,62,40,55,0,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+TANG.N0000,97.2,73,65,85,23,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+TAP.N0000,79.9,71,60,85,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+TESS.N0000,30.0,65,40,73,0,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+TESS.X0000,30.0,65,40,73,0,0,Industrial,"Poor Industrial moat - commodity business, no advantages"
+TILE.N0000,32.4,57,60,32,0,-18,Industrial,"Poor Industrial moat - commodity business, no advantages"
+TJL.N0000,6.600000000000001,30,60,32,0,-33,Industrial,"Poor Industrial moat - commodity business, no advantages"
+TKYO.N0000,58.8,57,65,55,0,0,Industrial,Moderate Industrial moat - some competitive advantages
+TKYO.X0000,58.8,57,65,55,0,0,Industrial,Moderate Industrial moat - some competitive advantages
+TPL.N0000,51.400000000000006,51,65,65,0,-8,Industrial,Weak Industrial moat - limited competitive advantages
+TRAN.N0000,77.5,65,60,85,8,0,Industrial,Strong Industrial moat - solid competitive advantages
+TSML.N0000,19.0,30,40,60,0,-23,Industrial,"Poor Industrial moat - commodity business, no advantages"
+TYRE.N0000,13.600000000000001,30,40,42,0,-23,Industrial,"Poor Industrial moat - commodity business, no advantages"
+UAL.N0000,70.5,70,65,70,10,-8,Financial,Strong Financial moat - solid competitive advantages
+UBC.N0000,38.4,30,65,73,0,-15,Financial,"Poor Financial moat - commodity business, no advantages"
+UBF.N0000,29.0,35,50,50,0,-15,Financial,"Poor Financial moat - commodity business, no advantages"
+UCAR.N0000,57.900000000000006,62,65,52,8,-10,Industrial,Moderate Industrial moat - some competitive advantages
+UDPL.N0000,71.0,64,40,78,10,0,Industrial,Strong Industrial moat - solid competitive advantages
+UML.N0000,58.800000000000004,51,60,68,0,0,Industrial,Moderate Industrial moat - some competitive advantages
+VFIN.N0000,85.0,97,75,90,48,0,Financial,"Exceptional Financial moat - wide competitive advantage, pricing power"
+VLL.N0000,89.8,78,80,42,30,-8,Mature,"Exceptional Mature moat - wide competitive advantage, pricing power"
+VLL.X0000,89.8,78,80,42,30,-8,Mature,"Exceptional Mature moat - wide competitive advantage, pricing power"
+VONE.N0000,88.8,57,70,90,18,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+VPEL.N0000,95.9,97,75,42,30,-8,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+WAPO.N0000,100.0,100,80,90,53,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+WATA.N0000,100.0,93,80,73,30,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+WIND.N0000,94.7,73,75,60,25,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+WLTH.N0000,100.0,85,80,50,35,0,Industrial,"Exceptional Industrial moat - wide competitive advantage, pricing power"
+YORK.N0000,13.600000000000001,30,40,42,0,-23,Industrial,"Poor Industrial moat - commodity business, no advantages"

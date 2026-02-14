@@ -1,0 +1,109 @@
+
+========================================
+WEEKLY SCORING START - 2026-02-12
+========================================
+
+========================================
+STEP 1: Locate Latest Data
+========================================
+[2026-02-12 05:25:32] Found latest data: /opt/investment-os/output/2026-02-12/cleaned_data.csv
+
+========================================
+STEP 2: Dimension 7 v1.0 (PRODUCTION)
+========================================
+[2026-02-12 05:25:32] Running v1.0 scorer...
+
+DIMENSION 7: MARKET SENTIMENT SCORER v1.0
+Investment OS - 7D Scoring Framework
+Date: January 1, 2026
+Version: 1.0 (Production - Percentile-Based)
+
+FRAMEWORK: Trading Activity + Price Momentum + Market Recognition
+
+PHILOSOPHY (Lynch):
+"The stock market is filled with individuals who know the price of everything, 
+but the value of nothing. However, when the market recognizes quality, it can 
+create powerful momentum. The key is to find quality companies before the market 
+does, or ride the wave when validation occurs."
+
+METHODOLOGY: EMPIRICAL PERCENTILE-BASED SCORING
+This dimension uses data-driven thresholds derived from actual CSE distribution,
+following industry best practices for quantitative analysis.
+
+ARCHITECTURE:
+Component 1 (40%): Trading Activity & Liquidity
+  - Relative volume (percentile-based: 90th, 75th, 50th, 25th)
+  - Uses actual CSE distribution, not arbitrary thresholds
+  
+Component 2 (35%): Price Momentum
+  - Total return performance (TR5Y, TR3Y, TR1Y)
+  - Percentile-based thresholds from CSE data
+  - Trend analysis (accelerating vs decelerating)
+  
+Component 3 (25%): Market Recognition
+  - Market cap size (percentile-based)
+  - Beta volatility (adjusted for CSE mean=0.37)
+
+CSE EMPIRICAL PERCENTILES (Data-Driven):
+TR5Y: 90th=546%, 75th=340%, 50th=180%, 25th=72%
+TR1Y: 90th=167%, 75th=102%, 50th=49%
+Market Cap: 90th=75B, 75th=26B, 50th=9B LKR
+RelVol: 90th=231, 75th=102, 50th=41
+Beta: 75th=0.60, 50th=0.34, 25th=0.12
+
+EXPECTED SCORES:
+CTC:  85-95 (mega cap, strong momentum, high liquidity)
+LION: 75-85 (strong momentum, good liquidity)
+LOLC: 60-75 (large cap but declining momentum)
+LOFC: 80-90 (strong performance, institutional favorite)
+JKH:  50-65 (large cap but declining sentiment)
+
+REGULATORY DEFENSE:
+"We evaluate market sentiment using empirically-derived percentile thresholds from 
+the Colombo Stock Exchange. Rather than arbitrary cutoffs, we use actual CSE 
+distribution (50th, 75th, 90th percentiles) to classify trading activity, price 
+momentum, and market capitalization. This data-driven approach aligns with 
+quantitative finance best practices and eliminates subjective bias."
+
+
+📂 Input CSV: /opt/investment-os/output/2026-02-12/cleaned_data.csv
+📊 Output CSV: dimension7_scores.csv
+📄 Output Report: dimension7_report.txt
+================================================================================
+DIMENSION 7: MARKET SENTIMENT SCORER v1.0
+================================================================================
+
+Loading data from: /opt/investment-os/output/2026-02-12/cleaned_data.csv
+Loaded 298 stocks
+
+Scoring stocks...
+  Processed 50/298 stocks...
+  Processed 100/298 stocks...
+  Processed 150/298 stocks...
+  Processed 200/298 stocks...
+  Processed 250/298 stocks...
+
+✅ Scoring complete!
+  Success: 298/298
+  Errors: 0/298
+
+✅ Scores saved: dimension7_scores.csv
+
+✅ Validation report saved: dimension7_report.txt
+
+🎯 Dimension 7 scoring complete!
+
+Files created:
+  • dimension7_scores.csv
+  • dimension7_report.txt
+[2026-02-12 05:25:33] v1.0 scoring complete: 299 stocks
+
+========================================
+STEP 3: Dimension 7 v2.0 Phase 1A (PARALLEL)
+========================================
+[2026-02-12 05:25:33] Running v2.0 Phase 1A scorer...
+================================================================================
+DIMENSION 7 SCORER V2.0 - PHASE 1A
+================================================================================
+❌ ERROR: Percentiles file not found: cse_percentiles.json
+   Run: python3 cse_percentile_calculator.py cse_metrics.csv

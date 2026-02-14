@@ -1,0 +1,225 @@
+{
+  "generated_at": "2026-01-07T08:15:52.028562",
+  "data_source": "cse_daily_prices (Jan 2-6, 2026)",
+  "stocks_analyzed": 292,
+  "metrics": {
+    "trade_volume": {
+      "name": "Trade Volume",
+      "description": "Number of trades executed",
+      "direction": "higher_better",
+      "unit": "trades",
+      "percentiles": {
+        "p10": 8.100000000000001,
+        "p25": 23.0,
+        "p50": 64.5,
+        "p75": 169.0,
+        "p90": 359.90000000000003,
+        "p95": 504.9499999999999,
+        "mean": 144.9794520547945,
+        "median": 64.5,
+        "std": 237.4302854940831,
+        "min": 1.0,
+        "max": 1988.0,
+        "count": 292
+      },
+      "scoring_bands": {
+        "exceptional": {
+          "min": 359.90000000000003,
+          "max": null,
+          "score_range": [
+            90,
+            100
+          ]
+        },
+        "strong": {
+          "min": 169.0,
+          "max": 359.90000000000003,
+          "score_range": [
+            75,
+            89
+          ]
+        },
+        "moderate": {
+          "min": 64.5,
+          "max": 169.0,
+          "score_range": [
+            50,
+            74
+          ]
+        },
+        "weak": {
+          "min": 23.0,
+          "max": 64.5,
+          "score_range": [
+            25,
+            49
+          ]
+        },
+        "poor": {
+          "min": 0.0,
+          "max": 23.0,
+          "score_range": [
+            0,
+            24
+          ]
+        }
+      }
+    },
+    "share_volume": {
+      "name": "Share Volume",
+      "description": "Total shares traded",
+      "direction": "higher_better",
+      "unit": "shares",
+      "percentiles": {
+        "p10": 293.7,
+        "p25": 4593.0,
+        "p50": 80944.0,
+        "p75": 343317.75,
+        "p90": 1262034.5000000012,
+        "p95": 2170151.7499999986,
+        "mean": 489219.88356164383,
+        "median": 80944.0,
+        "std": 1639378.7772460696,
+        "min": 1.0,
+        "max": 24139683.0,
+        "count": 292
+      },
+      "scoring_bands": {
+        "exceptional": {
+          "min": 1262034.5000000012,
+          "max": null,
+          "score_range": [
+            90,
+            100
+          ]
+        },
+        "strong": {
+          "min": 343317.75,
+          "max": 1262034.5000000012,
+          "score_range": [
+            75,
+            89
+          ]
+        },
+        "moderate": {
+          "min": 80944.0,
+          "max": 343317.75,
+          "score_range": [
+            50,
+            74
+          ]
+        },
+        "weak": {
+          "min": 4593.0,
+          "max": 80944.0,
+          "score_range": [
+            25,
+            49
+          ]
+        },
+        "poor": {
+          "min": 0.0,
+          "max": 4593.0,
+          "score_range": [
+            0,
+            24
+          ]
+        }
+      }
+    },
+    "intraday_volatility": {
+      "name": "Intraday Volatility",
+      "description": "Daily price range percentage",
+      "direction": "neutral",
+      "unit": "percent",
+      "percentiles": {
+        "p10": 1.099257422214623,
+        "p25": 2.150093308451074,
+        "p50": 3.4756930462451967,
+        "p75": 5.629913740968266,
+        "p90": 8.407801418439725,
+        "p95": 11.224226711447045,
+        "mean": 4.427281868025596,
+        "median": 3.4756930462451967,
+        "std": 3.895323966437571,
+        "min": 0.0,
+        "max": 33.33333333333335,
+        "count": 292
+      },
+      "scoring_bands": {
+        "very_high": {
+          "min": 8.407801418439725,
+          "max": null,
+          "score_range": null
+        },
+        "high": {
+          "min": 5.629913740968266,
+          "max": 8.407801418439725,
+          "score_range": null
+        },
+        "moderate": {
+          "min": 3.4756930462451967,
+          "max": 5.629913740968266,
+          "score_range": null
+        },
+        "low": {
+          "min": 2.150093308451074,
+          "max": 3.4756930462451967,
+          "score_range": null
+        },
+        "very_low": {
+          "min": 0.0,
+          "max": 2.150093308451074,
+          "score_range": null
+        }
+      }
+    },
+    "trade_density": {
+      "name": "Trade Density",
+      "description": "Average shares per trade (institutional indicator)",
+      "direction": "contextual",
+      "unit": "shares/trade",
+      "percentiles": {
+        "p10": 23.15681818181818,
+        "p25": 198.58333333333331,
+        "p50": 907.4428571428572,
+        "p75": 2633.3107258938244,
+        "p90": 4916.91991525424,
+        "p95": 8727.540293209871,
+        "mean": 2517.119500293909,
+        "median": 907.4428571428572,
+        "std": 6980.639318224926,
+        "min": 1.0,
+        "max": 93019.75,
+        "count": 292
+      },
+      "scoring_bands": {
+        "very_high": {
+          "min": 4916.91991525424,
+          "max": null,
+          "score_range": null
+        },
+        "high": {
+          "min": 2633.3107258938244,
+          "max": 4916.91991525424,
+          "score_range": null
+        },
+        "moderate": {
+          "min": 907.4428571428572,
+          "max": 2633.3107258938244,
+          "score_range": null
+        },
+        "low": {
+          "min": 198.58333333333331,
+          "max": 907.4428571428572,
+          "score_range": null
+        },
+        "very_low": {
+          "min": 0.0,
+          "max": 198.58333333333331,
+          "score_range": null
+        }
+      }
+    }
+  }
+}

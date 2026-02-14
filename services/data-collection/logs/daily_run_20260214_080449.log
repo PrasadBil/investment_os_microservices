@@ -1,0 +1,82 @@
+=====================================================================
+DAILY DATA COLLECTION (StockAnalysis Full Metrics) - Sat Feb 14 08:04:49 +0530 2026
+=====================================================================
+
+STEP 1: Collecting data from StockAnalysis.com...
+2026-02-14 08:04:49,512 - INFO - Setting up Chrome driver...
+2026-02-14 08:04:49,512 - INFO - ====== WebDriver manager ======
+2026-02-14 08:04:49,599 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-14 08:04:50,107 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-14 08:04:50,667 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/143.0.7499.192/chromedriver-linux64/chromedriver] found in cache
+2026-02-14 08:04:50,959 - INFO - Chrome driver ready
+2026-02-14 08:04:50,959 - INFO - ==================================================
+2026-02-14 08:04:50,959 - INFO - STEP 1: Logging in to StockAnalysis.com
+2026-02-14 08:04:50,960 - INFO - ==================================================
+2026-02-14 08:04:55,925 - INFO - Entering email...
+2026-02-14 08:04:55,998 - INFO - Entering password...
+2026-02-14 08:04:56,055 - INFO - Clicking login button...
+2026-02-14 08:05:01,120 - INFO - Login successful
+2026-02-14 08:05:01,120 - INFO - ==================================================
+2026-02-14 08:05:01,120 - INFO - STEP 2: Navigating to Stock Screener
+2026-02-14 08:05:01,120 - INFO - ==================================================
+2026-02-14 08:05:01,120 - INFO - Going to: https://stockanalysis.com/stocks/screener/
+2026-02-14 08:05:10,424 - INFO - Current URL: https://stockanalysis.com/stocks/screener/
+2026-02-14 08:05:10,424 - INFO - Arrived at Stock Screener page
+2026-02-14 08:05:10,424 - INFO - Checking Exchange Country...
+2026-02-14 08:05:13,446 - INFO -    Found country button: United States
+2026-02-14 08:05:13,447 - INFO -    Country is not Sri Lanka, changing it...
+2026-02-14 08:05:15,587 - INFO -    Changed country to Sri Lanka
+2026-02-14 08:05:18,587 - INFO - Setting rows per page to 500...
+2026-02-14 08:05:20,632 - INFO -    Found rows button: 20 Rows
+2026-02-14 08:05:22,874 - INFO -    Changed to 500 rows
+2026-02-14 08:05:25,874 - INFO - Screener configured correctly
+2026-02-14 08:05:25,874 - INFO - ==================================================
+2026-02-14 08:05:25,874 - INFO - STEP 3: Collecting All Views
+2026-02-14 08:05:25,874 - INFO - ==================================================
+2026-02-14 08:05:25,874 - INFO - Total views: 13
+2026-02-14 08:05:25,874 - INFO - Each view: ALL 296 stocks on ONE page
+2026-02-14 08:05:25,874 - INFO - Total parameters: 235 across all views
+2026-02-14 08:05:25,874 - INFO - ==================================================
+2026-02-14 08:05:25,874 - INFO - 
+[1/13] Processing view_0...
+2026-02-14 08:05:25,874 - INFO -    Clicking view_0 tab...
+2026-02-14 08:05:27,926 - ERROR -    Could not find view_0 tab
+2026-02-14 08:05:27,926 - ERROR - Failed to load view_0
+2026-02-14 08:05:27,926 - INFO - 
+Closing browser...
+PASS: Data collection successful
+
+STEP 2: Processing data...
+================================================================================
+ENHANCED DATA PROCESSOR v2.0
+Now includes view_10 balance sheet extraction!
+================================================================================
+================================================================================
+PROCESSING DATA FOR: 2026-02-14
+================================================================================
+  Skipping view_0 (file not found)
+  Skipping view_1 (file not found)
+  Skipping view_2 (file not found)
+  Skipping view_3 (file not found)
+  Skipping view_4 (file not found)
+  Skipping view_5 (file not found)
+  Skipping view_6 (file not found)
+  Skipping view_7 (file not found)
+  Skipping view_8 (file not found)
+  Skipping view_9 (file not found)
+  Skipping view_10 (file not found)
+  Skipping view_11 (file not found)
+  Skipping view_12 (file not found)
+
+Extracted 0 views
+
+================================================================================
+MERGING ALL VIEWS
+================================================================================
+No dataframes to merge
+
+Merge failed
+PASS: Data processing successful
+
+STEP 3: Uploading to Supabase...
+FAIL: CSV file not found

@@ -1,0 +1,218 @@
+======================================================================
+INVESTMENT OS - AUTOMATED DAILY WORKFLOW
+Started: Tue Feb 10 16:08:52 +0530 2026
+Working Directory: /opt/investment-os
+======================================================================
+
+Step 1: Verifying data freshness...
+Latest data: 2026-02-10
+Data is fresh
+
+Step 2: Running calendar signal monitor...
+2026-02-10 16:08:55 | calendar-signals | INFO | Calendar Signal Monitor V2.0 starting
+
+================================================================================
+CALENDAR SIGNAL MONITOR V2.0 - PORTFOLIO APPROACH
+================================================================================
+
+================================================================================
+CALENDAR SIGNAL REPORT - 2026-02-10
+================================================================================
+
+Day of Month: 10
+Signal Type: SELL
+Cycle: Day 12 Cycle
+Action: EXIT PORTFOLIO
+
+Reasoning:
+  Day 10: Exit window for Day 12 cycle. Lock in payday effect returns.
+
+================================================================================
+PORTFOLIO APPROACH - KEY PRINCIPLES
+================================================================================
+
+This signal is based on AGGREGATE MARKET BEHAVIOR, not individual stock picking.
+
+Key Findings (242 stocks, 16 years, 633,913 trading days):
+- Aggregate payday effect: p<0.000001 (HIGHLY SIGNIFICANT)
+- Individual stock effects: Only 3.3% significant (below random 5%)
+- Conclusion: Effect exists at PORTFOLIO level, not stock level
+
+Why Portfolio Approach:
+- Captures market-wide payday effect through diversification
+- Avoids false precision of individual stock timing
+- Aligns with validated Strategy A (12.3% annual alpha)
+- Honest with users about what the data supports
+
+Implementation:
+- Enter: Buy 50-100 diversified CSE stocks on Day 9 or Day 26
+- Exit: Sell entire portfolio on Day 10 or Day 27
+- Hold: 1-2 days (capital efficient)
+- Returns: Come from aggregate behavior, not stock selection
+    
+================================================================================
+2026-02-10 16:08:55 | calendar-signals | INFO | Signal report complete
+2026-02-10 16:08:55 | calendar-signals | INFO | Signal logged to database
+
+================================================================================
+ACTION SUMMARY
+================================================================================
+
+[ACTION REQUIRED] EXIT PORTFOLIO
+  1. Exit ALL positions from portfolio
+  2. Execute during liquid trading hours
+  3. Lock in payday effect returns
+  4. Return to cash until next calendar window
+
+================================================================================
+MONITORING COMPLETE
+================================================================================
+
+2026-02-10 16:08:55 | calendar-signals | INFO | Calendar Signal Monitor complete - Signal: SELL
+Calendar signals generated
+
+Step 3: Generating tier 1 trading signals...
+
+    ================================================================
+         INVESTMENT OS - DAILY TRADING WORKFLOW
+                  (MANUAL EXECUTION MODE)
+    ================================================================
+
+    This script:
+    1. Loads latest CSE data from your Supabase tables
+    2. Generates trading signals using Granger-validated indicators
+    3. Prioritizes high-confidence signals (>80%)
+    4. Provides step-by-step trading plan
+    5. Saves signals for tracking
+
+    You then execute trades MANUALLY on your broker platform.
+    
+2026-02-10 16:08:56 | daily-workflow | INFO | Daily Trading Workflow starting
+2026-02-10 16:08:56 | daily-workflow | INFO | Supabase credentials verified via common.config
+NEH.N0000: Only 15 days of data (minimum 20 recommended)
+NEH.N0000: Primary source insufficient, trying backup...
+
+================================================================================
+STEP 1: LOADING CSE DATA FROM SUPABASE
+================================================================================
+
+================================================================================
+DATA QUALITY CHECK
+================================================================================
+2026-02-10 16:08:56 | daily-workflow | INFO | CTHR.N0000: 20 days, updated 0 days ago
+2026-02-10 16:08:56 | daily-workflow | INFO | RCH.N0000: 22 days, updated 0 days ago
+2026-02-10 16:08:56 | daily-workflow | INFO | GHLL.N0000: 22 days, updated 0 days ago
+2026-02-10 16:08:56 | daily-workflow | INFO | NEH.N0000: 30 days, updated 0 days ago
+2026-02-10 16:08:56 | daily-workflow | INFO | WIND.N0000: 22 days, updated 0 days ago
+
+================================================================================
+STEP 2: GENERATING TRADING SIGNALS
+================================================================================
+
+================================================================================
+INVESTMENT OS - TIER 1 DAILY SIGNALS
+================================================================================
+Generated: 2026-02-10 16:08:56
+Stocks Analyzed: 5 (Ultra-Clean, 0% Manipulation)
+================================================================================
+
+Stock: CTHR.N0000
+  Price: Rs 646.00
+  Signal: HOLD (Confidence: 0.0%)
+
+Stock: RCH.N0000
+  Price: Rs 249.25
+  Signal: BUY (Confidence: 76.1%)
+  Expected Return: 3.15%
+  Hold Period: 7 days
+  Active Signals: 2 (momentum_5d, momentum_20d)
+
+Stock: GHLL.N0000
+  Price: Rs 18.50
+  Signal: SELL (Confidence: 70.0%)
+  Expected Return: 2.00%
+  Hold Period: 30 days
+  Active Signals: 1 (momentum_5d)
+
+Stock: NEH.N0000
+  Price: Rs 4500.00
+  Signal: HOLD (Confidence: 0.0%)
+
+Stock: WIND.N0000
+  Price: Rs 48.30
+  Signal: SELL (Confidence: 69.5%)
+  Expected Return: 2.40%
+  Hold Period: 30 days
+  Active Signals: 1 (momentum_20d)
+
+================================================================================
+SUMMARY: 1 BUY | 2 SELL | 2 HOLD
+================================================================================
+
+
+================================================================================
+STEP 3: PRIORITIZING SIGNALS FOR TRADING
+================================================================================
+2026-02-10 16:08:56 | daily-workflow | INFO | 3 signals found, but all below 80% confidence.
+Action: Skip trading today or reduce position sizes.
+
+================================================================================
+STEP 4: YOUR TRADING PLAN (EXECUTE MANUALLY)
+================================================================================
+
+EXECUTE THESE TRADES ON YOUR BROKER PLATFORM:
+
+TRADE #1:
+  Stock: RCH.N0000
+  Action: BUY
+  Entry Price: Rs 249.25 (or better)
+  Stop Loss: Rs 236.79 (5% below entry)
+  Target: Rs 257.10 (3.1% profit)
+  Hold Period: ~7 days
+  Suggested Position Size: 2-8% of portfolio
+  Confidence: 76.1%
+
+TRADE #2:
+  Stock: GHLL.N0000
+  Action: SELL
+  Entry Price: Rs 18.50 (or better)
+  Stop Loss: Rs 19.43 (5% above entry)
+  Target: Rs 18.13 (2.0% profit)
+  Hold Period: ~30 days
+  Suggested Position Size: 2-8% of portfolio
+  Confidence: 70.0%
+
+2026-02-10 16:08:56 | daily-workflow | INFO | 1 additional signals available but holding to max 2 trades/day limit
+Signals saved to: /opt/investment-os/signals/investment_os_signals_20260210_160856.json
+2026-02-10 16:08:56 | daily-workflow | INFO | Signals saved to: /opt/investment-os/signals/investment_os_signals_20260210_160856.json
+================================================================================
+WORKFLOW COMPLETE!
+================================================================================
+
+    NEXT STEPS:
+    1. Review the trading plan above
+    2. Login to your broker platform (NDB/Softlogic/etc)
+    3. Execute the recommended trades
+    4. Set stop loss orders (5% below entry for BUY)
+    5. Record in your tracking spreadsheet
+    6. Monitor positions daily
+
+    Run this script again tomorrow for new signals!
+    
+2026-02-10 16:08:56 | daily-workflow | INFO | Daily Trading Workflow complete
+Tier 1 signals generated
+
+Step 4: Saving latest signal...
+Signal saved: /opt/investment-os/signals/latest_signal.json
+
+Step 5: Sending email notification...
+Email sent successfully
+
+Step 6: Cleaning up old files...
+Cleaned up files older than 30 days
+
+======================================================================
+WORKFLOW COMPLETE! Tue Feb 10 16:09:01 +0530 2026
+Signal File: /opt/investment-os/signals/signals_20260210_160852.json
+Log File: /opt/investment-os/v5_logs/daily_signals_20260210_160852.log
+======================================================================

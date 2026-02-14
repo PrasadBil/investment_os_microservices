@@ -1,0 +1,299 @@
+symbol,dimension7_sentiment,activity_score,momentum_score,recognition_score,modifiers,penalties,sector,interpretation
+AAF.N0000,96.6,70,71,55,30,0,Financial,"Exceptional Financial sentiment - strong momentum, high liquidity"
+AAF.P0000,51.75,60,45,48,0,0,Financial,Weak Financial sentiment - limited interest
+AAIC.N0000,83.85,60,71,60,20,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+ABAN.N0000,90.25,65,75,52,25,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+ABL.N0000,68.85,60,61,62,8,0,Financial,Moderate Financial sentiment - mixed signals
+ACAP.N0000,77.8,65,63,47,18,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+ACL.N0000,91.75,55,75,66,27,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+ACME.N0000,81.0,55,85,37,23,-3,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+AEL.N0000,85.8,65,63,63,22,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+AFS.N0000,47.0,60,45,41,0,-3,Industrial,Weak Industrial sentiment - limited interest
+AFSL.N0000,61.2,60,67,55,0,0,Financial,Moderate Financial sentiment - mixed signals
+AGAL.N0000,58.7,60,57,59,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+AGPL.N0000,66.35,65,41,64,10,0,Industrial,Moderate Industrial sentiment - mixed signals
+AGST.N0000,58.2,45,67,55,8,-5,Industrial,Moderate Industrial sentiment - mixed signals
+AGST.X0000,47.75,50,45,48,0,0,Industrial,Weak Industrial sentiment - limited interest
+AHPL.N0000,89.35,70,51,66,27,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+AHUN.N0000,93.55,70,63,66,27,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+AINS.N0000,78.85,65,61,54,18,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+ALLI.N0000,85.8,65,73,49,25,-3,Financial,"Exceptional Financial sentiment - strong momentum, high liquidity"
+ALUM.N0000,55.95,50,57,64,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+AMF.N0000,58.55,55,63,58,0,0,Financial,Moderate Financial sentiment - mixed signals
+AMSL.N0000,67.1,60,61,55,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+APLA.N0000,80.95,60,77,60,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+ASCO.N0000,76.7,65,67,49,18,-3,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+ASHO.N0000,100.0,70,81,59,35,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+ASIR.N0000,81.85,60,61,66,20,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+ASIY.N0000,91.55,65,73,60,25,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+ASPH.N0000,59.349999999999994,50,51,54,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+ATL.N0000,61.05,45,73,58,8,-5,Financial,Moderate Financial sentiment - mixed signals
+ATLL.N0000,70.85,60,71,56,8,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+AUTO.N0000,86.85,60,81,58,20,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+BALA.N0000,45.75,45,45,60,12,-15,Industrial,Weak Industrial sentiment - limited interest
+BBH.N0000,54.849999999999994,55,51,60,0,0,Industrial,Weak Industrial sentiment - limited interest
+BERU.N0000,69.25,60,55,56,12,0,Industrial,Moderate Industrial sentiment - mixed signals
+BFL.N0000,68.75,50,75,58,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+BFN.N0000,71.15,65,59,58,10,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+BIL.N0000,62.599999999999994,55,41,57,15,-3,Industrial,Moderate Industrial sentiment - mixed signals
+BLUE.N0000,48.45,65,27,52,10,-10,Industrial,Weak Industrial sentiment - limited interest
+BOGA.N0000,90.75,55,85,64,23,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+BOPL.N0000,69.25,45,75,60,15,-5,Industrial,Moderate Industrial sentiment - mixed signals
+BPPL.N0000,65.1,55,61,55,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+BREW.N0000,86.35,65,61,68,22,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+BRR.N0000,48.349999999999994,45,61,56,0,-5,Industrial,Weak Industrial sentiment - limited interest
+BRWN.N0000,66.85,55,51,60,12,0,Industrial,Moderate Industrial sentiment - mixed signals
+BUKI.N0000,77.05,55,63,72,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+CABO.N0000,72.45,65,67,52,10,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+CALF.N0000,86.45,65,77,62,18,0,Financial,"Exceptional Financial sentiment - strong momentum, high liquidity"
+CALH.N0000,62.25,60,35,56,12,0,Industrial,Moderate Industrial sentiment - mixed signals
+CALT.N0000,52.35,60,41,56,0,0,Industrial,Weak Industrial sentiment - limited interest
+CARE.N0000,55.45,60,47,60,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+CARG.N0000,67.55,45,63,70,15,-5,Industrial,Moderate Industrial sentiment - mixed signals
+CARS.N0000,78.35,60,61,72,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+CBNK.N0000,49.15,50,39,62,0,0,Financial,Weak Financial sentiment - limited interest
+CCS.N0000,71.7,50,57,67,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+CDB.N0000,73.9,55,69,63,12,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+CDB.X0000,83.45,55,67,56,24,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+CERA.N0000,66.35,65,51,50,10,0,Industrial,Moderate Industrial sentiment - mixed signals
+CFI.N0000,73.95,55,77,52,12,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+CFIN.N0000,70.35,55,61,60,12,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+CFLB.N0000,74.75,60,65,64,12,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+CFVF.N0000,98.25,70,75,56,30,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+CHL.N0000,69.7,50,77,59,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+CHL.X0000,60.25,45,75,52,8,-5,Industrial,Moderate Industrial sentiment - mixed signals
+CHMX.N0000,76.45,70,57,54,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+CHOT.N0000,50.25,45,65,58,0,-5,Industrial,Weak Industrial sentiment - limited interest
+CIC.N0000,73.25,55,65,66,12,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+CIC.X0000,68.75,50,65,56,12,0,Industrial,Moderate Industrial sentiment - mixed signals
+CIND.N0000,59.8,60,63,55,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+CINS.N0000,93.85,70,51,72,30,0,Financial,"Exceptional Financial sentiment - strong momentum, high liquidity"
+CINS.X0000,93.65,70,59,60,30,0,Financial,"Exceptional Financial sentiment - strong momentum, high liquidity"
+CINV.N0000,57.4,55,59,59,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+CIT.N0000,67.2,60,77,45,8,-3,Industrial,Moderate Industrial sentiment - mixed signals
+CITH.N0000,58.099999999999994,55,46,48,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+CITW.N0000,40.0,55,31,51,8,-12,Industrial,Weak Industrial sentiment - limited interest
+CLND.N0000,61.45,60,67,56,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+COCO.N0000,100.0,70,81,64,35,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+COCO.X0000,81.35,50,81,52,20,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+COCR.N0000,98.8,65,73,53,37,-3,Financial,"Exceptional Financial sentiment - strong momentum, high liquidity"
+COLO.N0000,67.25,45,75,52,15,-5,Industrial,Moderate Industrial sentiment - mixed signals
+COMB.N0000,89.05,65,63,64,25,0,Financial,"Exceptional Financial sentiment - strong momentum, high liquidity"
+COMB.X0000,88.05,65,63,60,25,0,Financial,"Exceptional Financial sentiment - strong momentum, high liquidity"
+COMD.N0000,59.2,55,67,55,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+CONN.N0000,54.45,50,57,58,0,0,Industrial,Weak Industrial sentiment - limited interest
+COOP.N0000,61.599999999999994,55,51,55,8,0,Financial,Moderate Financial sentiment - mixed signals
+CPRT.N0000,79.25,60,75,56,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+CRL.N0000,60.150000000000006,65,39,58,18,-12,Financial,Moderate Financial sentiment - mixed signals
+CSD.N0000,48.849999999999994,45,61,58,0,-5,Industrial,Weak Industrial sentiment - limited interest
+CSF.N0000,30.0,65,19,47,18,-20,Industrial,"Poor Industrial sentiment - negative momentum, low liquidity"
+CSLK.N0000,61.65,65,39,48,10,0,Industrial,Moderate Industrial sentiment - mixed signals
+CTBL.N0000,72.2,60,67,51,12,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+CTC.N0000,74.35,50,61,72,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+CTEA.N0000,100.0,70,67,68,35,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+CTHR.N0000,81.45,45,67,72,27,-5,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+CTLD.N0000,51.599999999999994,50,51,55,0,0,Industrial,Weak Industrial sentiment - limited interest
+CWL.N0000,61.55,60,53,44,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+CWM.N0000,75.75,50,75,58,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+DFCC.N0000,68.35,50,61,60,12,0,Financial,Moderate Financial sentiment - mixed signals
+DIAL.N0000,75.85,50,71,64,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+DIMO.N0000,62.75,60,65,64,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+DIPD.N0000,67.6,55,51,63,12,0,Industrial,Moderate Industrial sentiment - mixed signals
+DIST.N0000,87.95,50,67,70,27,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+DOCK.N0000,100.0,60,85,63,35,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+DPL.N0000,33.45,50,27,56,0,-10,Industrial,"Poor Industrial sentiment - negative momentum, low liquidity"
+EAST.N0000,74.95,55,77,56,12,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+EBCR.N0000,58.05,50,63,64,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+ECL.N0000,59.349999999999994,45,71,54,8,-5,Industrial,Moderate Industrial sentiment - mixed signals
+EDEN.N0000,53.85,60,41,62,0,0,Industrial,Weak Industrial sentiment - limited interest
+ELPL.N0000,74.2,60,67,59,12,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+EMER.N0000,68.3,55,73,51,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+EML.N0000,57.2,55,57,41,8,-3,Industrial,Moderate Industrial sentiment - mixed signals
+ETWO.N0000,55.8,45,63,51,8,-5,Industrial,Moderate Industrial sentiment - mixed signals
+EXT.N0000,82.0,70,55,47,23,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+FCT.N0000,53.05,60,43,56,0,0,Industrial,Weak Industrial sentiment - limited interest
+GEST.N0000,79.9,70,69,51,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+GHLL.N0000,71.45,65,57,62,10,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+GLAS.N0000,89.6,55,71,63,27,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+GRAN.N0000,88.65,60,69,66,24,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+GREG.N0000,88.35,50,71,66,27,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+GUAR.N0000,59.4,60,59,59,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+HAPU.N0000,70.85,60,71,56,8,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+HARI.N0000,66.2,50,67,59,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+HASU.N0000,57.95,60,57,56,0,0,Financial,Moderate Financial sentiment - mixed signals
+HAYC.N0000,69.05,55,53,66,12,0,Industrial,Moderate Industrial sentiment - mixed signals
+HAYL.N0000,90.45,60,67,64,27,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+HBS.N0000,65.05,60,53,58,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+HDFC.N0000,68.85,65,51,60,10,0,Financial,Moderate Financial sentiment - mixed signals
+HELA.N0000,59.4,60,39,55,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+HEXP.N0000,68.85,55,71,56,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+HHL.N0000,75.15,55,59,70,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+HNB.N0000,76.35,60,61,64,15,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+HNB.X0000,100.0,65,67,60,37,0,Financial,"Exceptional Financial sentiment - strong momentum, high liquidity"
+HNBF.N0000,74.8,65,48,56,18,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+HNBF.X0000,57.65,60,59,52,0,0,Financial,Moderate Financial sentiment - mixed signals
+HOPL.N0000,65.45,50,67,56,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+HPFL.N0000,69.45,65,57,54,10,0,Industrial,Moderate Industrial sentiment - mixed signals
+HPL.N0000,52.349999999999994,50,51,58,0,0,Industrial,Weak Industrial sentiment - limited interest
+HPWR.N0000,57.65,60,59,52,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+HSIG.N0000,76.45,70,57,54,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+HUNA.N0000,49.75,45,45,64,15,-15,Industrial,Weak Industrial sentiment - limited interest
+HUNT.N0000,71.85,60,71,60,8,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+HVA.N0000,62.849999999999994,50,61,54,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+INME.N0000,46.25,55,35,48,0,0,Financial,Weak Financial sentiment - limited interest
+JAT.N0000,54.55,60,43,62,0,0,Industrial,Weak Industrial sentiment - limited interest
+JETS.N0000,78.95,70,57,64,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+JFP.N0000,36.25,45,35,44,0,-5,Industrial,"Poor Industrial sentiment - negative momentum, low liquidity"
+JINS.N0000,100.0,65,73,66,37,0,Financial,"Exceptional Financial sentiment - strong momentum, high liquidity"
+JKH.N0000,72.35,55,51,70,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+JKL.N0000,52.849999999999994,50,51,60,0,0,Industrial,Weak Industrial sentiment - limited interest
+KAHA.N0000,13.75,50,5,56,0,-22,Industrial,"Poor Industrial sentiment - negative momentum, low liquidity"
+KCAB.N0000,100.0,65,73,66,37,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+KFP.N0000,51.35,55,41,60,0,0,Industrial,Weak Industrial sentiment - limited interest
+KGAL.N0000,48.85,50,41,58,0,0,Industrial,Weak Industrial sentiment - limited interest
+KHC.N0000,73.35,65,61,64,10,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+KHL.N0000,67.45,55,47,68,12,0,Industrial,Moderate Industrial sentiment - mixed signals
+KOTA.N0000,58.95,60,57,60,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+KPHL.N0000,64.25,60,55,52,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+KVAL.N0000,60.349999999999994,60,61,60,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+KZOO.N0000,59.349999999999994,50,71,58,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+LALU.N0000,54.95,50,57,60,0,0,Industrial,Weak Industrial sentiment - limited interest
+LAMB.N0000,100.0,70,85,68,50,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+LCBF.N0000,62.95,55,57,52,8,0,Financial,Moderate Financial sentiment - mixed signals
+LCEY.N0000,67.85,50,71,60,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+LDEV.N0000,100.0,65,79,60,33,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+LFIN.N0000,100.0,65,67,64,37,0,Financial,"Exceptional Financial sentiment - strong momentum, high liquidity"
+LGIL.N0000,43.6,50,41,49,0,-3,Financial,Weak Financial sentiment - limited interest
+LGL.N0000,73.45,60,67,56,12,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+LGL.X0000,70.45,50,67,60,12,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+LHCL.N0000,72.85,60,71,64,8,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+LHL.N0000,58.349999999999994,55,61,60,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+LIOC.N0000,99.65,50,79,68,35,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+LION.N0000,67.35,45,61,72,15,-5,Industrial,Moderate Industrial sentiment - mixed signals
+LITE.N0000,86.65,65,69,58,22,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+LLUB.N0000,69.85,50,61,66,12,0,Industrial,Moderate Industrial sentiment - mixed signals
+LMF.N0000,87.2,60,67,63,24,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+LOFC.N0000,40.0,60,16,70,15,-10,Financial,Weak Financial sentiment - limited interest
+LOLC.N0000,65.35,50,41,64,15,0,Financial,Moderate Financial sentiment - mixed signals
+LPL.N0000,45.849999999999994,45,51,60,0,-5,Industrial,Weak Industrial sentiment - limited interest
+LPL.X0000,49.849999999999994,50,51,48,0,0,Industrial,Weak Industrial sentiment - limited interest
+LPRT.N0000,94.7,70,77,51,27,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+LUMX.N0000,59.349999999999994,50,51,54,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+LVEF.N0000,75.1,65,46,60,18,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+LVEN.N0000,70.4,65,59,55,10,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+LWL.N0000,53.95,55,47,62,0,0,Industrial,Weak Industrial sentiment - limited interest
+MADU.N0000,47.85,50,41,54,0,0,Industrial,Weak Industrial sentiment - limited interest
+MAL.N0000,59.05,45,63,64,8,-5,Industrial,Moderate Industrial sentiment - mixed signals
+MAL.X0000,79.25,50,75,52,20,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+MARA.N0000,53.849999999999994,55,51,56,0,0,Industrial,Weak Industrial sentiment - limited interest
+MASK.N0000,86.65,65,59,60,25,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+MBSL.N0000,58.349999999999994,60,61,52,0,0,Financial,Moderate Financial sentiment - mixed signals
+MCPL.N0000,47.65,45,59,56,0,-5,Industrial,Weak Industrial sentiment - limited interest
+MDL.N0000,77.2,70,57,37,23,-3,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+MEL.N0000,64.55,50,73,44,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+MELS.N0000,87.75,55,65,64,27,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+MERC.N0000,65.75,65,45,56,10,0,Financial,Moderate Financial sentiment - mixed signals
+MFPE.N0000,47.35,55,41,44,0,0,Industrial,Weak Industrial sentiment - limited interest
+MGT.N0000,55.95,60,47,62,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+MHDL.N0000,67.55,55,73,48,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+MRH.N0000,48.85,55,41,50,0,0,Industrial,Weak Industrial sentiment - limited interest
+MSL.N0000,100.0,70,77,56,35,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+MULL.N0000,63.9,50,69,47,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+NAMU.N0000,84.4,55,79,59,20,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+NDB.N0000,83.7,65,57,63,22,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+NEH.N0000,96.75,70,75,62,27,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+NHL.N0000,72.35,60,71,62,8,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+NTB.N0000,95.6,60,71,67,30,0,Financial,"Exceptional Financial sentiment - strong momentum, high liquidity"
+NTB.X0000,82.15,45,69,60,30,-5,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+ODEL.N0000,60.650000000000006,65,39,60,18,-12,Industrial,Moderate Industrial sentiment - mixed signals
+OFEQ.N0000,63.5,65,45,47,10,0,Industrial,Moderate Industrial sentiment - mixed signals
+ONAL.N0000,59.15,60,59,58,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+OSEA.N0000,64.2,45,67,63,12,-5,Industrial,Moderate Industrial sentiment - mixed signals
+PABC.N0000,74.55,60,63,66,12,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+PACK.N0000,50.05,55,43,52,0,0,Industrial,Weak Industrial sentiment - limited interest
+PALM.N0000,65.45,50,47,68,12,0,Industrial,Moderate Industrial sentiment - mixed signals
+PAP.N0000,80.0,60,75,59,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+PARA.N0000,50.75,55,45,52,0,0,Industrial,Weak Industrial sentiment - limited interest
+PARQ.N0000,72.95,55,67,62,12,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+PEG.N0000,74.85,70,51,56,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+PHAR.N0000,81.65,70,69,58,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+PINS.N0000,71.1,70,41,55,15,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+PKME.N0000,65.05,60,43,56,12,0,Industrial,Moderate Industrial sentiment - mixed signals
+PLC.N0000,69.05,50,63,60,12,0,Financial,Moderate Financial sentiment - mixed signals
+PLR.N0000,63.400000000000006,60,49,53,12,-3,Industrial,Moderate Industrial sentiment - mixed signals
+PMB.N0000,51.55,50,53,52,0,0,Financial,Weak Financial sentiment - limited interest
+RAL.N0000,87.85,60,81,62,20,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+RCH.N0000,49.05,45,63,56,0,-5,Industrial,Weak Industrial sentiment - limited interest
+RCL.N0000,72.45,60,57,66,12,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+REEF.N0000,21.799999999999997,45,23,51,8,-25,Industrial,"Poor Industrial sentiment - negative momentum, low liquidity"
+RENU.N0000,71.3,50,73,55,12,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+REXP.N0000,63.849999999999994,50,61,58,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+RFL.N0000,75.95,70,57,52,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+RGEM.N0000,75.55,60,73,44,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+RHL.N0000,63.55,55,73,64,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+RHL.X0000,50.849999999999994,45,71,52,0,-5,Industrial,Weak Industrial sentiment - limited interest
+RHTL.N0000,53.45,55,47,60,0,0,Industrial,Weak Industrial sentiment - limited interest
+RICH.N0000,76.45,60,67,68,12,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+RIL.N0000,83.9,50,69,63,24,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+RPBH.N0000,79.05,70,63,56,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+RWSL.N0000,74.7,55,77,55,12,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+SAMP.N0000,77.1,60,61,67,15,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+SCAP.N0000,73.6,65,61,45,18,-3,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+SDB.N0000,53.3,50,53,59,0,0,Financial,Weak Financial sentiment - limited interest
+SDF.N0000,51.45,55,47,52,0,0,Financial,Weak Financial sentiment - limited interest
+SEMB.N0000,70.45,60,67,60,8,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+SEMB.X0000,65.45,55,67,48,8,0,Financial,Moderate Financial sentiment - mixed signals
+SERV.N0000,60.75,55,65,64,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+SEYB.N0000,84.4,65,59,63,22,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+SEYB.X0000,69.95,60,57,56,12,0,Financial,Moderate Financial sentiment - mixed signals
+SFCL.N0000,59.4,50,49,53,12,-3,Financial,Moderate Financial sentiment - mixed signals
+SFCL.R0000,74.25,65,35,56,22,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+SFIN.N0000,75.6,60,71,59,12,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+SHAW.N0000,91.75,70,75,58,23,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+SHL.N0000,40.0,60,31,62,8,-12,Industrial,Weak Industrial sentiment - limited interest
+SHOT.N0000,70.95,65,57,60,10,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+SHOT.X0000,76.35,70,61,48,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+SIGV.N0000,62.15,60,69,56,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+SIL.N0000,84.45,65,77,54,18,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+SING.N0000,46.65,50,39,52,0,0,Industrial,Weak Industrial sentiment - limited interest
+SINH.N0000,86.75,50,85,56,23,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+SINS.N0000,89.85,55,71,64,27,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+SIRA.N0000,76.25,55,75,64,12,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+SLND.N0000,51.7,60,42,52,0,0,Industrial,Weak Industrial sentiment - limited interest
+SLTL.N0000,86.55,50,73,72,23,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+SMOT.N0000,100.0,70,75,64,30,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+SOY.N0000,65.9,50,69,55,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+SPEN.N0000,97.35,65,71,66,30,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+STAF.N0000,54.95,60,47,58,0,0,Industrial,Weak Industrial sentiment - limited interest
+SUN.N0000,99.95,65,67,66,34,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+SWAD.N0000,60.099999999999994,55,46,56,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+TAFL.N0000,93.15,70,69,56,27,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+TAJ.N0000,71.1,65,61,55,10,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+TANG.N0000,73.65,65,69,54,10,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+TAP.N0000,88.9,55,69,63,27,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+TESS.N0000,66.3,50,73,51,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+TESS.X0000,66.55,55,73,44,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+TILE.N0000,53.95,55,47,62,0,0,Industrial,Weak Industrial sentiment - limited interest
+TJL.N0000,84.45,70,37,66,27,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+TKYO.N0000,60.7,45,57,63,12,-5,Industrial,Moderate Industrial sentiment - mixed signals
+TKYO.X0000,67.95,55,57,56,12,0,Industrial,Moderate Industrial sentiment - mixed signals
+TPL.N0000,62.75,45,65,60,12,-5,Industrial,Moderate Industrial sentiment - mixed signals
+TRAN.N0000,76.1,65,46,64,18,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+TSML.N0000,67.35,60,61,56,8,0,Industrial,Moderate Industrial sentiment - mixed signals
+TYRE.N0000,56.349999999999994,60,51,58,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+UAL.N0000,73.85,60,61,66,12,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+UBC.N0000,55.849999999999994,55,51,64,0,0,Financial,Moderate Financial sentiment - mixed signals
+UBF.N0000,49.0,60,45,49,0,-3,Financial,Weak Financial sentiment - limited interest
+UCAR.N0000,58.2,55,67,51,0,0,Industrial,Moderate Industrial sentiment - mixed signals
+UDPL.N0000,74.15,50,69,60,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+UML.N0000,91.95,60,77,68,24,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+VFIN.N0000,72.9,55,69,59,12,0,Financial,"Strong Financial sentiment - positive momentum, good liquidity"
+VLL.N0000,63.2,45,67,59,12,-5,Industrial,Moderate Industrial sentiment - mixed signals
+VLL.X0000,41.05,45,43,52,0,-5,Industrial,Weak Industrial sentiment - limited interest
+VONE.N0000,73.65,55,59,64,15,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+VPEL.N0000,72.85,65,61,62,10,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+WAPO.N0000,72.65,55,69,58,12,0,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"
+WATA.N0000,100.0,65,71,63,37,0,Industrial,"Exceptional Industrial sentiment - strong momentum, high liquidity"
+WIND.N0000,66.25,55,45,66,12,0,Industrial,Moderate Industrial sentiment - mixed signals
+WLTH.N0000,49.25,60,35,52,0,0,Industrial,Weak Industrial sentiment - limited interest
+YORK.N0000,80.0,50,85,41,23,-3,Industrial,"Strong Industrial sentiment - positive momentum, good liquidity"

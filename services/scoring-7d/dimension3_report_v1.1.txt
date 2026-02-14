@@ -1,0 +1,60 @@
+================================================================================
+DIMENSION 3: VALUATION SCORING REPORT v1.1 (COLUMN FIX)
+Graham/Buffett/Damodaran Three-Pillar Framework
+Generated: 2026-02-13 21:45:31
+
+FIXES IN v1.1:
+  ✓ Column name mapping corrected (peratio, pbratio, pfcfratio, etc.)
+
+THREE-PILLAR FRAMEWORK:
+  Pillar 1 (40%): Relative Valuation (P/E, P/FCF, EV/EBITDA)
+  Pillar 2 (35%): Intrinsic Value Gap (DCF, Graham Net-Net)
+  Pillar 3 (25%): Historical Context (Mean Reversion)
+================================================================================
+
+OVERALL STATISTICS:
+  Total stocks: 298
+  Successfully scored: 298
+  Industrial companies: 236
+  Financial companies: 62
+  Deep Value (80+): 59
+  Overvalued (<40): 21
+
+SCORE DISTRIBUTION:
+  Mean: 60.9
+  Median: 57.6
+  Std Dev: 16.5
+  Min: 27.6
+  Max: 92.5
+
+QUALITY DISTRIBUTION:
+  Fairly Valued: 83 (27.9%)
+  Slight Premium: 64 (21.5%)
+  Deep Value: 59 (19.8%)
+  Fair Value: 39 (13.1%)
+  Value: 32 (10.7%)
+  Overvalued: 21 (7.0%)
+
+TOP 10 VALUE OPPORTUNITIES:
+  AMF.N0000  Score:  92.5  (Deep Value     ) [financial]
+  GUAR.N0000 Score:  92.5  (Deep Value     ) [financial]
+  ABL.N0000  Score:  92.1  (Deep Value     ) [financial]
+  LOFC.N0000 Score:  91.4  (Deep Value     ) [financial]
+  PMB.N0000  Score:  90.6  (Deep Value     ) [financial]
+  JINS.N0000 Score:  90.5  (Deep Value     ) [financial]
+  HNBF.N0000 Score:  90.4  (Deep Value     ) [financial]
+  LOLC.N0000 Score:  90.3  (Deep Value     ) [financial]
+  HNBF.X0000 Score:  90.2  (Deep Value     ) [financial]
+  ATL.N0000  Score:  89.3  (Deep Value     ) [financial]
+
+VALIDATION STOCKS:
+  LOFC.N0000 Score:  91.4  (Deep Value     ) [financial]
+  LOLC.N0000 Score:  90.3  (Deep Value     ) [financial]
+  CTC.N0000  Score:  79.4  (Value          ) [value]
+  LION.N0000 Score:  77.9  (Value          ) [value]
+  ABAN.N0000 Score:  73.3  (Value          ) [value]
+  JKH.N0000  Score:  36.0  (Overvalued     ) [value]
+
+================================================================================
+END OF REPORT
+================================================================================

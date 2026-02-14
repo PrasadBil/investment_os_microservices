@@ -1,0 +1,134 @@
+================================================================================
+DIMENSION 5: MANAGEMENT QUALITY SCORER v1.0 - VALIDATION REPORT
+================================================================================
+Date: 2026-02-13 21:45:32
+Total Stocks Scored: 298
+
+================================================================================
+OVERALL STATISTICS
+================================================================================
+Mean:   61.4
+Median: 64.5
+Std:    36.0
+Min:    0.0
+Max:    100.0
+
+SCORE DISTRIBUTION:
+  Exceptional     ( 85-100):  31 stocks ( 10.4%)
+  Strong          ( 70-85 ):  24 stocks (  8.1%)
+  Moderate        ( 55-70 ):  19 stocks (  6.4%)
+  Weak            ( 40-55 ):  49 stocks ( 16.4%)
+  Poor            (  0-40 ):  86 stocks ( 28.9%)
+
+SECTOR BREAKDOWN:
+  Financial   :  62 stocks, mean =  73.1
+  Industrial  : 229 stocks, mean =  58.3
+  Mature      :   7 stocks, mean =  58.6
+
+================================================================================
+VALIDATION RESULTS
+================================================================================
+
+❌ FAIL CTC.N0000 - Exceptional Mature management - excellent capital allocation, strong track record
+────────────────────────────────────────────────────────────
+Expected: 85-95
+Actual:   100.0
+Sector:   Mature
+Description: Exceptional management - ROE 277% up from 235%
+
+Component Breakdown:
+  Capital Allocation:    80.0 (40% weight)
+  Governance:            80.0 (30% weight)
+  Track Record:          90.0 (30% weight)
+  Modifiers:            +35.0
+  Penalties:             +0.0
+
+❌ FAIL LION.N0000 - Exceptional Industrial management - excellent capital allocation, strong track record
+────────────────────────────────────────────────────────────
+Expected: 75-85
+Actual:   100.0
+Sector:   Industrial
+Description: Strong management - ROE improving, consistent
+
+Component Breakdown:
+  Capital Allocation:    75.0 (40% weight)
+  Governance:            70.0 (30% weight)
+  Track Record:         100.0 (30% weight)
+  Modifiers:            +35.0
+  Penalties:            -10.0
+
+❌ FAIL LOLC.N0000 - Poor Financial management - value destruction, avoid
+────────────────────────────────────────────────────────────
+Expected: 40-55
+Actual:   22.5
+Sector:   Financial
+Description: Weak management - ROE collapse 13%→5%
+
+Component Breakdown:
+  Capital Allocation:    25.0 (40% weight)
+  Governance:            65.0 (30% weight)
+  Track Record:          60.0 (30% weight)
+  Modifiers:             +0.0
+  Penalties:            -25.0
+
+❌ FAIL LOFC.N0000 - Weak Financial management - concerning trends, investigate
+────────────────────────────────────────────────────────────
+Expected: 75-85
+Actual:   54.0
+Sector:   Financial
+Description: Strong management - stable ROE, world-class
+
+Component Breakdown:
+  Capital Allocation:    60.0 (40% weight)
+  Governance:            45.0 (30% weight)
+  Track Record:          55.0 (30% weight)
+  Modifiers:             +0.0
+  Penalties:             +0.0
+
+❌ FAIL JKH.N0000 - Weak Industrial management - concerning trends, investigate
+────────────────────────────────────────────────────────────
+Expected: 30-45
+Actual:   50.0
+Sector:   Industrial
+Description: Poor management - ROE declining, complexity
+
+Component Breakdown:
+  Capital Allocation:    75.0 (40% weight)
+  Governance:            65.0 (30% weight)
+  Track Record:          50.0 (30% weight)
+  Modifiers:            +10.0
+  Penalties:             +0.0
+
+================================================================================
+TOP 10 MANAGEMENT QUALITY
+================================================================================
+
+ 1. AAF.N0000    - Score: 100.0 (Financial)
+ 2. AAIC.N0000   - Score: 100.0 (Financial)
+ 3. ABAN.N0000   - Score: 100.0 (Industrial)
+ 4. ACL.N0000    - Score: 100.0 (Industrial)
+ 5. AEL.N0000    - Score: 100.0 (Industrial)
+ 6. AFSL.N0000   - Score: 100.0 (Financial)
+ 7. AHUN.N0000   - Score: 100.0 (Industrial)
+ 8. ALLI.N0000   - Score: 100.0 (Financial)
+ 9. ALUM.N0000   - Score: 100.0 (Industrial)
+10. AMF.N0000    - Score: 100.0 (Financial)
+
+================================================================================
+BOTTOM 10 MANAGEMENT QUALITY (AVOID)
+================================================================================
+
+ 1. ACAP.N0000   - Score:   0.0 (Industrial)
+ 2. AGPL.N0000   - Score:   0.0 (Industrial)
+ 3. AGST.X0000   - Score:   0.0 (Industrial)
+ 4. ASPH.N0000   - Score:   0.0 (Industrial)
+ 5. BLUE.N0000   - Score:   0.0 (Industrial)
+ 6. CALH.N0000   - Score:   0.0 (Industrial)
+ 7. CALT.N0000   - Score:   0.0 (Industrial)
+ 8. COOP.N0000   - Score:   0.0 (Financial)
+ 9. CSF.N0000    - Score:   0.0 (Industrial)
+10. CSLK.N0000   - Score:   0.0 (Industrial)
+
+================================================================================
+END OF REPORT
+================================================================================

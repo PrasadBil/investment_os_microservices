@@ -1,0 +1,133 @@
+================================================================================
+DIMENSION 7: MARKET SENTIMENT SCORER v1.0 - VALIDATION REPORT
+================================================================================
+Date: 2026-02-13 21:45:29
+Total Stocks Scored: 298
+
+================================================================================
+OVERALL STATISTICS
+================================================================================
+Mean:   69.5
+Median: 68.9
+Std:    15.6
+Min:    13.8
+Max:    100.0
+
+SCORE DISTRIBUTION:
+  Exceptional     ( 85-100):  41 stocks ( 13.8%)
+  Strong          ( 70-85 ):  87 stocks ( 29.2%)
+  Moderate        ( 55-70 ): 102 stocks ( 34.2%)
+  Weak            ( 40-55 ):  50 stocks ( 16.8%)
+  Poor            (  0-40 ):   5 stocks (  1.7%)
+
+SECTOR BREAKDOWN:
+  Financial   :  61 stocks, mean =  71.4
+  Industrial  : 237 stocks, mean =  69.0
+
+================================================================================
+VALIDATION RESULTS
+================================================================================
+
+❌ FAIL CTC.N0000 - Strong Industrial sentiment - positive momentum, good liquidity
+────────────────────────────────────────────────────────────
+Expected: 85-95
+Actual:   74.3
+Sector:   Industrial
+Description: Stable blue chip - high liquidity, steady returns
+
+Component Breakdown:
+  Trading Activity:      50.0 (40% weight)
+  Price Momentum:        61.0 (35% weight)
+  Market Recognition:    72.0 (25% weight)
+  Modifiers:            +15.0
+  Penalties:             +0.0
+
+❌ FAIL LION.N0000 - Moderate Industrial sentiment - mixed signals
+────────────────────────────────────────────────────────────
+Expected: 75-85
+Actual:   67.3
+Sector:   Industrial
+Description: Strong momentum - good liquidity
+
+Component Breakdown:
+  Trading Activity:      45.0 (40% weight)
+  Price Momentum:        61.0 (35% weight)
+  Market Recognition:    72.0 (25% weight)
+  Modifiers:            +15.0
+  Penalties:             -5.0
+
+✅ PASS LOLC.N0000 - Moderate Financial sentiment - mixed signals
+────────────────────────────────────────────────────────────
+Expected: 60-75
+Actual:   65.3
+Sector:   Financial
+Description: Declining momentum but liquid
+
+Component Breakdown:
+  Trading Activity:      50.0 (40% weight)
+  Price Momentum:        41.0 (35% weight)
+  Market Recognition:    64.0 (25% weight)
+  Modifiers:            +15.0
+  Penalties:             +0.0
+
+❌ FAIL LOFC.N0000 - Weak Financial sentiment - limited interest
+────────────────────────────────────────────────────────────
+Expected: 80-90
+Actual:   40.0
+Sector:   Financial
+Description: Strong performance - institutional favorite
+
+Component Breakdown:
+  Trading Activity:      60.0 (40% weight)
+  Price Momentum:        16.0 (35% weight)
+  Market Recognition:    70.0 (25% weight)
+  Modifiers:            +15.0
+  Penalties:            -10.0
+
+❌ FAIL JKH.N0000 - Strong Industrial sentiment - positive momentum, good liquidity
+────────────────────────────────────────────────────────────
+Expected: 50-65
+Actual:   72.3
+Sector:   Industrial
+Description: Large cap but declining sentiment
+
+Component Breakdown:
+  Trading Activity:      55.0 (40% weight)
+  Price Momentum:        51.0 (35% weight)
+  Market Recognition:    70.0 (25% weight)
+  Modifiers:            +15.0
+  Penalties:             +0.0
+
+================================================================================
+TOP 10 MARKET SENTIMENT
+================================================================================
+
+ 1. ASHO.N0000   - Score: 100.0 (Industrial)
+ 2. COCO.N0000   - Score: 100.0 (Industrial)
+ 3. CTEA.N0000   - Score: 100.0 (Industrial)
+ 4. DOCK.N0000   - Score: 100.0 (Industrial)
+ 5. HNB.X0000    - Score: 100.0 (Financial)
+ 6. JINS.N0000   - Score: 100.0 (Financial)
+ 7. KCAB.N0000   - Score: 100.0 (Industrial)
+ 8. LAMB.N0000   - Score: 100.0 (Industrial)
+ 9. LDEV.N0000   - Score: 100.0 (Industrial)
+10. LFIN.N0000   - Score: 100.0 (Financial)
+
+================================================================================
+BOTTOM 10 MARKET SENTIMENT (RED FLAGS)
+================================================================================
+
+ 1. KAHA.N0000   - Score:  13.8 (Industrial)
+ 2. REEF.N0000   - Score:  21.8 (Industrial)
+ 3. CSF.N0000    - Score:  30.0 (Industrial)
+ 4. DPL.N0000    - Score:  33.5 (Industrial)
+ 5. JFP.N0000    - Score:  36.2 (Industrial)
+ 6. CITW.N0000   - Score:  40.0 (Industrial)
+ 7. LOFC.N0000   - Score:  40.0 (Financial)
+ 8. SHL.N0000    - Score:  40.0 (Industrial)
+ 9. VLL.X0000    - Score:  41.0 (Industrial)
+10. LGIL.N0000   - Score:  43.6 (Financial)
+
+================================================================================
+END OF REPORT
+================================================================================

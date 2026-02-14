@@ -1,0 +1,484 @@
+2026-02-11 05:27:45 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:27:45 | granger-per-stock | INFO | TIER 1 PER-STOCK GRANGER CAUSALITY VALIDATOR v5.0
+2026-02-11 05:27:45 | granger-per-stock | INFO | Date: 2026-02-11 05:27:45
+2026-02-11 05:27:45 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:27:45 | granger-per-stock | INFO | 
+Initializing Supabase...
+2026-02-11 05:27:45 | granger-per-stock | INFO | ✅ Connected
+2026-02-11 05:27:45 | granger-per-stock | INFO | 
+📊 Testing 1 stocks
+2026-02-11 05:27:45 | granger-per-stock | INFO |    Sectors: Banking=0, Tea=0, Export=0
+2026-02-11 05:27:45 | granger-per-stock | INFO | 
+[1/1] Processing CTC.N0000...
+2026-02-11 05:27:45 | granger-per-stock | INFO | 
+============================================================
+2026-02-11 05:27:45 | granger-per-stock | INFO | Testing: CTC.N0000
+2026-02-11 05:27:45 | granger-per-stock | INFO | ============================================================
+2026-02-11 05:27:47 | granger-per-stock | INFO |   ✓ Volume → Return: p=0.5689 
+2026-02-11 05:27:47 | granger-per-stock | INFO |   ✓ Return → Volume: p=0.8274 
+2026-02-11 05:27:47 | granger-per-stock | INFO |   ✓ USD/LKR → Return: p=0.1195 
+2026-02-11 05:27:47 | granger-per-stock | INFO |   🔍 DEBUG: rates_df=140 rows
+2026-02-11 05:27:47 | granger-per-stock | INFO |   ⚠️  Insufficient interest rate overlap (89 days, need 90+)
+2026-02-11 05:27:47 | granger-per-stock | INFO |   ✅ Completed 3 tests for CTC.N0000
+2026-02-11 05:27:47 | granger-per-stock | INFO | 
+============================================================
+2026-02-11 05:27:47 | granger-per-stock | INFO | SAVING RESULTS TO SUPABASE
+2026-02-11 05:27:47 | granger-per-stock | INFO | ============================================================
+2026-02-11 05:27:47 | granger-per-stock | INFO |   ✅ Batch 1: Inserted 3 records (3/3)
+2026-02-11 05:27:47 | granger-per-stock | INFO | 
+✅ SAVED 3 RESULTS TO SUPABASE
+2026-02-11 05:27:47 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 05:27:47 | granger-per-stock | INFO | TIER 1 GRANGER VALIDATION COMPLETE
+2026-02-11 05:27:47 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:27:47 | granger-per-stock | INFO | Stocks processed: 1/1
+2026-02-11 05:27:47 | granger-per-stock | INFO | Total tests: 3
+2026-02-11 05:27:47 | granger-per-stock | INFO | Significant relationships: 0 (0.0%)
+2026-02-11 05:27:47 | granger-per-stock | INFO | Failed stocks: 0
+2026-02-11 05:27:47 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 05:27:47 | granger-per-stock | INFO | 📊 DETAILED RESULTS
+2026-02-11 05:27:47 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:27:47 | granger-per-stock | INFO | 
+📈 SUMMARY BY STOCK
+2026-02-11 05:27:47 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 05:27:47 | granger-per-stock | INFO |    CTC.N0000    0/3 significant (  0.0%)
+2026-02-11 05:27:47 | granger-per-stock | INFO | 
+🎯 SUMMARY BY PREDICTOR
+2026-02-11 05:27:47 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 05:27:47 | granger-per-stock | INFO |    volume_change              0/ 1 significant (  0.0%)
+2026-02-11 05:27:47 | granger-per-stock | INFO |    return                     0/ 1 significant (  0.0%)
+2026-02-11 05:27:47 | granger-per-stock | INFO |    usd_lkr_change_1d          0/ 1 significant (  0.0%)
+2026-02-11 05:27:47 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 05:27:47 | granger-per-stock | INFO | ✅ Results saved to tier1_granger_results table
+2026-02-11 05:27:47 | granger-per-stock | INFO | 
+NEXT STEP: Query results to identify strongest causality relationships for v6.0 integration
+2026-02-11 05:27:47 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:31:40 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:31:40 | granger-per-stock | INFO | TIER 1 PER-STOCK GRANGER CAUSALITY VALIDATOR v5.0
+2026-02-11 05:31:40 | granger-per-stock | INFO | Date: 2026-02-11 05:31:40
+2026-02-11 05:31:40 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:31:40 | granger-per-stock | INFO | 
+Initializing Supabase...
+2026-02-11 05:31:40 | granger-per-stock | INFO | ✅ Connected
+2026-02-11 05:31:40 | granger-per-stock | INFO | 
+📊 Testing 1 stocks
+2026-02-11 05:31:40 | granger-per-stock | INFO |    Sectors: Banking=1, Tea=0, Export=1
+2026-02-11 05:31:40 | granger-per-stock | INFO | 
+[1/1] Processing LOLC.N0000...
+2026-02-11 05:31:40 | granger-per-stock | INFO | 
+============================================================
+2026-02-11 05:31:40 | granger-per-stock | INFO | Testing: LOLC.N0000
+2026-02-11 05:31:40 | granger-per-stock | INFO | ============================================================
+2026-02-11 05:31:41 | granger-per-stock | INFO |   ✓ Volume → Return: p=0.2665 
+2026-02-11 05:31:41 | granger-per-stock | INFO |   ✓ Return → Volume: p=0.6440 
+2026-02-11 05:31:41 | granger-per-stock | INFO |   ✓ USD/LKR → Return: p=0.0614 
+2026-02-11 05:31:41 | granger-per-stock | INFO |   🔍 DEBUG: rates_df=140 rows
+2026-02-11 05:31:41 | granger-per-stock | INFO |   ⚠️  Insufficient interest rate overlap (89 days, need 90+)
+2026-02-11 05:31:41 | granger-per-stock | INFO |   ℹ️  LOLC.N0000 is banking stock - interest rate test prioritized
+2026-02-11 05:31:41 | granger-per-stock | INFO |   ℹ️  LOLC.N0000 is export stock - USD/LKR test prioritized
+2026-02-11 05:31:41 | granger-per-stock | INFO |   ✅ Completed 3 tests for LOLC.N0000
+2026-02-11 05:31:41 | granger-per-stock | INFO | 
+============================================================
+2026-02-11 05:31:41 | granger-per-stock | INFO | SAVING RESULTS TO SUPABASE
+2026-02-11 05:31:41 | granger-per-stock | INFO | ============================================================
+2026-02-11 05:31:41 | granger-per-stock | INFO |   ✅ Batch 1: Inserted 3 records (3/3)
+2026-02-11 05:31:41 | granger-per-stock | INFO | 
+✅ SAVED 3 RESULTS TO SUPABASE
+2026-02-11 05:31:41 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 05:31:41 | granger-per-stock | INFO | TIER 1 GRANGER VALIDATION COMPLETE
+2026-02-11 05:31:41 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:31:41 | granger-per-stock | INFO | Stocks processed: 1/1
+2026-02-11 05:31:41 | granger-per-stock | INFO | Total tests: 3
+2026-02-11 05:31:41 | granger-per-stock | INFO | Significant relationships: 0 (0.0%)
+2026-02-11 05:31:41 | granger-per-stock | INFO | Failed stocks: 0
+2026-02-11 05:31:41 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 05:31:41 | granger-per-stock | INFO | 📊 DETAILED RESULTS
+2026-02-11 05:31:41 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:31:41 | granger-per-stock | INFO | 
+⚠️  NEAR-SIGNIFICANT (0.05 ≤ p < 0.10): 1
+2026-02-11 05:31:41 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 05:31:41 | granger-per-stock | INFO | LOLC.N0000   usd_lkr_change_1d    → return     | p=0.0614 | lag= 5d | F=    2.15 | conf= 93.9%
+2026-02-11 05:31:41 | granger-per-stock | INFO | 
+📈 SUMMARY BY STOCK
+2026-02-11 05:31:41 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 05:31:41 | granger-per-stock | INFO |    LOLC.N0000   0/3 significant (  0.0%)
+2026-02-11 05:31:41 | granger-per-stock | INFO | 
+🎯 SUMMARY BY PREDICTOR
+2026-02-11 05:31:41 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 05:31:41 | granger-per-stock | INFO |    volume_change              0/ 1 significant (  0.0%)
+2026-02-11 05:31:41 | granger-per-stock | INFO |    return                     0/ 1 significant (  0.0%)
+2026-02-11 05:31:41 | granger-per-stock | INFO |    usd_lkr_change_1d          0/ 1 significant (  0.0%)
+2026-02-11 05:31:41 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 05:31:41 | granger-per-stock | INFO | ✅ Results saved to tier1_granger_results table
+2026-02-11 05:31:41 | granger-per-stock | INFO | 
+NEXT STEP: Query results to identify strongest causality relationships for v6.0 integration
+2026-02-11 05:31:41 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:32:52 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:32:52 | granger-per-stock | INFO | TIER 1 PER-STOCK GRANGER CAUSALITY VALIDATOR v5.0
+2026-02-11 05:32:52 | granger-per-stock | INFO | Date: 2026-02-11 05:32:52
+2026-02-11 05:32:52 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:32:52 | granger-per-stock | INFO | 
+Initializing Supabase...
+2026-02-11 05:32:53 | granger-per-stock | INFO | ✅ Connected
+2026-02-11 05:32:53 | granger-per-stock | INFO | 
+📊 Testing 1 stocks
+2026-02-11 05:32:53 | granger-per-stock | INFO |    Sectors: Banking=0, Tea=0, Export=0
+2026-02-11 05:32:53 | granger-per-stock | INFO | 
+[1/1] Processing SAMP.N0000...
+2026-02-11 05:32:53 | granger-per-stock | INFO | 
+============================================================
+2026-02-11 05:32:53 | granger-per-stock | INFO | Testing: SAMP.N0000
+2026-02-11 05:32:53 | granger-per-stock | INFO | ============================================================
+2026-02-11 05:32:53 | granger-per-stock | INFO |   ✓ Volume → Return: p=0.7510 
+2026-02-11 05:32:53 | granger-per-stock | INFO |   ✓ Return → Volume: p=0.4708 
+2026-02-11 05:32:53 | granger-per-stock | INFO |   ✓ USD/LKR → Return: p=0.3390 
+2026-02-11 05:32:53 | granger-per-stock | INFO |   🔍 DEBUG: rates_df=140 rows
+2026-02-11 05:32:53 | granger-per-stock | INFO |   ⚠️  Insufficient interest rate overlap (89 days, need 90+)
+2026-02-11 05:32:53 | granger-per-stock | INFO |   ✅ Completed 3 tests for SAMP.N0000
+2026-02-11 05:32:53 | granger-per-stock | INFO | 
+============================================================
+2026-02-11 05:32:53 | granger-per-stock | INFO | SAVING RESULTS TO SUPABASE
+2026-02-11 05:32:53 | granger-per-stock | INFO | ============================================================
+2026-02-11 05:32:53 | granger-per-stock | INFO |   ✅ Batch 1: Inserted 3 records (3/3)
+2026-02-11 05:32:53 | granger-per-stock | INFO | 
+✅ SAVED 3 RESULTS TO SUPABASE
+2026-02-11 05:32:53 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 05:32:53 | granger-per-stock | INFO | TIER 1 GRANGER VALIDATION COMPLETE
+2026-02-11 05:32:53 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:32:53 | granger-per-stock | INFO | Stocks processed: 1/1
+2026-02-11 05:32:53 | granger-per-stock | INFO | Total tests: 3
+2026-02-11 05:32:53 | granger-per-stock | INFO | Significant relationships: 0 (0.0%)
+2026-02-11 05:32:53 | granger-per-stock | INFO | Failed stocks: 0
+2026-02-11 05:32:53 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 05:32:53 | granger-per-stock | INFO | 📊 DETAILED RESULTS
+2026-02-11 05:32:53 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:32:53 | granger-per-stock | INFO | 
+📈 SUMMARY BY STOCK
+2026-02-11 05:32:53 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 05:32:53 | granger-per-stock | INFO |    SAMP.N0000   0/3 significant (  0.0%)
+2026-02-11 05:32:53 | granger-per-stock | INFO | 
+🎯 SUMMARY BY PREDICTOR
+2026-02-11 05:32:53 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 05:32:53 | granger-per-stock | INFO |    volume_change              0/ 1 significant (  0.0%)
+2026-02-11 05:32:53 | granger-per-stock | INFO |    return                     0/ 1 significant (  0.0%)
+2026-02-11 05:32:53 | granger-per-stock | INFO |    usd_lkr_change_1d          0/ 1 significant (  0.0%)
+2026-02-11 05:32:53 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 05:32:53 | granger-per-stock | INFO | ✅ Results saved to tier1_granger_results table
+2026-02-11 05:32:53 | granger-per-stock | INFO | 
+NEXT STEP: Query results to identify strongest causality relationships for v6.0 integration
+2026-02-11 05:32:53 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:46:04 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:46:04 | granger-per-stock | INFO | TIER 1 PER-STOCK GRANGER CAUSALITY VALIDATOR v5.0
+2026-02-11 05:46:04 | granger-per-stock | INFO | Date: 2026-02-11 05:46:04
+2026-02-11 05:46:04 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:46:04 | granger-per-stock | INFO | 
+Initializing Supabase...
+2026-02-11 05:46:04 | granger-per-stock | INFO | ✅ Connected
+2026-02-11 05:46:04 | granger-per-stock | INFO | 
+📊 Testing 1 stocks
+2026-02-11 05:46:04 | granger-per-stock | INFO |    Sectors: Banking=0, Tea=0, Export=0
+2026-02-11 05:46:04 | granger-per-stock | INFO | 
+[1/1] Processing SAMP.N0000...
+2026-02-11 05:46:04 | granger-per-stock | INFO | 
+============================================================
+2026-02-11 05:46:04 | granger-per-stock | INFO | Testing: SAMP.N0000
+2026-02-11 05:46:04 | granger-per-stock | INFO | ============================================================
+2026-02-11 05:46:05 | granger-per-stock | INFO |   ✓ Volume → Return: p=0.7510 
+2026-02-11 05:46:05 | granger-per-stock | INFO |   ✓ Return → Volume: p=0.4708 
+2026-02-11 05:46:05 | granger-per-stock | INFO |   ✓ USD/LKR → Return: p=0.3390 
+2026-02-11 05:46:05 | granger-per-stock | INFO |   🔍 DEBUG: rates_df=140 rows
+2026-02-11 05:46:05 | granger-per-stock | INFO |   🔍 DEBUG: After merge: 89 overlapping days
+2026-02-11 05:46:05 | granger-per-stock | INFO |   ✅ Completed 3 tests for SAMP.N0000
+2026-02-11 05:46:05 | granger-per-stock | INFO | 
+============================================================
+2026-02-11 05:46:05 | granger-per-stock | INFO | SAVING RESULTS TO SUPABASE
+2026-02-11 05:46:05 | granger-per-stock | INFO | ============================================================
+2026-02-11 05:46:05 | granger-per-stock | INFO |   ✅ Batch 1: Inserted 3 records (3/3)
+2026-02-11 05:46:05 | granger-per-stock | INFO | 
+✅ SAVED 3 RESULTS TO SUPABASE
+2026-02-11 05:46:05 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 05:46:05 | granger-per-stock | INFO | TIER 1 GRANGER VALIDATION COMPLETE
+2026-02-11 05:46:05 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:46:05 | granger-per-stock | INFO | Stocks processed: 1/1
+2026-02-11 05:46:05 | granger-per-stock | INFO | Total tests: 3
+2026-02-11 05:46:05 | granger-per-stock | INFO | Significant relationships: 0 (0.0%)
+2026-02-11 05:46:05 | granger-per-stock | INFO | Failed stocks: 0
+2026-02-11 05:46:05 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 05:46:05 | granger-per-stock | INFO | 📊 DETAILED RESULTS
+2026-02-11 05:46:05 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:46:05 | granger-per-stock | INFO | 
+📈 SUMMARY BY STOCK
+2026-02-11 05:46:05 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 05:46:05 | granger-per-stock | INFO |    SAMP.N0000   0/3 significant (  0.0%)
+2026-02-11 05:46:05 | granger-per-stock | INFO | 
+🎯 SUMMARY BY PREDICTOR
+2026-02-11 05:46:05 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 05:46:05 | granger-per-stock | INFO |    volume_change              0/ 1 significant (  0.0%)
+2026-02-11 05:46:05 | granger-per-stock | INFO |    return                     0/ 1 significant (  0.0%)
+2026-02-11 05:46:05 | granger-per-stock | INFO |    usd_lkr_change_1d          0/ 1 significant (  0.0%)
+2026-02-11 05:46:05 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 05:46:05 | granger-per-stock | INFO | ✅ Results saved to tier1_granger_results table
+2026-02-11 05:46:05 | granger-per-stock | INFO | 
+NEXT STEP: Query results to identify strongest causality relationships for v6.0 integration
+2026-02-11 05:46:05 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:57:00 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:57:00 | granger-per-stock | INFO | TIER 1 PER-STOCK GRANGER CAUSALITY VALIDATOR v5.0
+2026-02-11 05:57:00 | granger-per-stock | INFO | Date: 2026-02-11 05:57:00
+2026-02-11 05:57:00 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:57:00 | granger-per-stock | INFO | 
+Initializing Supabase...
+2026-02-11 05:57:00 | granger-per-stock | INFO | ✅ Connected
+2026-02-11 05:57:00 | granger-per-stock | INFO | 
+📊 Testing 1 stocks
+2026-02-11 05:57:00 | granger-per-stock | INFO |    Sectors: Banking=1, Tea=0, Export=0
+2026-02-11 05:57:00 | granger-per-stock | INFO | 
+[1/1] Processing SAMP.N0000...
+2026-02-11 05:57:00 | granger-per-stock | INFO | 
+============================================================
+2026-02-11 05:57:00 | granger-per-stock | INFO | Testing: SAMP.N0000
+2026-02-11 05:57:00 | granger-per-stock | INFO | ============================================================
+2026-02-11 05:57:01 | granger-per-stock | INFO |   ✓ Volume → Return: p=0.7510 
+2026-02-11 05:57:01 | granger-per-stock | INFO |   ✓ Return → Volume: p=0.4708 
+2026-02-11 05:57:01 | granger-per-stock | INFO |   ✓ USD/LKR → Return: p=0.3390 
+2026-02-11 05:57:01 | granger-per-stock | INFO |   🔍 DEBUG: rates_df=140 rows
+2026-02-11 05:57:01 | granger-per-stock | INFO |   🔍 DEBUG: After merge: 89 overlapping days
+2026-02-11 05:57:01 | granger-per-stock | INFO |   ℹ️  SAMP.N0000 is banking stock - interest rate test prioritized
+2026-02-11 05:57:01 | granger-per-stock | INFO |   ✅ Completed 3 tests for SAMP.N0000
+2026-02-11 05:57:01 | granger-per-stock | INFO | 
+============================================================
+2026-02-11 05:57:01 | granger-per-stock | INFO | SAVING RESULTS TO SUPABASE
+2026-02-11 05:57:01 | granger-per-stock | INFO | ============================================================
+2026-02-11 05:57:01 | granger-per-stock | INFO |   ✅ Batch 1: Inserted 3 records (3/3)
+2026-02-11 05:57:01 | granger-per-stock | INFO | 
+✅ SAVED 3 RESULTS TO SUPABASE
+2026-02-11 05:57:01 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 05:57:01 | granger-per-stock | INFO | TIER 1 GRANGER VALIDATION COMPLETE
+2026-02-11 05:57:01 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:57:01 | granger-per-stock | INFO | Stocks processed: 1/1
+2026-02-11 05:57:01 | granger-per-stock | INFO | Total tests: 3
+2026-02-11 05:57:01 | granger-per-stock | INFO | Significant relationships: 0 (0.0%)
+2026-02-11 05:57:01 | granger-per-stock | INFO | Failed stocks: 0
+2026-02-11 05:57:01 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 05:57:01 | granger-per-stock | INFO | 📊 DETAILED RESULTS
+2026-02-11 05:57:01 | granger-per-stock | INFO | ================================================================================
+2026-02-11 05:57:01 | granger-per-stock | INFO | 
+📈 SUMMARY BY STOCK
+2026-02-11 05:57:01 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 05:57:01 | granger-per-stock | INFO |    SAMP.N0000   0/3 significant (  0.0%)
+2026-02-11 05:57:01 | granger-per-stock | INFO | 
+🎯 SUMMARY BY PREDICTOR
+2026-02-11 05:57:01 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 05:57:01 | granger-per-stock | INFO |    volume_change              0/ 1 significant (  0.0%)
+2026-02-11 05:57:01 | granger-per-stock | INFO |    return                     0/ 1 significant (  0.0%)
+2026-02-11 05:57:01 | granger-per-stock | INFO |    usd_lkr_change_1d          0/ 1 significant (  0.0%)
+2026-02-11 05:57:01 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 05:57:01 | granger-per-stock | INFO | ✅ Results saved to tier1_granger_results table
+2026-02-11 05:57:01 | granger-per-stock | INFO | 
+NEXT STEP: Query results to identify strongest causality relationships for v6.0 integration
+2026-02-11 05:57:01 | granger-per-stock | INFO | ================================================================================
+2026-02-11 06:05:11 | granger-per-stock | INFO | ================================================================================
+2026-02-11 06:05:11 | granger-per-stock | INFO | TIER 1 PER-STOCK GRANGER CAUSALITY VALIDATOR v5.0
+2026-02-11 06:05:11 | granger-per-stock | INFO | Date: 2026-02-11 06:05:11
+2026-02-11 06:05:11 | granger-per-stock | INFO | ================================================================================
+2026-02-11 06:05:11 | granger-per-stock | INFO | 
+Initializing Supabase...
+2026-02-11 06:05:11 | granger-per-stock | INFO | ✅ Connected
+2026-02-11 06:05:11 | granger-per-stock | INFO | 
+📊 Testing 1 stocks
+2026-02-11 06:05:11 | granger-per-stock | INFO |    Sectors: Banking=1, Tea=0, Export=1
+2026-02-11 06:05:11 | granger-per-stock | INFO | 
+[1/1] Processing LOLC.N0000...
+2026-02-11 06:05:11 | granger-per-stock | INFO | 
+============================================================
+2026-02-11 06:05:11 | granger-per-stock | INFO | Testing: LOLC.N0000
+2026-02-11 06:05:11 | granger-per-stock | INFO | ============================================================
+2026-02-11 06:05:11 | granger-per-stock | INFO |   ✓ Volume → Return: p=0.2665 
+2026-02-11 06:05:11 | granger-per-stock | INFO |   ✓ Return → Volume: p=0.6440 
+2026-02-11 06:05:11 | granger-per-stock | INFO |   ✓ USD/LKR → Return: p=0.0614 
+2026-02-11 06:05:11 | granger-per-stock | INFO |   🔍 DEBUG: rates_df=140 rows
+2026-02-11 06:05:11 | granger-per-stock | INFO |   🔍 DEBUG: After merge: 89 overlapping days
+2026-02-11 06:05:11 | granger-per-stock | INFO |   ℹ️  LOLC.N0000 is banking stock - interest rate test prioritized
+2026-02-11 06:05:11 | granger-per-stock | INFO |   ℹ️  LOLC.N0000 is export stock - USD/LKR test prioritized
+2026-02-11 06:05:11 | granger-per-stock | INFO |   ✅ Completed 3 tests for LOLC.N0000
+2026-02-11 06:05:11 | granger-per-stock | INFO | 
+============================================================
+2026-02-11 06:05:11 | granger-per-stock | INFO | SAVING RESULTS TO SUPABASE
+2026-02-11 06:05:11 | granger-per-stock | INFO | ============================================================
+2026-02-11 06:05:11 | granger-per-stock | INFO |   ✅ Batch 1: Inserted 3 records (3/3)
+2026-02-11 06:05:11 | granger-per-stock | INFO | 
+✅ SAVED 3 RESULTS TO SUPABASE
+2026-02-11 06:05:11 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 06:05:11 | granger-per-stock | INFO | TIER 1 GRANGER VALIDATION COMPLETE
+2026-02-11 06:05:11 | granger-per-stock | INFO | ================================================================================
+2026-02-11 06:05:11 | granger-per-stock | INFO | Stocks processed: 1/1
+2026-02-11 06:05:11 | granger-per-stock | INFO | Total tests: 3
+2026-02-11 06:05:11 | granger-per-stock | INFO | Significant relationships: 0 (0.0%)
+2026-02-11 06:05:11 | granger-per-stock | INFO | Failed stocks: 0
+2026-02-11 06:05:11 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 06:05:11 | granger-per-stock | INFO | 📊 DETAILED RESULTS
+2026-02-11 06:05:11 | granger-per-stock | INFO | ================================================================================
+2026-02-11 06:05:11 | granger-per-stock | INFO | 
+⚠️  NEAR-SIGNIFICANT (0.05 ≤ p < 0.10): 1
+2026-02-11 06:05:11 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 06:05:11 | granger-per-stock | INFO | LOLC.N0000   usd_lkr_change_1d    → return     | p=0.0614 | lag= 5d | F=    2.15 | conf= 93.9%
+2026-02-11 06:05:11 | granger-per-stock | INFO | 
+📈 SUMMARY BY STOCK
+2026-02-11 06:05:11 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 06:05:11 | granger-per-stock | INFO |    LOLC.N0000   0/3 significant (  0.0%)
+2026-02-11 06:05:11 | granger-per-stock | INFO | 
+🎯 SUMMARY BY PREDICTOR
+2026-02-11 06:05:11 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 06:05:11 | granger-per-stock | INFO |    volume_change              0/ 1 significant (  0.0%)
+2026-02-11 06:05:11 | granger-per-stock | INFO |    return                     0/ 1 significant (  0.0%)
+2026-02-11 06:05:11 | granger-per-stock | INFO |    usd_lkr_change_1d          0/ 1 significant (  0.0%)
+2026-02-11 06:05:11 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 06:05:11 | granger-per-stock | INFO | ✅ Results saved to tier1_granger_results table
+2026-02-11 06:05:11 | granger-per-stock | INFO | 
+NEXT STEP: Query results to identify strongest causality relationships for v6.0 integration
+2026-02-11 06:05:11 | granger-per-stock | INFO | ================================================================================
+2026-02-11 06:16:01 | granger-per-stock | INFO | ================================================================================
+2026-02-11 06:16:01 | granger-per-stock | INFO | TIER 1 PER-STOCK GRANGER CAUSALITY VALIDATOR v5.0
+2026-02-11 06:16:01 | granger-per-stock | INFO | Date: 2026-02-11 06:16:01
+2026-02-11 06:16:01 | granger-per-stock | INFO | ================================================================================
+2026-02-11 06:16:01 | granger-per-stock | INFO | 
+Initializing Supabase...
+2026-02-11 06:16:01 | granger-per-stock | INFO | ✅ Connected
+2026-02-11 06:16:01 | granger-per-stock | INFO | 
+📊 Testing 1 stocks
+2026-02-11 06:16:01 | granger-per-stock | INFO |    Sectors: Banking=1, Tea=0, Export=1
+2026-02-11 06:16:01 | granger-per-stock | INFO | 
+[1/1] Processing LOLC.N0000...
+2026-02-11 06:16:01 | granger-per-stock | INFO | 
+============================================================
+2026-02-11 06:16:01 | granger-per-stock | INFO | Testing: LOLC.N0000
+2026-02-11 06:16:01 | granger-per-stock | INFO | ============================================================
+2026-02-11 06:16:02 | granger-per-stock | INFO |   ✓ Volume → Return: p=0.2665 
+2026-02-11 06:16:02 | granger-per-stock | INFO |   ✓ Return → Volume: p=0.6440 
+2026-02-11 06:16:02 | granger-per-stock | INFO |   ✓ USD/LKR → Return: p=0.0614 
+2026-02-11 06:16:02 | granger-per-stock | INFO |   🔍 DEBUG: rates_df=140 rows
+2026-02-11 06:16:02 | granger-per-stock | INFO |   🔍 DEBUG: After merge: 89 overlapping days
+2026-02-11 06:16:02 | granger-per-stock | INFO |   ℹ️  LOLC.N0000 is banking stock - interest rate test prioritized
+2026-02-11 06:16:02 | granger-per-stock | INFO |   ℹ️  LOLC.N0000 is export stock - USD/LKR test prioritized
+2026-02-11 06:16:02 | granger-per-stock | INFO |   ✅ Completed 3 tests for LOLC.N0000
+2026-02-11 06:16:02 | granger-per-stock | INFO | 
+============================================================
+2026-02-11 06:16:02 | granger-per-stock | INFO | SAVING RESULTS TO SUPABASE
+2026-02-11 06:16:02 | granger-per-stock | INFO | ============================================================
+2026-02-11 06:16:02 | granger-per-stock | INFO |   ✅ Batch 1: Inserted 3 records (3/3)
+2026-02-11 06:16:02 | granger-per-stock | INFO | 
+✅ SAVED 3 RESULTS TO SUPABASE
+2026-02-11 06:16:02 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 06:16:02 | granger-per-stock | INFO | TIER 1 GRANGER VALIDATION COMPLETE
+2026-02-11 06:16:02 | granger-per-stock | INFO | ================================================================================
+2026-02-11 06:16:02 | granger-per-stock | INFO | Stocks processed: 1/1
+2026-02-11 06:16:02 | granger-per-stock | INFO | Total tests: 3
+2026-02-11 06:16:02 | granger-per-stock | INFO | Significant relationships: 0 (0.0%)
+2026-02-11 06:16:02 | granger-per-stock | INFO | Failed stocks: 0
+2026-02-11 06:16:02 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 06:16:02 | granger-per-stock | INFO | 📊 DETAILED RESULTS
+2026-02-11 06:16:02 | granger-per-stock | INFO | ================================================================================
+2026-02-11 06:16:02 | granger-per-stock | INFO | 
+⚠️  NEAR-SIGNIFICANT (0.05 ≤ p < 0.10): 1
+2026-02-11 06:16:02 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 06:16:02 | granger-per-stock | INFO | LOLC.N0000   usd_lkr_change_1d    → return     | p=0.0614 | lag= 5d | F=    2.15 | conf= 93.9%
+2026-02-11 06:16:02 | granger-per-stock | INFO | 
+📈 SUMMARY BY STOCK
+2026-02-11 06:16:02 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 06:16:02 | granger-per-stock | INFO |    LOLC.N0000   0/3 significant (  0.0%)
+2026-02-11 06:16:02 | granger-per-stock | INFO | 
+🎯 SUMMARY BY PREDICTOR
+2026-02-11 06:16:02 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 06:16:02 | granger-per-stock | INFO |    volume_change              0/ 1 significant (  0.0%)
+2026-02-11 06:16:02 | granger-per-stock | INFO |    return                     0/ 1 significant (  0.0%)
+2026-02-11 06:16:02 | granger-per-stock | INFO |    usd_lkr_change_1d          0/ 1 significant (  0.0%)
+2026-02-11 06:16:02 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 06:16:02 | granger-per-stock | INFO | ✅ Results saved to tier1_granger_results table
+2026-02-11 06:16:02 | granger-per-stock | INFO | 
+NEXT STEP: Query results to identify strongest causality relationships for v6.0 integration
+2026-02-11 06:16:02 | granger-per-stock | INFO | ================================================================================
+2026-02-11 06:26:59 | granger-per-stock | INFO | ================================================================================
+2026-02-11 06:26:59 | granger-per-stock | INFO | TIER 1 PER-STOCK GRANGER CAUSALITY VALIDATOR v5.0
+2026-02-11 06:26:59 | granger-per-stock | INFO | Date: 2026-02-11 06:26:59
+2026-02-11 06:26:59 | granger-per-stock | INFO | ================================================================================
+2026-02-11 06:26:59 | granger-per-stock | INFO | 
+Initializing Supabase...
+2026-02-11 06:26:59 | granger-per-stock | INFO | ✅ Connected
+2026-02-11 06:26:59 | granger-per-stock | INFO | 
+📊 Testing 1 stocks
+2026-02-11 06:26:59 | granger-per-stock | INFO |    Sectors: Banking=1, Tea=0, Export=1
+2026-02-11 06:26:59 | granger-per-stock | INFO | 
+[1/1] Processing LOLC.N0000...
+2026-02-11 06:26:59 | granger-per-stock | INFO | 
+============================================================
+2026-02-11 06:26:59 | granger-per-stock | INFO | Testing: LOLC.N0000
+2026-02-11 06:26:59 | granger-per-stock | INFO | ============================================================
+2026-02-11 06:27:00 | granger-per-stock | INFO |   ✓ Volume → Return: p=0.2665 
+2026-02-11 06:27:00 | granger-per-stock | INFO |   ✓ Return → Volume: p=0.6440 
+2026-02-11 06:27:00 | granger-per-stock | INFO |   ✓ USD/LKR → Return: p=0.0614 
+2026-02-11 06:27:00 | granger-per-stock | INFO |   🔍 DEBUG: rates_df=140 rows
+2026-02-11 06:27:00 | granger-per-stock | INFO |   🔍 DEBUG: After merge: 89 overlapping days
+2026-02-11 06:27:00 | granger-per-stock | INFO |   🔍 DEBUG: Calling run_granger_test with 89 rows...
+2026-02-11 06:27:00 | granger-per-stock | INFO |   ✓ Interest Rate → Return: p=0.2045 
+2026-02-11 06:27:00 | granger-per-stock | INFO |   ℹ️  LOLC.N0000 is banking stock - interest rate test prioritized
+2026-02-11 06:27:00 | granger-per-stock | INFO |   ℹ️  LOLC.N0000 is export stock - USD/LKR test prioritized
+2026-02-11 06:27:00 | granger-per-stock | INFO |   ✅ Completed 4 tests for LOLC.N0000
+2026-02-11 06:27:00 | granger-per-stock | INFO | 
+============================================================
+2026-02-11 06:27:00 | granger-per-stock | INFO | SAVING RESULTS TO SUPABASE
+2026-02-11 06:27:00 | granger-per-stock | INFO | ============================================================
+2026-02-11 06:27:00 | granger-per-stock | INFO |   ✅ Batch 1: Inserted 4 records (4/4)
+2026-02-11 06:27:00 | granger-per-stock | INFO | 
+✅ SAVED 4 RESULTS TO SUPABASE
+2026-02-11 06:27:00 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 06:27:00 | granger-per-stock | INFO | TIER 1 GRANGER VALIDATION COMPLETE
+2026-02-11 06:27:00 | granger-per-stock | INFO | ================================================================================
+2026-02-11 06:27:00 | granger-per-stock | INFO | Stocks processed: 1/1
+2026-02-11 06:27:00 | granger-per-stock | INFO | Total tests: 4
+2026-02-11 06:27:00 | granger-per-stock | INFO | Significant relationships: 0 (0.0%)
+2026-02-11 06:27:00 | granger-per-stock | INFO | Failed stocks: 0
+2026-02-11 06:27:00 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 06:27:00 | granger-per-stock | INFO | 📊 DETAILED RESULTS
+2026-02-11 06:27:00 | granger-per-stock | INFO | ================================================================================
+2026-02-11 06:27:00 | granger-per-stock | INFO | 
+⚠️  NEAR-SIGNIFICANT (0.05 ≤ p < 0.10): 1
+2026-02-11 06:27:00 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 06:27:00 | granger-per-stock | INFO | LOLC.N0000   usd_lkr_change_1d    → return     | p=0.0614 | lag= 5d | F=    2.15 | conf= 93.9%
+2026-02-11 06:27:00 | granger-per-stock | INFO | 
+📈 SUMMARY BY STOCK
+2026-02-11 06:27:00 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 06:27:00 | granger-per-stock | INFO |    LOLC.N0000   0/4 significant (  0.0%)
+2026-02-11 06:27:00 | granger-per-stock | INFO | 
+🎯 SUMMARY BY PREDICTOR
+2026-02-11 06:27:00 | granger-per-stock | INFO | --------------------------------------------------------------------------------
+2026-02-11 06:27:00 | granger-per-stock | INFO |    volume_change              0/ 1 significant (  0.0%)
+2026-02-11 06:27:00 | granger-per-stock | INFO |    return                     0/ 1 significant (  0.0%)
+2026-02-11 06:27:00 | granger-per-stock | INFO |    usd_lkr_change_1d          0/ 1 significant (  0.0%)
+2026-02-11 06:27:00 | granger-per-stock | INFO |    awpr_change                0/ 1 significant (  0.0%)
+2026-02-11 06:27:00 | granger-per-stock | INFO | 
+================================================================================
+2026-02-11 06:27:00 | granger-per-stock | INFO | ✅ Results saved to tier1_granger_results table
+2026-02-11 06:27:00 | granger-per-stock | INFO | 
+NEXT STEP: Query results to identify strongest causality relationships for v6.0 integration
+2026-02-11 06:27:00 | granger-per-stock | INFO | ================================================================================

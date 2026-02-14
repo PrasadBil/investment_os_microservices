@@ -1,0 +1,134 @@
+================================================================================
+DIMENSION 6: BUSINESS QUALITY / MOAT SCORER v1.0 - VALIDATION REPORT
+================================================================================
+Date: 2026-02-13 21:45:32
+Total Stocks Scored: 298
+
+================================================================================
+OVERALL STATISTICS
+================================================================================
+Mean:   63.4
+Median: 68.3
+Std:    27.0
+Min:    0.6
+Max:    100.0
+
+SCORE DISTRIBUTION:
+  Exceptional     ( 85-100):  62 stocks ( 20.8%)
+  Strong          ( 70-85 ):  56 stocks ( 18.8%)
+  Moderate        ( 55-70 ):  44 stocks ( 14.8%)
+  Weak            ( 40-55 ):  29 stocks (  9.7%)
+  Poor            (  0-40 ):  81 stocks ( 27.2%)
+
+SECTOR BREAKDOWN:
+  Financial   :  62 stocks, mean =  71.0
+  Industrial  : 229 stocks, mean =  61.0
+  Mature      :   7 stocks, mean =  76.6
+
+================================================================================
+VALIDATION RESULTS
+================================================================================
+
+✅ PASS CTC.N0000 - Exceptional Mature moat - wide competitive advantage, pricing power
+────────────────────────────────────────────────────────────
+Expected: 90-100
+Actual:   100.0
+Sector:   Mature
+Description: Monopoly moat - 78% margin, tobacco license
+
+Component Breakdown:
+  Competitive Moat:     100.0 (40% weight)
+  Pricing Power:         80.0 (30% weight)
+  Customer Retention:    73.0 (30% weight)
+  Modifiers:            +35.0
+  Penalties:             +0.0
+
+✅ PASS LION.N0000 - Strong Industrial moat - solid competitive advantages
+────────────────────────────────────────────────────────────
+Expected: 75-85
+Actual:   83.4
+Sector:   Industrial
+Description: Strong brand moat - 28% margin, distribution
+
+Component Breakdown:
+  Competitive Moat:      82.0 (40% weight)
+  Pricing Power:         70.0 (30% weight)
+  Customer Retention:    72.0 (30% weight)
+  Modifiers:             +8.0
+  Penalties:             +0.0
+
+✅ PASS LOLC.N0000 - Moderate Financial moat - some competitive advantages
+────────────────────────────────────────────────────────────
+Expected: 60-75
+Actual:   69.2
+Sector:   Financial
+Description: Moderate financial moat - scale, network
+
+Component Breakdown:
+  Competitive Moat:      73.0 (40% weight)
+  Pricing Power:         50.0 (30% weight)
+  Customer Retention:    60.0 (30% weight)
+  Modifiers:            +15.0
+  Penalties:             -8.0
+
+❌ FAIL LOFC.N0000 - Exceptional Financial moat - wide competitive advantage, pricing power
+────────────────────────────────────────────────────────────
+Expected: 70-80
+Actual:   85.0
+Sector:   Financial
+Description: Good financial moat - relationships, 5.2% ROA
+
+Component Breakdown:
+  Competitive Moat:      97.0 (40% weight)
+  Pricing Power:         80.0 (30% weight)
+  Customer Retention:    65.0 (30% weight)
+  Modifiers:            +35.0
+  Penalties:             -8.0
+
+✅ PASS JKH.N0000 - Weak Industrial moat - limited competitive advantages
+────────────────────────────────────────────────────────────
+Expected: 40-55
+Actual:   49.9
+Sector:   Industrial
+Description: Weak conglomerate moat - no focus, diverse
+
+Component Breakdown:
+  Competitive Moat:      51.0 (40% weight)
+  Pricing Power:         60.0 (30% weight)
+  Customer Retention:    65.0 (30% weight)
+  Modifiers:             +0.0
+  Penalties:             -8.0
+
+================================================================================
+TOP 10 BUSINESS QUALITY / MOAT
+================================================================================
+
+ 1. ACAP.N0000   - Score: 100.0 (Industrial)
+ 2. CALH.N0000   - Score: 100.0 (Industrial)
+ 3. CALT.N0000   - Score: 100.0 (Industrial)
+ 4. CFI.N0000    - Score: 100.0 (Industrial)
+ 5. CFVF.N0000   - Score: 100.0 (Industrial)
+ 6. CINV.N0000   - Score: 100.0 (Industrial)
+ 7. CIT.N0000    - Score: 100.0 (Industrial)
+ 8. COLO.N0000   - Score: 100.0 (Industrial)
+ 9. COMD.N0000   - Score: 100.0 (Industrial)
+10. CSD.N0000    - Score: 100.0 (Industrial)
+
+================================================================================
+BOTTOM 10 BUSINESS QUALITY (COMMODITIES)
+================================================================================
+
+ 1. HAPU.N0000   - Score:   0.6 (Industrial)
+ 2. MAL.N0000    - Score:   0.6 (Industrial)
+ 3. MAL.X0000    - Score:   0.6 (Industrial)
+ 4. BALA.N0000   - Score:   6.6 (Industrial)
+ 5. KVAL.N0000   - Score:   6.6 (Industrial)
+ 6. SDB.N0000    - Score:   6.6 (Financial)
+ 7. TJL.N0000    - Score:   6.6 (Industrial)
+ 8. EMER.N0000   - Score:  11.0 (Industrial)
+ 9. ACME.N0000   - Score:  13.0 (Industrial)
+10. KAHA.N0000   - Score:  13.0 (Industrial)
+
+================================================================================
+END OF REPORT
+================================================================================

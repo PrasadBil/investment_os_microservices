@@ -1,0 +1,14 @@
+================================================================================
+INVESTMENT OS - WEEKLY SCORING AUTOMATION
+================================================================================
+Start Time: Fri Feb 13 20:54:44 +0530 2026
+Log File: /opt/investment-os/v5_logs/weekly_scoring_20260213_205444.log
+Data File: /opt/investment-os/output/2026-02-13/cleaned_data.csv
+
+[0;31mERROR: Data file not found: /opt/investment-os/output/2026-02-13/cleaned_data.csv[0m
+
+Please update DATA_FILE path in this script
+Available data files:
+/opt/investment-os/output/2026-02-10/cleaned_data.csv
+/opt/investment-os/output/2026-02-12/cleaned_data.csv
+/opt/investment-os/output/2026-02-11/cleaned_data.csv

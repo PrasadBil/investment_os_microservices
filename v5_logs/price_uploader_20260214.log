@@ -1,0 +1,2 @@
+2026-02-14 08:00:33 | price_uploader | ERROR | Usage: python3 price_uploader.py <csv_file>
+2026-02-14 08:00:33 | price_uploader | ERROR |    OR: Run after price_collector.py

@@ -1,0 +1,33 @@
+2026-02-10 21:06:40 | manipulation-detector | INFO | Manipulation Detector v5.0 starting
+2026-02-10 21:06:41 | manipulation-detector | INFO | Found 296 stocks in daily_prices (backup table)
+2026-02-10 21:06:41 | manipulation-detector | INFO | Scanning 296 stocks for manipulation patterns
+2026-02-10 21:06:43 | manipulation-detector | INFO | Progress: 50/296 stocks scanned (18 patterns found)
+2026-02-10 21:06:46 | manipulation-detector | INFO | Progress: 100/296 stocks scanned (37 patterns found)
+2026-02-10 21:06:48 | manipulation-detector | INFO | Progress: 150/296 stocks scanned (54 patterns found)
+2026-02-10 21:06:50 | manipulation-detector | INFO | Progress: 200/296 stocks scanned (72 patterns found)
+2026-02-10 21:06:52 | manipulation-detector | INFO | Progress: 250/296 stocks scanned (90 patterns found)
+2026-02-10 21:06:54 | manipulation-detector | INFO | Scan complete. Found 114 opportunities
+2026-02-10 21:06:54 | manipulation-detector | INFO | Report saved: /opt/test_report.txt
+2026-02-10 21:06:54 | manipulation-detector | INFO | JSON saved: /opt/test_report.json
+2026-02-10 21:10:11 | manipulation-detector | INFO | Manipulation Detector v5.0 starting
+2026-02-10 21:10:12 | manipulation-detector | INFO | Found 296 stocks in daily_prices (backup table)
+2026-02-10 21:10:12 | manipulation-detector | INFO | Scanning 296 stocks for manipulation patterns
+2026-02-10 21:10:16 | manipulation-detector | INFO | Progress: 50/296 stocks scanned (19 patterns found)
+2026-02-10 21:10:18 | manipulation-detector | INFO | Progress: 100/296 stocks scanned (39 patterns found)
+2026-02-10 21:10:20 | manipulation-detector | INFO | Progress: 150/296 stocks scanned (51 patterns found)
+2026-02-10 21:10:23 | manipulation-detector | INFO | Progress: 200/296 stocks scanned (71 patterns found)
+2026-02-10 21:10:25 | manipulation-detector | INFO | Progress: 250/296 stocks scanned (90 patterns found)
+2026-02-10 21:10:27 | manipulation-detector | INFO | Scan complete. Found 114 opportunities
+2026-02-10 21:10:27 | manipulation-detector | INFO | Report saved: v5_reports/v5_report_2026-02-10.txt
+2026-02-10 21:10:27 | manipulation-detector | INFO | JSON saved: v5_reports/v5_report_2026-02-10.json
+2026-02-10 21:26:50 | manipulation-detector | INFO | Manipulation Detector v5.0 starting
+2026-02-10 21:26:51 | manipulation-detector | INFO | Found 296 stocks in daily_prices (backup table)
+2026-02-10 21:26:51 | manipulation-detector | INFO | Scanning 296 stocks for manipulation patterns
+2026-02-10 21:26:53 | manipulation-detector | INFO | Progress: 50/296 stocks scanned (22 patterns found)
+2026-02-10 21:26:55 | manipulation-detector | INFO | Progress: 100/296 stocks scanned (42 patterns found)
+2026-02-10 21:26:58 | manipulation-detector | INFO | Progress: 150/296 stocks scanned (63 patterns found)
+2026-02-10 21:27:00 | manipulation-detector | INFO | Progress: 200/296 stocks scanned (82 patterns found)
+2026-02-10 21:27:02 | manipulation-detector | INFO | Progress: 250/296 stocks scanned (101 patterns found)
+2026-02-10 21:27:04 | manipulation-detector | INFO | Scan complete. Found 114 opportunities
+2026-02-10 21:27:04 | manipulation-detector | INFO | Report saved: /opt/investment-os/v5_reports/v5_report_2026-02-10.txt
+2026-02-10 21:27:04 | manipulation-detector | INFO | JSON saved: /opt/investment-os/v5_reports/v5_report_2026-02-10.json

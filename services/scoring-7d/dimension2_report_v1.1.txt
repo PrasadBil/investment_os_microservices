@@ -1,0 +1,61 @@
+================================================================================
+DIMENSION 2: FINANCIAL STRENGTH SCORING REPORT v1.1 (FORTRESS FIX)
+Buffett's Balance Sheet Principles + Basel III Standards
+Generated: 2026-02-13 21:45:31
+
+IMPROVEMENTS IN v1.1:
+  ✓ Fortress Balance Sheet Bonus (zero debt = liquidity not a concern)
+  ✓ Extended ROA scoring (differentiates exceptional banks 5%+ from good 3%+)
+================================================================================
+
+OVERALL STATISTICS:
+  Total stocks: 298
+  Successfully scored: 298
+  Industrial companies: 236
+  Financial companies: 62
+  Net cash positions: 86
+  Fortress bonus applied: 42
+  Fortress balance sheets (90+): 82
+
+SCORE DISTRIBUTION:
+  Mean: 74.3
+  Median: 75.3
+  Std Dev: 19.2
+  Min: 18.2
+  Max: 100.0
+
+QUALITY DISTRIBUTION:
+  Fortress: 82 (27.5%)
+  Good: 54 (18.1%)
+  Moderate: 54 (18.1%)
+  Adequate: 47 (15.8%)
+  Strong: 46 (15.4%)
+  Weak: 15 (5.0%)
+
+TOP 10 FINANCIAL STRENGTH SCORES:
+  ACL.N0000  Score: 100.0  (Fortress  ) [Industrial]
+  CIND.N0000 Score: 100.0  (Fortress  ) [Industrial]
+  COMD.N0000 Score: 100.0  (Fortress  ) [Industrial]
+  CSLK.N0000 Score: 100.0  (Fortress  ) [Industrial]
+  ECL.N0000  Score: 100.0  (Fortress  ) [Industrial]
+  ELPL.N0000 Score: 100.0  (Fortress  ) [Industrial]
+  GLAS.N0000 Score: 100.0  (Fortress  ) [Industrial]
+  GRAN.N0000 Score: 100.0  (Fortress  ) [Industrial]
+  HPFL.N0000 Score: 100.0  (Fortress  ) [Industrial]
+  HSIG.N0000 Score: 100.0  (Fortress  ) [Industrial]
+
+VALIDATION STOCKS:
+  v1.0: CTC=80✗ (too low), LOLC=95✓, LOFC=95✗ (same as LOLC)
+  v1.1 Expected: CTC=90+✓, LOLC=95✓, LOFC=97+✓ (better than LOLC)
+
+  LOFC.N0000 Score:  94.8  (Fortress  ) [Financial (Basel III)]
+  LION.N0000 Score:  94.5  (Fortress  ) [Industrial]
+  ABAN.N0000 Score:  94.1  (Fortress  ) [Industrial]
+  LOLC.N0000 Score:  92.2  (Fortress  ) [Financial (Basel III)]
+  CTC.N0000  Score:  90.0  (Fortress  ) [Industrial]
+  JKH.N0000  Score:  54.5  (Moderate  ) [Industrial]
+  DOCK.N0000 Score:  39.1  (Weak      ) [Industrial]
+
+================================================================================
+END OF REPORT
+================================================================================

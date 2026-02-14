@@ -1,0 +1,22 @@
+2026-02-10 16:02:10 | daily-workflow | INFO | Daily Trading Workflow starting
+2026-02-10 16:02:10 | daily-workflow | INFO | Supabase credentials verified via common.config
+2026-02-10 16:02:11 | daily-workflow | INFO | CTHR.N0000: 20 days, updated 0 days ago
+2026-02-10 16:02:11 | daily-workflow | INFO | RCH.N0000: 22 days, updated 0 days ago
+2026-02-10 16:02:11 | daily-workflow | INFO | GHLL.N0000: 22 days, updated 0 days ago
+2026-02-10 16:02:11 | daily-workflow | INFO | NEH.N0000: 30 days, updated 0 days ago
+2026-02-10 16:02:11 | daily-workflow | INFO | WIND.N0000: 22 days, updated 0 days ago
+2026-02-10 16:02:11 | daily-workflow | INFO | 3 signals found, but all below 80% confidence.
+2026-02-10 16:02:11 | daily-workflow | INFO | 1 additional signals available but holding to max 2 trades/day limit
+2026-02-10 16:02:11 | daily-workflow | INFO | Signals saved to: /opt/investment-os/signals/investment_os_signals_20260210_160211.json
+2026-02-10 16:02:11 | daily-workflow | INFO | Daily Trading Workflow complete
+2026-02-10 16:08:56 | daily-workflow | INFO | Daily Trading Workflow starting
+2026-02-10 16:08:56 | daily-workflow | INFO | Supabase credentials verified via common.config
+2026-02-10 16:08:56 | daily-workflow | INFO | CTHR.N0000: 20 days, updated 0 days ago
+2026-02-10 16:08:56 | daily-workflow | INFO | RCH.N0000: 22 days, updated 0 days ago
+2026-02-10 16:08:56 | daily-workflow | INFO | GHLL.N0000: 22 days, updated 0 days ago
+2026-02-10 16:08:56 | daily-workflow | INFO | NEH.N0000: 30 days, updated 0 days ago
+2026-02-10 16:08:56 | daily-workflow | INFO | WIND.N0000: 22 days, updated 0 days ago
+2026-02-10 16:08:56 | daily-workflow | INFO | 3 signals found, but all below 80% confidence.
+2026-02-10 16:08:56 | daily-workflow | INFO | 1 additional signals available but holding to max 2 trades/day limit
+2026-02-10 16:08:56 | daily-workflow | INFO | Signals saved to: /opt/investment-os/signals/investment_os_signals_20260210_160856.json
+2026-02-10 16:08:56 | daily-workflow | INFO | Daily Trading Workflow complete

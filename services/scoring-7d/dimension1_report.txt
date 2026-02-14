@@ -1,0 +1,90 @@
+================================================================================
+DIMENSION 1: PROFITABILITY SCORING REPORT v2.1 (FINANCIAL FIX)
+Warren Buffett 1987 Methodology + Proper Financial Evaluation
+Generated: 2026-02-13 21:45:03
+
+IMPROVEMENTS IN v2.1:
+  ✓ Financial ROA scaled properly (3%+ = excellent, not poor)
+  ✓ Financial companies use Profit Margin (not Operating Margin)
+  ✓ Aligns with Buffett's actual approach to evaluating banks
+  ✓ Uses 5Y averages for stability
+  ✓ Capped penalties at -40 max
+================================================================================
+
+OVERALL STATISTICS:
+  Total stocks: 298
+  Successfully scored: 291
+  Missing ROE 5Y: 18
+  Missing ROIC 5Y: 3
+  Used ROA proxy (financials): 22
+  Used profit margin (financials): 60
+
+SCORE DISTRIBUTION:
+  Mean: 45.5
+  Median: 46.0
+  Std Dev: 24.3
+  Min: 2.0
+  Max: 100.0
+
+QUALITY DISTRIBUTION:
+  Poor Quality: 130 (43.6%)
+  Below Average: 75 (25.2%)
+  Good Quality: 42 (14.1%)
+  Moderate: 33 (11.1%)
+  Exceptional: 12 (4.0%)
+  Buffett Standard: 6 (2.0%)
+
+BUFFETT 1987 CRITERIA (Both Tests - 5Y Data):
+  Stocks meeting criteria: 36 (12.1%)
+  Benchmark: 2.5% of Fortune 1000 (1977-1986)
+  Your market: 12.1% (CSE stocks)
+
+TOP 10 PROFITABILITY SCORES:
+  APLA.N0000 Score: 100.0  ROE 5Y:   20.6%  ROIC 5Y:   24.6%  (Exceptional)
+  CTC.N0000  Score: 100.0  ROE 5Y:  235.6%  ROIC 5Y:  298.4%  (Exceptional)
+  GLAS.N0000 Score: 100.0  ROE 5Y:   31.0%  ROIC 5Y:   29.6%  (Exceptional)
+  KCAB.N0000 Score: 100.0  ROE 5Y:   24.5%  ROIC 5Y:   34.1%  (Exceptional)
+  PKME.N0000 Score: 100.0  ROE 5Y:   70.9%  ROIC 5Y:  167.5%  (Exceptional)
+  CSLK.N0000 Score:  99.1  ROE 5Y:   24.2%  ROIC 5Y:   21.3%  (Exceptional)
+  UCAR.N0000 Score:  98.8  ROE 5Y:   20.9%  ROIC 5Y:   23.2%  (Exceptional)
+  ACL.N0000  Score:  96.9  ROE 5Y:   19.8%  ROIC 5Y:   21.2%  (Exceptional)
+  SOY.N0000  Score:  94.3  ROE 5Y:   21.9%  ROIC 5Y:   34.7%  (Exceptional)
+  CIND.N0000 Score:  93.3  ROE 5Y:   18.8%  ROIC 5Y:   24.0%  (Exceptional)
+
+BOTTOM 10 PROFITABILITY SCORES:
+  ACME.N0000 Score:   2.0  ROE 5Y:    0.0%  (Poor Quality)
+  HELA.N0000 Score:   2.0  ROE 5Y:    0.0%  (Poor Quality)
+  KAHA.N0000 Score:   2.0  ROE 5Y:    0.0%  (Poor Quality)
+  ODEL.N0000 Score:   2.0  ROE 5Y:    0.0%  (Poor Quality)
+  TAJ.N0000  Score:   2.0  ROE 5Y:    0.0%  (Poor Quality)
+  INME.N0000 Score:   2.5  ROE 5Y:    0.0%  (Poor Quality)
+  COCO.N0000 Score:   5.0  ROE 5Y:   -1.3%  (Poor Quality)
+  COCO.X0000 Score:   5.0  ROE 5Y:   -1.3%  (Poor Quality)
+  YORK.N0000 Score:   5.0  ROE 5Y:    5.0%  (Poor Quality)
+  RIL.N0000  Score:   5.9  ROE 5Y:    2.5%  (Poor Quality)
+
+VALIDATION STOCKS (Key Comparisons):
+  v2.0: CTC=100✓, LION=89✓, LOLC=24✗, JKH=6✗
+  v2.1 Expected: CTC=100✓, LION=89✓, LOLC=60-70✓, JKH=6✓(fair)
+
+  CTC.N0000  Score: 100.0  ROE 5Y:  235.6%  (Exceptional)
+  LION.N0000 Score:  91.2  ROE 5Y:   26.3%  (Exceptional)
+  COMB.N0000 Score:  70.0  ROE 5Y:   14.2%  (Good Quality)
+  ABAN.N0000 Score:  66.4  ROE 5Y:   13.1%  (Moderate)
+  DIAL.N0000 Score:  46.8  ROE 5Y:    8.0%  (Below Average)
+  LOLC.N0000 Score:  34.6  ROE 5Y:   13.5%  (Poor Quality)
+  DOCK.N0000 Score:  10.0  ROE 5Y:  -51.6%  (Poor Quality)
+  JKH.N0000  Score:   7.6  ROE 5Y:    3.9%  (Poor Quality)
+
+KEY IMPROVEMENTS (v2.0 → v2.1):
+  Financial ROA Scaling:
+    Before: 3.4% ROA → 20 pts (poor)
+    After:  3.4% ROA → 88 pts (excellent) ✓
+
+  Financial Margin Metric:
+    Before: Operating Margin -7.9% → 20 pts
+    After:  Profit Margin 12.7% → 71 pts ✓
+
+================================================================================
+END OF REPORT
+================================================================================

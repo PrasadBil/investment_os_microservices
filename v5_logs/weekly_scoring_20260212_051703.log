@@ -1,0 +1,12 @@
+
+========================================
+WEEKLY SCORING START - 2026-02-12
+========================================
+
+========================================
+STEP 1: Locate Latest Data
+========================================
+[2026-02-12 05:17:03] Found latest data: /opt/investment-os/output/2026-02-12/cleaned_data.csv
+[2026-02-12 05:17:03] WARNING: cse_metrics.csv not found
+[2026-02-12 05:17:03]    Generating CSE metrics...
+python3: can't open file '/opt/investment-os/cse_data_connector.py': [Errno 2] No such file or directory

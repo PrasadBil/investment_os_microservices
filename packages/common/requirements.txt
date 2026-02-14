@@ -1,0 +1,52 @@
+# ============================================================================
+# Investment OS - Common Library Dependencies
+# ============================================================================
+# Python Version: 3.11+
+# Last Updated: February 9, 2026
+# Installation: pip3 install -r requirements.txt
+# ============================================================================
+
+# === Core Infrastructure ===
+supabase>=2.0.0,<3.0.0          # Database client
+python-dotenv>=1.0.0,<2.0.0     # Environment config
+
+# === Data Processing ===
+pandas>=2.0.0,<3.0.0            # DataFrames for OHLCV data
+numpy>=1.24.0,<2.0.0            # Numerical operations
+
+# === Statistical Analysis ===
+# Used by: Granger causality, calendar signals, 7D scoring
+statsmodels>=0.14.0,<0.15.0     # Time series analysis
+scipy>=1.10.0,<2.0.0            # Statistical tests
+
+# === Email (included in stdlib) ===
+# smtplib - standard library
+# email.mime - standard library
+
+# === Logging (included in stdlib) ===
+# logging - standard library
+
+# ============================================================================
+# OPTIONAL DEPENDENCIES
+# ============================================================================
+# These are useful but not required for common library:
+#
+# python-dateutil>=2.8.0,<3.0.0  # Date utilities
+# pytz>=2023.3                    # Timezone handling
+# requests>=2.31.0,<3.0.0         # HTTP requests
+# ============================================================================
+
+# ============================================================================
+# INSTALLATION NOTES
+# ============================================================================
+# Production VPS:
+#   sudo pip3 install -r requirements.txt --break-system-packages
+#
+# Virtual Environment (recommended for development):
+#   python3 -m venv venv
+#   source venv/bin/activate
+#   pip install -r requirements.txt
+#
+# Docker:
+#   RUN pip install --no-cache-dir -r requirements.txt
+# ============================================================================

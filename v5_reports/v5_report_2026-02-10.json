@@ -1,0 +1,5588 @@
+[
+  {
+    "stock_symbol": "HAPU.N0000",
+    "timestamp": "2026-02-10T21:26:58.696430",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.5949826989619378,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 57.8,
+        "stop_loss": 55.101733777777795,
+        "target_price": 92.19,
+        "explanation": "STAIRSTEP! Support Rs 56.81 tested 9x. Price Rs 57.80 near support (1.7% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 56.80591111111113,
+          "resistance_level": 87.8,
+          "num_bounces": 9,
+          "distance_from_support": 0.017499743766884606
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.5949826989619378,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 57.8,
+      "stop_loss": 55.101733777777795,
+      "target_price": 92.19,
+      "explanation": "STAIRSTEP! Support Rs 56.81 tested 9x. Price Rs 57.80 near support (1.7% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 56.80591111111113,
+        "resistance_level": 87.8,
+        "num_bounces": 9,
+        "distance_from_support": 0.017499743766884606
+      }
+    },
+    "total_score": 0.40161332179930803,
+    "expected_value": 0.40161332179930803,
+    "position_size": 0.12,
+    "priority": "HIGH",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "DIMO.N0000",
+    "timestamp": "2026-02-10T21:27:01.742662",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.5806167400881057,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 1986.25,
+        "stop_loss": 1918.4297327777776,
+        "target_price": 3139.5,
+        "explanation": "STAIRSTEP! Support Rs 1977.76 tested 16x. Price Rs 1986.25 near support (0.4% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 1977.762611111111,
+          "resistance_level": 2990.0,
+          "num_bounces": 16,
+          "distance_from_support": 0.004291409313335507
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.5806167400881057,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 1986.25,
+      "stop_loss": 1918.4297327777776,
+      "target_price": 3139.5,
+      "explanation": "STAIRSTEP! Support Rs 1977.76 tested 16x. Price Rs 1986.25 near support (0.4% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 1977.762611111111,
+        "resistance_level": 2990.0,
+        "num_bounces": 16,
+        "distance_from_support": 0.004291409313335507
+      }
+    },
+    "total_score": 0.3919162995594714,
+    "expected_value": 0.3919162995594714,
+    "position_size": 0.12,
+    "priority": "HIGH",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "ASPH.N0000",
+    "timestamp": "2026-02-10T21:27:00.446636",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.575,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 0.4,
+        "stop_loss": 0.3807573333333333,
+        "target_price": 0.63,
+        "explanation": "STAIRSTEP! Support Rs 0.39 tested 48x. Price Rs 0.40 near support (1.9% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 0.3925333333333333,
+          "resistance_level": 0.6,
+          "num_bounces": 48,
+          "distance_from_support": 0.019021739130434954
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.575,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 0.4,
+      "stop_loss": 0.3807573333333333,
+      "target_price": 0.63,
+      "explanation": "STAIRSTEP! Support Rs 0.39 tested 48x. Price Rs 0.40 near support (1.9% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 0.3925333333333333,
+        "resistance_level": 0.6,
+        "num_bounces": 48,
+        "distance_from_support": 0.019021739130434954
+      }
+    },
+    "total_score": 0.388125,
+    "expected_value": 0.388125,
+    "position_size": 0.12,
+    "priority": "HIGH",
+    "is_empire_stock": true
+  },
+  {
+    "stock_symbol": "UBF.N0000",
+    "timestamp": "2026-02-10T21:27:00.405745",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.5241935483870969,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 3.1,
+        "stop_loss": 2.8705533333333335,
+        "target_price": 4.7250000000000005,
+        "explanation": "STAIRSTEP! Support Rs 2.96 tested 10x. Price Rs 3.10 near support (4.8% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 2.959333333333334,
+          "resistance_level": 4.5,
+          "num_bounces": 10,
+          "distance_from_support": 0.047533228204550436
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.5241935483870969,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 3.1,
+      "stop_loss": 2.8705533333333335,
+      "target_price": 4.7250000000000005,
+      "explanation": "STAIRSTEP! Support Rs 2.96 tested 10x. Price Rs 3.10 near support (4.8% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 2.959333333333334,
+        "resistance_level": 4.5,
+        "num_bounces": 10,
+        "distance_from_support": 0.047533228204550436
+      }
+    },
+    "total_score": 0.35383064516129037,
+    "expected_value": 0.35383064516129037,
+    "position_size": 0.12,
+    "priority": "HIGH",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "PHAR.N0000",
+    "timestamp": "2026-02-10T21:26:55.013900",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.46021505376344096,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 139.5,
+        "stop_loss": 133.6765622222222,
+        "target_price": 203.70000000000002,
+        "explanation": "STAIRSTEP! Support Rs 137.81 tested 12x. Price Rs 139.50 near support (1.2% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 137.81088888888888,
+          "resistance_level": 194.0,
+          "num_bounces": 12,
+          "distance_from_support": 0.012256731849926433
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.46021505376344096,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 139.5,
+      "stop_loss": 133.6765622222222,
+      "target_price": 203.70000000000002,
+      "explanation": "STAIRSTEP! Support Rs 137.81 tested 12x. Price Rs 139.50 near support (1.2% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 137.81088888888888,
+        "resistance_level": 194.0,
+        "num_bounces": 12,
+        "distance_from_support": 0.012256731849926433
+      }
+    },
+    "total_score": 0.31064516129032266,
+    "expected_value": 0.31064516129032266,
+    "position_size": 0.12,
+    "priority": "HIGH",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "AMF.N0000",
+    "timestamp": "2026-02-10T21:26:58.577632",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.4370967741935484,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 65.1,
+        "stop_loss": 64.83221333333333,
+        "target_price": 93.55499999999999,
+        "explanation": "STAIRSTEP! Support Rs 66.84 tested 19x. Price Rs 65.10 near support (2.6% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 66.83733333333333,
+          "resistance_level": 89.1,
+          "num_bounces": 19,
+          "distance_from_support": 0.02599345675071825
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.4370967741935484,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 65.1,
+      "stop_loss": 64.83221333333333,
+      "target_price": 93.55499999999999,
+      "explanation": "STAIRSTEP! Support Rs 66.84 tested 19x. Price Rs 65.10 near support (2.6% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 66.83733333333333,
+        "resistance_level": 89.1,
+        "num_bounces": 19,
+        "distance_from_support": 0.02599345675071825
+      }
+    },
+    "total_score": 0.2950403225806452,
+    "expected_value": 0.2950403225806452,
+    "position_size": 0.12,
+    "priority": "HIGH",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "CARG.N0000",
+    "timestamp": "2026-02-10T21:26:58.892623",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.43691780821917814,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 730.0,
+        "stop_loss": 727.70176,
+        "target_price": 1048.95,
+        "explanation": "STAIRSTEP! Support Rs 750.21 tested 14x. Price Rs 730.00 near support (2.7% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 750.2080000000001,
+          "resistance_level": 999.0,
+          "num_bounces": 14,
+          "distance_from_support": 0.026936529602457026
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.43691780821917814,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 730.0,
+      "stop_loss": 727.70176,
+      "target_price": 1048.95,
+      "explanation": "STAIRSTEP! Support Rs 750.21 tested 14x. Price Rs 730.00 near support (2.7% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 750.2080000000001,
+        "resistance_level": 999.0,
+        "num_bounces": 14,
+        "distance_from_support": 0.026936529602457026
+      }
+    },
+    "total_score": 0.2949195205479453,
+    "expected_value": 0.2949195205479453,
+    "position_size": 0.12,
+    "priority": "HIGH",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "HOPL.N0000",
+    "timestamp": "2026-02-10T21:26:56.371975",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.43424657534246586,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 51.1,
+        "stop_loss": 50.738630666666666,
+        "target_price": 73.29,
+        "explanation": "STAIRSTEP! Support Rs 52.31 tested 10x. Price Rs 51.10 near support (2.3% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 52.30786666666667,
+          "resistance_level": 69.8,
+          "num_bounces": 10,
+          "distance_from_support": 0.023091491655812146
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.43424657534246586,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 51.1,
+      "stop_loss": 50.738630666666666,
+      "target_price": 73.29,
+      "explanation": "STAIRSTEP! Support Rs 52.31 tested 10x. Price Rs 51.10 near support (2.3% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 52.30786666666667,
+        "resistance_level": 69.8,
+        "num_bounces": 10,
+        "distance_from_support": 0.023091491655812146
+      }
+    },
+    "total_score": 0.29311643835616447,
+    "expected_value": 0.29311643835616447,
+    "position_size": 0.12,
+    "priority": "HIGH",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "VLL.N0000",
+    "timestamp": "2026-02-10T21:26:57.695804",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.421397379912664,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 22.9,
+        "stop_loss": 22.204377777777776,
+        "target_price": 32.550000000000004,
+        "explanation": "STAIRSTEP! Support Rs 22.89 tested 9x. Price Rs 22.90 near support (0.0% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 22.89111111111111,
+          "resistance_level": 31.0,
+          "num_bounces": 9,
+          "distance_from_support": 0.00038831181438701346
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.421397379912664,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 22.9,
+      "stop_loss": 22.204377777777776,
+      "target_price": 32.550000000000004,
+      "explanation": "STAIRSTEP! Support Rs 22.89 tested 9x. Price Rs 22.90 near support (0.0% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 22.89111111111111,
+        "resistance_level": 31.0,
+        "num_bounces": 9,
+        "distance_from_support": 0.00038831181438701346
+      }
+    },
+    "total_score": 0.2844432314410482,
+    "expected_value": 0.2844432314410482,
+    "position_size": 0.12,
+    "priority": "HIGH",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "ALLI.N0000",
+    "timestamp": "2026-02-10T21:27:03.857954",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.421095890410959,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 365.0,
+        "stop_loss": 361.84060888888894,
+        "target_price": 518.7,
+        "explanation": "STAIRSTEP! Support Rs 373.03 tested 17x. Price Rs 365.00 near support (2.2% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 373.0315555555556,
+          "resistance_level": 494.0,
+          "num_bounces": 17,
+          "distance_from_support": 0.021530499058167372
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.421095890410959,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 365.0,
+      "stop_loss": 361.84060888888894,
+      "target_price": 518.7,
+      "explanation": "STAIRSTEP! Support Rs 373.03 tested 17x. Price Rs 365.00 near support (2.2% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 373.0315555555556,
+        "resistance_level": 494.0,
+        "num_bounces": 17,
+        "distance_from_support": 0.021530499058167372
+      }
+    },
+    "total_score": 0.28423972602739733,
+    "expected_value": 0.28423972602739733,
+    "position_size": 0.12,
+    "priority": "HIGH",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "CALT.N0000",
+    "timestamp": "2026-02-10T21:26:51.754320",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.3848113207547172,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 53.0,
+        "stop_loss": 50.464185333333326,
+        "target_price": 73.39500000000001,
+        "explanation": "STAIRSTEP! Support Rs 52.02 tested 21x. Price Rs 53.00 near support (1.9% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 52.02493333333333,
+          "resistance_level": 69.9,
+          "num_bounces": 21,
+          "distance_from_support": 0.01874229536094239
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.3848113207547172,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 53.0,
+      "stop_loss": 50.464185333333326,
+      "target_price": 73.39500000000001,
+      "explanation": "STAIRSTEP! Support Rs 52.02 tested 21x. Price Rs 53.00 near support (1.9% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 52.02493333333333,
+        "resistance_level": 69.9,
+        "num_bounces": 21,
+        "distance_from_support": 0.01874229536094239
+      }
+    },
+    "total_score": 0.2597476415094341,
+    "expected_value": 0.2597476415094341,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "TANG.N0000",
+    "timestamp": "2026-02-10T21:26:55.096283",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.3674901185770752,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 126.5,
+        "stop_loss": 121.23900666666667,
+        "target_price": 172.9875,
+        "explanation": "STAIRSTEP! Support Rs 124.99 tested 9x. Price Rs 126.50 near support (1.2% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 124.98866666666667,
+          "resistance_level": 164.75,
+          "num_bounces": 9,
+          "distance_from_support": 0.012091762986510716
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.3674901185770752,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 126.5,
+      "stop_loss": 121.23900666666667,
+      "target_price": 172.9875,
+      "explanation": "STAIRSTEP! Support Rs 124.99 tested 9x. Price Rs 126.50 near support (1.2% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 124.98866666666667,
+        "resistance_level": 164.75,
+        "num_bounces": 9,
+        "distance_from_support": 0.012091762986510716
+      }
+    },
+    "total_score": 0.24805583003952578,
+    "expected_value": 0.24805583003952578,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "TAP.N0000",
+    "timestamp": "2026-02-10T21:27:02.057178",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.36500000000000005,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 40.0,
+        "stop_loss": 39.058041555555555,
+        "target_price": 54.6,
+        "explanation": "STAIRSTEP! Support Rs 40.27 tested 10x. Price Rs 40.00 near support (0.7% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 40.26602222222222,
+          "resistance_level": 52.0,
+          "num_bounces": 10,
+          "distance_from_support": 0.006606617876334582
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.36500000000000005,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 40.0,
+      "stop_loss": 39.058041555555555,
+      "target_price": 54.6,
+      "explanation": "STAIRSTEP! Support Rs 40.27 tested 10x. Price Rs 40.00 near support (0.7% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 40.26602222222222,
+        "resistance_level": 52.0,
+        "num_bounces": 10,
+        "distance_from_support": 0.006606617876334582
+      }
+    },
+    "total_score": 0.24637500000000004,
+    "expected_value": 0.24637500000000004,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "ONAL.N0000",
+    "timestamp": "2026-02-10T21:26:55.719020",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.3645374449339208,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 45.4,
+        "stop_loss": 43.6209,
+        "target_price": 61.95,
+        "explanation": "STAIRSTEP! Support Rs 44.97 tested 12x. Price Rs 45.40 near support (1.0% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 44.97,
+          "resistance_level": 59.0,
+          "num_bounces": 12,
+          "distance_from_support": 0.009561930175672665
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.3645374449339208,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 45.4,
+      "stop_loss": 43.6209,
+      "target_price": 61.95,
+      "explanation": "STAIRSTEP! Support Rs 44.97 tested 12x. Price Rs 45.40 near support (1.0% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 44.97,
+        "resistance_level": 59.0,
+        "num_bounces": 12,
+        "distance_from_support": 0.009561930175672665
+      }
+    },
+    "total_score": 0.24606277533039658,
+    "expected_value": 0.24606277533039658,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "SFIN.N0000",
+    "timestamp": "2026-02-10T21:27:00.313982",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.3583916083916084,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 57.2,
+        "stop_loss": 55.09181822222224,
+        "target_price": 77.7,
+        "explanation": "STAIRSTEP! Support Rs 56.80 tested 15x. Price Rs 57.20 near support (0.7% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 56.795688888888904,
+          "resistance_level": 74.0,
+          "num_bounces": 15,
+          "distance_from_support": 0.007118693672367716
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.3583916083916084,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 57.2,
+      "stop_loss": 55.09181822222224,
+      "target_price": 77.7,
+      "explanation": "STAIRSTEP! Support Rs 56.80 tested 15x. Price Rs 57.20 near support (0.7% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 56.795688888888904,
+        "resistance_level": 74.0,
+        "num_bounces": 15,
+        "distance_from_support": 0.007118693672367716
+      }
+    },
+    "total_score": 0.24191433566433568,
+    "expected_value": 0.24191433566433568,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "TSML.N0000",
+    "timestamp": "2026-02-10T21:26:53.876255",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.3577586206896552,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 46.4,
+        "stop_loss": 45.96256622222223,
+        "target_price": 63.0,
+        "explanation": "STAIRSTEP! Support Rs 47.38 tested 26x. Price Rs 46.40 near support (2.1% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 47.3840888888889,
+          "resistance_level": 60.0,
+          "num_bounces": 26,
+          "distance_from_support": 0.02076834042744795
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.3577586206896552,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 46.4,
+      "stop_loss": 45.96256622222223,
+      "target_price": 63.0,
+      "explanation": "STAIRSTEP! Support Rs 47.38 tested 26x. Price Rs 46.40 near support (2.1% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 47.3840888888889,
+        "resistance_level": 60.0,
+        "num_bounces": 26,
+        "distance_from_support": 0.02076834042744795
+      }
+    },
+    "total_score": 0.24148706896551725,
+    "expected_value": 0.24148706896551725,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "LITE.N0000",
+    "timestamp": "2026-02-10T21:26:51.892435",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.3471698113207548,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 53.0,
+        "stop_loss": 52.649271999999996,
+        "target_price": 71.4,
+        "explanation": "STAIRSTEP! Support Rs 54.28 tested 20x. Price Rs 53.00 near support (2.4% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 54.2776,
+          "resistance_level": 68.0,
+          "num_bounces": 20,
+          "distance_from_support": 0.023538255191828665
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.3471698113207548,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 53.0,
+      "stop_loss": 52.649271999999996,
+      "target_price": 71.4,
+      "explanation": "STAIRSTEP! Support Rs 54.28 tested 20x. Price Rs 53.00 near support (2.4% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 54.2776,
+        "resistance_level": 68.0,
+        "num_bounces": 20,
+        "distance_from_support": 0.023538255191828665
+      }
+    },
+    "total_score": 0.23433962264150948,
+    "expected_value": 0.23433962264150948,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "JETS.N0000",
+    "timestamp": "2026-02-10T21:27:02.266518",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.3416666666666668,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 18.0,
+        "stop_loss": 18.109770666666666,
+        "target_price": 24.150000000000002,
+        "explanation": "STAIRSTEP! Support Rs 18.67 tested 17x. Price Rs 18.00 near support (3.6% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 18.669866666666667,
+          "resistance_level": 23.0,
+          "num_bounces": 17,
+          "distance_from_support": 0.03587956350339946
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.3416666666666668,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 18.0,
+      "stop_loss": 18.109770666666666,
+      "target_price": 24.150000000000002,
+      "explanation": "STAIRSTEP! Support Rs 18.67 tested 17x. Price Rs 18.00 near support (3.6% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 18.669866666666667,
+        "resistance_level": 23.0,
+        "num_bounces": 17,
+        "distance_from_support": 0.03587956350339946
+      }
+    },
+    "total_score": 0.23062500000000008,
+    "expected_value": 0.23062500000000008,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "SHOT.N0000",
+    "timestamp": "2026-02-10T21:27:02.501720",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.3382352941176472,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 20.4,
+        "stop_loss": 20.307812222222218,
+        "target_price": 27.3,
+        "explanation": "STAIRSTEP! Support Rs 20.94 tested 29x. Price Rs 20.40 near support (2.6% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 20.935888888888886,
+          "resistance_level": 26.0,
+          "num_bounces": 29,
+          "distance_from_support": 0.025596662827786366
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.3382352941176472,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 20.4,
+      "stop_loss": 20.307812222222218,
+      "target_price": 27.3,
+      "explanation": "STAIRSTEP! Support Rs 20.94 tested 29x. Price Rs 20.40 near support (2.6% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 20.935888888888886,
+        "resistance_level": 26.0,
+        "num_bounces": 29,
+        "distance_from_support": 0.025596662827786366
+      }
+    },
+    "total_score": 0.22830882352941187,
+    "expected_value": 0.22830882352941187,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "PINS.N0000",
+    "timestamp": "2026-02-10T21:27:03.819462",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.3295454545454546,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 30.8,
+        "stop_loss": 29.86746399999999,
+        "target_price": 40.95,
+        "explanation": "STAIRSTEP! Support Rs 30.79 tested 19x. Price Rs 30.80 near support (0.0% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 30.791199999999993,
+          "resistance_level": 39.0,
+          "num_bounces": 19,
+          "distance_from_support": 0.0002857959416978849
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.3295454545454546,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 30.8,
+      "stop_loss": 29.86746399999999,
+      "target_price": 40.95,
+      "explanation": "STAIRSTEP! Support Rs 30.79 tested 19x. Price Rs 30.80 near support (0.0% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 30.791199999999993,
+        "resistance_level": 39.0,
+        "num_bounces": 19,
+        "distance_from_support": 0.0002857959416978849
+      }
+    },
+    "total_score": 0.22244318181818185,
+    "expected_value": 0.22244318181818185,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "DIPD.N0000",
+    "timestamp": "2026-02-10T21:26:59.387887",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.3258474576271188,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 59.0,
+        "stop_loss": 59.972297777777776,
+        "target_price": 78.22500000000001,
+        "explanation": "STAIRSTEP! Support Rs 61.83 tested 17x. Price Rs 59.00 near support (4.6% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 61.82711111111111,
+          "resistance_level": 74.5,
+          "num_bounces": 17,
+          "distance_from_support": 0.045726074861082114
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.3258474576271188,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 59.0,
+      "stop_loss": 59.972297777777776,
+      "target_price": 78.22500000000001,
+      "explanation": "STAIRSTEP! Support Rs 61.83 tested 17x. Price Rs 59.00 near support (4.6% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 61.82711111111111,
+        "resistance_level": 74.5,
+        "num_bounces": 17,
+        "distance_from_support": 0.045726074861082114
+      }
+    },
+    "total_score": 0.2199470338983052,
+    "expected_value": 0.2199470338983052,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": true
+  },
+  {
+    "stock_symbol": "BERU.N0000",
+    "timestamp": "2026-02-10T21:26:54.974589",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.3125000000000001,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 3.6,
+        "stop_loss": 3.528213333333334,
+        "target_price": 4.7250000000000005,
+        "explanation": "STAIRSTEP! Support Rs 3.64 tested 32x. Price Rs 3.60 near support (1.0% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 3.637333333333334,
+          "resistance_level": 4.5,
+          "num_bounces": 32,
+          "distance_from_support": 0.010263929618768538
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.3125000000000001,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 3.6,
+      "stop_loss": 3.528213333333334,
+      "target_price": 4.7250000000000005,
+      "explanation": "STAIRSTEP! Support Rs 3.64 tested 32x. Price Rs 3.60 near support (1.0% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 3.637333333333334,
+        "resistance_level": 4.5,
+        "num_bounces": 32,
+        "distance_from_support": 0.010263929618768538
+      }
+    },
+    "total_score": 0.21093750000000008,
+    "expected_value": 0.21093750000000008,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "CHOT.N0000",
+    "timestamp": "2026-02-10T21:26:57.039808",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.85,
+        "expected_return": 0.3252427184466019,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 41.2,
+        "stop_loss": 38.25811488888888,
+        "target_price": 54.6,
+        "explanation": "STAIRSTEP! Support Rs 39.44 tested 6x. Price Rs 41.20 near support (4.5% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 39.44135555555555,
+          "resistance_level": 52.0,
+          "num_bounces": 6,
+          "distance_from_support": 0.04458884385875865
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.85,
+      "expected_return": 0.3252427184466019,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 41.2,
+      "stop_loss": 38.25811488888888,
+      "target_price": 54.6,
+      "explanation": "STAIRSTEP! Support Rs 39.44 tested 6x. Price Rs 41.20 near support (4.5% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 39.44135555555555,
+        "resistance_level": 52.0,
+        "num_bounces": 6,
+        "distance_from_support": 0.04458884385875865
+      }
+    },
+    "total_score": 0.20734223300970872,
+    "expected_value": 0.20734223300970872,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "UBC.N0000",
+    "timestamp": "2026-02-10T21:26:52.846079",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.30344827586206913,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 14.5,
+        "stop_loss": 13.968775999999998,
+        "target_price": 18.900000000000002,
+        "explanation": "STAIRSTEP! Support Rs 14.40 tested 25x. Price Rs 14.50 near support (0.7% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 14.400799999999998,
+          "resistance_level": 18.0,
+          "num_bounces": 25,
+          "distance_from_support": 0.006888506194100434
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.30344827586206913,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 14.5,
+      "stop_loss": 13.968775999999998,
+      "target_price": 18.900000000000002,
+      "explanation": "STAIRSTEP! Support Rs 14.40 tested 25x. Price Rs 14.50 near support (0.7% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 14.400799999999998,
+        "resistance_level": 18.0,
+        "num_bounces": 25,
+        "distance_from_support": 0.006888506194100434
+      }
+    },
+    "total_score": 0.20482758620689667,
+    "expected_value": 0.20482758620689667,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "REEF.N0000",
+    "timestamp": "2026-02-10T21:26:51.801796",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.30000000000000016,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 4.2,
+        "stop_loss": 4.102022222222223,
+        "target_price": 5.460000000000001,
+        "explanation": "STAIRSTEP! Support Rs 4.23 tested 52x. Price Rs 4.20 near support (0.7% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 4.228888888888889,
+          "resistance_level": 5.2,
+          "num_bounces": 52,
+          "distance_from_support": 0.006831318970047311
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.30000000000000016,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 4.2,
+      "stop_loss": 4.102022222222223,
+      "target_price": 5.460000000000001,
+      "explanation": "STAIRSTEP! Support Rs 4.23 tested 52x. Price Rs 4.20 near support (0.7% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 4.228888888888889,
+        "resistance_level": 5.2,
+        "num_bounces": 52,
+        "distance_from_support": 0.006831318970047311
+      }
+    },
+    "total_score": 0.2025000000000001,
+    "expected_value": 0.2025000000000001,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "SHAW.N0000",
+    "timestamp": "2026-02-10T21:26:58.395951",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.29719730941704053,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 223.0,
+        "stop_loss": 213.6252016666667,
+        "target_price": 289.27500000000003,
+        "explanation": "STAIRSTEP! Support Rs 220.23 tested 15x. Price Rs 223.00 near support (1.3% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 220.2321666666667,
+          "resistance_level": 275.5,
+          "num_bounces": 15,
+          "distance_from_support": 0.012567797770988494
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.29719730941704053,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 223.0,
+      "stop_loss": 213.6252016666667,
+      "target_price": 289.27500000000003,
+      "explanation": "STAIRSTEP! Support Rs 220.23 tested 15x. Price Rs 223.00 near support (1.3% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 220.2321666666667,
+        "resistance_level": 275.5,
+        "num_bounces": 15,
+        "distance_from_support": 0.012567797770988494
+      }
+    },
+    "total_score": 0.20060818385650236,
+    "expected_value": 0.20060818385650236,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "MARA.N0000",
+    "timestamp": "2026-02-10T21:26:57.332340",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.2970588235294118,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 6.8,
+        "stop_loss": 6.572051777777778,
+        "target_price": 8.82,
+        "explanation": "STAIRSTEP! Support Rs 6.78 tested 46x. Price Rs 6.80 near support (0.4% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 6.775311111111112,
+          "resistance_level": 8.4,
+          "num_bounces": 46,
+          "distance_from_support": 0.0036439491093478746
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.2970588235294118,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 6.8,
+      "stop_loss": 6.572051777777778,
+      "target_price": 8.82,
+      "explanation": "STAIRSTEP! Support Rs 6.78 tested 46x. Price Rs 6.80 near support (0.4% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 6.775311111111112,
+        "resistance_level": 8.4,
+        "num_bounces": 46,
+        "distance_from_support": 0.0036439491093478746
+      }
+    },
+    "total_score": 0.20051470588235298,
+    "expected_value": 0.20051470588235298,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "AHPL.N0000",
+    "timestamp": "2026-02-10T21:26:52.171573",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.296731448763251,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 56.6,
+        "stop_loss": 57.13946666666667,
+        "target_price": 73.39500000000001,
+        "explanation": "STAIRSTEP! Support Rs 58.91 tested 15x. Price Rs 56.60 near support (3.9% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 58.90666666666667,
+          "resistance_level": 69.9,
+          "num_bounces": 15,
+          "distance_from_support": 0.0391579900407425
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.296731448763251,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 56.6,
+      "stop_loss": 57.13946666666667,
+      "target_price": 73.39500000000001,
+      "explanation": "STAIRSTEP! Support Rs 58.91 tested 15x. Price Rs 56.60 near support (3.9% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 58.90666666666667,
+        "resistance_level": 69.9,
+        "num_bounces": 15,
+        "distance_from_support": 0.0391579900407425
+      }
+    },
+    "total_score": 0.20029372791519442,
+    "expected_value": 0.20029372791519442,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": true
+  },
+  {
+    "stock_symbol": "AINS.N0000",
+    "timestamp": "2026-02-10T21:27:01.034767",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.2916438356164384,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 36.5,
+        "stop_loss": 34.9491,
+        "target_price": 47.145,
+        "explanation": "STAIRSTEP! Support Rs 36.03 tested 23x. Price Rs 36.50 near support (1.3% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 36.03,
+          "resistance_level": 44.9,
+          "num_bounces": 23,
+          "distance_from_support": 0.01304468498473491
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.2916438356164384,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 36.5,
+      "stop_loss": 34.9491,
+      "target_price": 47.145,
+      "explanation": "STAIRSTEP! Support Rs 36.03 tested 23x. Price Rs 36.50 near support (1.3% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 36.03,
+        "resistance_level": 44.9,
+        "num_bounces": 23,
+        "distance_from_support": 0.01304468498473491
+      }
+    },
+    "total_score": 0.19685958904109596,
+    "expected_value": 0.19685958904109596,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "JAT.N0000",
+    "timestamp": "2026-02-10T21:26:54.459767",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.2892699115044248,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 45.2,
+        "stop_loss": 45.84866666666667,
+        "target_price": 58.275000000000006,
+        "explanation": "STAIRSTEP! Support Rs 47.27 tested 16x. Price Rs 45.20 near support (4.4% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 47.266666666666666,
+          "resistance_level": 55.5,
+          "num_bounces": 16,
+          "distance_from_support": 0.04372355430183349
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.2892699115044248,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 45.2,
+      "stop_loss": 45.84866666666667,
+      "target_price": 58.275000000000006,
+      "explanation": "STAIRSTEP! Support Rs 47.27 tested 16x. Price Rs 45.20 near support (4.4% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 47.266666666666666,
+        "resistance_level": 55.5,
+        "num_bounces": 16,
+        "distance_from_support": 0.04372355430183349
+      }
+    },
+    "total_score": 0.19525719026548677,
+    "expected_value": 0.19525719026548677,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "LOFC.N0000",
+    "timestamp": "2026-02-10T21:26:58.068969",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.28135593220338984,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 5.9,
+        "stop_loss": 5.4920106666666655,
+        "target_price": 7.5600000000000005,
+        "explanation": "STAIRSTEP! Support Rs 5.66 tested 33x. Price Rs 5.90 near support (4.2% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 5.661866666666666,
+          "resistance_level": 7.2,
+          "num_bounces": 33,
+          "distance_from_support": 0.04205915599095728
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.28135593220338984,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 5.9,
+      "stop_loss": 5.4920106666666655,
+      "target_price": 7.5600000000000005,
+      "explanation": "STAIRSTEP! Support Rs 5.66 tested 33x. Price Rs 5.90 near support (4.2% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 5.661866666666666,
+        "resistance_level": 7.2,
+        "num_bounces": 33,
+        "distance_from_support": 0.04205915599095728
+      }
+    },
+    "total_score": 0.18991525423728814,
+    "expected_value": 0.18991525423728814,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": true
+  },
+  {
+    "stock_symbol": "RICH.N0000",
+    "timestamp": "2026-02-10T21:27:03.410138",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.277777777777778,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 37.8,
+        "stop_loss": 38.22576,
+        "target_price": 48.300000000000004,
+        "explanation": "STAIRSTEP! Support Rs 39.41 tested 13x. Price Rs 37.80 near support (4.1% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 39.408,
+          "resistance_level": 46.0,
+          "num_bounces": 13,
+          "distance_from_support": 0.04080389768574919
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.277777777777778,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 37.8,
+      "stop_loss": 38.22576,
+      "target_price": 48.300000000000004,
+      "explanation": "STAIRSTEP! Support Rs 39.41 tested 13x. Price Rs 37.80 near support (4.1% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 39.408,
+        "resistance_level": 46.0,
+        "num_bounces": 13,
+        "distance_from_support": 0.04080389768574919
+      }
+    },
+    "total_score": 0.18750000000000017,
+    "expected_value": 0.18750000000000017,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "CFLB.N0000",
+    "timestamp": "2026-02-10T21:26:52.567182",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.2764962593516209,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 80.2,
+        "stop_loss": 79.39715133333333,
+        "target_price": 102.375,
+        "explanation": "STAIRSTEP! Support Rs 81.85 tested 19x. Price Rs 80.20 near support (2.0% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 81.85273333333333,
+          "resistance_level": 97.5,
+          "num_bounces": 19,
+          "distance_from_support": 0.0201915472584503
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.2764962593516209,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 80.2,
+      "stop_loss": 79.39715133333333,
+      "target_price": 102.375,
+      "explanation": "STAIRSTEP! Support Rs 81.85 tested 19x. Price Rs 80.20 near support (2.0% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 81.85273333333333,
+        "resistance_level": 97.5,
+        "num_bounces": 19,
+        "distance_from_support": 0.0201915472584503
+      }
+    },
+    "total_score": 0.18663497506234414,
+    "expected_value": 0.18663497506234414,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "VPEL.N0000",
+    "timestamp": "2026-02-10T21:26:58.277689",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.27399999999999997,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 15.0,
+        "stop_loss": 14.353758222222224,
+        "target_price": 19.11,
+        "explanation": "STAIRSTEP! Support Rs 14.80 tested 21x. Price Rs 15.00 near support (1.4% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 14.79768888888889,
+          "resistance_level": 18.2,
+          "num_bounces": 21,
+          "distance_from_support": 0.013671804606124573
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.27399999999999997,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 15.0,
+      "stop_loss": 14.353758222222224,
+      "target_price": 19.11,
+      "explanation": "STAIRSTEP! Support Rs 14.80 tested 21x. Price Rs 15.00 near support (1.4% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 14.79768888888889,
+        "resistance_level": 18.2,
+        "num_bounces": 21,
+        "distance_from_support": 0.013671804606124573
+      }
+    },
+    "total_score": 0.18494999999999998,
+    "expected_value": 0.18494999999999998,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "KHC.N0000",
+    "timestamp": "2026-02-10T21:26:59.263495",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.27366863905325467,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 16.9,
+        "stop_loss": 15.961350000000001,
+        "target_price": 21.525000000000002,
+        "explanation": "STAIRSTEP! Support Rs 16.46 tested 12x. Price Rs 16.90 near support (2.7% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 16.455000000000002,
+          "resistance_level": 20.5,
+          "num_bounces": 12,
+          "distance_from_support": 0.027043451838346805
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.27366863905325467,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 16.9,
+      "stop_loss": 15.961350000000001,
+      "target_price": 21.525000000000002,
+      "explanation": "STAIRSTEP! Support Rs 16.46 tested 12x. Price Rs 16.90 near support (2.7% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 16.455000000000002,
+        "resistance_level": 20.5,
+        "num_bounces": 12,
+        "distance_from_support": 0.027043451838346805
+      }
+    },
+    "total_score": 0.1847263313609469,
+    "expected_value": 0.1847263313609469,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "MRH.N0000",
+    "timestamp": "2026-02-10T21:26:57.198151",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.27255434782608723,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 18.4,
+        "stop_loss": 18.450176,
+        "target_price": 23.415000000000003,
+        "explanation": "STAIRSTEP! Support Rs 19.02 tested 16x. Price Rs 18.40 near support (3.3% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 19.0208,
+          "resistance_level": 22.3,
+          "num_bounces": 16,
+          "distance_from_support": 0.03263795423956945
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.27255434782608723,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 18.4,
+      "stop_loss": 18.450176,
+      "target_price": 23.415000000000003,
+      "explanation": "STAIRSTEP! Support Rs 19.02 tested 16x. Price Rs 18.40 near support (3.3% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 19.0208,
+        "resistance_level": 22.3,
+        "num_bounces": 16,
+        "distance_from_support": 0.03263795423956945
+      }
+    },
+    "total_score": 0.18397418478260888,
+    "expected_value": 0.18397418478260888,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "BPPL.N0000",
+    "timestamp": "2026-02-10T21:27:01.431837",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.267616580310881,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 19.3,
+        "stop_loss": 19.349991111111112,
+        "target_price": 24.465000000000003,
+        "explanation": "STAIRSTEP! Support Rs 19.95 tested 25x. Price Rs 19.30 near support (3.3% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 19.948444444444448,
+          "resistance_level": 23.3,
+          "num_bounces": 25,
+          "distance_from_support": 0.03250601550663946
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.267616580310881,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 19.3,
+      "stop_loss": 19.349991111111112,
+      "target_price": 24.465000000000003,
+      "explanation": "STAIRSTEP! Support Rs 19.95 tested 25x. Price Rs 19.30 near support (3.3% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 19.948444444444448,
+        "resistance_level": 23.3,
+        "num_bounces": 25,
+        "distance_from_support": 0.03250601550663946
+      }
+    },
+    "total_score": 0.18064119170984466,
+    "expected_value": 0.18064119170984466,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": true
+  },
+  {
+    "stock_symbol": "CITW.N0000",
+    "timestamp": "2026-02-10T21:26:56.812827",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.26,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 2.0,
+        "stop_loss": 1.9303000000000001,
+        "target_price": 2.52,
+        "explanation": "STAIRSTEP! Support Rs 1.99 tested 35x. Price Rs 2.00 near support (0.5% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 1.9900000000000002,
+          "resistance_level": 2.4,
+          "num_bounces": 35,
+          "distance_from_support": 0.005025125628140596
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.26,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 2.0,
+      "stop_loss": 1.9303000000000001,
+      "target_price": 2.52,
+      "explanation": "STAIRSTEP! Support Rs 1.99 tested 35x. Price Rs 2.00 near support (0.5% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 1.9900000000000002,
+        "resistance_level": 2.4,
+        "num_bounces": 35,
+        "distance_from_support": 0.005025125628140596
+      }
+    },
+    "total_score": 0.17550000000000002,
+    "expected_value": 0.17550000000000002,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "TYRE.N0000",
+    "timestamp": "2026-02-10T21:26:57.980172",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.25556173526140147,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 89.9,
+        "stop_loss": 86.105348,
+        "target_price": 112.875,
+        "explanation": "STAIRSTEP! Support Rs 88.77 tested 26x. Price Rs 89.90 near support (1.3% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 88.76840000000001,
+          "resistance_level": 107.5,
+          "num_bounces": 26,
+          "distance_from_support": 0.012747779615268401
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.25556173526140147,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 89.9,
+      "stop_loss": 86.105348,
+      "target_price": 112.875,
+      "explanation": "STAIRSTEP! Support Rs 88.77 tested 26x. Price Rs 89.90 near support (1.3% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 88.76840000000001,
+        "resistance_level": 107.5,
+        "num_bounces": 26,
+        "distance_from_support": 0.012747779615268401
+      }
+    },
+    "total_score": 0.172504171301446,
+    "expected_value": 0.172504171301446,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": true
+  },
+  {
+    "stock_symbol": "EBCR.N0000",
+    "timestamp": "2026-02-10T21:27:01.597844",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.2547169811320754,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 63.6,
+        "stop_loss": 62.27486222222222,
+        "target_price": 79.8,
+        "explanation": "STAIRSTEP! Support Rs 64.20 tested 18x. Price Rs 63.60 near support (0.9% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 64.20088888888888,
+          "resistance_level": 76.0,
+          "num_bounces": 18,
+          "distance_from_support": 0.009359510425608399
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.2547169811320754,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 63.6,
+      "stop_loss": 62.27486222222222,
+      "target_price": 79.8,
+      "explanation": "STAIRSTEP! Support Rs 64.20 tested 18x. Price Rs 63.60 near support (0.9% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 64.20088888888888,
+        "resistance_level": 76.0,
+        "num_bounces": 18,
+        "distance_from_support": 0.009359510425608399
+      }
+    },
+    "total_score": 0.17193396226415092,
+    "expected_value": 0.17193396226415092,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "LVEN.N0000",
+    "timestamp": "2026-02-10T21:27:01.270464",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.25216417910447775,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 67.0,
+        "stop_loss": 66.67288533333331,
+        "target_price": 83.89500000000001,
+        "explanation": "STAIRSTEP! Support Rs 68.73 tested 12x. Price Rs 67.00 near support (2.5% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 68.73493333333332,
+          "resistance_level": 79.9,
+          "num_bounces": 12,
+          "distance_from_support": 0.02524092552646665
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.25216417910447775,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 67.0,
+      "stop_loss": 66.67288533333331,
+      "target_price": 83.89500000000001,
+      "explanation": "STAIRSTEP! Support Rs 68.73 tested 12x. Price Rs 67.00 near support (2.5% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 68.73493333333332,
+        "resistance_level": 79.9,
+        "num_bounces": 12,
+        "distance_from_support": 0.02524092552646665
+      }
+    },
+    "total_score": 0.17021082089552247,
+    "expected_value": 0.17021082089552247,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "TRAN.N0000",
+    "timestamp": "2026-02-10T21:26:58.813746",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.24948186528497435,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 57.9,
+        "stop_loss": 55.17808355555555,
+        "target_price": 72.34500000000001,
+        "explanation": "STAIRSTEP! Support Rs 56.88 tested 15x. Price Rs 57.90 near support (1.8% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 56.88462222222222,
+          "resistance_level": 68.9,
+          "num_bounces": 15,
+          "distance_from_support": 0.017849776233217516
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.24948186528497435,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 57.9,
+      "stop_loss": 55.17808355555555,
+      "target_price": 72.34500000000001,
+      "explanation": "STAIRSTEP! Support Rs 56.88 tested 15x. Price Rs 57.90 near support (1.8% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 56.88462222222222,
+        "resistance_level": 68.9,
+        "num_bounces": 15,
+        "distance_from_support": 0.017849776233217516
+      }
+    },
+    "total_score": 0.16840025906735767,
+    "expected_value": 0.16840025906735767,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "HNBF.N0000",
+    "timestamp": "2026-02-10T21:27:02.658967",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.24687499999999996,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 8.0,
+        "stop_loss": 7.724153111111111,
+        "target_price": 9.975,
+        "explanation": "STAIRSTEP! Support Rs 7.96 tested 20x. Price Rs 8.00 near support (0.5% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 7.963044444444444,
+          "resistance_level": 9.5,
+          "num_bounces": 20,
+          "distance_from_support": 0.0046408827444557035
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.24687499999999996,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 8.0,
+      "stop_loss": 7.724153111111111,
+      "target_price": 9.975,
+      "explanation": "STAIRSTEP! Support Rs 7.96 tested 20x. Price Rs 8.00 near support (0.5% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 7.963044444444444,
+        "resistance_level": 9.5,
+        "num_bounces": 20,
+        "distance_from_support": 0.0046408827444557035
+      }
+    },
+    "total_score": 0.166640625,
+    "expected_value": 0.166640625,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": true
+  },
+  {
+    "stock_symbol": "COCR.N0000",
+    "timestamp": "2026-02-10T21:26:54.846882",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.24544554455445552,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 126.25,
+        "stop_loss": 125.18609833333335,
+        "target_price": 157.2375,
+        "explanation": "STAIRSTEP! Support Rs 129.06 tested 15x. Price Rs 126.25 near support (2.2% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 129.05783333333335,
+          "resistance_level": 149.75,
+          "num_bounces": 15,
+          "distance_from_support": 0.021756396034336146
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.24544554455445552,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 126.25,
+      "stop_loss": 125.18609833333335,
+      "target_price": 157.2375,
+      "explanation": "STAIRSTEP! Support Rs 129.06 tested 15x. Price Rs 126.25 near support (2.2% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 129.05783333333335,
+        "resistance_level": 149.75,
+        "num_bounces": 15,
+        "distance_from_support": 0.021756396034336146
+      }
+    },
+    "total_score": 0.1656757425742575,
+    "expected_value": 0.1656757425742575,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "RCH.N0000",
+    "timestamp": "2026-02-10T21:26:55.629835",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.242728184553661,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 249.25,
+        "stop_loss": 241.38719444444448,
+        "target_price": 309.75,
+        "explanation": "STAIRSTEP! Support Rs 248.85 tested 25x. Price Rs 249.25 near support (0.2% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 248.85277777777782,
+          "resistance_level": 295.0,
+          "num_bounces": 25,
+          "distance_from_support": 0.0015962137363678421
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.242728184553661,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 249.25,
+      "stop_loss": 241.38719444444448,
+      "target_price": 309.75,
+      "explanation": "STAIRSTEP! Support Rs 248.85 tested 25x. Price Rs 249.25 near support (0.2% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 248.85277777777782,
+        "resistance_level": 295.0,
+        "num_bounces": 25,
+        "distance_from_support": 0.0015962137363678421
+      }
+    },
+    "total_score": 0.16384152457372117,
+    "expected_value": 0.16384152457372117,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "KHL.N0000",
+    "timestamp": "2026-02-10T21:27:00.267763",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.24135514018691603,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 21.4,
+        "stop_loss": 20.463119999999996,
+        "target_price": 26.565,
+        "explanation": "STAIRSTEP! Support Rs 21.10 tested 13x. Price Rs 21.40 near support (1.4% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 21.095999999999997,
+          "resistance_level": 25.3,
+          "num_bounces": 13,
+          "distance_from_support": 0.014410314751611778
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.24135514018691603,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 21.4,
+      "stop_loss": 20.463119999999996,
+      "target_price": 26.565,
+      "explanation": "STAIRSTEP! Support Rs 21.10 tested 13x. Price Rs 21.40 near support (1.4% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 21.095999999999997,
+        "resistance_level": 25.3,
+        "num_bounces": 13,
+        "distance_from_support": 0.014410314751611778
+      }
+    },
+    "total_score": 0.16291471962616833,
+    "expected_value": 0.16291471962616833,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "COOP.N0000",
+    "timestamp": "2026-02-10T21:26:52.444943",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.240909090909091,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 4.4,
+        "stop_loss": 4.1634986666666665,
+        "target_price": 5.460000000000001,
+        "explanation": "STAIRSTEP! Support Rs 4.29 tested 14x. Price Rs 4.40 near support (2.5% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 4.2922666666666665,
+          "resistance_level": 5.2,
+          "num_bounces": 14,
+          "distance_from_support": 0.02509940357852896
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.240909090909091,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 4.4,
+      "stop_loss": 4.1634986666666665,
+      "target_price": 5.460000000000001,
+      "explanation": "STAIRSTEP! Support Rs 4.29 tested 14x. Price Rs 4.40 near support (2.5% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 4.2922666666666665,
+        "resistance_level": 5.2,
+        "num_bounces": 14,
+        "distance_from_support": 0.02509940357852896
+      }
+    },
+    "total_score": 0.16261363636363643,
+    "expected_value": 0.16261363636363643,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "AGAL.N0000",
+    "timestamp": "2026-02-10T21:26:52.798769",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.22588832487309646,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 59.1,
+        "stop_loss": 56.45406466666667,
+        "target_price": 72.45,
+        "explanation": "STAIRSTEP! Support Rs 58.20 tested 18x. Price Rs 59.10 near support (1.5% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 58.20006666666667,
+          "resistance_level": 69.0,
+          "num_bounces": 18,
+          "distance_from_support": 0.01546275433819657
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.22588832487309646,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 59.1,
+      "stop_loss": 56.45406466666667,
+      "target_price": 72.45,
+      "explanation": "STAIRSTEP! Support Rs 58.20 tested 18x. Price Rs 59.10 near support (1.5% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 58.20006666666667,
+        "resistance_level": 69.0,
+        "num_bounces": 18,
+        "distance_from_support": 0.01546275433819657
+      }
+    },
+    "total_score": 0.1524746192893401,
+    "expected_value": 0.1524746192893401,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "CSLK.N0000",
+    "timestamp": "2026-02-10T21:27:00.570646",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.22007042253521128,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 14.2,
+        "stop_loss": 13.904109333333334,
+        "target_price": 17.325,
+        "explanation": "STAIRSTEP! Support Rs 14.33 tested 20x. Price Rs 14.20 near support (0.9% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 14.334133333333336,
+          "resistance_level": 16.5,
+          "num_bounces": 20,
+          "distance_from_support": 0.009357617249270015
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.22007042253521128,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 14.2,
+      "stop_loss": 13.904109333333334,
+      "target_price": 17.325,
+      "explanation": "STAIRSTEP! Support Rs 14.33 tested 20x. Price Rs 14.20 near support (0.9% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 14.334133333333336,
+        "resistance_level": 16.5,
+        "num_bounces": 20,
+        "distance_from_support": 0.009357617249270015
+      }
+    },
+    "total_score": 0.14854753521126762,
+    "expected_value": 0.14854753521126762,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "GUAR.N0000",
+    "timestamp": "2026-02-10T21:26:55.887429",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.2191666666666667,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 270.0,
+        "stop_loss": 258.26573333333334,
+        "target_price": 329.175,
+        "explanation": "STAIRSTEP! Support Rs 266.25 tested 13x. Price Rs 270.00 near support (1.4% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 266.25333333333333,
+          "resistance_level": 313.5,
+          "num_bounces": 13,
+          "distance_from_support": 0.014071811307526678
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.2191666666666667,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 270.0,
+      "stop_loss": 258.26573333333334,
+      "target_price": 329.175,
+      "explanation": "STAIRSTEP! Support Rs 266.25 tested 13x. Price Rs 270.00 near support (1.4% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 266.25333333333333,
+        "resistance_level": 313.5,
+        "num_bounces": 13,
+        "distance_from_support": 0.014071811307526678
+      }
+    },
+    "total_score": 0.14793750000000003,
+    "expected_value": 0.14793750000000003,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "HSIG.N0000",
+    "timestamp": "2026-02-10T21:27:01.556241",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.218849840255591,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 93.9,
+        "stop_loss": 93.36056,
+        "target_price": 114.45,
+        "explanation": "STAIRSTEP! Support Rs 96.25 tested 10x. Price Rs 93.90 near support (2.4% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 96.248,
+          "resistance_level": 109.0,
+          "num_bounces": 10,
+          "distance_from_support": 0.0243953121103815
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.218849840255591,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 93.9,
+      "stop_loss": 93.36056,
+      "target_price": 114.45,
+      "explanation": "STAIRSTEP! Support Rs 96.25 tested 10x. Price Rs 93.90 near support (2.4% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 96.248,
+        "resistance_level": 109.0,
+        "num_bounces": 10,
+        "distance_from_support": 0.0243953121103815
+      }
+    },
+    "total_score": 0.14772364217252396,
+    "expected_value": 0.14772364217252396,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "PABC.N0000",
+    "timestamp": "2026-02-10T21:27:00.612626",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.21688741721854307,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 60.4,
+        "stop_loss": 60.99760933333333,
+        "target_price": 73.5,
+        "explanation": "STAIRSTEP! Support Rs 62.88 tested 8x. Price Rs 60.40 near support (4.0% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 62.88413333333333,
+          "resistance_level": 70.0,
+          "num_bounces": 8,
+          "distance_from_support": 0.03950334053529135
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.21688741721854307,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 60.4,
+      "stop_loss": 60.99760933333333,
+      "target_price": 73.5,
+      "explanation": "STAIRSTEP! Support Rs 62.88 tested 8x. Price Rs 60.40 near support (4.0% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 62.88413333333333,
+        "resistance_level": 70.0,
+        "num_bounces": 8,
+        "distance_from_support": 0.03950334053529135
+      }
+    },
+    "total_score": 0.14639900662251656,
+    "expected_value": 0.14639900662251656,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": true
+  },
+  {
+    "stock_symbol": "AGPL.N0000",
+    "timestamp": "2026-02-10T21:26:58.027662",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.21639344262295085,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 18.3,
+        "stop_loss": 17.683401777777775,
+        "target_price": 22.26,
+        "explanation": "STAIRSTEP! Support Rs 18.23 tested 18x. Price Rs 18.30 near support (0.4% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 18.23031111111111,
+          "resistance_level": 21.2,
+          "num_bounces": 18,
+          "distance_from_support": 0.0038226933410048236
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.21639344262295085,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 18.3,
+      "stop_loss": 17.683401777777775,
+      "target_price": 22.26,
+      "explanation": "STAIRSTEP! Support Rs 18.23 tested 18x. Price Rs 18.30 near support (0.4% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 18.23031111111111,
+        "resistance_level": 21.2,
+        "num_bounces": 18,
+        "distance_from_support": 0.0038226933410048236
+      }
+    },
+    "total_score": 0.14606557377049184,
+    "expected_value": 0.14606557377049184,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "KOTA.N0000",
+    "timestamp": "2026-02-10T21:27:01.073109",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.21578947368421061,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 9.5,
+        "stop_loss": 9.105066666666666,
+        "target_price": 11.55,
+        "explanation": "STAIRSTEP! Support Rs 9.39 tested 52x. Price Rs 9.50 near support (1.2% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 9.386666666666667,
+          "resistance_level": 11.0,
+          "num_bounces": 52,
+          "distance_from_support": 0.01207386363636363
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.21578947368421061,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 9.5,
+      "stop_loss": 9.105066666666666,
+      "target_price": 11.55,
+      "explanation": "STAIRSTEP! Support Rs 9.39 tested 52x. Price Rs 9.50 near support (1.2% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 9.386666666666667,
+        "resistance_level": 11.0,
+        "num_bounces": 52,
+        "distance_from_support": 0.01207386363636363
+      }
+    },
+    "total_score": 0.14565789473684215,
+    "expected_value": 0.14565789473684215,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "GHLL.N0000",
+    "timestamp": "2026-02-10T21:26:53.743061",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.21459459459459454,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 18.5,
+        "stop_loss": 17.478623999999996,
+        "target_price": 22.47,
+        "explanation": "STAIRSTEP! Support Rs 18.02 tested 34x. Price Rs 18.50 near support (2.7% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 18.019199999999998,
+          "resistance_level": 21.4,
+          "num_bounces": 34,
+          "distance_from_support": 0.02668264961818517
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.21459459459459454,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 18.5,
+      "stop_loss": 17.478623999999996,
+      "target_price": 22.47,
+      "explanation": "STAIRSTEP! Support Rs 18.02 tested 34x. Price Rs 18.50 near support (2.7% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 18.019199999999998,
+        "resistance_level": 21.4,
+        "num_bounces": 34,
+        "distance_from_support": 0.02668264961818517
+      }
+    },
+    "total_score": 0.14485135135135133,
+    "expected_value": 0.14485135135135133,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "JINS.N0000",
+    "timestamp": "2026-02-10T21:27:03.489356",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.75,
+        "expected_return": 0.25655737704918036,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 137.25,
+        "stop_loss": 130.1661861111111,
+        "target_price": 172.4625,
+        "explanation": "STAIRSTEP! Support Rs 134.19 tested 4x. Price Rs 137.25 near support (2.3% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 134.19194444444443,
+          "resistance_level": 164.25,
+          "num_bounces": 4,
+          "distance_from_support": 0.02278866714552755
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.75,
+      "expected_return": 0.25655737704918036,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 137.25,
+      "stop_loss": 130.1661861111111,
+      "target_price": 172.4625,
+      "explanation": "STAIRSTEP! Support Rs 134.19 tested 4x. Price Rs 137.25 near support (2.3% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 134.19194444444443,
+        "resistance_level": 164.25,
+        "num_bounces": 4,
+        "distance_from_support": 0.02278866714552755
+      }
+    },
+    "total_score": 0.14431352459016394,
+    "expected_value": 0.14431352459016394,
+    "position_size": 0.1,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "CSD.N0000",
+    "timestamp": "2026-02-10T21:26:55.847583",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.21180327868852486,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 30.5,
+        "stop_loss": 28.707063777777787,
+        "target_price": 36.96000000000001,
+        "explanation": "STAIRSTEP! Support Rs 29.59 tested 31x. Price Rs 30.50 near support (3.1% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 29.59491111111112,
+          "resistance_level": 35.2,
+          "num_bounces": 31,
+          "distance_from_support": 0.03058258514414234
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.21180327868852486,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 30.5,
+      "stop_loss": 28.707063777777787,
+      "target_price": 36.96000000000001,
+      "explanation": "STAIRSTEP! Support Rs 29.59 tested 31x. Price Rs 30.50 near support (3.1% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 29.59491111111112,
+        "resistance_level": 35.2,
+        "num_bounces": 31,
+        "distance_from_support": 0.03058258514414234
+      }
+    },
+    "total_score": 0.14296721311475427,
+    "expected_value": 0.14296721311475427,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "KGAL.N0000",
+    "timestamp": "2026-02-10T21:27:03.778968",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.2116814159292036,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 141.25,
+        "stop_loss": 134.3503888888889,
+        "target_price": 171.15,
+        "explanation": "STAIRSTEP! Support Rs 138.51 tested 34x. Price Rs 141.25 near support (2.0% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 138.50555555555556,
+          "resistance_level": 163.0,
+          "num_bounces": 34,
+          "distance_from_support": 0.019814688540371394
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.2116814159292036,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 141.25,
+      "stop_loss": 134.3503888888889,
+      "target_price": 171.15,
+      "explanation": "STAIRSTEP! Support Rs 138.51 tested 34x. Price Rs 141.25 near support (2.0% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 138.50555555555556,
+        "resistance_level": 163.0,
+        "num_bounces": 34,
+        "distance_from_support": 0.019814688540371394
+      }
+    },
+    "total_score": 0.14288495575221244,
+    "expected_value": 0.14288495575221244,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "VFIN.N0000",
+    "timestamp": "2026-02-10T21:26:58.448544",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.85,
+        "expected_return": 0.2229116945107398,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 104.75,
+        "stop_loss": 100.96018666666667,
+        "target_price": 128.1,
+        "explanation": "STAIRSTEP! Support Rs 104.08 tested 6x. Price Rs 104.75 near support (0.6% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 104.08266666666667,
+          "resistance_level": 122.0,
+          "num_bounces": 6,
+          "distance_from_support": 0.0064115702902820685
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.85,
+      "expected_return": 0.2229116945107398,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 104.75,
+      "stop_loss": 100.96018666666667,
+      "target_price": 128.1,
+      "explanation": "STAIRSTEP! Support Rs 104.08 tested 6x. Price Rs 104.75 near support (0.6% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 104.08266666666667,
+        "resistance_level": 122.0,
+        "num_bounces": 6,
+        "distance_from_support": 0.0064115702902820685
+      }
+    },
+    "total_score": 0.14210620525059664,
+    "expected_value": 0.14210620525059664,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "HELA.N0000",
+    "timestamp": "2026-02-10T21:26:51.948876",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.20909090909090908,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 3.3,
+        "stop_loss": 3.0619882222222223,
+        "target_price": 3.9899999999999998,
+        "explanation": "STAIRSTEP! Support Rs 3.16 tested 42x. Price Rs 3.30 near support (4.5% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 3.156688888888889,
+          "resistance_level": 3.8,
+          "num_bounces": 42,
+          "distance_from_support": 0.045399187615715354
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.20909090909090908,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 3.3,
+      "stop_loss": 3.0619882222222223,
+      "target_price": 3.9899999999999998,
+      "explanation": "STAIRSTEP! Support Rs 3.16 tested 42x. Price Rs 3.30 near support (4.5% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 3.156688888888889,
+        "resistance_level": 3.8,
+        "num_bounces": 42,
+        "distance_from_support": 0.045399187615715354
+      }
+    },
+    "total_score": 0.14113636363636362,
+    "expected_value": 0.14113636363636362,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "CFIN.N0000",
+    "timestamp": "2026-02-10T21:26:59.595988",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.20054446460980035,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 275.5,
+        "stop_loss": 266.83536000000004,
+        "target_price": 330.75,
+        "explanation": "STAIRSTEP! Support Rs 275.09 tested 14x. Price Rs 275.50 near support (0.1% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 275.088,
+          "resistance_level": 315.0,
+          "num_bounces": 14,
+          "distance_from_support": 0.0014977025533646604
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.20054446460980035,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 275.5,
+      "stop_loss": 266.83536000000004,
+      "target_price": 330.75,
+      "explanation": "STAIRSTEP! Support Rs 275.09 tested 14x. Price Rs 275.50 near support (0.1% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 275.088,
+        "resistance_level": 315.0,
+        "num_bounces": 14,
+        "distance_from_support": 0.0014977025533646604
+      }
+    },
+    "total_score": 0.13536751361161525,
+    "expected_value": 0.13536751361161525,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "LGL.N0000",
+    "timestamp": "2026-02-10T21:26:59.466971",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.19805755395683455,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 69.5,
+        "stop_loss": 66.25125866666666,
+        "target_price": 83.265,
+        "explanation": "STAIRSTEP! Support Rs 68.30 tested 11x. Price Rs 69.50 near support (1.8% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 68.30026666666666,
+          "resistance_level": 79.3,
+          "num_bounces": 11,
+          "distance_from_support": 0.017565573194443483
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.19805755395683455,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 69.5,
+      "stop_loss": 66.25125866666666,
+      "target_price": 83.265,
+      "explanation": "STAIRSTEP! Support Rs 68.30 tested 11x. Price Rs 69.50 near support (1.8% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 68.30026666666666,
+        "resistance_level": 79.3,
+        "num_bounces": 11,
+        "distance_from_support": 0.017565573194443483
+      }
+    },
+    "total_score": 0.13368884892086333,
+    "expected_value": 0.13368884892086333,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": true
+  },
+  {
+    "stock_symbol": "CTHR.N0000",
+    "timestamp": "2026-02-10T21:26:52.402151",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.19791021671826628,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 646.0,
+        "stop_loss": 629.3077622222222,
+        "target_price": 773.85,
+        "explanation": "STAIRSTEP! Support Rs 648.77 tested 20x. Price Rs 646.00 near support (0.4% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 648.7708888888889,
+          "resistance_level": 737.0,
+          "num_bounces": 20,
+          "distance_from_support": 0.004270982154631503
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.19791021671826628,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 646.0,
+      "stop_loss": 629.3077622222222,
+      "target_price": 773.85,
+      "explanation": "STAIRSTEP! Support Rs 648.77 tested 20x. Price Rs 646.00 near support (0.4% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 648.7708888888889,
+        "resistance_level": 737.0,
+        "num_bounces": 20,
+        "distance_from_support": 0.004270982154631503
+      }
+    },
+    "total_score": 0.13358939628482974,
+    "expected_value": 0.13358939628482974,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "BALA.N0000",
+    "timestamp": "2026-02-10T21:26:53.173539",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.19600591715976354,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 67.6,
+        "stop_loss": 67.08157866666667,
+        "target_price": 80.85000000000001,
+        "explanation": "STAIRSTEP! Support Rs 69.16 tested 11x. Price Rs 67.60 near support (2.3% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 69.15626666666667,
+          "resistance_level": 77.0,
+          "num_bounces": 11,
+          "distance_from_support": 0.022503624641391953
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.19600591715976354,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 67.6,
+      "stop_loss": 67.08157866666667,
+      "target_price": 80.85000000000001,
+      "explanation": "STAIRSTEP! Support Rs 69.16 tested 11x. Price Rs 67.60 near support (2.3% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 69.15626666666667,
+        "resistance_level": 77.0,
+        "num_bounces": 11,
+        "distance_from_support": 0.022503624641391953
+      }
+    },
+    "total_score": 0.13230399408284038,
+    "expected_value": 0.13230399408284038,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "JKH.N0000",
+    "timestamp": "2026-02-10T21:27:02.578995",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.19531250000000017,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 22.4,
+        "stop_loss": 21.194047333333334,
+        "target_price": 26.775000000000002,
+        "explanation": "STAIRSTEP! Support Rs 21.85 tested 17x. Price Rs 22.40 near support (2.5% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 21.849533333333333,
+          "resistance_level": 25.5,
+          "num_bounces": 17,
+          "distance_from_support": 0.025193520532856464
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.19531250000000017,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 22.4,
+      "stop_loss": 21.194047333333334,
+      "target_price": 26.775000000000002,
+      "explanation": "STAIRSTEP! Support Rs 21.85 tested 17x. Price Rs 22.40 near support (2.5% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 21.849533333333333,
+        "resistance_level": 25.5,
+        "num_bounces": 17,
+        "distance_from_support": 0.025193520532856464
+      }
+    },
+    "total_score": 0.1318359375000001,
+    "expected_value": 0.1318359375000001,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "HPL.N0000",
+    "timestamp": "2026-02-10T21:26:52.051959",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.19427480916030548,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 26.2,
+        "stop_loss": 24.60842577777778,
+        "target_price": 31.290000000000003,
+        "explanation": "STAIRSTEP! Support Rs 25.37 tested 10x. Price Rs 26.20 near support (3.3% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 25.369511111111112,
+          "resistance_level": 29.8,
+          "num_bounces": 10,
+          "distance_from_support": 0.032735707253150684
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.19427480916030548,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 26.2,
+      "stop_loss": 24.60842577777778,
+      "target_price": 31.290000000000003,
+      "explanation": "STAIRSTEP! Support Rs 25.37 tested 10x. Price Rs 26.20 near support (3.3% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 25.369511111111112,
+        "resistance_level": 29.8,
+        "num_bounces": 10,
+        "distance_from_support": 0.032735707253150684
+      }
+    },
+    "total_score": 0.13113549618320622,
+    "expected_value": 0.13113549618320622,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "RHTL.N0000",
+    "timestamp": "2026-02-10T21:26:51.446856",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.19318181818181812,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 28.6,
+        "stop_loss": 27.317355555555555,
+        "target_price": 34.125,
+        "explanation": "STAIRSTEP! Support Rs 28.16 tested 9x. Price Rs 28.60 near support (1.6% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 28.162222222222223,
+          "resistance_level": 32.5,
+          "num_bounces": 9,
+          "distance_from_support": 0.015544859149372715
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.19318181818181812,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 28.6,
+      "stop_loss": 27.317355555555555,
+      "target_price": 34.125,
+      "explanation": "STAIRSTEP! Support Rs 28.16 tested 9x. Price Rs 28.60 near support (1.6% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 28.162222222222223,
+        "resistance_level": 32.5,
+        "num_bounces": 9,
+        "distance_from_support": 0.015544859149372715
+      }
+    },
+    "total_score": 0.13039772727272725,
+    "expected_value": 0.13039772727272725,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "WATA.N0000",
+    "timestamp": "2026-02-10T21:26:53.052329",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.19218750000000004,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 48.0,
+        "stop_loss": 45.31624444444445,
+        "target_price": 57.225,
+        "explanation": "STAIRSTEP! Support Rs 46.72 tested 15x. Price Rs 48.00 near support (2.7% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 46.71777777777778,
+          "resistance_level": 54.5,
+          "num_bounces": 15,
+          "distance_from_support": 0.0274461304285781
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.19218750000000004,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 48.0,
+      "stop_loss": 45.31624444444445,
+      "target_price": 57.225,
+      "explanation": "STAIRSTEP! Support Rs 46.72 tested 15x. Price Rs 48.00 near support (2.7% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 46.71777777777778,
+        "resistance_level": 54.5,
+        "num_bounces": 15,
+        "distance_from_support": 0.0274461304285781
+      }
+    },
+    "total_score": 0.12972656250000003,
+    "expected_value": 0.12972656250000003,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "EDEN.N0000",
+    "timestamp": "2026-02-10T21:26:53.010117",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.18625954198473293,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 13.1,
+        "stop_loss": 12.359955555555556,
+        "target_price": 15.540000000000001,
+        "explanation": "STAIRSTEP! Support Rs 12.74 tested 8x. Price Rs 13.10 near support (2.8% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 12.742222222222223,
+          "resistance_level": 14.8,
+          "num_bounces": 8,
+          "distance_from_support": 0.028078130449947607
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.18625954198473293,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 13.1,
+      "stop_loss": 12.359955555555556,
+      "target_price": 15.540000000000001,
+      "explanation": "STAIRSTEP! Support Rs 12.74 tested 8x. Price Rs 13.10 near support (2.8% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 12.742222222222223,
+        "resistance_level": 14.8,
+        "num_bounces": 8,
+        "distance_from_support": 0.028078130449947607
+      }
+    },
+    "total_score": 0.12572519083969474,
+    "expected_value": 0.12572519083969474,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "HUNA.N0000",
+    "timestamp": "2026-02-10T21:26:54.112846",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.1853092783505156,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 19.4,
+        "stop_loss": 18.88978,
+        "target_price": 22.995,
+        "explanation": "STAIRSTEP! Support Rs 19.47 tested 17x. Price Rs 19.40 near support (0.4% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 19.474,
+          "resistance_level": 21.9,
+          "num_bounces": 17,
+          "distance_from_support": 0.0037999383793777147
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.1853092783505156,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 19.4,
+      "stop_loss": 18.88978,
+      "target_price": 22.995,
+      "explanation": "STAIRSTEP! Support Rs 19.47 tested 17x. Price Rs 19.40 near support (0.4% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 19.474,
+        "resistance_level": 21.9,
+        "num_bounces": 17,
+        "distance_from_support": 0.0037999383793777147
+      }
+    },
+    "total_score": 0.12508376288659806,
+    "expected_value": 0.12508376288659806,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "MGT.N0000",
+    "timestamp": "2026-02-10T21:26:57.651359",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.1845477386934675,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 39.8,
+        "stop_loss": 37.69704533333333,
+        "target_price": 47.145,
+        "explanation": "STAIRSTEP! Support Rs 38.86 tested 12x. Price Rs 39.80 near support (2.4% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 38.86293333333333,
+          "resistance_level": 44.9,
+          "num_bounces": 12,
+          "distance_from_support": 0.024112093099851784
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.1845477386934675,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 39.8,
+      "stop_loss": 37.69704533333333,
+      "target_price": 47.145,
+      "explanation": "STAIRSTEP! Support Rs 38.86 tested 12x. Price Rs 39.80 near support (2.4% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 38.86293333333333,
+        "resistance_level": 44.9,
+        "num_bounces": 12,
+        "distance_from_support": 0.024112093099851784
+      }
+    },
+    "total_score": 0.12456972361809056,
+    "expected_value": 0.12456972361809056,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "DIST.N0000",
+    "timestamp": "2026-02-10T21:26:53.827997",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.18322203672787982,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 59.9,
+        "stop_loss": 58.482377777777785,
+        "target_price": 70.875,
+        "explanation": "STAIRSTEP! Support Rs 60.29 tested 14x. Price Rs 59.90 near support (0.6% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 60.29111111111112,
+          "resistance_level": 67.5,
+          "num_bounces": 14,
+          "distance_from_support": 0.006487044340422583
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.18322203672787982,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 59.9,
+      "stop_loss": 58.482377777777785,
+      "target_price": 70.875,
+      "explanation": "STAIRSTEP! Support Rs 60.29 tested 14x. Price Rs 59.90 near support (0.6% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 60.29111111111112,
+        "resistance_level": 67.5,
+        "num_bounces": 14,
+        "distance_from_support": 0.006487044340422583
+      }
+    },
+    "total_score": 0.12367487479131888,
+    "expected_value": 0.12367487479131888,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "PMB.N0000",
+    "timestamp": "2026-02-10T21:27:01.821820",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.1832089552238806,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 13.4,
+        "stop_loss": 13.081290666666662,
+        "target_price": 15.855,
+        "explanation": "STAIRSTEP! Support Rs 13.49 tested 13x. Price Rs 13.40 near support (0.6% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 13.485866666666663,
+          "resistance_level": 15.1,
+          "num_bounces": 13,
+          "distance_from_support": 0.006367159693110508
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.1832089552238806,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 13.4,
+      "stop_loss": 13.081290666666662,
+      "target_price": 15.855,
+      "explanation": "STAIRSTEP! Support Rs 13.49 tested 13x. Price Rs 13.40 near support (0.6% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 13.485866666666663,
+        "resistance_level": 15.1,
+        "num_bounces": 13,
+        "distance_from_support": 0.006367159693110508
+      }
+    },
+    "total_score": 0.1236660447761194,
+    "expected_value": 0.1236660447761194,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "UDPL.N0000",
+    "timestamp": "2026-02-10T21:27:01.188741",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.18309859154929578,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 159.75,
+        "stop_loss": 152.29846055555558,
+        "target_price": 189.0,
+        "explanation": "STAIRSTEP! Support Rs 157.01 tested 9x. Price Rs 159.75 near support (1.7% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 157.00872222222225,
+          "resistance_level": 180.0,
+          "num_bounces": 9,
+          "distance_from_support": 0.017459398044765224
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.18309859154929578,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 159.75,
+      "stop_loss": 152.29846055555558,
+      "target_price": 189.0,
+      "explanation": "STAIRSTEP! Support Rs 157.01 tested 9x. Price Rs 159.75 near support (1.7% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 157.00872222222225,
+        "resistance_level": 180.0,
+        "num_bounces": 9,
+        "distance_from_support": 0.017459398044765224
+      }
+    },
+    "total_score": 0.12359154929577466,
+    "expected_value": 0.12359154929577466,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "ASHO.N0000",
+    "timestamp": "2026-02-10T21:26:56.998326",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.18184731747964875,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 3900.25,
+        "stop_loss": 3617.0409216666667,
+        "target_price": 4609.5,
+        "explanation": "STAIRSTEP! Support Rs 3728.91 tested 13x. Price Rs 3900.25 near support (4.6% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 3728.9081666666666,
+          "resistance_level": 4390.0,
+          "num_bounces": 13,
+          "distance_from_support": 0.045949598562117104
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.18184731747964875,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 3900.25,
+      "stop_loss": 3617.0409216666667,
+      "target_price": 4609.5,
+      "explanation": "STAIRSTEP! Support Rs 3728.91 tested 13x. Price Rs 3900.25 near support (4.6% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 3728.9081666666666,
+        "resistance_level": 4390.0,
+        "num_bounces": 13,
+        "distance_from_support": 0.045949598562117104
+      }
+    },
+    "total_score": 0.1227469392987629,
+    "expected_value": 0.1227469392987629,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "BFN.N0000",
+    "timestamp": "2026-02-10T21:26:59.173723",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.8999999999999999,
+        "expected_return": 0.17336814621409924,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 38.3,
+        "stop_loss": 37.132764,
+        "target_price": 44.94,
+        "explanation": "STAIRSTEP! Support Rs 38.28 tested 7x. Price Rs 38.30 near support (0.0% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 38.281200000000005,
+          "resistance_level": 42.8,
+          "num_bounces": 7,
+          "distance_from_support": 0.000491102682256348
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.8999999999999999,
+      "expected_return": 0.17336814621409924,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 38.3,
+      "stop_loss": 37.132764,
+      "target_price": 44.94,
+      "explanation": "STAIRSTEP! Support Rs 38.28 tested 7x. Price Rs 38.30 near support (0.0% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 38.281200000000005,
+        "resistance_level": 42.8,
+        "num_bounces": 7,
+        "distance_from_support": 0.000491102682256348
+      }
+    },
+    "total_score": 0.11702349869451698,
+    "expected_value": 0.11702349869451698,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "PALM.N0000",
+    "timestamp": "2026-02-10T21:27:02.463546",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.16983695652173933,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 73.6,
+        "stop_loss": 69.621944,
+        "target_price": 86.10000000000001,
+        "explanation": "STAIRSTEP! Support Rs 71.78 tested 25x. Price Rs 73.60 near support (2.5% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 71.7752,
+          "resistance_level": 82.0,
+          "num_bounces": 25,
+          "distance_from_support": 0.025423823270433188
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.16983695652173933,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 73.6,
+      "stop_loss": 69.621944,
+      "target_price": 86.10000000000001,
+      "explanation": "STAIRSTEP! Support Rs 71.78 tested 25x. Price Rs 73.60 near support (2.5% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 71.7752,
+        "resistance_level": 82.0,
+        "num_bounces": 25,
+        "distance_from_support": 0.025423823270433188
+      }
+    },
+    "total_score": 0.11463994565217404,
+    "expected_value": 0.11463994565217404,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": true
+  },
+  {
+    "stock_symbol": "CINV.N0000",
+    "timestamp": "2026-02-10T21:26:52.117854",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.16712328767123283,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 127.75,
+        "stop_loss": 124.77702777777779,
+        "target_price": 149.1,
+        "explanation": "STAIRSTEP! Support Rs 128.64 tested 10x. Price Rs 127.75 near support (0.7% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 128.63611111111112,
+          "resistance_level": 142.0,
+          "num_bounces": 10,
+          "distance_from_support": 0.006888509792912893
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.16712328767123283,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 127.75,
+      "stop_loss": 124.77702777777779,
+      "target_price": 149.1,
+      "explanation": "STAIRSTEP! Support Rs 128.64 tested 10x. Price Rs 127.75 near support (0.7% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 128.63611111111112,
+        "resistance_level": 142.0,
+        "num_bounces": 10,
+        "distance_from_support": 0.006888509792912893
+      }
+    },
+    "total_score": 0.11280821917808216,
+    "expected_value": 0.11280821917808216,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "LWL.N0000",
+    "timestamp": "2026-02-10T21:27:00.051035",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.1666666666666667,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 52.2,
+        "stop_loss": 51.023358,
+        "target_price": 60.900000000000006,
+        "explanation": "STAIRSTEP! Support Rs 52.60 tested 21x. Price Rs 52.20 near support (0.8% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 52.601400000000005,
+          "resistance_level": 58.0,
+          "num_bounces": 21,
+          "distance_from_support": 0.007630975601409894
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.1666666666666667,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 52.2,
+      "stop_loss": 51.023358,
+      "target_price": 60.900000000000006,
+      "explanation": "STAIRSTEP! Support Rs 52.60 tested 21x. Price Rs 52.20 near support (0.8% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 52.601400000000005,
+        "resistance_level": 58.0,
+        "num_bounces": 21,
+        "distance_from_support": 0.007630975601409894
+      }
+    },
+    "total_score": 0.11250000000000003,
+    "expected_value": 0.11250000000000003,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": true
+  },
+  {
+    "stock_symbol": "ABL.N0000",
+    "timestamp": "2026-02-10T21:26:57.407933",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.16588628762541832,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 29.9,
+        "stop_loss": 28.012522222222223,
+        "target_price": 34.86000000000001,
+        "explanation": "STAIRSTEP! Support Rs 28.88 tested 17x. Price Rs 29.90 near support (3.5% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 28.87888888888889,
+          "resistance_level": 33.2,
+          "num_bounces": 17,
+          "distance_from_support": 0.03535839328998486
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.16588628762541832,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 29.9,
+      "stop_loss": 28.012522222222223,
+      "target_price": 34.86000000000001,
+      "explanation": "STAIRSTEP! Support Rs 28.88 tested 17x. Price Rs 29.90 near support (3.5% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 28.87888888888889,
+        "resistance_level": 33.2,
+        "num_bounces": 17,
+        "distance_from_support": 0.03535839328998486
+      }
+    },
+    "total_score": 0.11197324414715737,
+    "expected_value": 0.11197324414715737,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "CCS.N0000",
+    "timestamp": "2026-02-10T21:26:55.227519",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.164079822616408,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 112.75,
+        "stop_loss": 109.19236111111113,
+        "target_price": 131.25,
+        "explanation": "STAIRSTEP! Support Rs 112.57 tested 21x. Price Rs 112.75 near support (0.2% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 112.56944444444446,
+          "resistance_level": 125.0,
+          "num_bounces": 21,
+          "distance_from_support": 0.0016039481801356063
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.164079822616408,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 112.75,
+      "stop_loss": 109.19236111111113,
+      "target_price": 131.25,
+      "explanation": "STAIRSTEP! Support Rs 112.57 tested 21x. Price Rs 112.75 near support (0.2% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 112.56944444444446,
+        "resistance_level": 125.0,
+        "num_bounces": 21,
+        "distance_from_support": 0.0016039481801356063
+      }
+    },
+    "total_score": 0.11075388026607541,
+    "expected_value": 0.11075388026607541,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "RIL.N0000",
+    "timestamp": "2026-02-10T21:26:51.654119",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.16400000000000006,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 35.0,
+        "stop_loss": 33.652792000000005,
+        "target_price": 40.74,
+        "explanation": "STAIRSTEP! Support Rs 34.69 tested 18x. Price Rs 35.00 near support (0.9% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 34.6936,
+          "resistance_level": 38.8,
+          "num_bounces": 18,
+          "distance_from_support": 0.008831600064565119
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.16400000000000006,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 35.0,
+      "stop_loss": 33.652792000000005,
+      "target_price": 40.74,
+      "explanation": "STAIRSTEP! Support Rs 34.69 tested 18x. Price Rs 35.00 near support (0.9% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 34.6936,
+        "resistance_level": 38.8,
+        "num_bounces": 18,
+        "distance_from_support": 0.008831600064565119
+      }
+    },
+    "total_score": 0.11070000000000005,
+    "expected_value": 0.11070000000000005,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "SUN.N0000",
+    "timestamp": "2026-02-10T21:26:52.002371",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.1618343195266274,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 33.8,
+        "stop_loss": 33.8045,
+        "target_price": 39.27,
+        "explanation": "STAIRSTEP! Support Rs 34.85 tested 16x. Price Rs 33.80 near support (3.0% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 34.85,
+          "resistance_level": 37.4,
+          "num_bounces": 16,
+          "distance_from_support": 0.030129124820660092
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.1618343195266274,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 33.8,
+      "stop_loss": 33.8045,
+      "target_price": 39.27,
+      "explanation": "STAIRSTEP! Support Rs 34.85 tested 16x. Price Rs 33.80 near support (3.0% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 34.85,
+        "resistance_level": 37.4,
+        "num_bounces": 16,
+        "distance_from_support": 0.030129124820660092
+      }
+    },
+    "total_score": 0.10923816568047351,
+    "expected_value": 0.10923816568047351,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "SMOT.N0000",
+    "timestamp": "2026-02-10T21:26:57.446776",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.16076083661715682,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 1649.5,
+        "stop_loss": 1583.83443,
+        "target_price": 1914.6750000000002,
+        "explanation": "STAIRSTEP! Support Rs 1632.82 tested 18x. Price Rs 1649.50 near support (1.0% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 1632.8190000000002,
+          "resistance_level": 1823.5,
+          "num_bounces": 18,
+          "distance_from_support": 0.010216074163762065
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.16076083661715682,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 1649.5,
+      "stop_loss": 1583.83443,
+      "target_price": 1914.6750000000002,
+      "explanation": "STAIRSTEP! Support Rs 1632.82 tested 18x. Price Rs 1649.50 near support (1.0% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 1632.8190000000002,
+        "resistance_level": 1823.5,
+        "num_bounces": 18,
+        "distance_from_support": 0.010216074163762065
+      }
+    },
+    "total_score": 0.10851356471658086,
+    "expected_value": 0.10851356471658086,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "BIL.N0000",
+    "timestamp": "2026-02-10T21:26:55.964998",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.15970149253731347,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 6.7,
+        "stop_loss": 6.297498666666668,
+        "target_price": 7.7700000000000005,
+        "explanation": "STAIRSTEP! Support Rs 6.49 tested 22x. Price Rs 6.70 near support (3.2% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 6.4922666666666675,
+          "resistance_level": 7.4,
+          "num_bounces": 22,
+          "distance_from_support": 0.0319970426353404
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.15970149253731347,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 6.7,
+      "stop_loss": 6.297498666666668,
+      "target_price": 7.7700000000000005,
+      "explanation": "STAIRSTEP! Support Rs 6.49 tested 22x. Price Rs 6.70 near support (3.2% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 6.4922666666666675,
+        "resistance_level": 7.4,
+        "num_bounces": 22,
+        "distance_from_support": 0.0319970426353404
+      }
+    },
+    "total_score": 0.1077985074626866,
+    "expected_value": 0.1077985074626866,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "CERA.N0000",
+    "timestamp": "2026-02-10T21:27:03.620433",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.15059880239520962,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 167.0,
+        "stop_loss": 161.66537333333332,
+        "target_price": 192.15,
+        "explanation": "STAIRSTEP! Support Rs 166.67 tested 31x. Price Rs 167.00 near support (0.2% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 166.66533333333334,
+          "resistance_level": 183.0,
+          "num_bounces": 31,
+          "distance_from_support": 0.0020080160641284942
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.15059880239520962,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 167.0,
+      "stop_loss": 161.66537333333332,
+      "target_price": 192.15,
+      "explanation": "STAIRSTEP! Support Rs 166.67 tested 31x. Price Rs 167.00 near support (0.2% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 166.66533333333334,
+        "resistance_level": 183.0,
+        "num_bounces": 31,
+        "distance_from_support": 0.0020080160641284942
+      }
+    },
+    "total_score": 0.10165419161676649,
+    "expected_value": 0.10165419161676649,
+    "position_size": 0.12,
+    "priority": "MEDIUM",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "KFP.N0000",
+    "timestamp": "2026-02-10T21:26:58.119746",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.14630177514792897,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 169.0,
+        "stop_loss": 162.94113888888887,
+        "target_price": 193.725,
+        "explanation": "STAIRSTEP! Support Rs 167.98 tested 29x. Price Rs 169.00 near support (0.6% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 167.98055555555555,
+          "resistance_level": 184.5,
+          "num_bounces": 29,
+          "distance_from_support": 0.006068824103318844
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.14630177514792897,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 169.0,
+      "stop_loss": 162.94113888888887,
+      "target_price": 193.725,
+      "explanation": "STAIRSTEP! Support Rs 167.98 tested 29x. Price Rs 169.00 near support (0.6% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 167.98055555555555,
+        "resistance_level": 184.5,
+        "num_bounces": 29,
+        "distance_from_support": 0.006068824103318844
+      }
+    },
+    "total_score": 0.09875369822485205,
+    "expected_value": 0.09875369822485205,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "CDB.N0000",
+    "timestamp": "2026-02-10T21:26:57.284547",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.14620962425840486,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 379.25,
+        "stop_loss": 366.7219722222222,
+        "target_price": 434.70000000000005,
+        "explanation": "STAIRSTEP! Support Rs 378.06 tested 26x. Price Rs 379.25 near support (0.3% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 378.06388888888887,
+          "resistance_level": 414.0,
+          "num_bounces": 26,
+          "distance_from_support": 0.003137329816389112
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.14620962425840486,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 379.25,
+      "stop_loss": 366.7219722222222,
+      "target_price": 434.70000000000005,
+      "explanation": "STAIRSTEP! Support Rs 378.06 tested 26x. Price Rs 379.25 near support (0.3% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 378.06388888888887,
+        "resistance_level": 414.0,
+        "num_bounces": 26,
+        "distance_from_support": 0.003137329816389112
+      }
+    },
+    "total_score": 0.09869149637442327,
+    "expected_value": 0.09869149637442327,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "AEL.N0000",
+    "timestamp": "2026-02-10T21:26:52.490768",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.7999999999999999,
+        "expected_return": 0.1617647058823529,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 71.4,
+        "stop_loss": 70.71388377777777,
+        "target_price": 82.95,
+        "explanation": "STAIRSTEP! Support Rs 72.90 tested 5x. Price Rs 71.40 near support (2.1% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 72.9009111111111,
+          "resistance_level": 79.0,
+          "num_bounces": 5,
+          "distance_from_support": 0.02058837246661427
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.7999999999999999,
+      "expected_return": 0.1617647058823529,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 71.4,
+      "stop_loss": 70.71388377777777,
+      "target_price": 82.95,
+      "explanation": "STAIRSTEP! Support Rs 72.90 tested 5x. Price Rs 71.40 near support (2.1% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 72.9009111111111,
+        "resistance_level": 79.0,
+        "num_bounces": 5,
+        "distance_from_support": 0.02058837246661427
+      }
+    },
+    "total_score": 0.09705882352941173,
+    "expected_value": 0.09705882352941173,
+    "position_size": 0.1,
+    "priority": "MEDIUM",
+    "is_empire_stock": true
+  },
+  {
+    "stock_symbol": "LPL.N0000",
+    "timestamp": "2026-02-10T21:27:00.093039",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.14064748201438848,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 13.9,
+        "stop_loss": 13.473429333333334,
+        "target_price": 15.855,
+        "explanation": "STAIRSTEP! Support Rs 13.89 tested 14x. Price Rs 13.90 near support (0.1% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 13.890133333333335,
+          "resistance_level": 15.1,
+          "num_bounces": 14,
+          "distance_from_support": 0.0007103363538626156
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.14064748201438848,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 13.9,
+      "stop_loss": 13.473429333333334,
+      "target_price": 15.855,
+      "explanation": "STAIRSTEP! Support Rs 13.89 tested 14x. Price Rs 13.90 near support (0.1% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 13.890133333333335,
+        "resistance_level": 15.1,
+        "num_bounces": 14,
+        "distance_from_support": 0.0007103363538626156
+      }
+    },
+    "total_score": 0.09493705035971223,
+    "expected_value": 0.09493705035971223,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "LALU.N0000",
+    "timestamp": "2026-02-10T21:26:56.324852",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.13987473903966605,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 47.9,
+        "stop_loss": 46.29527622222223,
+        "target_price": 54.6,
+        "explanation": "STAIRSTEP! Support Rs 47.73 tested 26x. Price Rs 47.90 near support (0.4% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 47.72708888888889,
+          "resistance_level": 52.0,
+          "num_bounces": 26,
+          "distance_from_support": 0.0036229134258251357
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.13987473903966605,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 47.9,
+      "stop_loss": 46.29527622222223,
+      "target_price": 54.6,
+      "explanation": "STAIRSTEP! Support Rs 47.73 tested 26x. Price Rs 47.90 near support (0.4% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 47.72708888888889,
+        "resistance_level": 52.0,
+        "num_bounces": 26,
+        "distance_from_support": 0.0036229134258251357
+      }
+    },
+    "total_score": 0.09441544885177458,
+    "expected_value": 0.09441544885177458,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "BOPL.N0000",
+    "timestamp": "2026-02-10T21:26:54.710043",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.85,
+        "expected_return": 0.14711796246648806,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 74.6,
+        "stop_loss": 71.49221177777778,
+        "target_price": 85.575,
+        "explanation": "STAIRSTEP! Support Rs 73.70 tested 6x. Price Rs 74.60 near support (1.2% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 73.70331111111112,
+          "resistance_level": 81.5,
+          "num_bounces": 6,
+          "distance_from_support": 0.012166195458126366
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.85,
+      "expected_return": 0.14711796246648806,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 74.6,
+      "stop_loss": 71.49221177777778,
+      "target_price": 85.575,
+      "explanation": "STAIRSTEP! Support Rs 73.70 tested 6x. Price Rs 74.60 near support (1.2% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 73.70331111111112,
+        "resistance_level": 81.5,
+        "num_bounces": 6,
+        "distance_from_support": 0.012166195458126366
+      }
+    },
+    "total_score": 0.09378770107238614,
+    "expected_value": 0.09378770107238614,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "CBNK.N0000",
+    "timestamp": "2026-02-10T21:26:56.279219",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.13659793814433002,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 9.7,
+        "stop_loss": 9.237504,
+        "target_price": 11.025,
+        "explanation": "STAIRSTEP! Support Rs 9.52 tested 50x. Price Rs 9.70 near support (1.9% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 9.5232,
+          "resistance_level": 10.5,
+          "num_bounces": 50,
+          "distance_from_support": 0.01856518817204302
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.13659793814433002,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 9.7,
+      "stop_loss": 9.237504,
+      "target_price": 11.025,
+      "explanation": "STAIRSTEP! Support Rs 9.52 tested 50x. Price Rs 9.70 near support (1.9% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 9.5232,
+        "resistance_level": 10.5,
+        "num_bounces": 50,
+        "distance_from_support": 0.01856518817204302
+      }
+    },
+    "total_score": 0.09220360824742277,
+    "expected_value": 0.09220360824742277,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "PLC.N0000",
+    "timestamp": "2026-02-10T21:26:57.888618",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.13651685393258425,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 26.7,
+        "stop_loss": 24.684042666666674,
+        "target_price": 30.345,
+        "explanation": "STAIRSTEP! Support Rs 25.45 tested 10x. Price Rs 26.70 near support (4.9% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 25.447466666666674,
+          "resistance_level": 28.9,
+          "num_bounces": 10,
+          "distance_from_support": 0.049220354612901536
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.13651685393258425,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 26.7,
+      "stop_loss": 24.684042666666674,
+      "target_price": 30.345,
+      "explanation": "STAIRSTEP! Support Rs 25.45 tested 10x. Price Rs 26.70 near support (4.9% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 25.447466666666674,
+        "resistance_level": 28.9,
+        "num_bounces": 10,
+        "distance_from_support": 0.049220354612901536
+      }
+    },
+    "total_score": 0.09214887640449437,
+    "expected_value": 0.09214887640449437,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": true
+  },
+  {
+    "stock_symbol": "DFCC.N0000",
+    "timestamp": "2026-02-10T21:27:01.312483",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.1356800000000001,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 156.25,
+        "stop_loss": 151.34425,
+        "target_price": 177.45000000000002,
+        "explanation": "STAIRSTEP! Support Rs 156.03 tested 9x. Price Rs 156.25 near support (0.1% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 156.025,
+          "resistance_level": 169.0,
+          "num_bounces": 9,
+          "distance_from_support": 0.0014420765902899812
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.1356800000000001,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 156.25,
+      "stop_loss": 151.34425,
+      "target_price": 177.45000000000002,
+      "explanation": "STAIRSTEP! Support Rs 156.03 tested 9x. Price Rs 156.25 near support (0.1% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 156.025,
+        "resistance_level": 169.0,
+        "num_bounces": 9,
+        "distance_from_support": 0.0014420765902899812
+      }
+    },
+    "total_score": 0.09158400000000007,
+    "expected_value": 0.09158400000000007,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "CTLD.N0000",
+    "timestamp": "2026-02-10T21:26:52.892765",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.13157894736842105,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 39.9,
+        "stop_loss": 37.609292666666676,
+        "target_price": 45.15,
+        "explanation": "STAIRSTEP! Support Rs 38.77 tested 27x. Price Rs 39.90 near support (2.9% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 38.77246666666667,
+          "resistance_level": 43.0,
+          "num_bounces": 27,
+          "distance_from_support": 0.02908077381371983
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.13157894736842105,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 39.9,
+      "stop_loss": 37.609292666666676,
+      "target_price": 45.15,
+      "explanation": "STAIRSTEP! Support Rs 38.77 tested 27x. Price Rs 39.90 near support (2.9% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 38.77246666666667,
+        "resistance_level": 43.0,
+        "num_bounces": 27,
+        "distance_from_support": 0.02908077381371983
+      }
+    },
+    "total_score": 0.08881578947368421,
+    "expected_value": 0.08881578947368421,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "LHL.N0000",
+    "timestamp": "2026-02-10T21:26:58.205277",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.13116564417177912,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 81.5,
+        "stop_loss": 78.3907008888889,
+        "target_price": 92.19,
+        "explanation": "STAIRSTEP! Support Rs 80.82 tested 12x. Price Rs 81.50 near support (0.8% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 80.81515555555556,
+          "resistance_level": 87.8,
+          "num_bounces": 12,
+          "distance_from_support": 0.00847420808308223
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.13116564417177912,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 81.5,
+      "stop_loss": 78.3907008888889,
+      "target_price": 92.19,
+      "explanation": "STAIRSTEP! Support Rs 80.82 tested 12x. Price Rs 81.50 near support (0.8% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 80.81515555555556,
+        "resistance_level": 87.8,
+        "num_bounces": 12,
+        "distance_from_support": 0.00847420808308223
+      }
+    },
+    "total_score": 0.08853680981595091,
+    "expected_value": 0.08853680981595091,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "HHL.N0000",
+    "timestamp": "2026-02-10T21:27:03.211521",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.13005865102639302,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 34.1,
+        "stop_loss": 32.84006133333333,
+        "target_price": 38.535000000000004,
+        "explanation": "STAIRSTEP! Support Rs 33.86 tested 15x. Price Rs 34.10 near support (0.7% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 33.85573333333333,
+          "resistance_level": 36.7,
+          "num_bounces": 15,
+          "distance_from_support": 0.007214927653809542
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.13005865102639302,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 34.1,
+      "stop_loss": 32.84006133333333,
+      "target_price": 38.535000000000004,
+      "explanation": "STAIRSTEP! Support Rs 33.86 tested 15x. Price Rs 34.10 near support (0.7% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 33.85573333333333,
+        "resistance_level": 36.7,
+        "num_bounces": 15,
+        "distance_from_support": 0.007214927653809542
+      }
+    },
+    "total_score": 0.0877895894428153,
+    "expected_value": 0.0877895894428153,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "CHMX.N0000",
+    "timestamp": "2026-02-10T21:26:54.627828",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.12871287128712872,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 176.75,
+        "stop_loss": 170.65775833333333,
+        "target_price": 199.5,
+        "explanation": "STAIRSTEP! Support Rs 175.94 tested 12x. Price Rs 176.75 near support (0.5% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 175.93583333333333,
+          "resistance_level": 190.0,
+          "num_bounces": 12,
+          "distance_from_support": 0.0046276341279727845
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.12871287128712872,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 176.75,
+      "stop_loss": 170.65775833333333,
+      "target_price": 199.5,
+      "explanation": "STAIRSTEP! Support Rs 175.94 tested 12x. Price Rs 176.75 near support (0.5% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 175.93583333333333,
+        "resistance_level": 190.0,
+        "num_bounces": 12,
+        "distance_from_support": 0.0046276341279727845
+      }
+    },
+    "total_score": 0.08688118811881189,
+    "expected_value": 0.08688118811881189,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "GREG.N0000",
+    "timestamp": "2026-02-10T21:26:53.432405",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.1218241042345278,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 153.5,
+        "stop_loss": 143.0468161111111,
+        "target_price": 172.20000000000002,
+        "explanation": "STAIRSTEP! Support Rs 147.47 tested 30x. Price Rs 153.50 near support (4.1% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 147.47094444444443,
+          "resistance_level": 164.0,
+          "num_bounces": 30,
+          "distance_from_support": 0.04088300633232095
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.1218241042345278,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 153.5,
+      "stop_loss": 143.0468161111111,
+      "target_price": 172.20000000000002,
+      "explanation": "STAIRSTEP! Support Rs 147.47 tested 30x. Price Rs 153.50 near support (4.1% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 147.47094444444443,
+        "resistance_level": 164.0,
+        "num_bounces": 30,
+        "distance_from_support": 0.04088300633232095
+      }
+    },
+    "total_score": 0.08223127035830627,
+    "expected_value": 0.08223127035830627,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": true
+  },
+  {
+    "stock_symbol": "UAL.N0000",
+    "timestamp": "2026-02-10T21:26:59.755116",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.11991206030150775,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 79.6,
+        "stop_loss": 75.06043222222223,
+        "target_price": 89.14500000000001,
+        "explanation": "STAIRSTEP! Support Rs 77.38 tested 21x. Price Rs 79.60 near support (2.9% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 77.3818888888889,
+          "resistance_level": 84.9,
+          "num_bounces": 21,
+          "distance_from_support": 0.028664473599191158
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.11991206030150775,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 79.6,
+      "stop_loss": 75.06043222222223,
+      "target_price": 89.14500000000001,
+      "explanation": "STAIRSTEP! Support Rs 77.38 tested 21x. Price Rs 79.60 near support (2.9% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 77.3818888888889,
+        "resistance_level": 84.9,
+        "num_bounces": 21,
+        "distance_from_support": 0.028664473599191158
+      }
+    },
+    "total_score": 0.08094064070351774,
+    "expected_value": 0.08094064070351774,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "SPEN.N0000",
+    "timestamp": "2026-02-10T21:26:54.370603",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.11645569620253168,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 158.0,
+        "stop_loss": 153.12258333333332,
+        "target_price": 176.4,
+        "explanation": "STAIRSTEP! Support Rs 157.86 tested 15x. Price Rs 158.00 near support (0.1% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 157.85833333333332,
+          "resistance_level": 168.0,
+          "num_bounces": 15,
+          "distance_from_support": 0.0008974291294938285
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.11645569620253168,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 158.0,
+      "stop_loss": 153.12258333333332,
+      "target_price": 176.4,
+      "explanation": "STAIRSTEP! Support Rs 157.86 tested 15x. Price Rs 158.00 near support (0.1% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 157.85833333333332,
+        "resistance_level": 168.0,
+        "num_bounces": 15,
+        "distance_from_support": 0.0008974291294938285
+      }
+    },
+    "total_score": 0.07860759493670888,
+    "expected_value": 0.07860759493670888,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "LFIN.N0000",
+    "timestamp": "2026-02-10T21:26:57.810891",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.11572519083969476,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 163.75,
+        "stop_loss": 155.96516833333334,
+        "target_price": 182.70000000000002,
+        "explanation": "STAIRSTEP! Support Rs 160.79 tested 18x. Price Rs 163.75 near support (1.8% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 160.78883333333334,
+          "resistance_level": 174.0,
+          "num_bounces": 18,
+          "distance_from_support": 0.018416494511952985
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.11572519083969476,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 163.75,
+      "stop_loss": 155.96516833333334,
+      "target_price": 182.70000000000002,
+      "explanation": "STAIRSTEP! Support Rs 160.79 tested 18x. Price Rs 163.75 near support (1.8% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 160.78883333333334,
+        "resistance_level": 174.0,
+        "num_bounces": 18,
+        "distance_from_support": 0.018416494511952985
+      }
+    },
+    "total_score": 0.07811450381679397,
+    "expected_value": 0.07811450381679397,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": true
+  },
+  {
+    "stock_symbol": "NDB.N0000",
+    "timestamp": "2026-02-10T21:27:02.143365",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.11472602739726027,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 146.0,
+        "stop_loss": 136.8467916666667,
+        "target_price": 162.75,
+        "explanation": "STAIRSTEP! Support Rs 141.08 tested 15x. Price Rs 146.00 near support (3.5% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 141.07916666666668,
+          "resistance_level": 155.0,
+          "num_bounces": 15,
+          "distance_from_support": 0.03487994329424959
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.11472602739726027,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 146.0,
+      "stop_loss": 136.8467916666667,
+      "target_price": 162.75,
+      "explanation": "STAIRSTEP! Support Rs 141.08 tested 15x. Price Rs 146.00 near support (3.5% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 141.07916666666668,
+        "resistance_level": 155.0,
+        "num_bounces": 15,
+        "distance_from_support": 0.03487994329424959
+      }
+    },
+    "total_score": 0.07744006849315069,
+    "expected_value": 0.07744006849315069,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "GLAS.N0000",
+    "timestamp": "2026-02-10T21:26:53.339761",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.11144578313253015,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 58.1,
+        "stop_loss": 55.82414666666667,
+        "target_price": 64.575,
+        "explanation": "STAIRSTEP! Support Rs 57.55 tested 11x. Price Rs 58.10 near support (1.0% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 57.55066666666667,
+          "resistance_level": 61.5,
+          "num_bounces": 11,
+          "distance_from_support": 0.0095452123346384
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.11144578313253015,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 58.1,
+      "stop_loss": 55.82414666666667,
+      "target_price": 64.575,
+      "explanation": "STAIRSTEP! Support Rs 57.55 tested 11x. Price Rs 58.10 near support (1.0% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 57.55066666666667,
+        "resistance_level": 61.5,
+        "num_bounces": 11,
+        "distance_from_support": 0.0095452123346384
+      }
+    },
+    "total_score": 0.07522590361445784,
+    "expected_value": 0.07522590361445784,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "MELS.N0000",
+    "timestamp": "2026-02-10T21:27:03.695322",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.7999999999999999,
+        "expected_return": 0.12510316368638247,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 181.75,
+        "stop_loss": 182.3265888888889,
+        "target_price": 204.4875,
+        "explanation": "STAIRSTEP! Support Rs 187.97 tested 5x. Price Rs 181.75 near support (3.3% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 187.96555555555557,
+          "resistance_level": 194.75,
+          "num_bounces": 5,
+          "distance_from_support": 0.03306752419178461
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.7999999999999999,
+      "expected_return": 0.12510316368638247,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 181.75,
+      "stop_loss": 182.3265888888889,
+      "target_price": 204.4875,
+      "explanation": "STAIRSTEP! Support Rs 187.97 tested 5x. Price Rs 181.75 near support (3.3% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 187.96555555555557,
+        "resistance_level": 194.75,
+        "num_bounces": 5,
+        "distance_from_support": 0.03306752419178461
+      }
+    },
+    "total_score": 0.07506189821182947,
+    "expected_value": 0.07506189821182947,
+    "position_size": 0.1,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "TILE.N0000",
+    "timestamp": "2026-02-10T21:26:57.848021",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.8999999999999999,
+        "expected_return": 0.11041666666666662,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 50.4,
+        "stop_loss": 47.36083200000001,
+        "target_price": 55.964999999999996,
+        "explanation": "STAIRSTEP! Support Rs 48.83 tested 7x. Price Rs 50.40 near support (3.2% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 48.82560000000001,
+          "resistance_level": 53.3,
+          "num_bounces": 7,
+          "distance_from_support": 0.0322453794730631
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.8999999999999999,
+      "expected_return": 0.11041666666666662,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 50.4,
+      "stop_loss": 47.36083200000001,
+      "target_price": 55.964999999999996,
+      "explanation": "STAIRSTEP! Support Rs 48.83 tested 7x. Price Rs 50.40 near support (3.2% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 48.82560000000001,
+        "resistance_level": 53.3,
+        "num_bounces": 7,
+        "distance_from_support": 0.0322453794730631
+      }
+    },
+    "total_score": 0.07453124999999997,
+    "expected_value": 0.07453124999999997,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": true
+  },
+  {
+    "stock_symbol": "BRR.N0000",
+    "timestamp": "2026-02-10T21:26:53.920060",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.11013215859030853,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 22.7,
+        "stop_loss": 21.393781111111114,
+        "target_price": 25.200000000000003,
+        "explanation": "STAIRSTEP! Support Rs 22.06 tested 15x. Price Rs 22.70 near support (2.9% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 22.055444444444447,
+          "resistance_level": 24.0,
+          "num_bounces": 15,
+          "distance_from_support": 0.029224328586038063
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.11013215859030853,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 22.7,
+      "stop_loss": 21.393781111111114,
+      "target_price": 25.200000000000003,
+      "explanation": "STAIRSTEP! Support Rs 22.06 tested 15x. Price Rs 22.70 near support (2.9% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 22.055444444444447,
+        "resistance_level": 24.0,
+        "num_bounces": 15,
+        "distance_from_support": 0.029224328586038063
+      }
+    },
+    "total_score": 0.07433920704845826,
+    "expected_value": 0.07433920704845826,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "AAF.N0000",
+    "timestamp": "2026-02-10T21:26:55.497295",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.10968028419182957,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 56.3,
+        "stop_loss": 52.33686733333334,
+        "target_price": 62.475,
+        "explanation": "STAIRSTEP! Support Rs 53.96 tested 15x. Price Rs 56.30 near support (4.3% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 53.95553333333334,
+          "resistance_level": 59.5,
+          "num_bounces": 15,
+          "distance_from_support": 0.04345183008724446
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.10968028419182957,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 56.3,
+      "stop_loss": 52.33686733333334,
+      "target_price": 62.475,
+      "explanation": "STAIRSTEP! Support Rs 53.96 tested 15x. Price Rs 56.30 near support (4.3% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 53.95553333333334,
+        "resistance_level": 59.5,
+        "num_bounces": 15,
+        "distance_from_support": 0.04345183008724446
+      }
+    },
+    "total_score": 0.07403419182948497,
+    "expected_value": 0.07403419182948497,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "COLO.N0000",
+    "timestamp": "2026-02-10T21:27:02.742907",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.1095360824742268,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 58.2,
+        "stop_loss": 54.92441777777778,
+        "target_price": 64.575,
+        "explanation": "STAIRSTEP! Support Rs 56.62 tested 8x. Price Rs 58.20 near support (2.8% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 56.623111111111115,
+          "resistance_level": 61.5,
+          "num_bounces": 8,
+          "distance_from_support": 0.027848856375881054
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.1095360824742268,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 58.2,
+      "stop_loss": 54.92441777777778,
+      "target_price": 64.575,
+      "explanation": "STAIRSTEP! Support Rs 56.62 tested 8x. Price Rs 58.20 near support (2.8% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 56.623111111111115,
+        "resistance_level": 61.5,
+        "num_bounces": 8,
+        "distance_from_support": 0.027848856375881054
+      }
+    },
+    "total_score": 0.0739368556701031,
+    "expected_value": 0.0739368556701031,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": true
+  },
+  {
+    "stock_symbol": "JKL.N0000",
+    "timestamp": "2026-02-10T21:26:59.038051",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.10915492957746475,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 85.2,
+        "stop_loss": 80.06703333333333,
+        "target_price": 94.5,
+        "explanation": "STAIRSTEP! Support Rs 82.54 tested 33x. Price Rs 85.20 near support (3.2% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 82.54333333333334,
+          "resistance_level": 90.0,
+          "num_bounces": 33,
+          "distance_from_support": 0.03218511488914913
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.10915492957746475,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 85.2,
+      "stop_loss": 80.06703333333333,
+      "target_price": 94.5,
+      "explanation": "STAIRSTEP! Support Rs 82.54 tested 33x. Price Rs 85.20 near support (3.2% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 82.54333333333334,
+        "resistance_level": 90.0,
+        "num_bounces": 33,
+        "distance_from_support": 0.03218511488914913
+      }
+    },
+    "total_score": 0.07367957746478872,
+    "expected_value": 0.07367957746478872,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "SEYB.N0000",
+    "timestamp": "2026-02-10T21:26:57.113376",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.10727272727272738,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 110.0,
+        "stop_loss": 106.92439333333333,
+        "target_price": 121.80000000000001,
+        "explanation": "STAIRSTEP! Support Rs 110.23 tested 8x. Price Rs 110.00 near support (0.2% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 110.23133333333332,
+          "resistance_level": 116.0,
+          "num_bounces": 8,
+          "distance_from_support": 0.002098616848204002
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.10727272727272738,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 110.0,
+      "stop_loss": 106.92439333333333,
+      "target_price": 121.80000000000001,
+      "explanation": "STAIRSTEP! Support Rs 110.23 tested 8x. Price Rs 110.00 near support (0.2% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 110.23133333333332,
+        "resistance_level": 116.0,
+        "num_bounces": 8,
+        "distance_from_support": 0.002098616848204002
+      }
+    },
+    "total_score": 0.07240909090909098,
+    "expected_value": 0.07240909090909098,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "APLA.N0000",
+    "timestamp": "2026-02-10T21:26:55.404715",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.7,
+        "expected_return": 0.13593750000000004,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 168.0,
+        "stop_loss": 168.77310222222224,
+        "target_price": 190.8375,
+        "explanation": "STAIRSTEP! Support Rs 173.99 tested 3x. Price Rs 168.00 near support (3.4% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 173.9928888888889,
+          "resistance_level": 181.75,
+          "num_bounces": 3,
+          "distance_from_support": 0.03444329781038311
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.7,
+      "expected_return": 0.13593750000000004,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 168.0,
+      "stop_loss": 168.77310222222224,
+      "target_price": 190.8375,
+      "explanation": "STAIRSTEP! Support Rs 173.99 tested 3x. Price Rs 168.00 near support (3.4% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 173.9928888888889,
+        "resistance_level": 181.75,
+        "num_bounces": 3,
+        "distance_from_support": 0.03444329781038311
+      }
+    },
+    "total_score": 0.07136718750000001,
+    "expected_value": 0.07136718750000001,
+    "position_size": 0.1,
+    "priority": "LOW",
+    "is_empire_stock": false
+  },
+  {
+    "stock_symbol": "KVAL.N0000",
+    "timestamp": "2026-02-10T21:26:59.126653",
+    "patterns": [
+      {
+        "pattern_name": "stairstep",
+        "detected": true,
+        "confidence": 0.9,
+        "expected_return": 0.0944816053511705,
+        "win_rate": 0.75,
+        "time_horizon": "3_months",
+        "action": "BUY",
+        "entry_price": 89.7,
+        "stop_loss": 86.202736,
+        "target_price": 98.175,
+        "explanation": "STAIRSTEP! Support Rs 88.87 tested 9x. Price Rs 89.70 near support (0.9% away). Empire defending level - BUY!",
+        "metadata": {
+          "support_level": 88.86880000000001,
+          "resistance_level": 93.5,
+          "num_bounces": 9,
+          "distance_from_support": 0.009353113803719589
+        }
+      }
+    ],
+    "best_pattern": {
+      "pattern_name": "stairstep",
+      "detected": true,
+      "confidence": 0.9,
+      "expected_return": 0.0944816053511705,
+      "win_rate": 0.75,
+      "time_horizon": "3_months",
+      "action": "BUY",
+      "entry_price": 89.7,
+      "stop_loss": 86.202736,
+      "target_price": 98.175,
+      "explanation": "STAIRSTEP! Support Rs 88.87 tested 9x. Price Rs 89.70 near support (0.9% away). Empire defending level - BUY!",
+      "metadata": {
+        "support_level": 88.86880000000001,
+        "resistance_level": 93.5,
+        "num_bounces": 9,
+        "distance_from_support": 0.009353113803719589
+      }
+    },
+    "total_score": 0.0637750836120401,
+    "expected_value": 0.0637750836120401,
+    "position_size": 0.12,
+    "priority": "LOW",
+    "is_empire_stock": true
+  }
+]

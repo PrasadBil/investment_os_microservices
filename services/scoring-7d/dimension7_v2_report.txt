@@ -1,0 +1,153 @@
+
+================================================================================
+DIMENSION 7 V2.0 PHASE 1A SCORING REPORT
+================================================================================
+
+Generated: 2026-02-13 21:45:30
+Stocks Scored: 292
+Phase: 1A (Initial CSE Enhancement)
+Metrics Used: 4 (trade_volume, share_volume, intraday_volatility, trade_density)
+
+================================================================================
+COMPONENT WEIGHTS
+================================================================================
+
+Component 1 - Trading Activity:      40%
+  • Trade Volume score (50% of component)
+  • Share Volume score (50% of component)
+  • Trade Density classification (informational)
+
+Component 2 - Volatility Adjustment: 10%
+  • Very stable (<2.2%): +10 bonus
+  • Stable (2.2-3.5%): +5 bonus
+  • Moderate (3.5-5.6%): Neutral
+  • High (5.6-8.4%): -5 penalty
+  • Very high (>8.4%): -10 penalty
+
+Component 3 - Market Recognition:    50%
+  • Uses v1.0 methodology (analyst data)
+  • Placeholder: 50 (neutral) if no data
+
+================================================================================
+SCORING DISTRIBUTION
+================================================================================
+
+Mean:      50.1
+Median:    50.3
+Std Dev:   10.6
+Min:       33.8
+Max:       69.0
+
+Percentiles:
+  90th:   64.9
+  75th:   58.8
+  50th:   50.3
+  25th:   39.8
+  10th:   35.3
+
+================================================================================
+TOP 20 STOCKS
+================================================================================
+
+
+ 1. SAMP.N0000   Score:  69.0
+    Trading Activity:  95.0 | Volatility Adj:  60.0 | Recognition:  50.0
+    Density: mixed         | Volatility: very_low
+
+ 2. COMB.N0000   Score:  69.0
+    Trading Activity:  95.0 | Volatility Adj:  60.0 | Recognition:  50.0
+    Density: mixed         | Volatility: very_low
+
+ 3. HHL.N0000    Score:  68.5
+    Trading Activity:  95.0 | Volatility Adj:  55.0 | Recognition:  50.0
+    Density: mixed         | Volatility: low
+
+ 4. BIL.N0000    Score:  68.5
+    Trading Activity:  95.0 | Volatility Adj:  55.0 | Recognition:  50.0
+    Density: institutional | Volatility: low
+
+ 5. SIRA.N0000   Score:  68.5
+    Trading Activity:  95.0 | Volatility Adj:  55.0 | Recognition:  50.0
+    Density: mixed         | Volatility: low
+
+ 6. JKH.N0000    Score:  68.5
+    Trading Activity:  95.0 | Volatility Adj:  55.0 | Recognition:  50.0
+    Density: mixed         | Volatility: low
+
+ 7. CIC.N0000    Score:  68.0
+    Trading Activity:  95.0 | Volatility Adj:  50.0 | Recognition:  50.0
+    Density: mixed         | Volatility: moderate
+
+ 8. ACL.N0000    Score:  68.0
+    Trading Activity:  95.0 | Volatility Adj:  50.0 | Recognition:  50.0
+    Density: mixed         | Volatility: moderate
+
+ 9. LGL.N0000    Score:  68.0
+    Trading Activity:  95.0 | Volatility Adj:  50.0 | Recognition:  50.0
+    Density: mixed         | Volatility: moderate
+
+10. RAL.N0000    Score:  67.5
+    Trading Activity:  95.0 | Volatility Adj:  45.0 | Recognition:  50.0
+    Density: institutional | Volatility: high
+
+11. CIC.X0000    Score:  67.5
+    Trading Activity:  95.0 | Volatility Adj:  45.0 | Recognition:  50.0
+    Density: mixed         | Volatility: high
+
+12. MFPE.N0000   Score:  67.5
+    Trading Activity:  95.0 | Volatility Adj:  45.0 | Recognition:  50.0
+    Density: mixed         | Volatility: high
+
+13. BFL.N0000    Score:  67.0
+    Trading Activity:  95.0 | Volatility Adj:  40.0 | Recognition:  50.0
+    Density: mixed         | Volatility: very_high
+
+14. SDB.N0000    Score:  67.0
+    Trading Activity:  95.0 | Volatility Adj:  40.0 | Recognition:  50.0
+    Density: mixed         | Volatility: very_high
+
+15. HBS.N0000    Score:  67.0
+    Trading Activity:  95.0 | Volatility Adj:  40.0 | Recognition:  50.0
+    Density: mixed         | Volatility: very_high
+
+16. ASIY.N0000   Score:  67.0
+    Trading Activity:  95.0 | Volatility Adj:  40.0 | Recognition:  50.0
+    Density: mixed         | Volatility: very_high
+
+17. JFP.N0000    Score:  67.0
+    Trading Activity:  95.0 | Volatility Adj:  40.0 | Recognition:  50.0
+    Density: mixed         | Volatility: very_high
+
+18. DFCC.N0000   Score:  66.4
+    Trading Activity:  88.5 | Volatility Adj:  60.0 | Recognition:  50.0
+    Density: mixed         | Volatility: very_low
+
+19. AEL.N0000    Score:  66.4
+    Trading Activity:  88.5 | Volatility Adj:  60.0 | Recognition:  50.0
+    Density: mixed         | Volatility: very_low
+
+20. RCL.N0000    Score:  66.4
+    Trading Activity:  88.5 | Volatility Adj:  60.0 | Recognition:  50.0
+    Density: mixed         | Volatility: very_low
+
+================================================================================
+TRADE DENSITY ANALYSIS
+================================================================================
+
+Retail         : 151 stocks ( 51.7%)
+Mixed          : 130 stocks ( 44.5%)
+Institutional  :  11 stocks (  3.8%)
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+1. Compare v2.0 Phase 1A scores to v1.0 baseline
+2. Validate on test stocks (CTC, LION, LOFC, LOLC, JKH)
+3. Deploy parallel scoring (v1.0 production, v2.0 validation)
+4. Wait for Phase 1B-C data (20D metrics - Feb 3)
+5. Full Phase 1D deployment (60D metrics - April 8)
+
+================================================================================
+END OF REPORT
+================================================================================

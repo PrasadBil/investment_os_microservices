@@ -1,0 +1,204 @@
+================================================================================
+MANIPULATION DETECTOR v5.0 - DAILY REPORT
+Date: 2026-02-10 21:27:04
+================================================================================
+
+HIGH PRIORITY OPPORTUNITIES (10):
+--------------------------------------------------------------------------------
+
+1. HAPU.N0000 - STAIRSTEP
+   Confidence: 90%
+   Expected Return: +59%
+   Win Rate: 75%
+   Action: BUY at Rs 57.80
+   Position Size: 12.0%
+   Stop Loss: Rs 55.10 (-4.7%)
+   Target: Rs 92.19 (59.5%)
+   Time Horizon: 3_months
+   Explanation: STAIRSTEP! Support Rs 56.81 tested 9x. Price Rs 57.80 near support (1.7% away). Empire defending level - BUY!
+
+2. DIMO.N0000 - STAIRSTEP
+   Confidence: 90%
+   Expected Return: +58%
+   Win Rate: 75%
+   Action: BUY at Rs 1986.25
+   Position Size: 12.0%
+   Stop Loss: Rs 1918.43 (-3.4%)
+   Target: Rs 3139.50 (58.1%)
+   Time Horizon: 3_months
+   Explanation: STAIRSTEP! Support Rs 1977.76 tested 16x. Price Rs 1986.25 near support (0.4% away). Empire defending level - BUY!
+
+3. ASPH.N0000 [EMPIRE] - STAIRSTEP
+   Confidence: 90%
+   Expected Return: +57%
+   Win Rate: 75%
+   Action: BUY at Rs 0.40
+   Position Size: 12.0%
+   Stop Loss: Rs 0.38 (-4.8%)
+   Target: Rs 0.63 (57.5%)
+   Time Horizon: 3_months
+   Explanation: STAIRSTEP! Support Rs 0.39 tested 48x. Price Rs 0.40 near support (1.9% away). Empire defending level - BUY!
+
+4. UBF.N0000 - STAIRSTEP
+   Confidence: 90%
+   Expected Return: +52%
+   Win Rate: 75%
+   Action: BUY at Rs 3.10
+   Position Size: 12.0%
+   Stop Loss: Rs 2.87 (-7.4%)
+   Target: Rs 4.73 (52.4%)
+   Time Horizon: 3_months
+   Explanation: STAIRSTEP! Support Rs 2.96 tested 10x. Price Rs 3.10 near support (4.8% away). Empire defending level - BUY!
+
+5. PHAR.N0000 - STAIRSTEP
+   Confidence: 90%
+   Expected Return: +46%
+   Win Rate: 75%
+   Action: BUY at Rs 139.50
+   Position Size: 12.0%
+   Stop Loss: Rs 133.68 (-4.2%)
+   Target: Rs 203.70 (46.0%)
+   Time Horizon: 3_months
+   Explanation: STAIRSTEP! Support Rs 137.81 tested 12x. Price Rs 139.50 near support (1.2% away). Empire defending level - BUY!
+
+6. AMF.N0000 - STAIRSTEP
+   Confidence: 90%
+   Expected Return: +44%
+   Win Rate: 75%
+   Action: BUY at Rs 65.10
+   Position Size: 12.0%
+   Stop Loss: Rs 64.83 (-0.4%)
+   Target: Rs 93.55 (43.7%)
+   Time Horizon: 3_months
+   Explanation: STAIRSTEP! Support Rs 66.84 tested 19x. Price Rs 65.10 near support (2.6% away). Empire defending level - BUY!
+
+7. CARG.N0000 - STAIRSTEP
+   Confidence: 90%
+   Expected Return: +44%
+   Win Rate: 75%
+   Action: BUY at Rs 730.00
+   Position Size: 12.0%
+   Stop Loss: Rs 727.70 (-0.3%)
+   Target: Rs 1048.95 (43.7%)
+   Time Horizon: 3_months
+   Explanation: STAIRSTEP! Support Rs 750.21 tested 14x. Price Rs 730.00 near support (2.7% away). Empire defending level - BUY!
+
+8. HOPL.N0000 - STAIRSTEP
+   Confidence: 90%
+   Expected Return: +43%
+   Win Rate: 75%
+   Action: BUY at Rs 51.10
+   Position Size: 12.0%
+   Stop Loss: Rs 50.74 (-0.7%)
+   Target: Rs 73.29 (43.4%)
+   Time Horizon: 3_months
+   Explanation: STAIRSTEP! Support Rs 52.31 tested 10x. Price Rs 51.10 near support (2.3% away). Empire defending level - BUY!
+
+9. VLL.N0000 - STAIRSTEP
+   Confidence: 90%
+   Expected Return: +42%
+   Win Rate: 75%
+   Action: BUY at Rs 22.90
+   Position Size: 12.0%
+   Stop Loss: Rs 22.20 (-3.0%)
+   Target: Rs 32.55 (42.1%)
+   Time Horizon: 3_months
+   Explanation: STAIRSTEP! Support Rs 22.89 tested 9x. Price Rs 22.90 near support (0.0% away). Empire defending level - BUY!
+
+10. ALLI.N0000 - STAIRSTEP
+   Confidence: 90%
+   Expected Return: +42%
+   Win Rate: 75%
+   Action: BUY at Rs 365.00
+   Position Size: 12.0%
+   Stop Loss: Rs 361.84 (-0.9%)
+   Target: Rs 518.70 (42.1%)
+   Time Horizon: 3_months
+   Explanation: STAIRSTEP! Support Rs 373.03 tested 17x. Price Rs 365.00 near support (2.2% away). Empire defending level - BUY!
+
+
+MEDIUM PRIORITY (77):
+--------------------------------------------------------------------------------
+- CALT.N0000: stairstep (Conf: 90%, Return: +38%)
+- TANG.N0000: stairstep (Conf: 90%, Return: +37%)
+- TAP.N0000: stairstep (Conf: 90%, Return: +37%)
+- ONAL.N0000: stairstep (Conf: 90%, Return: +36%)
+- SFIN.N0000: stairstep (Conf: 90%, Return: +36%)
+- TSML.N0000: stairstep (Conf: 90%, Return: +36%)
+- LITE.N0000: stairstep (Conf: 90%, Return: +35%)
+- JETS.N0000: stairstep (Conf: 90%, Return: +34%)
+- SHOT.N0000: stairstep (Conf: 90%, Return: +34%)
+- PINS.N0000: stairstep (Conf: 90%, Return: +33%)
+- DIPD.N0000 [EMPIRE]: stairstep (Conf: 90%, Return: +33%)
+- BERU.N0000: stairstep (Conf: 90%, Return: +31%)
+- CHOT.N0000: stairstep (Conf: 85%, Return: +33%)
+- UBC.N0000: stairstep (Conf: 90%, Return: +30%)
+- REEF.N0000: stairstep (Conf: 90%, Return: +30%)
+- SHAW.N0000: stairstep (Conf: 90%, Return: +30%)
+- MARA.N0000: stairstep (Conf: 90%, Return: +30%)
+- AHPL.N0000 [EMPIRE]: stairstep (Conf: 90%, Return: +30%)
+- AINS.N0000: stairstep (Conf: 90%, Return: +29%)
+- JAT.N0000: stairstep (Conf: 90%, Return: +29%)
+- LOFC.N0000 [EMPIRE]: stairstep (Conf: 90%, Return: +28%)
+- RICH.N0000: stairstep (Conf: 90%, Return: +28%)
+- CFLB.N0000: stairstep (Conf: 90%, Return: +28%)
+- VPEL.N0000: stairstep (Conf: 90%, Return: +27%)
+- KHC.N0000: stairstep (Conf: 90%, Return: +27%)
+- MRH.N0000: stairstep (Conf: 90%, Return: +27%)
+- BPPL.N0000 [EMPIRE]: stairstep (Conf: 90%, Return: +27%)
+- CITW.N0000: stairstep (Conf: 90%, Return: +26%)
+- TYRE.N0000 [EMPIRE]: stairstep (Conf: 90%, Return: +26%)
+- EBCR.N0000: stairstep (Conf: 90%, Return: +25%)
+- LVEN.N0000: stairstep (Conf: 90%, Return: +25%)
+- TRAN.N0000: stairstep (Conf: 90%, Return: +25%)
+- HNBF.N0000 [EMPIRE]: stairstep (Conf: 90%, Return: +25%)
+- COCR.N0000: stairstep (Conf: 90%, Return: +25%)
+- RCH.N0000: stairstep (Conf: 90%, Return: +24%)
+- KHL.N0000: stairstep (Conf: 90%, Return: +24%)
+- COOP.N0000: stairstep (Conf: 90%, Return: +24%)
+- AGAL.N0000: stairstep (Conf: 90%, Return: +23%)
+- CSLK.N0000: stairstep (Conf: 90%, Return: +22%)
+- GUAR.N0000: stairstep (Conf: 90%, Return: +22%)
+- HSIG.N0000: stairstep (Conf: 90%, Return: +22%)
+- PABC.N0000 [EMPIRE]: stairstep (Conf: 90%, Return: +22%)
+- AGPL.N0000: stairstep (Conf: 90%, Return: +22%)
+- KOTA.N0000: stairstep (Conf: 90%, Return: +22%)
+- GHLL.N0000: stairstep (Conf: 90%, Return: +21%)
+- JINS.N0000: stairstep (Conf: 75%, Return: +26%)
+- CSD.N0000: stairstep (Conf: 90%, Return: +21%)
+- KGAL.N0000: stairstep (Conf: 90%, Return: +21%)
+- VFIN.N0000: stairstep (Conf: 85%, Return: +22%)
+- HELA.N0000: stairstep (Conf: 90%, Return: +21%)
+- CFIN.N0000: stairstep (Conf: 90%, Return: +20%)
+- LGL.N0000 [EMPIRE]: stairstep (Conf: 90%, Return: +20%)
+- CTHR.N0000: stairstep (Conf: 90%, Return: +20%)
+- BALA.N0000: stairstep (Conf: 90%, Return: +20%)
+- JKH.N0000: stairstep (Conf: 90%, Return: +20%)
+- HPL.N0000: stairstep (Conf: 90%, Return: +19%)
+- RHTL.N0000: stairstep (Conf: 90%, Return: +19%)
+- WATA.N0000: stairstep (Conf: 90%, Return: +19%)
+- EDEN.N0000: stairstep (Conf: 90%, Return: +19%)
+- HUNA.N0000: stairstep (Conf: 90%, Return: +19%)
+- MGT.N0000: stairstep (Conf: 90%, Return: +18%)
+- DIST.N0000: stairstep (Conf: 90%, Return: +18%)
+- PMB.N0000: stairstep (Conf: 90%, Return: +18%)
+- UDPL.N0000: stairstep (Conf: 90%, Return: +18%)
+- ASHO.N0000: stairstep (Conf: 90%, Return: +18%)
+- BFN.N0000: stairstep (Conf: 90%, Return: +17%)
+- PALM.N0000 [EMPIRE]: stairstep (Conf: 90%, Return: +17%)
+- CINV.N0000: stairstep (Conf: 90%, Return: +17%)
+- LWL.N0000 [EMPIRE]: stairstep (Conf: 90%, Return: +17%)
+- ABL.N0000: stairstep (Conf: 90%, Return: +17%)
+- CCS.N0000: stairstep (Conf: 90%, Return: +16%)
+- RIL.N0000: stairstep (Conf: 90%, Return: +16%)
+- SUN.N0000: stairstep (Conf: 90%, Return: +16%)
+- SMOT.N0000: stairstep (Conf: 90%, Return: +16%)
+- BIL.N0000: stairstep (Conf: 90%, Return: +16%)
+- CERA.N0000: stairstep (Conf: 90%, Return: +15%)
+- AEL.N0000 [EMPIRE]: stairstep (Conf: 80%, Return: +16%)
+
+================================================================================
+Total Opportunities: 114
+Empire Stocks: 18
+Expected Portfolio Alpha: 216.2%
+================================================================================

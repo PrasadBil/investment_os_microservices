@@ -1,0 +1,135 @@
+================================================================================
+DIMENSION 4: GROWTH SCORER v1.0 - VALIDATION REPORT
+================================================================================
+Date: 2026-02-13 21:45:31
+Total Stocks Scored: 298
+
+================================================================================
+OVERALL STATISTICS
+================================================================================
+Mean:   55.7
+Median: 46.2
+Std:    34.0
+Min:    0.0
+Max:    100.0
+
+SCORE DISTRIBUTION:
+  Exceptional     ( 85-100):  25 stocks (  8.4%)
+  Strong          ( 70-85 ):  18 stocks (  6.0%)
+  Moderate        ( 55-70 ):  17 stocks (  5.7%)
+  Weak            ( 40-55 ):  39 stocks ( 13.1%)
+  Poor/Declining  (  0-40 ): 128 stocks ( 43.0%)
+
+SECTOR BREAKDOWN:
+  Financial   :  64 stocks, mean =  73.8
+  Growth      :   1 stocks, mean =  20.0
+  Industrial  : 225 stocks, mean =  50.9
+  Mature      :   8 stocks, mean =  51.2
+
+================================================================================
+VALIDATION RESULTS
+================================================================================
+
+❌ FAIL CTC.N0000 - Exceptional Mature growth - high quality, sustainable trajectory
+────────────────────────────────────────────────────────────
+Expected: 80-95
+Actual:   98.1
+Sector:   Mature
+Description: Exceptional mature compounder
+
+Component Breakdown:
+  Revenue Growth:        96.3 (40% weight)
+  Earnings Quality:      95.1 (35% weight)
+  Growth Efficiency:     85.0 (25% weight)
+  Modifiers:            +15.0
+  Penalties:            -10.0
+
+❌ FAIL LION.N0000 - Strong Industrial growth - solid quality and consistency
+────────────────────────────────────────────────────────────
+Expected: 55-70
+Actual:   75.7
+Sector:   Industrial
+Description: Strong industrial growth
+
+Component Breakdown:
+  Revenue Growth:        49.4 (40% weight)
+  Earnings Quality:      99.0 (35% weight)
+  Growth Efficiency:     85.0 (25% weight)
+  Modifiers:            +10.0
+  Penalties:            -10.0
+
+✅ PASS LOLC.N0000 - Poor Financial growth - declining or negative, avoid
+────────────────────────────────────────────────────────────
+Expected: 20-40
+Actual:   25.0
+Sector:   Financial
+Description: VALUE TRAP: Revenue growth but weak profitability
+
+Component Breakdown:
+  Revenue Growth:       100.0 (40% weight)
+  Earnings Quality:       0.0 (35% weight)
+  Growth Efficiency:     75.0 (25% weight)
+  Modifiers:            +15.0
+  Penalties:            -40.0
+
+❌ FAIL LOFC.N0000 - Strong Financial growth - solid quality and consistency
+────────────────────────────────────────────────────────────
+Expected: 65-80
+Actual:   80.1
+Sector:   Financial
+Description: Excellent financial growth
+
+Component Breakdown:
+  Revenue Growth:       100.0 (40% weight)
+  Earnings Quality:      75.3 (35% weight)
+  Growth Efficiency:     75.0 (25% weight)
+  Modifiers:            +15.0
+  Penalties:            -20.0
+
+❌ FAIL JKH.N0000 - Poor Industrial growth - declining or negative, avoid
+────────────────────────────────────────────────────────────
+Expected: 15-35
+Actual:   37.4
+Sector:   Industrial
+Description: VALUE TRAP: Declining conglomerate
+
+Component Breakdown:
+  Revenue Growth:       100.0 (40% weight)
+  Earnings Quality:       3.4 (35% weight)
+  Growth Efficiency:     85.0 (25% weight)
+  Modifiers:            +15.0
+  Penalties:            -40.0
+
+================================================================================
+TOP 10 GROWTH STOCKS
+================================================================================
+
+ 1. AAF.N0000    - Score: 100.0 (Financial)
+ 2. AAF.P0000    - Score: 100.0 (Financial)
+ 3. ACL.N0000    - Score: 100.0 (Industrial)
+ 4. AEL.N0000    - Score: 100.0 (Industrial)
+ 5. AFS.N0000    - Score: 100.0 (Industrial)
+ 6. AFSL.N0000   - Score: 100.0 (Financial)
+ 7. AGPL.N0000   - Score: 100.0 (Industrial)
+ 8. ALLI.N0000   - Score: 100.0 (Financial)
+ 9. ASHO.N0000   - Score: 100.0 (Industrial)
+10. ASIR.N0000   - Score: 100.0 (Industrial)
+
+================================================================================
+BOTTOM 10 GROWTH STOCKS (AVOID)
+================================================================================
+
+ 1. ASCO.N0000   - Score:   0.0 (Industrial)
+ 2. CTBL.N0000   - Score:   0.0 (Industrial)
+ 3. KVAL.N0000   - Score:   0.0 (Industrial)
+ 4. MAL.N0000    - Score:   0.0 (Industrial)
+ 5. MAL.X0000    - Score:   0.0 (Industrial)
+ 6. MEL.N0000    - Score:   0.0 (Industrial)
+ 7. MGT.N0000    - Score:   0.0 (Industrial)
+ 8. SLND.N0000   - Score:   0.0 (Industrial)
+ 9. TAFL.N0000   - Score:   0.0 (Industrial)
+10. TILE.N0000   - Score:   0.0 (Industrial)
+
+================================================================================
+END OF REPORT
+================================================================================

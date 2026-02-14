@@ -1,0 +1,26 @@
+2026-02-14 07:44:11 | cse_uploader | INFO | 
+2026-02-14 07:44:11 | cse_uploader | INFO | ======================================================================
+2026-02-14 07:44:11 | cse_uploader | INFO | UPLOADING CSE PRICES TO SUPABASE
+2026-02-14 07:44:11 | cse_uploader | INFO | ======================================================================
+2026-02-14 07:44:11 | cse_uploader | INFO | File: output/2026-02-14/cse_prices_20260214_074410.csv
+2026-02-14 07:44:11 | cse_uploader | INFO | Rows: 288
+2026-02-14 07:44:11 | cse_uploader | INFO | Columns: ['symbol', 'price', 'open', 'high', 'low', 'previous_close', 'change_rs', 'change_pct', 'share_volume', 'trade_volume', 'collection_date', 'collection_timestamp']
+2026-02-14 07:44:11 | cse_uploader | INFO | Uploading 288 prices in 3 batches...
+2026-02-14 07:44:13 | cse_uploader | INFO |    Batch 1/3: 100 prices uploaded
+2026-02-14 07:44:14 | cse_uploader | INFO |    Batch 2/3: 100 prices uploaded
+2026-02-14 07:44:14 | cse_uploader | INFO |    Batch 3/3: 88 prices uploaded
+2026-02-14 07:44:14 | cse_uploader | INFO | 
+2026-02-14 07:44:14 | cse_uploader | INFO | ======================================================================
+2026-02-14 07:44:14 | cse_uploader | INFO | UPLOAD SUMMARY
+2026-02-14 07:44:14 | cse_uploader | INFO | ======================================================================
+2026-02-14 07:44:14 | cse_uploader | INFO | Success: 288 prices
+2026-02-14 07:44:14 | cse_uploader | INFO | Errors: 0 prices
+2026-02-14 07:44:14 | cse_uploader | INFO | Total: 288 prices
+2026-02-14 07:44:14 | cse_uploader | INFO | ALL PRICES UPLOADED SUCCESSFULLY!
+2026-02-14 07:44:14 | cse_uploader | INFO | 
+2026-02-14 07:44:14 | cse_uploader | INFO | ======================================================================
+2026-02-14 07:44:14 | cse_uploader | INFO | CSE PRICE UPLOAD COMPLETE!
+2026-02-14 07:44:14 | cse_uploader | INFO | ======================================================================
+2026-02-14 07:44:14 | cse_uploader | INFO | Table: cse_daily_prices
+2026-02-14 07:44:14 | cse_uploader | INFO | Runtime: ~5 seconds
+2026-02-14 07:44:14 | cse_uploader | INFO | ======================================================================

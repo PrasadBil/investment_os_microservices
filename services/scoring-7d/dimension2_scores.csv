@@ -1,0 +1,299 @@
+symbol,dimension_2_score,quality_label,framework_used,component1_score,component1_contribution,component2_score,component2_contribution,component3_score,component3_contribution,industry_type,sector,industry,equity_assets_ratio,capital_quality,leverage_ratio,roa_5y,asset_quality,current_ratio,debt_equity,debt_quality,debt_ebitda,has_net_cash,quick_ratio,fortress_bonus_applied,interest_coverage
+AAF.N0000,75.4,Good,Financial (Basel III),88.25245230685968,35.3,43.209999999999994,15.1,100.0,25.0,financial,,Commercial Banks,9.768637532133676,Adequate,10.236842105263158,1.01,Below Average,1.7,,,,,,,
+AAF.P0000,75.4,Good,Financial (Basel III),88.25245230685968,35.3,43.209999999999994,15.1,100.0,25.0,financial,,Commercial Banks,9.768637532133676,Adequate,10.236842105263158,1.01,Below Average,1.7,,,,,,,
+AAIC.N0000,94.8,Fortress,Financial (Basel III),100.0,40.0,85.0,29.7,100.0,25.0,financial,,Insurance Carriers,16.818642350557244,Excellent,5.945783132530121,6.16,World-Class,3.03,,,,,,,
+ABAN.N0000,94.1,Fortress,Industrial,100.0,40.0,85.0,29.7,97.33333333333333,24.3,asset_heavy,,Household Appliances,51.11111111111111,,,,,1.71,0.1,Fortress,0.33,True,1.15,True,24.24
+ABL.N0000,65.7,Adequate,Financial (Basel III),99.70254957507082,39.9,37.959999999999994,13.3,50.0,12.5,financial,,Commercial Banks,12.197650310988251,Excellent,8.19830028328612,0.76,Weak,0.0,,,,,,,
+ACAP.N0000,37.6,Weak,Industrial,41.42,16.6,20.0,7.0,56.05,14.0,asset_heavy,,Hotels Rooming Houses Camps and Other Lodging Places,-21.205821205821206,,,,,0.23,0.0,No Data,6.72,False,0.23,False,3.65
+ACL.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Drawing and Insulating of Nonferrous Wire,86.36959370904324,,,,,8.21,0.03,Fortress,0.15,True,5.28,True,49.3
+ACME.N0000,46.0,Moderate,Industrial,50.0,20.0,20.0,7.0,76.0,19.0,asset_heavy,,Converted Paper And Paperboard Products Except Containers And Boxes,-42.47950310559006,,,,,0.3,0.0,No Data,0.0,False,0.15,False,-1.04
+AEL.N0000,59.5,Moderate,Industrial,64.19999999999999,25.7,42.96,15.0,74.96763284629824,18.7,asset_light,,Engineering Services,31.662721410497102,,,,,1.07,1.02,Moderate,3.67,False,0.44,False,4.71
+AFS.N0000,91.6,Fortress,Industrial,95.8,38.3,80.755,28.3,100.0,25.0,asset_heavy,,Electrical Work,64.31797384656257,,,,,2.21,0.42,Strong,0.99,False,0.62,False,10.27
+AFSL.N0000,91.2,Fortress,Financial (Basel III),100.0,40.0,74.78,26.2,100.0,25.0,financial,,Finance Lessors,23.889931207004377,Excellent,4.18586387434555,3.04,Excellent,1.48,,,,,,,
+AGAL.N0000,92.1,Fortress,Industrial,100.0,40.0,78.4,27.4,98.69222343921139,24.7,asset_heavy,,Food and Kindred Products,55.6407447973713,,,,,1.8,0.18,Fortress,0.61,False,0.75,False,11.73
+AGPL.N0000,81.2,Strong,Industrial,95.38,38.2,77.636,27.2,63.68289039767215,15.9,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,43.16197866149369,,,,,1.48,0.27,Fortress,2.02,False,0.98,False,2.59
+AGST.N0000,68.3,Adequate,Industrial,72.14999999999999,28.9,86.28999999999999,30.2,37.0,9.2,asset_heavy,,Agricultural Chemicals,64.3987341772152,,,,,2.28,0.41,Strong,18.92,False,0.94,False,0.13
+AGST.X0000,68.3,Adequate,Industrial,72.14999999999999,28.9,86.28999999999999,30.2,37.0,9.2,asset_heavy,,Agricultural Chemicals,64.3987341772152,,,,,2.28,0.41,Strong,18.92,False,0.94,False,0.13
+AHPL.N0000,63.1,Adequate,Industrial,94.6,37.8,20.0,7.0,73.12,18.3,asset_heavy,,Hotels and Motels,68.4263550272013,,,,,0.3,0.09,Fortress,2.15,False,0.18,False,2.83
+AHUN.N0000,50.6,Moderate,Industrial,60.68000000000001,24.3,33.824999999999996,11.8,58.024468895471855,14.5,asset_heavy,,Hotels and Motels,34.807448159119765,,,,,0.65,1.43,Moderate,3.3,False,0.59,False,2.51
+AINS.N0000,81.0,Strong,Financial (Basel III),100.0,40.0,45.73,16.0,100.0,25.0,financial,,Life Insurance,38.02281368821293,Excellent,2.63,1.13,Below Average,4.56,,,,,,,
+ALLI.N0000,86.5,Strong,Financial (Basel III),96.09282173307693,38.4,65.785,23.0,100.0,25.0,financial,,Personal Credit Institutions,11.260921151979291,Strong,8.880268199233717,2.17,Good,2.16,,,,,,,
+ALUM.N0000,42.5,Moderate,Industrial,44.55499999999999,17.8,40.3,14.1,42.49178247734139,10.6,asset_heavy,,Metal Doors Sash Frames Molding and Trim Manufacturing,28.519637462235647,,,,,1.04,1.94,Moderate,5.19,False,0.4,False,1.67
+AMF.N0000,71.0,Good,Financial (Basel III),100.0,40.0,58.54,20.5,42.0,10.5,financial,,Personal Credit Institutions,20.752984389348025,Excellent,4.81858407079646,1.74,Average,0.91,,,,,,,
+AMSL.N0000,77.4,Good,Industrial,93.20499999999998,37.3,59.036,20.7,77.82121134020619,19.5,asset_heavy,,Hospitals,47.358247422680414,,,,,1.23,0.39,Strong,1.81,False,0.51,False,3.93
+APLA.N0000,84.0,Strong,Industrial,60.0,24.0,100.0,35.0,100.0,25.0,asset_heavy,,Plastics Materials Synthetic Resins and Nonvulcanizable Elastomers,92.50585480093677,,,,,17.48,0.0,No Data,0.0,True,15.38,True,1746.03
+ASCO.N0000,44.7,Moderate,Industrial,70.75,28.3,21.75,7.6,35.05795516675779,8.8,asset_heavy,,Textile Mill Products,53.52651722252597,,,,,0.5,0.45,Strong,28.04,False,0.15,False,0.38
+ASHO.N0000,95.8,Fortress,Industrial,100.0,40.0,87.97,30.8,100.0,25.0,asset_heavy,,Transportation Equipment,60.457239627434376,,,,,2.24,0.02,Fortress,0.04,True,1.1,True,397.92
+ASIR.N0000,57.1,Moderate,Industrial,78.53999999999999,31.4,24.269999999999996,8.5,68.5764043790626,17.1,asset_heavy,,Hospitals,40.81423195347246,,,,,0.58,0.8,Good,2.26,False,0.13,False,3.03
+ASIY.N0000,49.3,Moderate,Industrial,43.644999999999996,17.5,52.35000000000001,18.3,54.185994550408715,13.5,asset_heavy,,Groceries And Related Products,22.3433242506812,,,,,1.12,1.9,Moderate,6.17,False,0.53,False,2.77
+ASPH.N0000,94.4,Fortress,Industrial,86.0,34.4,100.0,35.0,100.0,25.0,asset_heavy,,Asphalt Paving And Roofing Materials,94.07894736842105,,,,,3.96,0.01,Fortress,13.2,True,3.68,False,-0.49
+ATL.N0000,73.2,Good,Financial (Basel III),100.0,40.0,72.085,25.2,32.0,8.0,financial,,Insurance Carriers,34.34518647007806,Excellent,2.9116161616161618,2.77,Good,0.8,,,,,,,
+ATLL.N0000,62.1,Adequate,Financial (Basel III),98.54847002014066,39.4,29.0,10.1,50.0,12.5,financial,,Life Insurance,11.791335740072203,Strong,8.480803380074704,0.37,Poor,0.0,,,,,,,
+AUTO.N0000,98.0,Fortress,Industrial,95.0,38.0,100.0,35.0,100.0,25.0,asset_heavy,,Motor Vehicles And Motor Vehicle Parts And Supplies,73.88059701492537,,,,,9.64,0.0,Fortress,0.0,True,5.73,False,-12.79
+BALA.N0000,75.3,Good,Industrial,99.55,39.8,44.5,15.6,79.75203883495145,19.9,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,50.60679611650486,,,,,1.1,0.17,Fortress,1.1,False,0.38,False,4.01
+BBH.N0000,35.3,Weak,Industrial,41.0,16.4,34.125,11.9,27.7,6.9,asset_heavy,,Hotels and Motels,-15.586982248520709,,,,,0.65,0.0,No Data,7.8,False,0.61,False,1.3
+BERU.N0000,50.0,Moderate,Industrial,67.75999999999999,27.1,20.0,7.0,63.69372549019607,15.9,asset_heavy,,Hotels and Motels,27.4562091503268,,,,,0.26,1.28,Moderate,2.47,False,0.23,False,3.46
+BFL.N0000,79.8,Good,Industrial,92.91,37.2,66.554,23.3,77.32,19.3,asset_heavy,,Poultry Slaughtering and Processing,61.81998021760633,,,,,1.37,0.35,Strong,2.14,False,0.58,False,3.26
+BFN.N0000,83.1,Strong,Financial (Basel III),100.0,40.0,51.60999999999999,18.1,100.0,25.0,financial,,Personal Credit Institutions,12.716049382716049,Excellent,7.864077669902913,1.41,Below Average,1.54,,,,,,,
+BIL.N0000,63.1,Adequate,Industrial,82.55,33.0,20.0,7.0,92.22651678472437,23.1,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,39.54419464120727,,,,,0.33,0.37,Strong,0.0,False,0.22,False,-0.37
+BLUE.N0000,60.5,Adequate,Industrial,69.03999999999999,27.6,28.679999999999996,10.0,91.49253858859714,22.9,asset_heavy,,Jewelry Precious Metal,38.3208976476619,,,,,0.72,0.82,Good,0.0,False,0.16,False,-4.0
+BOGA.N0000,84.0,Strong,Industrial,60.0,24.0,100.0,35.0,100.0,25.0,asset_heavy,,Mining and Quarrying Of Nonmetallic Minerals except Fuels,81.81818181818183,,,,,5.33,0.0,No Data,0.0,True,2.92,True,1196.78
+BOPL.N0000,78.2,Good,Industrial,76.96,30.8,99.07,34.7,50.95469777306469,12.7,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,44.43266171792153,,,,,2.48,0.67,Good,3.13,False,1.92,False,1.64
+BPPL.N0000,65.3,Adequate,Industrial,70.955,28.4,78.64,27.5,37.4780303030303,9.4,asset_heavy,,Miscellaneous Manufacturing Industries,55.17676767676768,,,,,1.58,0.6,Good,4.61,False,0.92,False,0.85
+BREW.N0000,94.5,Fortress,Industrial,100.0,40.0,85.0,29.7,98.87310085371148,24.7,asset_light,,Malt Beverages,56.24366951237158,,,,,1.82,0.16,Fortress,0.28,True,1.36,True,12.4
+BRR.N0000,73.5,Good,Industrial,60.0,24.0,95.02,33.3,65.0,16.2,asset_heavy,,Hotels and Motels,86.59803521546718,,,,,10.21,0.0,No Data,0.0,True,1.46,False,0.0
+BRWN.N0000,55.7,Moderate,Industrial,65.64,26.3,20.0,7.0,89.87732803086979,22.5,asset_heavy,,Wholesale Trade-Durable Goods,35.62888005144965,,,,,0.35,0.62,Good,24.65,False,0.24,False,-0.08
+BUKI.N0000,98.1,Fortress,Industrial,100.0,40.0,95.28999999999999,33.4,98.89593761095611,24.7,asset_heavy,,Agricultural Production Crops,56.73979203652042,,,,,2.24,0.39,Strong,0.91,True,1.78,False,9.94
+CABO.N0000,75.2,Good,Industrial,60.0,24.0,100.0,35.0,65.0,16.2,asset_heavy,,Real Estate,97.12643678160919,,,,,7.56,0.0,No Data,0.0,True,7.56,False,0.0
+CALF.N0000,75.2,Good,Financial (Basel III),100.0,40.0,29.0,10.1,100.0,25.0,financial,,Personal Credit Institutions,26.89655172413793,Excellent,3.717948717948718,-0.88,Poor,1.39,,,,,,,
+CALH.N0000,52.0,Moderate,Industrial,45.86,18.3,62.099999999999994,21.7,47.783777239709444,11.9,asset_light,,Security and Commodity Brokers Dealers Exchanges and Services,23.80629539951574,,,,,1.19,3.04,Very High,0.0,True,1.19,False,0.0
+CALT.N0000,50.7,Moderate,Industrial,39.980000000000004,16.0,68.564,24.0,42.672315741583255,10.7,asset_heavy,,Security Brokers Dealers and Flotation Companies,17.04959053685168,,,,,1.22,4.72,Very High,0.0,True,1.22,False,0.0
+CARE.N0000,62.7,Adequate,Industrial,48.14,19.3,61.599999999999994,21.6,87.51449275362319,21.9,asset_heavy,,Converted Paper And Paperboard Products Except Containers And Boxes,31.69082125603865,,,,,1.19,1.49,Moderate,20.73,False,0.82,False,-0.49
+CARG.N0000,55.7,Moderate,Industrial,72.28,28.9,28.679999999999996,10.0,66.9034980149978,16.7,asset_heavy,,Food and Kindred Products,30.355830024996322,,,,,0.72,1.15,Moderate,2.02,False,0.34,False,3.67
+CARS.N0000,98.1,Fortress,Industrial,100.0,40.0,94.98999999999998,33.2,99.265,24.8,asset_heavy,,Multi-Sector Holdings,60.354203623462354,,,,,2.22,0.33,Strong,0.93,True,1.77,False,9.65
+CBNK.N0000,62.6,Adequate,Financial (Basel III),100.0,40.0,29.0,10.1,50.0,12.5,financial,,Commercial Banks,13.528481012658228,Excellent,7.391812865497076,0.04,Poor,0.0,,,,,,,
+CCS.N0000,56.7,Moderate,Industrial,72.09,28.8,27.419999999999998,9.6,73.14721781574131,18.3,asset_heavy,,Bottled and Canned Soft Drinks and Carbonated Waters,28.395363026235508,,,,,0.68,1.23,Moderate,1.82,False,0.22,False,4.73
+CDB.N0000,89.5,Strong,Financial (Basel III),100.0,40.0,69.98499999999999,24.5,100.0,25.0,financial,,Miscellaneous business Credit Institutions,14.405162738496072,Excellent,6.941955590183093,2.57,Good,1.78,,,,,,,
+CDB.X0000,89.5,Strong,Financial (Basel III),100.0,40.0,69.98499999999999,24.5,100.0,25.0,financial,,Miscellaneous business Credit Institutions,14.405162738496072,Excellent,6.941955590183093,2.57,Good,1.78,,,,,,,
+CERA.N0000,83.5,Strong,Industrial,60.0,24.0,100.0,35.0,98.152,24.5,asset_heavy,,Structural Clay Products,71.69811320754717,,,,,5.13,0.0,No Data,0.0,True,5.01,False,9.12
+CFI.N0000,75.2,Good,Industrial,60.0,24.0,100.0,35.0,65.0,16.2,asset_heavy,,Investors not elsewhere classified,100.0,,,,,1362.05,0.0,No Data,0.0,True,1361.99,False,0.0
+CFIN.N0000,94.8,Fortress,Financial (Basel III),100.0,40.0,85.0,29.7,100.0,25.0,financial,,Personal Credit Institutions,58.37419711306029,Excellent,1.7130856601987696,6.68,World-Class,1.86,,,,,,,
+CFLB.N0000,44.6,Moderate,Industrial,50.084999999999994,20.0,43.154999999999994,15.1,37.86780036968577,9.5,asset_heavy,,Conglomerates,24.313000616142947,,,,,0.97,1.71,Moderate,4.55,False,0.54,False,1.52
+CFVF.N0000,54.1,Moderate,Industrial,21.575,8.6,100.0,35.0,41.699999999999996,10.4,asset_heavy,,Investors not elsewhere classified,11.006184188534181,,,,,9.3,7.83,Very High,5.95,False,9.29,False,2.3
+CHL.N0000,87.3,Strong,Industrial,99.55,39.8,68.60600000000001,24.0,93.721,23.4,asset_heavy,,Hospitals,66.5945945945946,,,,,1.33,0.19,Fortress,1.1,False,0.84,False,7.01
+CHL.X0000,87.3,Strong,Industrial,99.55,39.8,68.60600000000001,24.0,93.721,23.4,asset_heavy,,Hospitals,66.5945945945946,,,,,1.33,0.19,Fortress,1.1,False,0.84,False,7.01
+CHMX.N0000,97.9,Fortress,Industrial,100.0,40.0,100.0,35.0,91.432,22.9,asset_heavy,,Chemicals and Allied Products,90.18036072144288,,,,,10.25,0.08,Fortress,2.63,True,9.63,False,5.92
+CHOT.N0000,72.7,Good,Industrial,82.06,32.8,85.81,30.0,39.555,9.9,asset_heavy,,Hotels and Motels,70.56530214424951,,,,,1.6,0.14,Fortress,4.32,False,1.48,False,0.91
+CIC.N0000,71.6,Good,Industrial,76.05999999999999,30.4,57.449999999999996,20.1,84.41465578424413,21.1,asset_heavy,,Agricultural Chemicals,49.254790631653655,,,,,1.18,0.76,Good,2.86,False,0.59,False,4.75
+CIC.X0000,71.6,Good,Industrial,76.05999999999999,30.4,57.449999999999996,20.1,84.41465578424413,21.1,asset_heavy,,Agricultural Chemicals,49.254790631653655,,,,,1.18,0.76,Good,2.86,False,0.59,False,4.75
+CIND.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Miscellaneous Plastics Products,83.0909090909091,,,,,5.73,0.04,Fortress,0.24,True,3.91,True,109.47
+CINS.N0000,76.1,Good,Financial (Basel III),100.0,40.0,77.93,27.3,35.2,8.8,financial,,Insurance Carriers,28.603498781723108,Excellent,3.4960758039816233,3.49,Excellent,0.88,,,,,,,
+CINS.X0000,76.1,Good,Financial (Basel III),100.0,40.0,77.93,27.3,35.2,8.8,financial,,Insurance Carriers,28.603498781723108,Excellent,3.4960758039816233,3.49,Excellent,0.88,,,,,,,
+CINV.N0000,98.0,Fortress,Industrial,95.0,38.0,100.0,35.0,100.0,25.0,asset_heavy,,Investors not elsewhere classified,96.76705048715678,,,,,13.93,0.03,Fortress,0.0,True,13.93,True,23.25
+CIT.N0000,75.2,Good,Industrial,60.0,24.0,100.0,35.0,65.0,16.2,asset_heavy,,Investors not elsewhere classified,100.0,,,,,1061.31,0.0,No Data,0.0,True,1061.26,False,0.0
+CITH.N0000,42.6,Moderate,Industrial,67.6,27.0,20.0,7.0,34.401529636711274,8.6,asset_heavy,,Hotels and Motels,51.33843212237094,,,,,0.4,0.55,Good,10.38,False,0.23,False,0.3
+CITW.N0000,37.3,Weak,Industrial,58.64,23.5,20.0,7.0,27.36619718309859,6.8,asset_heavy,,Hotels and Motels,36.443661971830984,,,,,0.38,0.87,Good,7.63,False,0.2,False,0.42
+CLND.N0000,60.2,Adequate,Industrial,77.845,31.1,44.955,15.7,53.299887561489804,13.3,asset_heavy,,Land Subdividers and Developers Except Cemeteries,59.732958538299364,,,,,0.87,0.14,Fortress,5.77,False,0.87,False,1.42
+COCO.N0000,59.6,Moderate,Industrial,63.455,25.4,57.449999999999996,20.1,56.411053795136326,14.1,asset_heavy,,Textile Mill Products,50.03684598378777,,,,,1.18,0.78,Good,5.47,False,0.59,False,1.85
+COCO.X0000,59.6,Moderate,Industrial,63.455,25.4,57.449999999999996,20.1,56.411053795136326,14.1,asset_heavy,,Textile Mill Products,50.03684598378777,,,,,1.18,0.78,Good,5.47,False,0.59,False,1.85
+COCR.N0000,93.2,Fortress,Financial (Basel III),100.0,40.0,80.59,28.2,100.0,25.0,financial,,Personal Credit Institutions,26.607959941293274,Excellent,3.7582738481505515,3.87,Exceptional,1.63,,,,,,,
+COLO.N0000,94.7,Fortress,Industrial,100.0,40.0,91.91499999999999,32.2,90.10900000000001,22.5,asset_light,,Automotive Dealers and Gasoline Service Stations,83.62779740871613,,,,,2.23,0.14,Fortress,1.48,True,2.0,False,5.29
+COMB.N0000,65.5,Adequate,Financial (Basel III),89.86990129058498,35.9,48.67,17.0,50.0,12.5,financial,,Commercial Banks,9.98266253869969,Adequate,10.017367572261506,1.27,Below Average,0.0,,,,,,,
+COMB.X0000,65.5,Adequate,Financial (Basel III),89.86990129058498,35.9,48.67,17.0,50.0,12.5,financial,,Commercial Banks,9.98266253869969,Adequate,10.017367572261506,1.27,Below Average,0.0,,,,,,,
+COMD.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Land Subdividers and Developers Except Cemeteries,83.95303326810176,,,,,10.89,0.01,Fortress,0.07,True,10.89,True,20.41
+CONN.N0000,53.7,Moderate,Industrial,67.72,27.1,35.07,12.3,57.21706576728498,14.3,asset_heavy,,Hotels and Motels,25.29510961214165,,,,,0.68,1.21,Moderate,2.64,False,0.61,False,2.86
+COOP.N0000,71.1,Good,Financial (Basel III),100.0,40.0,74.71,26.1,20.0,5.0,financial,,Fire Marine and Casualty Insurance,33.02652950730915,Excellent,3.0278688524590165,3.03,Excellent,0.39,,,,,,,
+CPRT.N0000,46.0,Moderate,Industrial,50.0,20.0,20.0,7.0,76.0,19.0,asset_heavy,,Commercial Printing,-1772.340425531915,,,,,0.05,0.0,No Data,0.0,False,0.05,False,-23.92
+CRL.N0000,75.2,Good,Financial (Basel III),100.0,40.0,29.0,10.1,100.0,25.0,financial,,Personal Credit Institutions,43.10850439882698,Excellent,2.3197278911564627,-6.0,Poor,1.45,,,,,,,
+CSD.N0000,94.8,Fortress,Industrial,100.0,40.0,85.0,29.7,100.0,25.0,asset_heavy,,Real Estate,83.45864661654136,,,,,0.46,0.0,Fortress,0.03,True,0.4,True,478.58
+CSF.N0000,37.2,Weak,Industrial,50.0,20.0,20.0,7.0,41.0,10.2,asset_heavy,,Land Subdividers and Developers Except Cemeteries,-19.561243144424132,,,,,0.36,0.0,No Data,0.0,False,0.3,False,0.0
+CSLK.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Electric Lighting And Wiring Equipment,80.45112781954887,,,,,4.43,0.1,Fortress,0.31,False,2.75,False,23.69
+CTBL.N0000,34.2,Weak,Industrial,23.134999999999998,9.3,50.650000000000006,17.7,28.959999999999997,7.2,asset_heavy,,Groceries And Related Products,12.542063492063493,,,,,1.07,4.61,Very High,5.82,False,0.65,False,1.39
+CTC.N0000,90.0,Fortress,Industrial,100.0,40.0,85.0,29.7,81.04475703324809,20.3,asset_heavy,,Cigarettes,20.907928388746804,,,,,1.1,0.0,Fortress,0.0,True,0.94,True,2685.13
+CTEA.N0000,97.0,Fortress,Industrial,100.0,40.0,100.0,35.0,87.82,22.0,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,81.00346020761245,,,,,5.97,0.05,Fortress,0.8,True,4.43,False,4.76
+CTHR.N0000,56.6,Moderate,Industrial,73.96000000000001,29.6,28.679999999999996,10.0,68.00086144864571,17.0,asset_heavy,,Groceries And Related Products,33.351435747742855,,,,,0.72,1.0,Good,2.09,False,0.35,False,3.57
+CTLD.N0000,84.0,Strong,Industrial,85.0,34.0,71.354,25.0,100.0,25.0,asset_heavy,,Real Estate,64.38172043010752,,,,,1.27,0.27,Fortress,0.0,False,1.26,False,-2.47
+CWL.N0000,79.2,Good,Industrial,80.97999999999999,32.4,86.94999999999999,30.4,65.37266679386886,16.3,asset_heavy,,Arrangement of Transportation of Freight and Cargo,35.15444465644809,,,,,1.6,0.82,Good,1.68,False,1.6,False,3.04
+CWM.N0000,64.9,Adequate,Industrial,62.48,25.0,74.762,26.2,55.02347826086956,13.8,asset_heavy,,Wholesale Trade-Durable Goods,37.73913043478261,,,,,1.46,1.04,Moderate,3.91,False,0.85,False,2.17
+DFCC.N0000,66.7,Adequate,Financial (Basel III),99.82231955817939,39.9,40.9,14.3,50.0,12.5,financial,,Commercial Banks,12.317616701853156,Excellent,8.118453627880404,0.9,Weak,0.0,,,,,,,
+DIAL.N0000,54.8,Moderate,Industrial,77.445,31.0,20.0,7.0,67.4423387538827,16.9,asset_heavy,,Radiotelephone Communications,30.670564589804496,,,,,0.43,1.05,Moderate,1.19,False,0.42,False,3.72
+DIMO.N0000,34.4,Weak,Industrial,33.72,13.5,44.9,15.7,20.690627099664056,5.2,asset_heavy,,Conglomerates,22.634378499440093,,,,,1.02,2.52,High,13.73,False,0.5,False,0.82
+DIPD.N0000,90.1,Fortress,Industrial,94.21,37.7,83.96499999999999,29.4,92.15084638668179,23.0,asset_heavy,,Orthopedic Prosthetic and Surgical Appliances and Supplies,52.80615462227267,,,,,1.79,0.36,Strong,1.82,False,1.16,False,7.29
+DIST.N0000,93.4,Fortress,Industrial,100.0,40.0,85.0,29.7,94.50460193281178,23.6,asset_heavy,,Distilled and Blended Liquors,44.45467096180396,,,,,1.39,0.13,Fortress,0.09,True,0.91,True,114.05
+DOCK.N0000,39.1,Weak,Industrial,29.0,11.6,24.269999999999996,8.5,76.0,19.0,asset_heavy,,Ship And Boat Building And Repairing,9.058064516129031,,,,,0.58,7.94,Very High,0.0,False,0.44,False,-0.34
+DPL.N0000,59.5,Moderate,Industrial,60.919999999999995,24.4,35.295,12.4,91.01107828655834,22.8,asset_heavy,,Pottery And Related Products,37.51846381093058,,,,,0.93,1.22,Moderate,0.0,False,0.43,False,-3.52
+EAST.N0000,75.2,Good,Industrial,60.0,24.0,100.0,35.0,65.0,16.2,asset_heavy,,Real Estate,97.58620689655172,,,,,9.54,0.0,No Data,0.0,True,9.49,False,0.0
+EBCR.N0000,63.9,Adequate,Industrial,75.28,30.1,50.65,17.7,64.39127610208817,16.1,asset_heavy,,Electronic and Other Electrical Equipment and Components except Computer Equipment,34.91879350348028,,,,,1.1,0.91,Good,2.29,False,0.51,False,2.96
+ECL.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_light,,Computer Programming Data Processing And Other Computer Related Services,76.89113202685704,,,,,4.56,0.01,Fortress,0.13,True,4.56,True,66.24
+EDEN.N0000,40.5,Moderate,Industrial,65.35999999999999,26.1,20.0,7.0,29.569829559908417,7.4,asset_heavy,,Hotels and Motels,40.155176799796486,,,,,0.32,0.63,Good,7.4,False,0.31,False,0.51
+ELPL.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Agricultural Production Crops,68.87372013651877,,,,,4.97,0.06,Fortress,0.34,True,4.21,True,16.33
+EMER.N0000,88.2,Strong,Industrial,76.0,30.4,93.82,32.8,100.0,25.0,asset_heavy,,Wholesale Trade-Durable Goods,74.82993197278913,,,,,2.52,0.19,Fortress,14.59,False,1.36,False,-0.52
+EML.N0000,47.8,Moderate,Industrial,50.0,20.0,50.0,17.5,41.0,10.2,asset_light,,Engineering Services,0.0,,,,,0.0,0.0,No Data,0.0,False,0.0,False,0.0
+ETWO.N0000,78.8,Good,Industrial,60.0,24.0,85.0,29.7,100.0,25.0,asset_heavy,,Operators of Nonresidential Buildings,70.47970479704797,,,,,1.78,0.0,No Data,0.0,True,0.51,True,16.35
+EXT.N0000,97.9,Fortress,Industrial,94.66,37.9,100.0,35.0,100.0,25.0,asset_light,,Services To Dwellings And Other Buildings,70.71536758709075,,,,,3.04,0.11,Fortress,2.14,False,2.33,False,-0.02
+FCT.N0000,48.0,Moderate,Industrial,39.0,15.6,63.3,22.2,41.0,10.2,asset_heavy,,Security Brokers Dealers and Flotation Companies,10.727546412443552,,,,,1.15,8.23,Very High,0.0,True,1.15,False,0.0
+GEST.N0000,91.7,Fortress,Industrial,91.88999999999999,36.8,92.98,32.5,89.67726732673268,22.4,asset_heavy,,Professional And Commercial Equipment And Supplies,56.81089108910891,,,,,2.14,0.53,Good,1.06,False,1.64,False,5.54
+GHLL.N0000,62.5,Adequate,Industrial,74.91999999999999,30.0,51.2,17.9,58.32015691007845,14.6,asset_heavy,,Hotels and Motels,41.82257091128545,,,,,1.08,0.61,Good,0.0,False,0.64,False,0.0
+GLAS.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Glass Containers,79.91239048811013,,,,,4.59,0.0,Fortress,0.01,True,2.91,True,1964.36
+GRAN.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Grain Mill Products,75.11737089201877,,,,,4.39,0.05,Fortress,0.14,True,2.79,True,33.05
+GREG.N0000,76.7,Good,Industrial,76.38499999999999,30.6,89.28999999999999,31.3,59.54549668874172,14.9,asset_heavy,,Textile Mill Products,49.83443708609271,,,,,1.78,0.64,Good,6.13,True,1.65,False,2.08
+GUAR.N0000,93.0,Fortress,Financial (Basel III),100.0,40.0,79.89,28.0,100.0,25.0,financial,,Investment Advice,96.51582749097089,Excellent,1.0360994937266124,3.77,Exceptional,21.18,,,,,,,
+HAPU.N0000,53.6,Moderate,Industrial,91.16,36.5,26.16,9.2,32.08107833163784,8.0,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,42.62461851475077,,,,,0.64,0.34,Strong,2.49,False,0.37,False,0.8
+HARI.N0000,97.5,Fortress,Industrial,100.0,40.0,92.77000000000001,32.5,100.0,25.0,asset_heavy,,Food and Kindred Products,62.63345195729537,,,,,2.18,0.14,Fortress,0.59,True,1.57,True,40.91
+HASU.N0000,75.9,Good,Financial (Basel III),100.0,40.0,78.14,27.3,34.4,8.6,financial,,Insurance Carriers,17.606884305422756,Excellent,5.679596586501163,3.52,Exceptional,0.86,,,,,,,
+HAYC.N0000,88.4,Strong,Industrial,90.95,36.4,77.725,27.2,99.20588235294117,24.8,asset_heavy,,Industrial Inorganic Chemicals,57.35294117647059,,,,,1.85,0.43,Strong,2.0,False,0.67,False,16.26
+HAYL.N0000,57.5,Moderate,Industrial,53.839999999999996,21.5,58.75,20.6,61.536763470646044,15.4,asset_heavy,,Conglomerates,27.361272451076758,,,,,1.16,1.58,Moderate,4.12,False,0.77,False,3.16
+HBS.N0000,88.0,Strong,Industrial,95.0,38.0,74.17,26.0,96.34466019417476,24.1,asset_light,,Prepackaged Software,48.54368932038835,,,,,1.53,0.2,Fortress,0.0,True,1.42,False,-23.23
+HDFC.N0000,66.1,Adequate,Financial (Basel III),98.83088010533987,39.5,40.059999999999995,14.0,50.0,12.5,financial,,Mortgage Bankers and Loan Correspondents,11.853088480801336,Strong,8.43661971830986,0.86,Weak,0.0,,,,,,,
+HELA.N0000,47.5,Moderate,Industrial,50.0,20.0,24.269999999999996,8.5,76.0,19.0,asset_heavy,,Apparel and Other Finished Products Made From Fabrics and Similar Materials,-15.44550436371017,,,,,0.58,0.0,No Data,0.0,False,0.35,False,-2.85
+HEXP.N0000,59.7,Moderate,Industrial,56.379999999999995,22.6,68.12,23.8,53.288979591836735,13.3,asset_heavy,,Plastics Materials And Synthetic Resins Synthetic Rubber Cellulosic And Other Manmade Fibers Except Glass,37.41496598639456,,,,,1.3,1.03,Moderate,5.8,False,0.9,False,2.06
+HHL.N0000,92.6,Fortress,Industrial,100.0,40.0,80.875,28.3,97.02380730090562,24.3,asset_heavy,,Conglomerates,50.079357669685365,,,,,1.61,0.23,Fortress,0.83,False,1.06,False,12.88
+HNB.N0000,69.5,Adequate,Financial (Basel III),98.15423092088301,39.3,50.56,17.7,50.0,12.5,financial,,Commercial Banks,11.705384615384615,Strong,8.543076821975422,1.36,Below Average,0.0,,,,,,,
+HNB.X0000,69.5,Adequate,Financial (Basel III),98.15423092088301,39.3,50.56,17.7,50.0,12.5,financial,,Commercial Banks,11.705384615384615,Strong,8.543076821975422,1.36,Below Average,0.0,,,,,,,
+HNBF.N0000,61.3,Adequate,Financial (Basel III),93.48432138109777,37.4,32.5,11.4,50.0,12.5,financial,,Personal Credit Institutions,10.71102413568167,Strong,9.336175395858708,0.5,Weak,0.0,,,,,,,
+HNBF.X0000,61.3,Adequate,Financial (Basel III),93.48432138109777,37.4,32.5,11.4,50.0,12.5,financial,,Personal Credit Institutions,10.71102413568167,Strong,9.336175395858708,0.5,Weak,0.0,,,,,,,
+HOPL.N0000,39.6,Weak,Industrial,46.5,18.6,28.365,9.9,44.09620689655172,11.0,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,18.65823754789272,,,,,0.71,2.25,High,3.75,False,0.25,False,2.3
+HPFL.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_light,,Cogeneration Services and Small Power Producers,80.12947579490117,,,,,10.8,0.01,Fortress,0.08,True,10.09,True,50.94
+HPL.N0000,92.4,Fortress,Industrial,100.0,40.0,85.21,29.8,90.27740861466822,22.6,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,59.37136204889406,,,,,1.76,0.23,Fortress,1.27,True,1.29,False,5.46
+HPWR.N0000,50.8,Moderate,Industrial,53.75,21.5,48.0,16.8,49.81576642335766,12.5,asset_light,,Cogeneration Services and Small Power Producers,37.22627737226277,,,,,0.9,1.49,Moderate,4.42,False,0.8,False,1.82
+HSIG.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Hotels and Motels,70.6896551724138,,,,,3.06,0.03,Fortress,0.34,True,2.99,True,16.74
+HUNA.N0000,61.8,Adequate,Industrial,76.255,30.5,20.0,7.0,97.2504638218924,24.3,asset_heavy,,Hotels and Motels,50.83487940630798,,,,,0.19,0.48,Strong,4.21,False,0.15,False,-0.06
+HUNT.N0000,85.8,Strong,Industrial,76.0,30.4,86.8,30.4,100.0,25.0,asset_heavy,,Industrial and Commercial Fans and Blowers and Air Purification Equipment,66.13333333333333,,,,,2.06,0.09,Fortress,13.26,False,1.16,False,-0.22
+HVA.N0000,29.1,Weak,Industrial,41.0,16.4,25.529999999999998,8.9,15.135,3.8,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,-5.885087719298246,,,,,0.62,0.0,No Data,10.54,False,0.49,False,0.87
+INME.N0000,43.7,Moderate,Financial (Basel III),29.0,11.6,56.0,19.6,50.0,12.5,financial,,Insurance Agents Brokers and Service,0.0,Undercapitalized,0.0,0.0,No Data,0.0,,,,,,,
+JAT.N0000,92.1,Fortress,Industrial,97.3,38.9,87.25,30.5,90.613,22.7,asset_heavy,,Paints Varnishes Lacquers Enamels and Allied Products,67.87247087676272,,,,,2.16,0.3,Fortress,1.6,False,1.11,False,5.53
+JETS.N0000,48.9,Moderate,Industrial,65.44,26.2,20.0,7.0,62.82809352517985,15.7,asset_heavy,,Hotels and Motels,40.017985611510795,,,,,0.33,1.15,Moderate,3.16,False,0.29,False,2.63
+JFP.N0000,53.5,Moderate,Industrial,58.08,23.2,46.55,16.3,56.02015748031495,14.0,asset_heavy,,Converted Paper And Paperboard Products Except Containers And Boxes,31.23359580052493,,,,,1.02,1.77,Moderate,2.94,False,0.61,False,2.52
+JINS.N0000,94.8,Fortress,Financial (Basel III),100.0,40.0,85.0,29.7,100.0,25.0,financial,,Life Insurance,44.49530233678632,Excellent,2.247428262046562,5.91,World-Class,103.46,,,,,,,
+JKH.N0000,54.5,Moderate,Industrial,69.00999999999999,27.6,39.675,13.9,51.93762670780079,13.0,asset_heavy,,Conglomerates,47.861392684001764,,,,,0.85,0.61,Good,4.98,False,0.56,False,1.6
+JKL.N0000,94.8,Fortress,Industrial,100.0,40.0,85.0,29.7,100.0,25.0,asset_heavy,,Groceries And Related Products,64.6814404432133,,,,,1.25,0.01,Fortress,0.18,True,1.24,True,27.23
+KAHA.N0000,30.9,Weak,Industrial,50.735,20.3,20.0,7.0,14.613065326633166,3.7,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,16.917922948073702,,,,,0.44,1.67,Moderate,4.53,False,0.21,False,0.32
+KCAB.N0000,91.2,Fortress,Industrial,100.0,40.0,100.0,35.0,65.0,16.2,asset_heavy,,Drawing and Insulating of Nonferrous Wire,84.16370106761566,,,,,6.57,0.03,Fortress,0.12,True,4.86,False,0.0
+KFP.N0000,73.9,Good,Industrial,85.36,34.1,62.059999999999995,21.7,71.95944055944057,18.0,asset_heavy,,Sausages and Other Prepared Meat Products,45.68764568764569,,,,,1.25,0.55,Good,2.29,False,0.65,False,3.2
+KGAL.N0000,74.5,Good,Industrial,97.03,38.8,44.94,15.7,79.73651905252316,19.9,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,55.92173017507724,,,,,0.96,0.26,Fortress,1.66,False,0.68,False,3.78
+KHC.N0000,67.1,Adequate,Industrial,82.78,33.1,68.39,23.9,40.29,10.1,asset_heavy,,Hotels and Motels,69.00343642611683,,,,,1.25,0.15,Fortress,4.16,False,1.09,False,0.98
+KHL.N0000,42.3,Moderate,Industrial,58.165,23.3,20.0,7.0,48.063147276395426,12.0,asset_heavy,,Hotels and Motels,40.806993947545394,,,,,0.17,1.21,Moderate,4.31,False,0.1,False,1.55
+KOTA.N0000,48.0,Moderate,Industrial,75.33999999999999,30.1,23.325000000000003,8.2,38.85601659751037,9.7,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,27.593360995850624,,,,,0.55,0.85,Good,2.56,False,0.3,False,1.45
+KPHL.N0000,75.4,Good,Industrial,82.19999999999999,32.9,51.900000000000006,18.2,97.61305194805195,24.4,asset_heavy,,Catalog and Mail-Order Houses,52.0435064935065,,,,,1.09,0.38,Strong,0.0,False,0.64,False,-4.65
+KVAL.N0000,95.8,Fortress,Industrial,100.0,40.0,95.13999999999999,33.3,89.84060490137477,22.5,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,53.85534967124925,,,,,2.26,0.24,Fortress,1.27,True,1.74,False,6.04
+KZOO.N0000,84.0,Strong,Industrial,60.0,24.0,100.0,35.0,100.0,25.0,asset_heavy,,Investors not elsewhere classified,99.27884615384616,,,,,17.96,0.0,No Data,0.0,True,17.96,False,-1.03
+LALU.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Rolling Drawing And Extruding Of Nonferrous Metals,76.5281173594132,,,,,5.21,0.02,Fortress,0.09,True,2.33,True,125.86
+LAMB.N0000,96.8,Fortress,Industrial,100.0,40.0,90.78999999999999,31.8,100.0,25.0,asset_heavy,,Dairy Products,68.96551724137932,,,,,2.12,0.01,Fortress,0.03,True,1.44,True,75.52
+LCBF.N0000,88.0,Strong,Financial (Basel III),100.0,40.0,65.57499999999999,23.0,100.0,25.0,financial,,Personal Credit Institutions,30.665380906460943,Excellent,3.261006289308176,2.15,Good,1.82,,,,,,,
+LCEY.N0000,38.9,Weak,Industrial,40.66499999999999,16.3,40.65,14.2,33.62670523575354,8.4,asset_heavy,,Chemicals and Allied Products,23.77784205958924,,,,,0.9,2.1,High,6.29,False,0.52,False,1.24
+LDEV.N0000,83.5,Strong,Industrial,96.07,38.4,76.562,26.8,73.14082698585419,18.3,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,39.93471164309032,,,,,1.46,0.33,Strong,1.64,False,0.97,False,3.74
+LFIN.N0000,94.8,Fortress,Financial (Basel III),100.0,40.0,85.0,29.7,100.0,25.0,financial,,Personal Credit Institutions,17.93170731707317,Excellent,5.576713819368879,5.03,World-Class,1.75,,,,,,,
+LGIL.N0000,74.8,Good,Financial (Basel III),100.0,40.0,85.0,29.7,20.0,5.0,financial,,Fire Marine and Casualty Insurance,28.88713496448303,Excellent,3.4617486338797816,6.37,World-Class,0.48,,,,,,,
+LGL.N0000,18.2,Weak,Industrial,20.0,8.0,20.0,7.0,13.0,3.2,asset_heavy,,Miscellaneous Retail,3.9232781168265043,,,,,0.34,17.97,Very High,16.59,False,0.24,False,0.03
+LGL.X0000,18.2,Weak,Industrial,20.0,8.0,20.0,7.0,13.0,3.2,asset_heavy,,Miscellaneous Retail,3.9232781168265043,,,,,0.34,17.97,Very High,16.59,False,0.24,False,0.03
+LHCL.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Hospitals,76.16396761133603,,,,,4.4,0.04,Fortress,0.26,True,4.05,True,31.65
+LHL.N0000,72.0,Good,Industrial,100.0,40.0,20.0,7.0,100.0,25.0,asset_heavy,,Hotels and Motels,69.93318485523386,,,,,0.24,0.13,Fortress,0.9,False,0.17,False,16.39
+LIOC.N0000,99.3,Fortress,Industrial,100.0,40.0,98.02,34.3,100.0,25.0,asset_heavy,,Petroleum Bulk Stations and Terminals,74.5144804088586,,,,,2.66,0.06,Fortress,0.61,True,1.78,True,17.3
+LION.N0000,94.5,Fortress,Industrial,100.0,40.0,85.0,29.7,98.93932584269663,24.7,asset_light,,Malt Beverages,56.464419475655426,,,,,1.85,0.14,Fortress,0.26,True,1.4,True,12.73
+LITE.N0000,85.9,Strong,Industrial,92.225,36.9,77.55999999999999,27.1,87.61457342657343,21.9,asset_heavy,,Miscellaneous Electrical Machinery Equipment and Supplies,46.50349650349651,,,,,1.52,0.49,Strong,1.25,False,0.89,False,6.28
+LLUB.N0000,99.2,Fortress,Industrial,100.0,40.0,97.66,34.2,100.0,25.0,asset_heavy,,Miscellaneous Products Of Petroleum And Coal,64.92857142857143,,,,,3.06,0.06,Fortress,0.1,True,1.74,True,62.27
+LMF.N0000,73.3,Good,Industrial,81.475,32.6,76.855,26.9,55.059999999999995,13.8,asset_heavy,,Dairy Products,83.11602209944752,,,,,1.81,0.13,Fortress,4.45,False,0.64,False,1.54
+LOFC.N0000,94.8,Fortress,Financial (Basel III),100.0,40.0,85.0,29.7,100.0,25.0,financial,,Personal Credit Institutions,30.547334105434736,Excellent,3.273608088183669,5.22,World-Class,1.53,,,,,,,
+LOLC.N0000,92.2,Fortress,Financial (Basel III),100.0,40.0,77.58,27.2,100.0,25.0,financial,,Short-Term Business Credit Institutions Except Agricultural,29.655399061032867,Excellent,3.3720672513694074,3.44,Excellent,1.56,,,,,,,
+LPL.N0000,71.1,Good,Industrial,72.08,28.8,86.10999999999999,30.1,48.54978520286395,12.1,asset_light,,Electric Services,53.699284009546524,,,,,1.89,0.75,Good,3.57,False,1.88,False,1.21
+LPL.X0000,71.1,Good,Industrial,72.08,28.8,86.10999999999999,30.1,48.54978520286395,12.1,asset_light,,Electric Services,53.699284009546524,,,,,1.89,0.75,Good,3.57,False,1.88,False,1.21
+LPRT.N0000,99.8,Fortress,Industrial,100.0,40.0,100.0,35.0,99.32799999999999,24.8,asset_heavy,,Commercial Printing,86.4,,,,,7.78,0.02,Fortress,0.5,True,6.75,False,9.68
+LUMX.N0000,86.3,Strong,Industrial,80.45,32.2,84.13,29.4,98.77631578947368,24.7,asset_heavy,,Water Sewer Pipeline and Communications and Power Line Construction,55.92105263157895,,,,,2.06,0.43,Strong,0.0,False,0.95,False,-1.68
+LVEF.N0000,64.3,Adequate,Industrial,71.8,28.7,75.16,26.3,37.0,9.2,asset_light,,Electric Services,66.66666666666666,,,,,1.56,0.42,Strong,9.56,False,1.45,False,0.61
+LVEN.N0000,71.0,Good,Industrial,72.14999999999999,28.9,93.97,32.9,37.0,9.2,asset_heavy,,Investors not elsewhere classified,68.22429906542055,,,,,2.02,0.41,Strong,9.24,False,1.89,False,0.64
+LWL.N0000,60.1,Adequate,Industrial,64.26499999999999,25.7,60.74,21.3,52.38162109690988,13.1,asset_heavy,,Structural Clay Products,45.73693577091086,,,,,1.4,0.81,Good,4.79,False,0.43,False,1.7
+MADU.N0000,27.1,Weak,Industrial,20.0,8.0,45.199999999999996,15.8,13.0,3.2,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,0.2278063851699279,,,,,1.02,253.33,Very High,11.03,False,0.52,False,0.61
+MAL.N0000,84.9,Strong,Industrial,97.7,39.1,86.05,30.1,62.86920529801324,15.7,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,52.89735099337748,,,,,1.76,0.23,Fortress,3.3,True,1.36,False,0.0
+MAL.X0000,84.9,Strong,Industrial,97.7,39.1,86.05,30.1,62.86920529801324,15.7,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,52.89735099337748,,,,,1.76,0.23,Fortress,3.3,True,1.36,False,0.0
+MARA.N0000,66.3,Adequate,Industrial,92.78999999999999,37.1,20.0,7.0,88.684,22.2,asset_heavy,,Hotels and Motels,50.0,,,,,0.26,0.38,Strong,1.98,False,0.11,False,6.04
+MASK.N0000,85.1,Strong,Industrial,99.3,39.7,64.256,22.5,91.41266386554621,22.9,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,42.57703081232493,,,,,1.33,0.32,Strong,0.8,False,0.55,False,8.93
+MBSL.N0000,55.4,Moderate,Financial (Basel III),81.77451836139117,32.7,29.0,10.1,50.0,12.5,financial,,Miscellaneous business Credit Institutions,8.94090560245587,Adequate,11.184549356223176,-0.32,Poor,0.0,,,,,,,
+MCPL.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Agricultural Production Crops,73.94403669724771,,,,,3.52,0.02,Fortress,0.08,True,3.16,True,64.04
+MDL.N0000,81.7,Strong,Industrial,76.88,30.8,76.0,26.6,97.25142045454545,24.3,asset_heavy,,Land Subdividers and Developers Except Cemeteries,50.83806818181819,,,,,2.81,0.54,Good,0.0,False,0.18,False,-1.53
+MEL.N0000,89.2,Strong,Industrial,95.0,38.0,100.0,35.0,65.0,16.2,asset_heavy,,Electronic and Other Electrical Equipment and Components except Computer Equipment,95.89325768571052,,,,,21.26,0.03,Fortress,0.0,True,16.51,False,0.0
+MELS.N0000,81.3,Strong,Industrial,92.92,37.2,61.05,21.4,91.23140456145721,22.8,asset_heavy,,Distilled and Blended Liquors,54.431348538190726,,,,,1.15,0.42,Strong,1.64,False,0.97,False,6.62
+MERC.N0000,82.7,Strong,Financial (Basel III),100.0,40.0,50.56,17.7,100.0,25.0,financial,,Personal Credit Institutions,15.883622905315104,Excellent,6.2957928802589,1.36,Below Average,1.57,,,,,,,
+MFPE.N0000,64.5,Adequate,Industrial,70.02,28.0,49.55,17.3,76.74935244400166,19.2,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,45.44300543111483,,,,,1.05,0.95,Good,2.98,False,0.67,False,3.9
+MGT.N0000,58.7,Moderate,Industrial,71.74,28.7,38.199999999999996,13.4,66.60058207217693,16.7,asset_heavy,,Textile Mill Products,34.16763678696158,,,,,1.01,0.94,Good,2.74,False,0.43,False,3.3
+MHDL.N0000,78.0,Good,Industrial,93.55,37.4,67.81,23.7,67.29751677852349,16.8,asset_heavy,,Land Subdividers and Developers Except Cemeteries,46.83892617449664,,,,,1.72,0.42,Strong,1.5,False,0.23,False,2.73
+MRH.N0000,59.9,Moderate,Industrial,72.96,29.2,20.0,7.0,94.73054755043228,23.7,asset_heavy,,Hotels and Motels,44.95677233429395,,,,,0.31,0.68,Good,0.0,False,0.25,False,-3.01
+MSL.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Operators of Nonresidential Buildings,81.76333615580018,,,,,3.88,0.0,Fortress,0.21,True,3.82,False,-39.13
+MULL.N0000,86.4,Strong,Industrial,71.28,28.5,100.0,35.0,91.4896857059453,22.9,asset_heavy,,Drugs Drug Proprietaries and Druggists' Sundries,38.31614284324219,,,,,2.74,0.74,Good,0.0,False,2.3,False,-4.92
+NAMU.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,77.73333333333333,,,,,10.58,0.07,Fortress,0.39,True,10.16,True,15.68
+NDB.N0000,62.1,Adequate,Financial (Basel III),88.86272271018504,35.5,40.059999999999995,14.0,50.0,12.5,financial,,Commercial Banks,9.849057016823739,Adequate,10.15325627917315,0.86,Weak,0.0,,,,,,,
+NEH.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Hotels and Motels,82.59345794392522,,,,,11.26,0.0,Fortress,0.03,True,10.65,True,1104.62
+NHL.N0000,43.2,Moderate,Industrial,53.225,21.3,37.425,13.1,35.28387582314204,8.8,asset_heavy,,Hospitals,27.93979303857008,,,,,0.75,1.55,Moderate,4.35,False,0.62,False,1.18
+NTB.N0000,75.3,Good,Financial (Basel III),100.0,40.0,65.155,22.8,50.0,12.5,financial,,Commercial Banks,13.507726141559118,Excellent,7.403170522707798,2.11,Good,0.0,,,,,,,
+NTB.X0000,75.3,Good,Financial (Basel III),100.0,40.0,65.155,22.8,50.0,12.5,financial,,Commercial Banks,13.507726141559118,Excellent,7.403170522707798,2.11,Good,0.0,,,,,,,
+ODEL.N0000,46.0,Moderate,Industrial,50.0,20.0,20.0,7.0,76.0,19.0,asset_heavy,,Apparel and Accessory Stores,-9.80883735506111,,,,,0.28,0.0,No Data,0.0,False,0.18,False,-0.89
+OFEQ.N0000,86.1,Strong,Industrial,85.0,34.0,83.035,29.1,92.22328977709454,23.1,asset_heavy,,Professional And Commercial Equipment And Supplies,39.53881629515757,,,,,1.53,0.24,Fortress,0.0,False,1.31,False,-13.27
+ONAL.N0000,70.4,Good,Industrial,60.0,24.0,86.185,30.2,65.0,16.2,asset_heavy,,Real Estate,69.14285714285714,,,,,1.99,0.0,No Data,0.0,True,1.17,False,0.0
+OSEA.N0000,91.6,Fortress,Industrial,96.58,38.6,85.15,29.8,92.566,23.1,asset_heavy,,Real Estate,78.33743842364532,,,,,1.56,0.18,Fortress,1.76,False,1.46,False,6.46
+PABC.N0000,65.6,Adequate,Financial (Basel III),89.86228133795014,35.9,49.089999999999996,17.2,50.0,12.5,financial,,Commercial Banks,9.981647634584014,Adequate,10.018386108273749,1.29,Below Average,0.0,,,,,,,
+PACK.N0000,56.5,Moderate,Industrial,58.64,23.5,54.75000000000001,19.2,55.69824267782426,13.9,asset_heavy,,Paperboard Containers And Boxes,36.29707112970711,,,,,1.12,1.28,Moderate,3.99,False,0.69,False,2.28
+PALM.N0000,41.1,Moderate,Industrial,67.32,26.9,20.0,7.0,28.787167279809562,7.2,asset_heavy,,Hotels and Motels,38.81194546634927,,,,,0.28,0.56,Good,7.64,False,0.27,False,0.11
+PAP.N0000,50.6,Moderate,Industrial,40.44,16.2,67.17999999999999,23.5,43.78816568047337,10.9,asset_light,,Cogeneration Services and Small Power Producers,29.980276134122285,,,,,1.35,2.04,High,8.68,False,1.24,False,1.7
+PARA.N0000,77.7,Good,Industrial,80.8,32.3,69.22999999999999,24.2,84.75,21.2,asset_heavy,,Commercial Printing,27.083333333333332,,,,,1.25,0.42,Strong,0.0,False,1.16,False,-35.17
+PARQ.N0000,63.8,Adequate,Industrial,62.94,25.2,65.03,22.8,63.27400884303611,15.8,asset_heavy,,Rolling Drawing And Extruding Of Nonferrous Metals,30.140014738393518,,,,,1.35,1.53,Moderate,2.69,False,0.54,False,3.17
+PEG.N0000,88.5,Strong,Industrial,95.0,38.0,72.94399999999999,25.5,100.0,25.0,asset_heavy,,Hotels and Motels,66.98412698412697,,,,,1.32,0.08,Fortress,0.0,True,1.2,False,-4.0
+PHAR.N0000,86.5,Strong,Industrial,85.0,34.0,78.45799999999998,27.5,100.0,25.0,asset_heavy,,Drug Stores and Proprietary Stores,84.593837535014,,,,,1.39,0.05,Fortress,0.0,False,1.39,False,-0.61
+PINS.N0000,74.8,Good,Financial (Basel III),100.0,40.0,85.0,29.7,20.0,5.0,financial,,Fire Marine and Casualty Insurance,42.58064516129032,Excellent,2.3484848484848486,6.31,World-Class,0.5,,,,,,,
+PKME.N0000,98.7,Fortress,Industrial,100.0,40.0,96.22,33.7,100.0,25.0,asset_heavy,,Local and Suburban Transit and Interurban Highway Passenger Transportation,64.24116424116424,,,,,2.14,0.13,Fortress,0.13,True,2.13,True,56.02
+PLC.N0000,88.5,Strong,Financial (Basel III),100.0,40.0,67.15,23.5,100.0,25.0,financial,,Finance Lessors,19.010294383240023,Excellent,5.260307809234277,2.3,Good,1.63,,,,,,,
+PLR.N0000,86.4,Strong,Industrial,100.0,40.0,66.97,23.4,91.73452157598499,22.9,asset_heavy,,Land Subdividers and Developers Except Cemeteries,38.72420262664165,,,,,1.64,0.3,Fortress,1.64,True,0.36,False,21.08
+PMB.N0000,79.8,Good,Financial (Basel III),100.0,40.0,42.370000000000005,14.8,100.0,25.0,financial,,Miscellaneous business Credit Institutions,13.760683760683762,Excellent,7.267080745341615,0.97,Weak,1.57,,,,,,,
+RAL.N0000,64.6,Adequate,Industrial,70.29999999999998,28.1,61.436,21.5,60.042585193889536,15.0,asset_heavy,,Food and Kindred Products,59.34195064629847,,,,,1.23,0.58,Good,4.88,False,0.67,False,1.91
+RCH.N0000,81.2,Strong,Industrial,75.0,30.0,100.0,35.0,65.0,16.2,asset_heavy,,Hotels and Motels,99.11668991166898,,,,,128.61,0.0,No Data,0.0,True,128.48,False,0.0
+RCL.N0000,72.3,Good,Industrial,81.94,32.8,62.588,21.9,70.41385552360006,17.6,asset_heavy,,Structural Clay Products,57.04618507866689,,,,,1.44,0.48,Strong,3.21,False,0.33,False,2.7
+REEF.N0000,57.4,Moderate,Industrial,65.64,26.3,20.0,7.0,96.5,24.1,asset_heavy,,Hotels and Motels,48.888888888888886,,,,,0.37,0.62,Good,15.64,False,0.25,False,-0.1
+RENU.N0000,91.2,Fortress,Industrial,100.0,40.0,100.0,35.0,65.0,16.2,asset_heavy,,Hotels and Motels,99.17218543046357,,,,,231.16,0.0,Fortress,0.04,True,231.14,False,0.0
+REXP.N0000,74.1,Good,Industrial,77.44,31.0,54.849999999999994,19.2,95.55054509415262,23.9,asset_heavy,,Fabricated Rubber Products Not Elsewhere Classified,46.778989098116945,,,,,1.1,0.52,Good,0.0,False,0.79,False,-6.39
+RFL.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Hotels and Motels,71.41500861238828,,,,,3.59,0.01,Fortress,0.11,True,3.35,True,37.47
+RGEM.N0000,61.8,Adequate,Industrial,51.144999999999996,20.5,57.150000000000006,20.0,85.3075693197249,21.3,asset_heavy,,Jewelry Silverware And Plated Ware,28.01261553287485,,,,,1.09,1.48,Moderate,5.09,False,0.99,False,-0.76
+RHL.N0000,75.1,Good,Industrial,76.72999999999999,30.7,88.49499999999998,31.0,53.8,13.4,asset_heavy,,Groceries And Related Products,68.61564918314703,,,,,1.97,0.34,Strong,5.58,False,1.38,False,1.45
+RHL.X0000,75.1,Good,Industrial,76.72999999999999,30.7,88.49499999999998,31.0,53.8,13.4,asset_heavy,,Groceries And Related Products,68.61564918314703,,,,,1.97,0.34,Strong,5.58,False,1.38,False,1.45
+RHTL.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Hotels and Motels,83.54978354978356,,,,,2.83,0.06,Fortress,0.55,True,2.29,True,14.81
+RICH.N0000,64.1,Adequate,Industrial,65.83999999999999,26.3,59.99999999999999,21.0,67.16969650403381,16.8,asset_heavy,,Conglomerates,34.88282750672301,,,,,1.15,0.96,Good,3.63,False,0.9,False,3.32
+RIL.N0000,71.1,Good,Industrial,76.69999999999999,30.7,61.68999999999998,21.6,75.25552868002764,18.8,asset_light,,Automotive Dealers and Gasoline Service Stations,53.351762266758804,,,,,1.38,0.51,Good,3.92,False,0.77,False,3.25
+RPBH.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Hotels and Motels,74.93261455525607,,,,,8.33,0.01,Fortress,0.22,True,7.69,True,56.63
+RWSL.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,68.5589519650655,,,,,2.86,0.17,Fortress,0.72,True,2.05,True,53.17
+SAMP.N0000,62.0,Adequate,Financial (Basel III),82.88476138402504,33.2,46.78,16.4,50.0,12.5,financial,,Commercial Banks,9.079310344827586,Adequate,11.014052411697683,1.18,Below Average,0.0,,,,,,,
+SCAP.N0000,64.0,Adequate,Financial (Basel III),42.89652882156207,17.2,79.33,27.8,76.5,19.1,financial,,Life Insurance,5.076445293836598,Weak,19.698823529411765,3.69,Exceptional,1.11,,,,,,,
+SDB.N0000,59.3,Moderate,Financial (Basel III),91.62686623163785,36.7,29.0,10.1,50.0,12.5,financial,,Commercial Banks,10.328507795100222,Strong,9.681940700808624,0.39,Poor,0.0,,,,,,,
+SDF.N0000,87.8,Strong,Financial (Basel III),100.0,40.0,65.25999999999999,22.8,100.0,25.0,financial,,Personal Credit Institutions,12.73640661938534,Excellent,7.851508120649653,2.12,Good,2.61,,,,,,,
+SEMB.N0000,67.2,Adequate,Financial (Basel III),100.0,40.0,41.95,14.7,50.0,12.5,financial,,Miscellaneous business Credit Institutions,54.63917525773196,Excellent,1.830188679245283,0.95,Weak,0.0,,,,,,,
+SEMB.X0000,67.2,Adequate,Financial (Basel III),100.0,40.0,41.95,14.7,50.0,12.5,financial,,Miscellaneous business Credit Institutions,54.63917525773196,Excellent,1.830188679245283,0.95,Weak,0.0,,,,,,,
+SERV.N0000,69.0,Adequate,Industrial,85.69,34.3,41.61,14.6,80.49914285714286,20.1,asset_heavy,,Hotels and Motels,33.92857142857143,,,,,0.84,0.7,Good,1.38,False,0.71,False,6.02
+SEYB.N0000,61.2,Adequate,Financial (Basel III),86.4357861043117,34.6,40.48,14.2,50.0,12.5,financial,,Commercial Banks,9.531674632180676,Adequate,10.49133587317193,0.88,Weak,0.0,,,,,,,
+SEYB.X0000,61.2,Adequate,Financial (Basel III),86.4357861043117,34.6,40.48,14.2,50.0,12.5,financial,,Commercial Banks,9.531674632180676,Adequate,10.49133587317193,0.88,Weak,0.0,,,,,,,
+SFCL.N0000,90.1,Fortress,Financial (Basel III),100.0,40.0,71.77000000000001,25.1,100.0,25.0,financial,,Personal Credit Institutions,23.05457563809919,Excellent,4.337533753375338,2.74,Good,2.99,,,,,,,
+SFCL.R0000,90.1,Fortress,Financial (Basel III),100.0,40.0,71.77000000000001,25.1,100.0,25.0,financial,,Personal Credit Institutions,23.05457563809919,Excellent,4.337533753375338,2.74,Good,2.99,,,,,,,
+SFIN.N0000,78.3,Good,Financial (Basel III),83.43389999218836,33.4,56.85999999999999,19.9,100.0,25.0,financial,,Finance Lessors,9.14830736163353,Adequate,10.930983847283407,1.66,Average,1.82,,,,,,,
+SHAW.N0000,67.6,Adequate,Industrial,92.02,36.8,20.0,7.0,95.19099999999999,23.8,asset_heavy,,Land Subdividers and Developers Except Cemeteries,80.23255813953489,,,,,0.41,0.05,Fortress,2.58,False,0.41,False,7.71
+SHL.N0000,27.8,Weak,Industrial,41.0,16.4,21.75,7.6,15.239999999999998,3.8,asset_heavy,,Electronic Parts and Equipment not elsewhere classified,-21.46642209314175,,,,,0.5,0.0,No Data,8.43,False,0.32,False,0.88
+SHOT.N0000,97.9,Fortress,Industrial,100.0,40.0,98.94999999999999,34.6,93.049,23.3,asset_heavy,,Hotels and Motels,70.05163511187608,,,,,2.4,0.05,Fortress,0.41,True,2.33,False,6.69
+SHOT.X0000,97.9,Fortress,Industrial,100.0,40.0,98.94999999999999,34.6,93.049,23.3,asset_heavy,,Hotels and Motels,70.05163511187608,,,,,2.4,0.05,Fortress,0.41,True,2.33,False,6.69
+SIGV.N0000,86.3,Strong,Industrial,95.25999999999999,38.1,86.44,30.3,71.58,17.9,asset_heavy,,Hotels and Motels,63.858823529411765,,,,,1.66,0.33,Strong,1.82,False,1.48,False,2.72
+SIL.N0000,47.7,Moderate,Industrial,28.819999999999993,11.5,47.15,16.5,78.84622994652406,19.7,asset_heavy,,Fabricated Rubber Products Not Elsewhere Classified,19.658288770053474,,,,,1.02,2.87,High,15.14,False,0.65,False,-0.24
+SING.N0000,51.5,Moderate,Industrial,71.51999999999998,28.6,28.994999999999997,10.1,51.079296304492146,12.8,asset_heavy,,Industrial Inorganic Chemicals,41.59843623220477,,,,,0.53,0.71,Good,3.85,False,0.52,False,1.74
+SINH.N0000,92.4,Fortress,Industrial,100.0,40.0,78.19,27.4,100.0,25.0,asset_light,,Health Services,61.963190184049076,,,,,1.79,0.25,Fortress,0.73,False,1.3,False,10.87
+SINS.N0000,45.8,Moderate,Industrial,26.764999999999993,10.7,61.099999999999994,21.4,54.65,13.7,asset_heavy,,Home Furniture Furnishings and Equipment Stores,12.769532343881265,,,,,1.17,3.77,Very High,5.36,False,0.88,False,3.45
+SIRA.N0000,76.7,Good,Industrial,60.959999999999994,24.4,99.46000000000001,34.8,70.06296956977964,17.5,asset_heavy,,Drawing and Insulating of Nonferrous Wire,39.821615949632736,,,,,2.5,1.2,Moderate,3.79,False,1.94,False,3.31
+SLND.N0000,89.2,Strong,Industrial,95.0,38.0,100.0,35.0,65.0,16.2,asset_heavy,,Real Estate,86.09562957141993,,,,,11.96,0.0,Fortress,0.0,True,4.62,False,0.0
+SLTL.N0000,62.0,Adequate,Industrial,80.72,32.3,44.519999999999996,15.6,56.43087999306067,14.1,asset_heavy,,Telephone Communications Except Radiotelephone,42.29084442902372,,,,,0.88,0.81,Good,1.8,False,0.82,False,2.1
+SMOT.N0000,71.9,Good,Industrial,84.22,33.7,45.48,15.9,89.16881132075471,22.3,asset_light,,Automotive Dealers and Gasoline Service Stations,39.03301886792453,,,,,1.16,0.73,Good,1.52,False,0.43,False,8.69
+SOY.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,74.17355371900827,,,,,4.47,0.07,Fortress,0.28,True,3.69,True,40.48
+SPEN.N0000,63.0,Adequate,Industrial,66.74,26.7,60.674,21.2,60.1864483627204,15.0,asset_heavy,,Conglomerates,44.72544080604534,,,,,1.22,0.9,Good,3.76,False,0.65,False,2.29
+STAF.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Hotels and Motels,74.30894308943088,,,,,4.01,0.03,Fortress,0.4,True,2.69,True,32.56
+SUN.N0000,94.9,Fortress,Industrial,100.0,40.0,86.8,30.4,97.97076023391813,24.5,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,53.23586744639376,,,,,1.98,0.3,Fortress,0.74,True,1.23,False,15.31
+SWAD.N0000,77.9,Good,Industrial,71.8,28.7,70.826,24.8,97.49872122762149,24.4,asset_heavy,,Soap Detergents And Cleaning Preparations; Perfumes Cosmetics and Other Toilet Preparations,51.66240409207161,,,,,1.43,0.42,Strong,389.27,False,0.68,False,-0.5
+TAFL.N0000,75.2,Good,Industrial,60.0,24.0,100.0,35.0,65.0,16.2,asset_heavy,,Poultry Slaughtering and Processing,85.11848341232228,,,,,7.31,0.0,No Data,0.0,True,6.97,False,0.0
+TAJ.N0000,42.4,Moderate,Industrial,41.0,16.4,20.0,7.0,76.0,19.0,asset_heavy,,Hotels and Motels,-13.968387096774194,,,,,0.3,0.0,No Data,9.53,False,0.16,False,-0.15
+TANG.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Hotels and Motels,76.14678899082568,,,,,2.63,0.03,Fortress,0.37,True,2.24,True,47.1
+TAP.N0000,65.6,Adequate,Industrial,67.8,27.1,77.53,27.1,45.48675767918088,11.4,asset_light,,Computer Programming Data Processing And Other Computer Related Services,42.54835039817975,,,,,1.64,0.9,Good,9.01,True,1.51,False,1.31
+TESS.N0000,59.2,Moderate,Industrial,51.4,20.6,47.85,16.7,87.45454699675416,21.9,asset_heavy,,Groceries And Related Products,31.590911661256943,,,,,1.06,1.9,Moderate,0.0,False,0.51,False,-2.89
+TESS.X0000,59.2,Moderate,Industrial,51.4,20.6,47.85,16.7,87.45454699675416,21.9,asset_heavy,,Groceries And Related Products,31.590911661256943,,,,,1.06,1.9,Moderate,0.0,False,0.51,False,-2.89
+TILE.N0000,92.1,Fortress,Industrial,97.615,39.0,85.6,30.0,92.419,23.1,asset_heavy,,Structural Clay Products,71.82648401826484,,,,,2.73,0.15,Fortress,1.53,False,0.74,False,6.39
+TJL.N0000,91.9,Fortress,Industrial,100.0,40.0,85.945,30.1,87.34168569874932,21.8,asset_heavy,,Textile Mill Products,57.005618995831064,,,,,1.91,0.25,Fortress,1.2,True,1.22,False,4.82
+TKYO.N0000,75.5,Good,Industrial,84.66,33.9,60.397999999999996,21.1,82.02839416058393,20.5,asset_heavy,,Cement Hydraulic,53.52798053527981,,,,,1.24,0.56,Good,2.36,False,0.57,False,4.21
+TKYO.X0000,75.5,Good,Industrial,84.66,33.9,60.397999999999996,21.1,82.02839416058393,20.5,asset_heavy,,Cement Hydraulic,53.52798053527981,,,,,1.24,0.56,Good,2.36,False,0.57,False,4.21
+TPL.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,66.2420382165605,,,,,4.43,0.07,Fortress,0.36,True,4.03,True,15.14
+TRAN.N0000,69.6,Adequate,Industrial,99.41499999999999,39.8,20.0,7.0,91.15899999999999,22.8,asset_heavy,,Hotels and Motels,69.6048632218845,,,,,0.38,0.12,Fortress,1.13,False,0.21,False,5.79
+TSML.N0000,95.3,Fortress,Industrial,100.0,40.0,88.0,30.8,97.83699999999999,24.5,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,73.55371900826447,,,,,2.53,0.0,Fortress,0.03,True,0.9,False,8.97
+TYRE.N0000,84.0,Strong,Industrial,60.0,24.0,100.0,35.0,100.0,25.0,asset_heavy,,Tires and Inner Tubes,97.05093833780161,,,,,16.42,0.0,No Data,0.0,True,15.97,False,-66.42
+UAL.N0000,90.2,Fortress,Financial (Basel III),100.0,40.0,71.875,25.2,100.0,25.0,financial,,Insurance Carriers,16.97014435695538,Excellent,5.892701788303528,2.75,Good,9.46,,,,,,,
+UBC.N0000,61.1,Adequate,Financial (Basel III),96.11366740222607,38.4,29.0,10.1,50.0,12.5,financial,,Commercial Banks,11.265373052746652,Strong,8.876758854924795,0.4,Poor,0.0,,,,,,,
+UBF.N0000,82.5,Strong,Financial (Basel III),100.0,40.0,50.0,17.5,100.0,25.0,financial,,Personal Credit Institutions,19.494139420111043,Excellent,5.129746835443038,0.0,No Data,1.5,,,,,,,
+UCAR.N0000,83.2,Strong,Industrial,60.0,24.0,97.66,34.2,100.0,25.0,asset_heavy,,Industrial Organic Chemicals,85.36585365853658,,,,,5.58,0.0,No Data,0.0,True,1.74,True,565.93
+UDPL.N0000,99.2,Fortress,Industrial,100.0,40.0,97.66,34.2,100.0,25.0,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,60.319270239452685,,,,,2.51,0.0,Fortress,0.02,True,1.74,True,22.9
+UML.N0000,83.0,Strong,Industrial,89.78,35.9,75.24799999999999,26.3,83.15257918552035,20.8,asset_heavy,,Motor Vehicles And Motor Vehicle Parts And Supplies,56.10859728506787,,,,,1.49,0.4,Strong,2.37,False,0.79,False,4.26
+VFIN.N0000,89.8,Strong,Financial (Basel III),98.62848321556993,39.5,72.29499999999999,25.3,100.0,25.0,financial,,Personal Credit Institutions,11.808816315088656,Strong,8.468249258160236,2.79,Good,1.59,,,,,,,
+VLL.N0000,91.6,Fortress,Industrial,89.43499999999999,35.8,92.44,32.4,93.94287296416938,23.5,asset_light,,Cogeneration Services and Small Power Producers,57.58957654723127,,,,,2.28,0.51,Good,1.73,False,2.18,False,7.46
+VLL.X0000,91.6,Fortress,Industrial,89.43499999999999,35.8,92.44,32.4,93.94287296416938,23.5,asset_light,,Cogeneration Services and Small Power Producers,57.58957654723127,,,,,2.28,0.51,Good,1.73,False,2.18,False,7.46
+VONE.N0000,75.2,Good,Industrial,45.199999999999996,18.1,100.0,35.0,88.57789262756758,22.1,asset_heavy,,Conglomerates,34.6531543792793,,,,,21.27,1.7,Moderate,8.98,False,2.26,False,9.66
+VPEL.N0000,100.0,Fortress,Industrial,100.0,40.0,100.0,35.0,100.0,25.0,asset_heavy,,Multi-Sector Holdings,72.98578199052133,,,,,8.67,0.24,Fortress,1.36,True,8.45,False,112.81
+WAPO.N0000,98.0,Fortress,Industrial,95.0,38.0,100.0,35.0,100.0,25.0,asset_light,,Security and Commodity Brokers Dealers Exchanges and Services,99.30555555555556,,,,,3.86,0.01,Fortress,0.0,True,3.7,True,10.85
+WATA.N0000,81.8,Strong,Industrial,93.0,37.2,59.79999999999998,20.9,94.58064516129033,23.6,asset_heavy,,Miscellaneous Food Preparations And Kindred Products,44.6236559139785,,,,,1.13,0.5,Strong,0.49,False,0.98,False,24.22
+WIND.N0000,87.1,Strong,Industrial,87.20999999999998,34.9,100.0,35.0,68.91999999999999,17.2,asset_light,,Electric Services,66.57250470809792,,,,,3.31,0.41,Strong,2.74,False,2.95,False,2.53
+WLTH.N0000,42.1,Moderate,Industrial,30.0,12.0,66.56,23.3,27.184292980671408,6.8,asset_heavy,,Security Brokers Dealers and Flotation Companies,15.920651068158698,,,,,1.2,5.19,Very High,12.27,True,1.13,False,1.18
+YORK.N0000,89.2,Strong,Industrial,95.0,38.0,100.0,35.0,65.0,16.2,asset_heavy,,Land Subdividers and Developers Except Cemeteries,93.83122224050008,,,,,18.73,0.0,Fortress,0.0,True,18.73,False,0.0
