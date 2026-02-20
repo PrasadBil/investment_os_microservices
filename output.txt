@@ -1,0 +1,1411 @@
+TOTAL PAGES: 16
+
+======================================================================
+PAGE 1  |  16 chars  |  0 tables
+--- TEXT ---
+13 February 2026
+
+======================================================================
+PAGE 2  |  3120 chars  |  1 tables
+--- TEXT ---
+Highlights of the Week
+Real Sector
+During 2025, tea production remained broadly unchanged compared to 2024 levels, although production declined in December 2025 due to heavy
+rainfall. According to provisional data, rubber production increased year-on-year in December but recorded a cumulative decline during the year 2025.
+Coconut production recorded a notable recovery in 2025, however, strong year-on-year growth observed in December 2025 is also attributed to the
+base effect following the sharp production decline in 2024.
+Index of Industrial Production (IIP) increased by 4.4 per cent in December 2025 to 99.0 compared to December 2024, mainly contributed by the
+increases reported in the manufacture of Food products (8.3 per cent), Wearing apparels (7.4 per cent) and Basic metals (30.5 per cent).
+At the beginning of the period from 09 February to 13 February 2026, crude oil prices increased, mainly owing to potential supply disruptions amidst
+heightened US–Iran tensions. However, prices declined toward the end of the period due to easing concerns over a potential US-Iran conflict and US
+Energy Information Administration forecasts that supply would exceed demand this year. Overall, the Brent crude oil price remained unchanged, while
+WTI crude oil prices declined marginally by US dollars 0.26 per barrel during the period under review.
+Monetary Sector
+Weekly Average Weighted Prime Lending Rate (AWPR) for the week ending 13 February 2026 decreased by 28 bps to 9.04 per cent compare
+
+  Table 0 (1r x 3c):
+    [ 0] ['', 'Highlights of the Week', '']
+
+======================================================================
+PAGE 3  |  2661 chars  |  8 tables
+--- TEXT ---
+248.00 248.00 260.00 260.00 260.00
+210.00 207.50 230.00 220.00 220.00
+Beans 375.00 550.00 387.50 637.50 437.50 460.00
+Cabbage 270.00 235.00 165.00 285.00 215.00 216.00
+Carrot 650.00 350.00 312.50 400.00 362.50 320.00
+Tomato 175.00 450.00 250.00 550.00 300.00 196.00
+Pumpkin 120.00 130.00 70.00 200.00 130.00 126.00
+Snake Gourd 250.00 287.50 215.00 337.50 265.00 170.00
+Brinjal 550.00 325.00 150.00 375.00 200.00 162.00
+Green Chilli 1,250.00 650.00 462.50 737.50 512.50 330.00
+Lime 105.00 177.50 100.00 237.50 150.00 142.00
+n.a. n.a. n.a. n.a. n.a.
+135.50 144.50 160.00 170.00 165.00
+396.75 408.50 450.00 412.00 418.00
+707.75 819.00 900.00 750.00 950.00
+250.00 244.00 280.00 270.00 250.00
+26.00 29.75 32.00 26.50 32.60
+150.00 135.00 220.00 151.25 135.00
+naJ beF raM rpA yaM nuJ luJ guA peS tcO voN ceD
+10
+6
+2
+-2
+-6
+tnec
+reP
+NCPI - Year-on-Year %
+naJ beF raM rpA yaM nuJ luJ guA peS tcO voN ceD
+10
+6
+2
+-2
+-6
+tnec
+reP
+REAL SECTOR
+1.1 Price Indices
+2024 2025
+NCPI (2021=100)
+DecemberNovemberDecember
+Na(cid:415)onal Consumer Price Index (NCPI) - Headline 204.6 207.2 210.5 2024
+Monthly Change % 1.1 (0.1) 1.6 2025
+Annual Average Change % 1.6 (0.2) 0.2
+Year-on-Year Change % (2.0) 2.4 2.9
+Na(cid:415)onal Consumer Price Index (NCPI) - Core 192.1 196.4 197.0
+Annual Average Change % 2.5 0.8 0.9
+Year-on-Year Change % 1.3 2.2 2.6
+2025 2026
+CCPI - Year-on-Year %
+CCPI (2021=100)
+January December January
+Colombo Consumer Price Index (CCPI) - Headline 192.6 195.8 197.0 2025
+Monthly Change % 0.5 1.2 0.6 2026
+
+
+  Table 0 (5r x 10c):
+    [ 0] ['REAL SECTOR\n1.1 Price Indices\n2024 2025\nNCPI - Year-on-Year % NCPI (2021=100)\nDecemberNovemberDecember\n10 Na(cid:415)onal Consumer Price Index (NCPI) - Headline 204.6 207.2 210.5 2024\n6 tnec Monthly Change % 1.1 (0.1) 1.6 2025\n2 reP Annual Average Change % 1.6 (0.2) 0.2\nYear-on-Year Change % (2.0) 2.4 2.9\n-2\nNa(cid:415)onal Consumer Price Index (NCPI) - Core 192.1 196.4 197.0\n-6\nnaJ beF raM rpA yaM nuJ luJ guA peS tcO voN ceD Annual Average Change % 2.5 0.8 0.9\nYear-on-Year Change % 1.3 2.2 2.6\n2025 2026\nCCPI - Year-on-Year %\nCCPI (2021=100)\nJanuary December January\n10 Colombo Consumer Price Index (CCPI) - Headline 192.6 195.8 197.0 2025\n6 tnec Monthly Change % 0.5 1.2 0.6 2026\n2 reP Annual Average Change % 0.4 (0.5) 0.0\nYear-on-Year Change % (4.0) 2.1 2.3\n-2\nColombo Consumer Price Index (CCPI) - Core 178.4 181.8 182.5\n-6\nnaJ beF raM rpA yaM nuJ luJ guA peS tcO voN ceD Annual Average Change % 3.2 1.6 1.7\nYear-on-Year Change % 1.2 2.7 2.3\nSource: Department of Census and Sta(cid:415)s(cid:415)cs\n1.2 Prices\n1.2.1 Pettah Market', '', '', '', '', '', '', '', '', '']
+    [ 1] ['Item (Rs./kg)', 'Average Wholesale Prices', '', '', '', '', 'Average Retail Prices', '', '', '']
+    [ 2] ['', 'Year Ago', 'Month Ago', '', 'Week Ago', 'This Week', 'Year Ago', 'Month Ago', 'Week Ago', 'This Week']
+    [ 3] ['Samba', '250.00', '248.00', '248.00', '', '248.00', '260.00', '260.00', '260.00', '']
+    [ 4] ['Kekulu (Red)', '219.00', '210.00', '207.50', '', '195.80', '230.00', '220.00', '220.00', '']
+
+  Table 2 (18r x 5c):
+    [ 0] ['', 'NCPI (2021=100)', '2024', '2025', '']
+    [ 1] ['', '', 'December', 'November', 'December']
+    [ 2] ['', 'Na(cid:415)onal Consumer Price Index (NCPI) - Headline', '204.6 207.2 210.5', '', '']
+    [ 3] ['', 'Monthly Change %', '1.1 (0.1) 1.6', '', '']
+    [ 4] ['', 'Annual Average Change %', '1.6 (0.2) 0.2', '', '']
+    [ 5] ['', 'Year-on-Year Change %', '(2.0) 2.4 2.9', '', '']
+    [ 6] ['', 'Na(cid:415)onal Consumer Price Index (NCPI) - Core', '192.1 196.4 197.0', '', '']
+    [ 7] ['', 'Annual Average Change %', '2.5 0.8 0.9', '', '']
+    [ 8] ['', 'Year-on-Year Change %', '1.3 2.2 2.6', '', '']
+    [ 9] ['', 'CCPI (2021=100)', '2025', '', '2026']
+    [10] ['', '', 'January', 'December', 'January']
+    [11] ['', 'Colombo Consumer Price Index (CCPI) - Headline', '192.6 195.8 197.0', '', '']
+    [12] ['', 'Monthly Change %', '0.5 1.2 0.6', '', '']
+    [13] ['', 'Annual Average Change %', '0.4 (0.5) 0.0', '', '']
+    [14] ['', 'Year-on-Year Change %', '(4.0) 2.1 2.3', '', '']
+
+  Table 3 (3r x 2c):
+    [ 0] ['10\n2024\n6 tnec\n2025\n2 reP\n-2\n-6\nnaJ beF raM rpA yaM nuJ luJ guA peS tcO voN ceD', '2024']
+    [ 1] ['', '2025']
+
+  Table 5 (3r x 2c):
+    [ 0] ['10 2025\n6 tnec 2026\n2 reP\n-2\n-6\nnaJ beF raM rpA yaM nuJ luJ guA peS tcO voN ceD', '2025\n2026']
+
+  Table 6 (9r x 8c):
+    [ 0] ['Beans', '375.00', '550.00', '387.50', '410.00', '425.00', '637.50', '437.50']
+    [ 1] ['Cabbage', '270.00', '235.00', '165.00', '166.00', '320.00', '285.00', '215.00']
+    [ 2] ['Carrot', '650.00', '350.00', '312.50', '270.00', '700.00', '400.00', '362.50']
+    [ 3] ['Tomato', '175.00', '450.00', '250.00', '136.00', '225.00', '550.00', '300.00']
+    [ 4] ['Pumpkin', '120.00', '130.00', '70.00', '70.00', '170.00', '200.00', '130.00']
+    [ 5] ['Snake Gourd', '250.00', '287.50', '215.00', '120.00', '300.00', '337.50', '265.00']
+    [ 6] ['Brinjal', '550.00', '325.00', '150.00', '112.00', '600.00', '375.00', '200.00']
+    [ 7] ['Green Chilli', '1,250.00', '650.00', '462.50', '280.00', '1,350.00', '737.50', '512.50']
+    [ 8] ['Lime', '105.00', '177.50', '100.00', '100.00', '157.50', '237.50', '150.00']
+
+  Table 7 (16r x 16c):
+    [ 0] ['Red Onion (Local)', 'n.a', '. n.a.', '', '', '', 'n.a', '. n.a', '. n.a', '', '', '. n.a.', 'n.a.', '', '', 'n.a.']
+    [ 1] ['Big Onion (Imported)', '123.75', '135.50', '', '', '', '144.50', '135.80', '160.00', '', '', '170.00', '180.00', '', '', '165.00']
+    [ 2] ['Potato (Local)', '375.00', '396.75', '', '', '', '408.50', '361.60', '450.00', '', '', '412.00', '470.00', '', '', '418.00']
+    [ 3] ['Dried Chilli (Imported)', '668.75', '707.75', '', '', '', '819.00', '867.40', '900.00', '', '', '750.00', '900.00', '', '', '950.00']
+    [ 4] ['Red Dhal', '262.00', '250.00', '', '', '', '244.00', '231.60', '280.00', '', '', '270.00', '270.00', '', '', '250.00']
+    [ 5] ['Egg White (Each)', '31.50', '26.00', '', '', '', '29.75', '32.00', '32.00', '', '', '26.50', '30.25', '', '', '32.60']
+    [ 6] ['Coconut (Each)', '192.50', '150.00', '', '', '', '135.00', '135.00', '220.00', '', '', '151.25', '135.75', '', '', '135.00']
+    [ 7] ['1.2.2 Marandagahamula Market', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    [ 8] ['Item (Rs./kg)', '', '', '', '', 'Average Wholesale Price of Rice', '', '', '', '', '', '', '', '', '', '']
+    [ 9] ['', '', '', '', '', 'Year Ago', '', 'Month Ago', '', '', 'Week Ago', '', '', '', 'This Week', '']
+    [10] ['Samba', '', '', '236.00', '', '', '', '256.50', '', '', '245.00', '', '', '244.20', '', '']
+    [12] ['Kekulu (White)', '', '', '216.00', '', '', '', '206.25', '', '', '199.00', '', '', '199.20', '', '']
+    [13] ['Kekulu (Red)', '', '', '224.00', '', '', '', '206.25', '', '', '203.50', '', '', '200.00', '', '']
+    [14] ['Nadu', '', '', '226.25', '', '', '', '218.50', '', '', '206.75', '', '', '204.00', '', '']
+
+======================================================================
+PAGE 4  |  2658 chars  |  11 tables
+--- TEXT ---
+1.2.3 Dambulla Market Narahenpita Economic Centre - Retail Prices
+Average Wholesale Prices
+Item (Rs./kg)
+Week Ago This Week
+Samba 239.75 240.00
+Kekulu (Red) 200.50 203.00
+Beans 261.25 384.00
+Cabbage 198.75 155.00
+Carrot 253.75 212.00
+Tomato 115.00 101.00
+Pumpkin 77.50 84.60
+Snake Gourd 155.00 110.00
+Brinjal 176.25 170.00
+Ash Plantain 155.00 147.00
+Red Onion (Local) 167.50 148.00
+Red Onion (Imported) 188.75 216.00
+Big Onion (Imported) 158.25 143.40
+Potato (Local) 298.75 243.75
+Potato (Imported) 119.25 125.80
+Dried Chilli (Imported) 817.50 813.40
+Coconut (Each) 118.75 115.60
+1.2.4 Narahenpita Economic Centre
+Average Retail Prices
+Item (Rs./kg)
+Week Ago This Week
+Nadu (White) 230.00 230.00
+Kekulu (Red) 220.00 220.00
+Beans 545.00 464.00
+Cabbage 370.00 320.00
+Carrot 480.00 400.00
+Tomato 340.00 244.00
+Pumpkin 165.00 164.00
+Snake Gourd 420.00 376.00
+Brinjal 360.00 304.00
+Green Chilli 825.00 580.00
+Red Onion (Local) 650.00 650.00
+Big Onion (Imported) 280.00 280.00
+Potato ( Local) 600.00 600.00
+Potato (Imported) 240.00 240.00
+Dried Chilli (Imported) 960.00 960.00
+Red Dhal 260.00 260.00
+Sugar White 220.00 220.00
+Egg White (Each) 33.00 36.00
+Coconut (Each) 200.00 200.00
+1.2.5 Fish Markets
+2,205.00 2,328.00
+1,480.00 1,380.00
+535.00 584.00
+1,480.00 1,426.67
+2
+keeW
+5
+keeW
+8
+keeW
+11
+keeW
+41
+keeW
+71
+keeW
+02
+keeW
+32
+keeW
+62
+keeW
+92
+keeW
+23
+keeW
+53
+keeW
+83
+keeW
+14
+keeW
+44
+keeW
+74
+keeW
+05
+keeW
+35
+keeW
+1500
+1000
+500
+0
+gk/
+.sR
+Beans
+Brinjals
+2
+keeW
+5
+keeW
+8
+keeW
+11
+keeW
+41
+keeW
+71
+keeW
+02
+keeW
+32
+
+  Table 0 (4r x 6c):
+    [ 0] ['Item (Rs./kg)', '', '', 'Average Wholesale Prices', '', '']
+    [ 1] ['', '', '', 'Week Ago', '', 'This Week']
+    [ 2] ['Samba', '239.75', '', '', '240.00', '']
+    [ 3] ['Kekulu (Red)', '200.50', '', '', '203.00', '']
+
+  Table 1 (1r x 2c):
+    [ 0] ['2026 2025\n1500\ngk/\n1000\n.sR\n500\n0\n2 5 8 11 41 71 02 32 62 92 23 53 83 14 44 74 05 35\nkeeW keeW keeW\nkeeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW', '2026 2025']
+
+  Table 2 (8r x 3c):
+    [ 0] ['Beans', '261.25', '384.00']
+    [ 1] ['Cabbage', '198.75', '155.00']
+    [ 2] ['Carrot', '253.75', '212.00']
+    [ 3] ['Tomato', '115.00', '101.00']
+    [ 4] ['Pumpkin', '77.50', '84.60']
+    [ 5] ['Snake Gourd', '155.00', '110.00']
+    [ 6] ['Brinjal', '176.25', '170.00']
+    [ 7] ['Ash Plantain', '155.00', '147.00']
+
+  Table 3 (1r x 2c):
+    [ 0] ['2026 2025\n1000\n800\ngk/.sR\n600\n400\n200\n2 5 8 11 41 71 02 32 62 92 23 53 83 14 44 74 05 35\nkeeW keeW keeW\nkeeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW', '2026 2025']
+
+  Table 4 (7r x 3c):
+    [ 0] ['Red Onion (Local)', '167.50', '148.00']
+    [ 1] ['Red Onion (Imported)', '188.75', '216.00']
+    [ 2] ['Big Onion (Imported)', '158.25', '143.40']
+    [ 3] ['Potato (Local)', '298.75', '243.75']
+    [ 4] ['Potato (Imported)', '119.25', '125.80']
+    [ 5] ['Dried Chilli (Imported)', '817.50', '813.40']
+    [ 6] ['Coconut (Each)', '118.75', '115.60']
+
+  Table 5 (2r x 2c):
+    [ 0] ['Rice - Nadu (White)\n232\n2026 2025\n231 gk/.sR\n230\n229\n2 5 8 11 41 71 02 32 62 92 23 53 83 14 44 74 05 35\nkeeW keeW keeW\nkeeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW', 'Nadu (White)\n2026 2025']
+
+  Table 6 (13r x 6c):
+    [ 0] ['Item (Rs./kg)', '', '', 'Average Retail Prices', '', '']
+    [ 1] ['', '', '', 'Week Ago', '', 'This Week']
+    [ 3] ['Nadu (White)', '230.00', '', '', '230.00', '']
+    [ 4] ['Kekulu (Red)', '220.00', '', '', '220.00', '']
+    [ 5] ['Beans', '545.00', '', '', '464.00', '']
+    [ 6] ['Cabbage', '370.00', '', '', '320.00', '']
+    [ 7] ['Carrot', '480.00', '', '', '400.00', '']
+    [ 8] ['Tomato', '340.00', '', '', '244.00', '']
+    [ 9] ['Pumpkin', '165.00', '', '', '164.00', '']
+    [10] ['Snake Gourd', '420.00', '', '', '376.00', '']
+    [11] ['Brinjal', '360.00', '', '', '304.00', '']
+    [12] ['Green Chilli', '825.00', '', '', '580.00', '']
+
+  Table 7 (1r x 2c):
+    [ 0] ['3,000\ngk/.sR\n2,500\n2,000\n1,500 2026 2025\n2 5 8 11 41 71 02 32 62 92 23 53 83 14 44 74 05 35\nkeeW keeW keeW\nkeeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW', '2026 2025']
+
+  Table 8 (9r x 3c):
+    [ 0] ['Red Onion (Local)', '650.00', '650.00']
+    [ 1] ['Big Onion (Imported)', '280.00', '280.00']
+    [ 2] ['Potato ( Local)', '600.00', '600.00']
+    [ 3] ['Potato (Imported)', '240.00', '240.00']
+    [ 4] ['Dried Chilli (Imported)', '960.00', '960.00']
+    [ 5] ['Red Dhal', '260.00', '260.00']
+    [ 6] ['Sugar White', '220.00', '220.00']
+    [ 7] ['Egg White (Each)', '33.00', '36.00']
+    [ 8] ['Coconut (Each)', '200.00', '200.00']
+
+  Table 9 (1r x 2c):
+    [ 0] ['240\n210 hcaE/.sR\n180\n150\n120\n2 5 8 11 41 71 02 32 62 92 23 53 83 14 44 74 05 35\nkeeW keeW keeW\nkeeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW', '']
+
+  Table 10 (8r x 7c):
+    [ 0] ['', 'Peliyagoda', '', '', 'Negombo', '', 'Narahenpita']
+    [ 1] ['', 'Avg. Wholesale Prices', '', 'Avg. Wholesale Prices Avg. Retail Pric', '', '', 'es Avg. Retail Prices']
+    [ 2] ['', 'Week Ago', 'This Week', 'Week Ago', '', 'This Week Week Ago This', 'Week Week Ago This Week']
+    [ 3] ['Kelawalla', '1,287.50', '1,390.00', '1,150.00', '', '1,150.00 1,740.00 1,', '758.00 2,205.00 2,328.00']
+    [ 5] ['Balaya', '1,200.00', '1,100.00', '950.00', '', '850.00 1,166.67 1,', '050.00 1,480.00 1,380.00']
+    [ 6] ['Salaya', '395.00', '440.00', '360.00', '', '382.00 500.00', '528.00 535.00 584.00']
+    [ 7] ['Hurulla', '1,225.00', '1,180.00', '1,123.33', '', '1,120.00 1,313.33 1,', '380.00 1,480.00 1,426.67']
+
+======================================================================
+PAGE 5  |  2522 chars  |  8 tables
+--- TEXT ---
+1.3 GDP by Industrial Origin at Constant (2015) Prices - Growth Rates
+2023 2024 2024 Q3 2025 Q3
+2023 2024 2025
+Agriculture 1.6 1.2 3.7 3.6
+10
+Industry (9.2) 11.0 10.1 8.1
+Services (0.2) 2.4 2.6 3.5 0
+Taxes less subsidies on products 2.6 10.6 13.6 13.9
+GDP (2.3) 5.0 5.3 5.4 -10
+Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3
+4.4
+8.3
+7.4
+0.4
+2.3
+6.4
+(4.8)
+(13.3)
+2024 2025
+Nov Dec Nov Dec
+Total ac(cid:415)vity Index 51.4 51.4 66.2 67.1
+%
+egnahC
+Item Real GDP Growth
+Source: Department of Census and Sta(cid:415)s(cid:415)cs
+1.4 Agricultural Production
+28
+24
+20
+16
+12
+JanFebMarAprMayJun JulAugSepOctNovDec
+gk
+nm
+Tea Produc(cid:415)on
+1.5 Index of Industrial Production (IIP) (2015 = 100)
+December %
+Item
+2024 2025 Change
+Index of Industrial Produc(cid:415)on 94.8 99.0
+104
+102
+Food Products 99.1 107.4
+100
+Wearing Apparels 92.0 98.8 98
+96
+Other non-metalic mineral products 104.9 105.2
+94
+Coke and refined petroleum products 102.6 104.9 92
+90 Rubber and plas(cid:415)c products 76.0 80.9
+88
+Chemicals and chemical products 77.0 73.3
+JanFebMarAprMayJun JulAugSepOctNovDec
+Beverages 140.1 121.5
+xednI
+(a)
+Index of Industrial Produc(cid:415)on
+Source: Department of Census and Sta(cid:415)s(cid:415)cs
+(a) Major 7 sub divisions
+(b) Revised
+(c) Provisional
+1.6 Purchasing Managers' Index (PMI)
+70
+60
+2024 2025
+PMI Manufacturing 50
+Nov Dec Nov Dec
+40
+Index 53.3 57.2 55.5 60.9
+JanFebMarAprMayJun JulAugSepOctNovDec
+2024 2025
+PMI Services
+Nov Dec Nov Dec
+Business Ac(cid:415)vity Index 60.5 71.1 50.5 67.9
+xednI
+80
+60
+40
+
+
+  Table 0 (7r x 8c):
+    [ 0] ['', 'Annual', '', '', '', 'Quarterly', '', '']
+    [ 1] ['Item', '2023(a)', '(b)', '2024(b', ')', '2024 Q3(a)', '(b)', '2025 Q3(b)']
+    [ 2] ['Agriculture', '1.6 1.2', '', '', '3.7 3.6', '', '', '']
+    [ 3] ['Industry', '(9.2) 11.0', '', '', '10.1 8.1', '', '', '']
+    [ 4] ['Services', '(0.2) 2.4', '', '', '2.6 3.5', '', '', '']
+    [ 5] ['Taxes less subsidies on products', '2.6 10.6', '', '', '13.6 13.9', '', '', '']
+    [ 6] ['GDP', '(2.3) 5.0', '', '', '5.3 5.4', '', '', '']
+
+  Table 2 (1r x 2c):
+    [ 0] ['28\n24\ngk\nnm\n20\n16\n2024 2025\n12\nJanFebMarAprMayJun JulAugSepOctNovDec', '2024 2025']
+
+  Table 3 (5r x 6c):
+    [ 0] ['Item', '', '', 'December', '', '%\nChange']
+    [ 1] ['', '', '', '2024(a)', '2025(a)', '']
+    [ 2] ['Tea (mn kg)', '21.8 21.4', '', '', '', '(2.0)']
+    [ 3] ['Rubber (mn kg)', '4.5 5.0', '', '', '', '10.3']
+    [ 4] ['Coconut (mn nuts)', '170.1 254.5', '', '', '', '49.6']
+
+  Table 4 (10r x 5c):
+    [ 0] ['Item', 'December', '', '', '%\n)Change']
+    [ 1] ['', '2024(b', ')', '2025(c', '']
+    [ 2] ['Index of Industrial Produc(cid:415)on', '94.8 99.0', '', '', '4.4']
+    [ 3] ['Food Products', '99.1 107.4', '', '', '8.3']
+    [ 4] ['Wearing Apparels', '92.0 98.8', '', '', '7.4']
+    [ 5] ['Other non-metalic mineral products', '104.9 105.2', '', '', '0.4']
+    [ 6] ['Coke and refined petroleum products', '102.6 104.9', '', '', '2.3']
+    [ 7] ['Rubber and plas(cid:415)c products', '76.0 80.9', '', '', '6.4']
+    [ 8] ['Chemicals and chemical products', '77.0 73.3', '', '', '(4.8)']
+    [ 9] ['Beverages', '140.1 121.5', '', '', '(13.3)']
+
+  Table 5 (1r x 2c):
+    [ 0] ['104\n102\n100\n98\nxednI\n96\n94\n92\n90 2024 2025\n88\nJanFebMarAprMayJun JulAugSepOctNovDec\nSource: Department of Census and Sta(cid:415)s(cid:415)cs', '2024 2025']
+
+  Table 6 (4r x 2c):
+    [ 0] ['70 PMI Manufacturing\n60 xednI\n50\n40\n2024 2025\nJanFebMarAprMayJun JulAugSepOctNovDec\nPMI Services', 'PMI Manufacturing\n2024 2025']
+    [ 1] ['80\nxednI\n60\n40\n2024 2025\nJanFebMarAprMayJun JulAugSepOctNovDec\nPMI Construc(cid:415)on', '']
+    [ 2] ['', 'PMI Construc(cid:415)on']
+    [ 3] ['', '2024 2025']
+
+  Table 7 (11r x 5c):
+    [ 0] ['PMI Manufacturing', '2024', '', '2025', '']
+    [ 1] ['', 'Nov', 'Dec', 'Nov', 'Dec']
+    [ 2] ['Index', '53.3', '57.2', '55.5 60.9', '']
+    [ 4] ['PMI Services', '2024', '', '2025', '']
+    [ 5] ['', 'Nov', 'Dec', 'Nov', 'Dec']
+    [ 6] ['Business Ac(cid:415)vity Index', '60.5 71.1', '', '50.5 67.9', '']
+    [ 8] ['PMI Construc(cid:415)on', '2024', '', '2025', '']
+    [ 9] ['', 'Nov', 'Dec', 'Nov', 'Dec']
+    [10] ['Total ac(cid:415)vity Index', '51.4 51.4', '', '66.2 67.1', '']
+
+======================================================================
+PAGE 6  |  3319 chars  |  5 tables
+--- TEXT ---
+5.5
+5.0
+4.5
+4.0
+3.5
+Q1 22 Q3 22 Q1 23 Q3 23 Q1 24 Q3 24 Q1 25Q3 25
+Informal Private Sector Employees'
+Wage Rate Index (2018 = 100) - Nominal
+06-Feb 74.79 71.28 67.63 63.38
+07-Feb 74.60 70.89 - -
+08-Feb - - - -
+09-Feb - - 67.54 63.11
+10-Feb 75.14 71.46 69.02 64.32
+11-Feb 76.18 72.60 69.21 64.38
+12-Feb - - 69.63 64.86
+13-Feb 74.60 70.81 67.54 62.85
+etaR
+1.8 Wage Rate Indices
+2024 2025
+Item
+DecemberDecember
+200
+161.3 183.4 180
+160
+184.5 194.6 140
+120 5.4
+100
+5.8
+80
+4.6
+Dec 20 Dec 21 Dec 22 Dec 23 Dec 24 Dec 25
+xednI
+1.7 Employment(a)
+Unemployment Rate
+Item 2024 2024 Q32025 Q3
+Labour Force Par(cid:415)cipa(cid:415)on Rate 47.4 46.9 49.9
+Unemployment Rate 4.4 4.2 4.3
+Employed Persons by Sectors (as a % of Total Employment)
+2024 2025 Q12025 Q2
+Agriculture 26.0
+Industry 25.6
+Services 48.5
+Nominal Wage Rate Indices
+1.9 Average Crude Oil Prices
+2025 2026
+Futures Prices (US$/bbl)
+CPC Import Brent WTI Prices (DAP) Brent WTI 120 (Benchmark(Benchmark (US$/bbl) (Benchmark (Benchmark
+Price) Price) Price) Price)
+100
+January 77.90 74.77 76.14
+February 75.12 71.37 76.32
+80
+March 71.41 67.88 83.33
+April 66.96 63.54 83.47
+May 63.96 60.86 75.75 60
+June 70.13 68.14 70.79
+Nov 21 Sep 22 Jul 23 May 24 Mar 25 Jan 26
+July 69.29 66.94 66.70
+August 67.47 64.23 66.84
+September 67.63 63.69 73.51
+October 64.25 60.33 72.86
+November 63.69 59.51 72.59
+December 61.81 58.02 68.40
+Sources: Bloomberg, Ceylon Petroleum Corpora(cid:415)on
+lbb/$SU
+(b)
+Source: Department of Census and Sta(cid:415)s(cid:415)cs
+Change
+%
+
+  Table 0 (2r x 1c):
+    [ 1] ['1 22 Q3 22 Q1 23 Q3 23 Q1 24 Q3 24 Q1 25Q3 25']
+
+  Table 1 (2r x 1c):
+    [ 0] ['Informal Private Sector (2018=100\nPublic Sector (2016=100)']
+    [ 1] ['ec 20 Dec 21 Dec 22 Dec 23 Dec 24 Dec 2']
+
+  Table 2 (16r x 2c):
+    [ 0] ['Month', '']
+    [ 1] ['', 'Brent\n(Benchmark\nPrice)']
+    [ 2] ['January', '77.90']
+    [ 3] ['February', '']
+    [ 4] ['March', '']
+    [ 5] ['April', '']
+    [ 6] ['May', '']
+    [ 7] ['June', '']
+    [ 8] ['July', '']
+    [ 9] ['August', '']
+    [10] ['September', '']
+    [11] ['October', '']
+    [12] ['November', '']
+    [13] ['December', '']
+    [14] ['06D-Faeteb', '']
+
+  Table 3 (9r x 5c):
+    [ 1] ['Peak Demand (MW)', '', '', '', '']
+    [ 2] ['Total Energy (GWh)', '', '', '', '']
+    [ 3] ['Hydro(GWh)', '', '', '', '']
+    [ 4] ['Thermal Coa', '', '', 'l(GWh)', '']
+    [ 5] ['Thermal Oil(GWh)', '', '', '', '']
+    [ 6] ['Win', 'd(GWh)', '', '', '']
+    [ 7] ['Solar(GWh)', '', '', '', '']
+    [ 8] ['Biomas', '', 's(GWh)', '', '']
+
+  Table 4 (3r x 1c):
+    [ 0] ['Other Thermal Oil Thermal Coal Hydro']
+    [ 2] ['52 52 52 52 52 52 52 52 52 52 52 52 52 52 52 52 62 62 62\n,naJ ,beF ,raM ,rpA ,rpA ,yaM ,nuJ ,nuJ ,luJ ,guA ,guA ,peS ,tcO ,tcO ,voN ,ceD ,naJ ,naJ ,beF\n03 02 31 30 42 51 50 62 71 70 82 81 90 03 02 11 10 22 21']
+
+======================================================================
+PAGE 7  |  3339 chars  |  5 tables
+--- TEXT ---
+MONETARY SECTOR
+2.1 Interest Rates (% p.a.)
+Policy Interest Rate Year Ago This Week
+Overnight Policy Rate (OPR) 8.00 7.75 7.75
+Average Weighted Call Money Rate
+7.99 7.70
+(AWCMR) (End of the Week)
+Treasury Bill Yields (Primary Market)
+91 Day 7.69 7.80 7.72
+182 Day 7.94 8.17 8.07
+364 Day 8.42 8.33 8.31
+Licensed Commercial Banks
+Average Weighted Prime Lending Rate (AWPR)8.42 9.32 9.04
+December 2024 November 2025 December 2025
+Savings Deposits Abc 0.1 Abc Abc
+One Year Fixed Deposits 0.3
+Average Weighted Deposit Rate (AWDR) 7.53 6.77 6.78
+Average Weighted Fixed Deposit Rate (AWFDR) 9.27 8.31 8.41
+Average Weighted New Deposit Rate (AWNDR) 6.52 6.03 6.29
+Average Weighted New Fixed Deposit Rate (AWNFDR) 6.57 6.53 7.02
+Average Weighted Lending Rate (AWLR) 11.93 11.37 11.48
+Average Weighted New Lending Rate (AWNLR) 10.77 10.47 10.69
+Average Weighted SME Rate (AWSR) 12.48 11.43 11.53
+Average Weighted New SME Rate (AWNSR) 11.59 10.92 11.12
+Treasury Bond Auc(cid:415)on
+Bank wise Average Weighted Prime Lending Rate
+Week Ago Week Ago
+Bank of Ceylon 9.29 9.31 Cargills Bank 9.98 10.95
+People's Bank 10.23 10.19 HSBC 8.96 9.09
+Ha(cid:425)on Na(cid:415)onal Bank 9.01 9.60 Standard Chartered Bank 8.26 8.64
+Commercial Bank of Ceylon 9.21 9.36 Ci(cid:415) Bank 8.25 8.25
+Sampath Bank 8.94 9.40 Deutsche Bank 8.54 8.23
+Seylan Bank 9.46 9.81 Habib Bank 9.12 9.12
+Union Bank of Colombo 11.56 10.86 Indian Bank 10.99 11.11
+Pan Asia Banking Corpora(cid:415)on 10.75 11.59 Indian Overseas Bank 8.87 8.87
+Na(ci
+
+  Table 0 (33r x 15c):
+    [ 0] ['', 'MONETARY SECTOR\n2.1 Interest Rates (% p.a.)\nOPR and AWCMR\nPolicy Interest Rate Year Ago Week AgoThis Week', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    [ 1] ['', 'Policy Interest Rate', '', 'Year Ago', '', 'Week Ago', 'This Wee', '', '', '', '', '', '', '', '']
+    [ 2] ['', 'Overnight Policy Rate (OPR)(a)', '', '8.00', '', '7.75', '7.75', '', '', '8.75 OPR\nAWCMR\n8.50\ntnec\n8.25\nreP\n8.00\n7.75\n7.50\n42-ceD-31 52-beF-31 52-rpA-31 52-nuJ-31 52-guA-31 52-tcO-31 52-ceD-31 62-beF-31', '', 'OPR\nAWCMR', '', '', '']
+    [ 3] ['', 'Standing Facility Rates(a)', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    [ 5] ['', 'Standing Deposit Facility Rate (SDFR)', '', '7.50', '', '7.25', '7.25', '', '', '', '', '', '', '', '']
+    [ 6] ['', 'Standing Lending Facility Rate (SLFR)', '', '8.50', '', '8.25', '8.25', '', '', '', '', '', '', '', '']
+    [ 7] ['', 'Call Money Market', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    [ 8] ['', 'Average Weighted Call Money Rate\n(AWCMR) (End of the Week)', '', '7.99', '', '7.70', '7.66', '', '', '', '', '', '', '', '']
+    [10] ['', 'Treasury Bill Yields (Primary Market)(b)', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    [11] ['', '91 Day', '7.69', '', '', '7.80', '7.72', '', '', '', '', '', '', '', '']
+    [12] ['', '182 Day', '7.94', '', '', '8.17', '8.07', '', '', '', '', '', '', '', '']
+    [13] ['', '364 Day', '8.42', '', '', '8.33', '8.31', '', '', '', '', '', '', '', '']
+    [14] ['', 'Licensed Commercial Banks', '', '', '', '', '', '', '', '', '', '', '', '', '']
+
+  Table 1 (1r x 2c):
+    [ 0] ['MONETARY SECTOR', '']
+
+  Table 3 (15r x 3c):
+    [ 0] ['Bank wise Average Weighted Prime Lending Rate', '', '']
+    [ 1] ["Week Ago This Week Week Ago This Week\nBank of Ceylon 9.29 9.31 Cargills Bank 9.98 10.95\nPeople's Bank 10.23 10.19 HSBC 8.96 9.09\nHa(cid:425)on Na(cid:415)onal Bank 9.01 9.60 Standard Chartered Bank 8.26 8.64\nCommercial Bank of Ceylon 9.21 9.36 Ci(cid:415) Bank(d) 8.25 8.25\nSampath Bank 8.94 9.40 Deutsche Bank 8.54 8.23\nSeylan Bank 9.46 9.81 Habib Bank(d) 9.12 9.12\nUnion Bank of Colombo 11.56 10.86 Indian Bank 10.99 11.11\nPan Asia Banking Corpora(cid:415)on 10.75 11.59 Indian Overseas Bank(d) 8.87 8.87\nNa(cid:415)ons Trust Bank 9.31 9.50 MCB Bank(d) 8.87 8.87\nDFCC Bank 9.48 9.89 State Bank of India(d) 8.40 8.40\nNDB Bank 9.91 8.95 Public Bank 10.00 8.82\nAmana Bank 9.42 9.57 Bank of China - -", '', '']
+    [ 2] ['Bank of Ceylon', '9.29', '9.31']
+    [ 3] ["People's Bank", '10.23', '10.19']
+    [ 4] ['Ha(cid:425)on Na(cid:415)onal Bank', '9.01', '9.60']
+    [ 5] ['Commercial Bank of Ceylon', '9.21', '9.36']
+    [ 6] ['Sampath Bank', '8.94', '9.40']
+    [ 7] ['Seylan Bank', '9.46', '9.81']
+    [ 8] ['Union Bank of Colombo', '11.56', '10.86']
+    [ 9] ['Pan Asia Banking Corpora(cid:415)on', '10.75', '11.59']
+    [10] ['Na(cid:415)ons Trust Bank', '9.31', '9.50']
+    [11] ['DFCC Bank', '9.48', '9.89']
+    [12] ['NDB Bank', '9.91', '8.95']
+    [13] ['Amana Bank', '9.42', '9.57']
+    [14] ['(a) With effect from 27 November 2024, the OPR is defined as the policy interest rate of the Central Bank. SDFR and SLFR are linked to the OPR with a margin of ± 50 bps.\n(b) Rates are sourced from the Public Debt Management Office (PDMO)\n(c) AWSR reflects interest rates on all outstanding rupee loans extended by licensed banks to the MSME sector, while AWNSR captures rates on new rupee loans granted during a given\nmonth extended by licensed banks to the MSME sector. Both exclude government’s refinance schemes and non-performing loans of the banks. AWSR and AWNSR are computed based\non the SME survey conducted by the Economic Research Department of the Central Bank of Sri Lanka. This survey uses the criterion of annual turnover of not exceeding Rs. 1 billion to\ndefine MSMEs, in line with the standard defini(cid:415)on.\n(d) The bank has not granted loans during this week to prime customers, hence the latest available rate has been provided.', '', '']
+
+  Table 4 (12r x 2c):
+    [ 0] ['Cargills Bank', '9.98']
+    [ 1] ['HSBC', '8.96']
+    [ 2] ['Standard Chartered Bank', '8.26']
+    [ 3] ['Ci(cid:415) Bank(d)', '8.25']
+    [ 4] ['Deutsche Bank', '8.54']
+    [ 5] ['Habib Bank(d)', '9.12']
+    [ 6] ['Indian Bank', '10.99']
+    [ 7] ['Indian Overseas Bank(d)', '8.87']
+    [ 8] ['MCB Bank(d)', '8.87']
+    [ 9] ['State Bank of India(d)', '8.40']
+    [10] ['Public Bank', '10.00']
+    [11] ['Bank of China', '-']
+
+======================================================================
+PAGE 8  |  2898 chars  |  4 tables
+--- TEXT ---
+2.2 Money Supply
+Rs. bn Annual Change (%)
+Dec Nov Dec
+2024 2025 2025
+Reserve Money 1,539.3 1,750.1 1,796.5
+M1 1,925.6 2,133.9 2,288.0
+M2 12,660.6 13,826.3 14,093.4
+M2b 14,321.7 15,679.8 15,975.0
+Net Foreign Assets of the Banking System 572.9 903.7 1,066.0
+Monetary Authori(cid:415)es 222.1 561.2 712.5
+Commercial Banks 350.8 342.5 353.5
+Domes(cid:415)c Banking Units (DBUs) (234.3) (516.3) (531.9)
+Offshore Banking Units (OBUs) 585.1 858.8 885.4
+Net Domes(cid:415)c Assets of the Banking System 13,748.8 14,776.1 14,909.0
+Net Credit to the Government 8,270.1 8,114.9 8,285.2
+Central Bank 1,773.6 1,852.5 1,828.1
+Commercial Banks 6,496.5 6,262.4 6,457.1
+DBUs 6,437.5 6,189.5 6,370.4
+OBUs 59.0 72.9 86.7
+Credit to Public Corpora(cid:415)ons/SOBEs 656.7 584.8 519.7
+DBUs 605.1 531.0 437.4
+OBUs 51.6 53.8 82.3
+Credit to the Private Sector 8,156.0 10,029.4 10,212.2
+DBUs 7,560.2 9,434.1 9,630.4
+OBUs 595.9 595.3 581.8
+Other Items (Net) (3,334.0) (3,952.9) (4,108.1)
+(a) Provisional
+(b) In rela(cid:415)on to M2b
+naJ beF raM rpA yaM nuJ luJ guA peS tcO voN ceD
+20
+10
+0
+egatnecrep
+Money Supply - M1
+naJ beF raM rpA yaM nuJ luJ guA peS tcO voN ceD
+12
+10
+8
+6
+egatnecrep
+Money Supply - M2
+naJ beF raM rpA yaM nuJ luJ guA peS tcO voN ceD
+16
+12
+8
+4
+egatnecrep
+Money Supply - M2b
+2.3 Reserve Money and Currency in Circulation
+2.4 Money Market Activity (Overnight)
+09-Feb-2026 10-Feb-2026 11-Feb-2026 12-Feb-2026 13-Feb-2026
+AWCMR 7.70 7.68 7.65 7.64 7.66
+Gross Volume (Rs. bn) 14.35 14.85 9.10 22.68 49.40
+2.5 CBS
+
+  Table 0 (39r x 5c):
+    [ 0] ['2.2 Money Supply\nRs. bn A', '', '', '', '']
+    [ 1] ['', '', 'Rs. bn A', '', '']
+    [ 2] ['', '', 'Dec', '', 'Nov Dec Dec']
+    [ 3] ['', '', '2024', '', '(a)\n2025 2025 2024']
+    [ 4] ['Reserve Money', '', '1,539.3', '', '1,750.1 1,796.5 15']
+    [ 5] ['M1', '', '1,925.6', '', '2,133.9 2,288.0 16']
+    [ 6] ['M2', '', '12,660.6', '', '13,826.3 14,093.4 10']
+    [ 7] ['M2b', '', '14,321.7', '', '15,679.8 15,975.0 8']
+    [ 8] ['Net Foreign Assets of the Banking System(b)', '', '572.9', '', '903.7 1,066.0 225']
+    [ 9] ['Monetary Authori(cid:415)es', '', '222.1', '', '561.2 712.5 126']
+    [10] ['Commercial Banks', '', '350.8', '', '342.5 353.5 (8.']
+    [11] ['Domes(cid:415)c Banking Units (DBUs)', '', '(234.3)', '', '(516.3) (531.9) 10']
+    [12] ['Offshore Banking Units (OBUs)', '', '585.1', '', '858.8 885.4 (9.']
+    [13] ['Net Domes(cid:415)c Assets of the Banking System(b)', '', '13,748.8', '', '14,776.1 14,909.0 0']
+    [14] ['Net Credit to the Government', '', '8,270.1', '', '8,114.9 8,285.2 (0.']
+
+  Table 1 (2r x 2c):
+    [ 0] ['egatnecrep 2024 2025\n20\n10\n0\nnaJ beF raM rpA yaM nuJ luJ guA peS tcO voN ceD', '2024 2025']
+
+  Table 2 (2r x 3c):
+    [ 0] ['', '05-Feb-2026', '12-Feb-2026']
+    [ 1] ['Reserve Money (Rs. Mn)', '1,862,560.89 1,826,102.46', '']
+
+  Table 3 (7r x 4c):
+    [ 0] ['', '', '', '06-']
+    [ 1] ['', '', '', 'Currency in Circula(cid:415)on (Rs. Mn)1,5']
+    [ 2] ['', '', 'Currency in Circul', '']
+    [ 3] ['2,000 nb\n.sR\n1,600\n1,200\n2 5 8 11 41 71 02 32 62 92 23 53 83 14 44 74 05\nkeeW keeW keeW\nkeeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW keeW', '', '1,600\nnb\n1,400 .sR\n1,200\n62 72 62 52 62 62\nJan Feb Mar Apr May Jun Ju', '']
+
+======================================================================
+PAGE 9  |  2085 chars  |  4 tables
+--- TEXT ---
+2.6 Open Market Operations
+Item 09.02.2026 10.02.2026 11.02.2026 12.02.2026 13.02.2026
+Short-Term Auction
+Repo Amount Offered (Rs. bn) - - - - 20.00
+Reverse Repo Amount Offered (Rs. bn) - - - - -
+Tenure (No. of Days) - - - - 3
+Bids Received (Rs. bn) - - - - 22.00
+Amount Accepted (Rs. bn) - - - - 20.00
+Minimum Accepted Rate ( % p.a.) - - - - 7.64
+Maximum Accepted Rate ( % p.a.) - - - - 7.66
+Weighted Average Yield Rate (% p.a.) - - - - 7.65
+Outright Auctions
+Outright Sales Amount Offered (Rs. bn) - - - - -
+Outright Purchase Amount Offered (Rs. bn) - - - - -
+Settlement Date - - - - -
+Maturity Date - - - - -
+Tenure (No. of Days) - - - - -
+Bids Received (Rs. bn) - - - - -
+Amount Accepted (Rs. bn) - - - - -
+Minimum Accepted Rate ( % p.a.) - - - - -
+Maximum Accepted Rate ( % p.a.) - - - - -
+Weighted Average Yield Rate (% p.a.) - - - - -
+Long Term Auction
+Repo Amount Offered (Rs. bn) - - - - -
+Reverse Repo Amount Offered (Rs. bn) - - - - -
+Settlement Date - - - - -
+Maturity Date - - - - -
+Tenure (No. of Days) - - - - -
+Bids Received (Rs. bn) - - - - -
+Amount Accepted (Rs. bn) - - - - -
+Minimum Accepted Rate ( % p.a.) - - - - -
+Maximum Accepted Rate ( % p.a.) - - - - -
+Weighted Average Yield Rate (% p.a.) - - - - -
+Liquidity Support Facility Auction
+Reverse Repo Amount Offered (Rs. bn) - - - - -
+Settlement Date - - - - -
+Maturity Date - - - - -
+Tenure (No. of Days) - - - - -
+Bids Received (Rs. bn) - - - - -
+Amount Accepted (Rs. bn) - - - - -
+Minimum Accepted Rate ( % p.a.) - - - - -
+M
+
+  Table 0 (2r x 6c):
+    [ 0] ['Item', '09.02.2026', '10.02.2026', '11.02.2026', '12.02.2026', '13.02.2026']
+    [ 1] ['Short-Term Auction', '', '', '', '', '']
+
+  Table 1 (2r x 1c):
+    [ 0] ['Weighted Average Yield Rate (% p.a.) - - - - 7.65']
+    [ 1] ['Outright Auctions']
+
+  Table 2 (2r x 1c):
+    [ 0] ['Weighted Average Yield Rate (% p.a.) - - - - -']
+    [ 1] ['Long Term Auction']
+
+  Table 3 (2r x 1c):
+    [ 0] ['Weighted Average Yield Rate (% p.a.) - - - - -']
+    [ 1] ['Liquidity Support Facility Auction']
+
+======================================================================
+PAGE 10  |  2108 chars  |  5 tables
+--- TEXT ---
+2.7 Credit Cards and Commerical Paper Issues
+November 2025 December 2025
+2,144,202 2,166,186
+8,960 8,915
+2,135,242 2,157,271
+170,815 175,712
+38,676 39,492
+132,139 136,220
+naJ beF raM rpA yaM nuJ luJ guA peS tcO voN ceD
+180
+170
+160
+150
+140
+nb
+sR
+December 2024 November 2025 December 2025
+Total Issues - Cumula(cid:415)ve (Rs. bn) 3.1 4.3 5.4
+Outstanding (as at end of the period) (Rs. bn) 0.9 1.8 1.4
+Outstanding Balance of Credit Cards
+naJ beF raM rpA yaM nuJ luJ guA peS tcO voN ceD
+6
+5
+4
+3
+2
+1
+0
+nb
+sR
+Commerical Papers Issues (Cumula(cid:415)ve)
+42-naJ-12 42-beF-61 42-raM-31 42-rpA-80 42-yaM-40 42-yaM-03 42-nuJ-52 42-luJ-12 42-guA-61 42-peS-11 42-tcO-70 42-voN-20 42-voN-82 42-ceD-42 52-naJ-91 52-beF-41 52-raM-21 52-rpA-70 52-yaM-30 52-yaM-92 52-nuJ-42 52-luJ-02 52-guA-51 52-peS-01 52-tcO-60 52-voN-10 52-voN-72 52-ceD-32 62-naJ-81 62-beF-31
+24,000
+22,000
+20,000
+18,000
+16,000
+14,000
+12,000
+IPSA
+fo
+xednI
+7,000
+6,000
+5,000
+4,000
+3,000
+2,000
+02LS
+P&S
+fo
+xednI
+2.7.1 Credit Cards(a)
+December 2024 (b)
+Total Number of Ac(cid:415)ve Cards 2,008,456
+Local (accepted only locally) 9,772
+Global (accepted globally) 1,998,684
+Outstanding balance (Rs.mn) - Credit Cards 157,957
+Local (accepted only locally) 34,847
+Global (accepted globally) 123,110
+2.7.2 Commercial Paper Issues(c)
+(b)
+(d)
+(a) Issued by Licensed Commercial Banks (LCBs)
+(b) Provisional
+(c) Based on the informa(cid:415)on provided by LCBs and Licensed Specialised Banks (LSBs)
+(d) Year-to-date total
+2024 2024
+2025 2025
+2.8 Share Mark
+
+  Table 0 (18r x 9c):
+    [ 0] ['2.7 Credit Cards and Commerical Paper Issues\n2.7.1 Credit Cards(a)', '', '', '', '', '', '', '', '']
+    [ 1] ['', '', 'December 2024', '', 'November 2025', '', '', 'December 2025(b)', '']
+    [ 2] ['Total Number of Ac(cid:415)ve Cards\nLocal (accepted only locally)\nGlobal (accepted globally)\nOutstanding balance (Rs.mn) - Credit Cards\nLocal (accepted only locally)\nGlobal (accepted globally)', '', '2,008,456\n9,772\n1,998,684\n157,957\n34,847\n123,110', '', '2,144,202 2,166,186\n8,960 8,915\n2,135,242 2,157,271\n170,815 175,712\n38,676 39,492\n132,139 136,220', '', '', '', '']
+    [ 4] ['2.7.2 Commercial Paper Issues(c)', '', 'December 2024', '', '', 'November 2025', '', '', 'December 2025(b)']
+    [ 5] ['Total Issues - Cumula(cid:415)ve ( d ) (Rs. bn)\nOutstanding (as at end of the period) (Rs. bn)', '', '3.1\n0.9', '', '', '4.3 5.4\n1.8 1.4', '', '', '']
+    [ 6] ['(a) Issued by Licensed Commercial Banks (LCBs)\n(b) Provisional\n(c) Based on the informa(cid:415)on provided by LCBs and Licensed Specialised Banks (LSBs)\n(d) Year-to-date total\nOutstanding Balance of Credit Cards Commerical Papers Issues (Cumula(cid:415)ve)\n2024 2024\n180 6\n2025 2025\n5\n170\nnb 4 nb\n160 sR 3 sR\n2\n150\n1\n140 0\nnaJ beF raM rpA yaM nuJ luJ guA peS tcO voN ceD naJ beF raM rpA yaM nuJ luJ guA peS tcO voN ceD\n2.8 Share Market', '', '', '', '', '', '', '', '']
+    [ 7] ['', '13-Feb-2025', '', '06-Feb-2026', '', '', '13-Feb-2026', '', '']
+    [ 8] ['All Share Price Index (1985 = 100) (ASPI)', '16,578.22', '', '23,801.96', '', '', '23,709.84', '', '']
+    [ 9] ['S&P Sri Lanka 20 Index (2004 = 1,000) (S&P SL20)', '4,944.60', '', '6,614.72', '', '', '6,618.73', '', '']
+    [10] ['Daily Turnover (Rs. mn)', '3,586.94', '', '9,091.03', '', '', '8,510.84', '', '']
+    [11] ['Market Capitalisa(cid:415)on (Rs.bn)', '5,891.52', '', '8,482.08', '', '', '8,433.85', '', '']
+    [12] ['Foreign Purchases (Rs. mn)', '94.95', '', '211.23', '', '', '69.56', '', '']
+    [13] ['Foreign Sales (Rs. mn)', '987.75', '', '2,506.47', '', '', '1,055.74', '', '']
+    [14] ['Net Foreign Purchases (Rs. mn)', '(892.79)', '', '(2,295.25)', '', '', '(986.18)', '', '']
+
+  Table 1 (10r x 4c):
+    [ 1] ['2024\n6\n2025\n5\n4 nb\n3 sR\n2\n1\n0\nnaJ beF raM rpA yaM nuJ luJ guA peS tcO voN ceD', '', '', '2024']
+    [ 2] ['', '2025', '', '']
+
+  Table 2 (10r x 4c):
+    [ 1] ['2024\n180\n2025\n170\nnb\n160 sR\n150\n140\nnaJ beF raM rpA yaM nuJ luJ guA peS tcO voN ceD', '', '', '2024']
+    [ 2] ['', '2025', '', '']
+
+  Table 3 (2r x 1c):
+    [ 0] ['All Share Price Index (1985 = 100) (ASPI)']
+    [ 1] ['S&P Sri Lanka 20 Index (2004 = 1,000) (S&P SL20)']
+
+======================================================================
+PAGE 11  |  4709 chars  |  6 tables
+--- TEXT ---
+8.4
+8.0
+7.6
+91 days 182 days 364 days
+dleiY
+FISCAL SECTOR
+3.1 Government Finance (Rs. Bn)
+2024 2025
+Revenue and Grants 3,664.64 4,961.76
+Revenue 3,650.90 4,945.78 2024 2025
+Tax Revenue 3,370.46 4,611.50
+Non Tax Revenue 280.45 334.28 5000
+Grants 13.74 15.98 4000
+Expenditure and Lending minus Repayments 4,881.94 5,287.36 3000
+Recurrent Expenditure 4,276.03 4,641.74 2000
+Capital and Lending minus Repayments 605.91 645.62 1000
+Primary Balance 927.85 1,941.76
+Overall Budget Balance (1,217.30) (325.60)
+3.2 Outstanding Central Government Debt (Rs. Bn)
+-
+-
+9.52
+-
+-
+10.73
+-
+-
+Treasury Bills (Secondary Market Yield Curves)
+nb
+.sR
+Government Fiscal Opera(cid:415)ons
+January - November
+Expenditure and Lending minus Repayments Revenue
+2025 30,000
+2024
+20,000
+Total Domes(cid:415)c Debt 18,309.66 18,701.46
+10,000
+of which; Treasury Bills 4,061.55 3,741.63
+0
+Treasury Bonds 14,079.20 15,097.99
+Total Foreign Debt 10,429.04 10,974.34
+Total Outstanding Government Debt 28,738.70 29,675.81
+nb
+.sR
+Central Government Debt
+End Jun. 2025 - End Sep. 2025
+3.3 Government Securities - Primary and Secondary Market Yield Rates for the
+Week Ending - 12 February 2026
+7.72 7.74 7.59
+8.07 8.05 7.94
+8.31 8.18 8.06
+Y2 Y3 Y4 Y5 Y6 Y8 Y01 Y51 Y02
+11.6
+10.4
+9.2
+8.0
+dleiY
+Item (a)
+Jan. - Nov. Jan. - Nov.
+2024 2025
+(b)
+End (a)(c)
+Item (a)(c)
+End Sep.
+(d)
+End Jun. 2025End Jul. 2025End Aug. 2025End Sep. 2025
+(e)(f) Foreign Debt Domes(cid:415)c Debt
+Sources : Ministry of Finance, Planning and Economic Development
+Central
+
+  Table 0 (6r x 8c):
+    [ 0] ['Item', '', '', '', '', '2024', '', '2025']
+    [ 1] ['', '', '', '', '', 'Jan. - Nov.', '', '(a\nJan. - Nov.']
+    [ 2] ['Revenue and Grants\nRevenue\nTax Revenue\nNon Tax Revenue\nGrants\nExpenditure and Lending minus Repayments\nRecurrent Expenditure\nCapital and Lending minus Repayments\nPrimary Balance\nOverall Budget Balance', '', '', '', '', '3,664.64\n3,650.90\n3,370.46\n280.45\n13.74\n4,881.94\n4,276.03\n605.91\n927.85\n(1,217.30)', '', '4,961.76\n4,945.78\n4,611.50\n334.2\n15.98\n5,287.36\n4,641.74\n645.6\n1,941.76\n(325.60']
+    [ 3] ['3.2 Outstanding Central Government Debt (Rs. Bn)(b)', '', '', '', '', '', '', '']
+    [ 4] ['Item', '', 'End\n(a)(c)\n2024', '', '', '', '2025(a)(c)\nEnd Sep.', '']
+    [ 5] ['Total Domes(cid:415)c Debt(d)\nof which; Treasury Bills\nTreasury Bonds\nTotal Foreign Debt(e)(f)\nTotal Outstanding Government Debt', '18,309.66\n4,061.55\n14,079.20\n10,429.04\n28,738.70', '', '', '', '', '18,701.46\n3,741.63\n15,097.99\n10,974.34\n29,675.81', '']
+
+  Table 1 (5r x 13c):
+    [ 0] ['2024 2025 Expenditure and Lending minus Repayments Revenue\n8 5000\n4000 nb\n.sR\n3000\n2000\n2 1000', '', '', '', '', '', '', '', '', '', '', '', '']
+
+  Table 2 (4r x 9c):
+    [ 0] [')\nCentral Government Debt\nEnd Jun. 2025 - End Sep. 2025\n30,000\nnb\n20,000 .sR\n10,000\n0', '', '', '', '', '', '', '', '']
+
+  Table 3 (15r x 13c):
+    [ 0] ['', '', '', '', '', '', '', '', 'Secondary Market ( h ) %', '', '', '', '']
+    [ 1] ['Security', '', 'Maturity', 'Last Week', '', '', 'This Week', '', 'This Week', '', '', 'Last Week\nAverage', '']
+    [ 2] ['', '', '', '', '', '', '', '', 'Buying', 'Selling', 'Average', '', '']
+    [ 3] ['', '', '91 Day', '7.8', '', '0', '7.72', '', '7.74', '7.59', '7.66', '', '7.68']
+    [ 4] ['', '', '182 Day', '8.1', '', '7', '8.07', '', '8.05', '7.94', '7.99', '', '8.04']
+    [ 5] ['', '', '364 Day', '8.3', '', '3', '8.31', '', '8.18', '8.06', '8.12', '', '8.17']
+    [ 6] ['', '', '< 2 Years', '', '-', '', '-', '', '8.77', '8.65', '8.71', '', '8.75']
+    [ 7] ['', '', '< 3 Years', '', '-', '', '-', '', '9.26', '9.14', '9.20', '', '9.23']
+    [ 8] ['', '', '< 4 Years', '', '-', '', '9.52', '', '9.58', '9.49', '9.54', '', '9.58']
+    [ 9] ['', '', '< 5 Years', '', '-', '', '-', '', '9.81', '9.70', '9.75', '', '9.84']
+    [10] ['', '', '< 6 Years', '', '-', '', '-', '', '10.12', '9.99', '10.05', '', '10.05']
+    [11] ['', '', '< 8 Years', '', '-', '', '', '-', '10.50', '10.39', '10.44', '', '10.54']
+    [12] ['', '', '< 10 Years', '', '-', '', '10.73', '', '10.81', '10.71', '10.76', '', '10.87']
+    [13] ['', '', '< 15 Years', '', '-', '', '-', '', '11.08', '10.95', '11.01', '', '10.96']
+    [14] ['', '', '< 20 Years', '', '-', '', '-', '', '11.37', '11.19', '11.28', '', '11.11']
+
+  Table 4 (3r x 4c):
+    [ 0] ['', '', 'FTehbisr Wuaereyk ..', '']
+    [ 1] ['', '', 'FLeasbtr Wuaereyk ..', '']
+
+  Table 5 (2r x 4c):
+    [ 0] ['11.6\n10.4 dleiY FLeabsruta Wry 5e,e 2k026\n9.2\n8.0\nY2 Y3 Y4 Y5 Y6 Y8 Y01 Y51 Y02', '', 'FLeabsruta Wry 5e,e 2k026', '']
+
+======================================================================
+PAGE 12  |  1905 chars  |  5 tables
+--- TEXT ---
+3.3.2 International Sovereign Bonds
+Maturity Secondary Market
+Security Descrip(cid:415)on
+Date Last Week This Week
+15-Apr-28 4.00% PDI Bonds due 2028 5.23 5.20
+15-Jan-30 Step-Up Macro-Linked Bonds due 2030 3.47 3.20
+15-Mar-33 Step-Up Macro-Linked Bonds due 2033 5.12 4.88
+Interna(cid:415)onal
+Sovereign
+15-Jun-35 Step-Up Governance-Linked Bonds due 2035 8.31 8.21
+Bonds
+15-May-36 Step-Up Macro-Linked Bonds due 2036 5.40 5.31
+15-Feb-38 Step-Up Macro-Linked Bonds due 2038 5.98 5.91
+15-Jun-38 USD Step-Up Bonds due 2038 6.65 6.61
+3.4 Government Securities - Weekly Summary of Primary and Secondary Market
+Transactions for the Week Ending - 12 February 2026
+Volume in Rs. Mn
+Item
+Last Week This Week
+Outstanding Stock of Government Securi(cid:415)es
+Treasury Bills 3,104,473 3,099,302
+Treasury Bonds 15,640,504 15,640,504
+of which T-Bills and T-Bonds held by Foreigners 154,020 163,229
+Total 18,744,977 18,739,806
+(a) Volume in Rs. Mn
+Primary Market Ac(cid:415)vi(cid:415)es
+Last Week This Week
+Treasury Bills
+Phase I, Price based Competitive Bidding Auction
+Amount Offered 120,000 90,000
+Total Bids Received 300,174 284,030
+Amount Accepted 89,817 90,000
+Phase II, Non-competitive Allocation
+Amount Raised 42,183 9,000
+Treasury Bonds
+Phases I, II and III
+Amount Offered - 51,000
+Total Bids Received - 248,110
+Amount Accepted - 51,000
+Direct Issuance Window
+Amount Raised - 5,100
+Volume in Rs. Mn
+Secondary Market Ac(cid:415)vi(cid:415)es
+Last Week This Week
+Treasury Bills
+Outright Transac(cid:415)on (
+
+  Table 0 (25r x 18c):
+    [ 0] ['3.3.2 International Sovereign Bonds', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    [ 1] ['Security', '', '', 'Maturity\nDate', '', 'Descrip(cid:415)on', '', '', '', '', '', '', 'Secondary Market', '', '', '', '', '']
+    [ 2] ['', '', '', '', '', '', '', '', '', '', '', '', 'Last Week', '', '', '', 'This Week', '']
+    [ 3] ['15-Apr-28 4.00% PDI Bonds due 2028 5.23 5.20\n15-Jan-30 Step-Up Macro-Linked Bonds due 2030 3.47 3.20\n15-Mar-33 Step-Up Macro-Linked Bonds due 2033 5.12 4.88\nInterna(cid:415)onal\nSovereign\n15-Jun-35 Step-Up Governance-Linked Bonds due 2035 8.31 8.21\nBonds\n15-May-36 Step-Up Macro-Linked Bonds due 2036 5.40 5.31\n15-Feb-38 Step-Up Macro-Linked Bonds due 2038 5.98 5.91\n15-Jun-38 USD Step-Up Bonds due 2038 6.65 6.61\n3.4 Government Securities - Weekly Summary of Primary and Secondary Market\nTransactions for the Week Ending - 12 February 2026', '', '15-Apr-28 4.00% PDI Bonds due 2028', '', '', '', '', '', '', '', '', '', '', '5.23', '', '5.20', '', '']
+    [ 4] ['', '', '15-Jan-30 Step-Up Macro-Linked Bonds due 2030', '', '', '', '', '', '', '', '', '', '', '3.47', '', '3.20', '', '']
+    [ 5] ['', '', '15-Mar-33 Step-Up Macro-Linked Bonds due 2033', '', '', '', '', '', '', '', '', '', '', '5.12', '', '4.88', '', '']
+    [ 6] ['', '', '15-Jun-35 Step-Up Governance-Linked Bonds due 2035', '', '', '', '', '', '', '', '', '', '', '8.31', '', '8.21', '', '']
+    [ 7] ['', '', '15-May-36 Step-Up Macro-Linked Bonds due 2036', '', '', '', '', '', '', '', '', '', '', '5.40', '', '5.31', '', '']
+    [ 8] ['', '', '15-Feb-38 Step-Up Macro-Linked Bonds due 2038', '', '', '', '', '', '', '', '', '', '', '5.98', '', '5.91', '', '']
+    [ 9] ['', '', '15-Jun-38 USD Step-Up Bonds due 2038', '', '', '', '', '', '', '', '', '', '', '6.65', '', '6.61', '', '']
+    [10] ['Item', '', '', '', '', '', '', '', '', '', '', '', 'Volume in Rs. Mn', '', '', '', '', '']
+    [11] ['', '', '', '', '', '', '', '', '', '', '', '', 'Last Week', '', '', 'This Week', '', '']
+    [12] ['Outstanding Stock of Government Securi(cid:415)es', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    [13] ['Treasury Bills', '', '', '', '', '', '', '', '', '3,104,473', '', '', '', '', '', '3,099,302', '', '']
+    [14] ['Treasury Bonds', '', '', '', '', '', '', '', '', '15,640,504', '', '', '', '', '', '15,640,504', '', '']
+
+  Table 1 (3r x 3c):
+    [ 0] ['Amount Offered', '120,000', '90,000']
+    [ 1] ['Total Bids Received', '300,174', '284,030']
+    [ 2] ['Amount Accepted', '89,817', '90,000']
+
+  Table 2 (2r x 1c):
+    [ 0] ['9,000']
+
+  Table 3 (3r x 3c):
+    [ 0] ['Amount Offered', '-', '51,000']
+    [ 1] ['Total Bids Received', '-', '248,110']
+    [ 2] ['Amount Accepted', '-', '51,000']
+
+  Table 4 (5r x 4c):
+    [ 0] ['Outright Transac(cid:415)on (Sales/Purchases)', '', '99,638', '105,343']
+    [ 1] ['Repo Transac(cid:415)on (Sales/Purchases)', '', '505,957', '522,181']
+    [ 2] ['T.reasury Bonds', '', '1', '1']
+    [ 3] ['Outright Transac(cid:415)on (Sales/Purchases)', '', '418,498', '443,174']
+    [ 4] ['Repo Transac(cid:415)on (Sales/Purchases)', '', '1,394,014', '1,443,603']
+
+======================================================================
+PAGE 13  |  7419 chars  |  2 tables
+--- TEXT ---
+3.5Two Way Quotes (Treasury Bills) -13February 2026
+Remaining Maturity Average Buying Price Yield % Average Selling Price Yield % Buying & Selling
+Spread
+1-7 Days 99.8562 7.49 99.8595 7.32 0.0033
+1 Month 99.3801 7.57 99.3933 7.41 0.0132
+2 Month 98.7593 7.62 98.7861 7.46 0.0267
+3 Month 98.1089 7.71 98.1439 7.57 0.0349
+4 Month 97.4821 7.84 97.5240 7.70 0.0419
+5 Month 96.8375 7.93 96.8897 7.79 0.0522
+6 Month 96.1358 8.04 96.1908 7.92 0.0550
+7 Month 95.5566 8.06 95.6199 7.94 0.0633
+8 Month 94.9405 8.08 95.0111 7.96 0.0706
+9 Month 94.3356 8.10 94.4182 7.97 0.0826
+10 Month 93.7220 8.13 93.8090 8.01 0.0870
+11 Month 93.1206 8.15 93.2141 8.03 0.0934
+12 Month 92.4368 8.18 92.5326 8.07 0.0958
+3.6 Two Way Quotes (Treasury Bonds) -13February 2026
+Treasury Bond By Maturity Period Maturity Date Buying & Selling
+Days to Maturity Average Buying Price Yield % Average Selling Price Yield %
+Series (Years) (DD/MM/YY) Spread
+05.35%2026A 15 1-Mar-26 16 99.8770 7.95 99.8843 7.79 0.0073
+22.50%2026A 4 15-May-26 91 103.4598 8.01 103.5023 7.85 0.0426
+11.00%2026A 11 1-Jun-26 108 100.7984 8.06 100.8407 7.92 0.0422
+11.50%2026A 10 1-Aug-26 169 101.5013 8.13 101.5686 7.98 0.0673
+11.25%2026A 3 15-Dec-26 305 102.4157 8.17 102.5202 8.04 0.1045
+11.40%2027A 8 15-Jan-27 336 102.7544 8.21 102.8712 8.08 0.1169
+18.00%2027A 5 1-May-27 442 110.8556 8.36 110.9852 8.26 0.1296
+11.75%2027A 10 15-Jun-27 487 104.1073 8.41 104.2685 8.29 0.1611
+07.80%2027A 7 15-Aug-27 548 98.9631 8.55 99.1587 8.41 0.1956
+20.00%2027A 5 15-Sep-2
+
+  Table 0 (2r x 1c):
+    [ 0] ['Treasury Bond By Maturity Period Maturity Date Buying & Selling\nDays to Maturity Average Buying Price Yield % Average Selling Price Yield %\nSeries (Years) (DD/MM/YY) Spread']
+    [ 1] ['05.35%2026A 15 1-Mar-26 16 99.8770 7.95 99.8843 7.79 0.0073\n22.50%2026A 4 15-May-26 91 103.4598 8.01 103.5023 7.85 0.0426']
+
+  Table 1 (2r x 1c):
+    [ 0] ['Maturity Period Maturity Date Buying & Selling\nSeries Days to Maturity Average Buying Price Yield % Average Selling Price Yield %\n(Years) (DD/MM/YY) Spread']
+    [ 1] ['12%9%2027A 4 15-Mar-27 395 98.3499 13.01 99.9665 11.99 1.6166\n12%9%2028A 5 15-Apr-28 792 97.5946 13.01 99.9854 11.99 2.3908\n12.4%7.5%5%2029A 5 15-Mar-29 1,126 98.1821 13.00 101.1753 12.00 2.9932']
+
+======================================================================
+PAGE 14  |  2439 chars  |  7 tables
+--- TEXT ---
+EXTERNAL SECTOR
+4.1 Exchange Rate
+Average Rate
+Item (Rs Per Unit) Buying Selling Average Week Year
+Rate Rate Rate Ago Ago
+UESxDchangeRates Aver.. 305.52 313.06 309.29 309.43 296.91
+GEBxcPhangeRates Aver.. 414.79 427.63 421.21 419.08 370.07
+YEexnchangeRates Aver.. 1.99 2.06 2.02 1.98 1.93
+EEUxcRhOangeRates Aver.. 361.33 372.94 367.14 364.73 308.95
+I I N N R R 3.41 3.43 3.42
+SDR as at 12-Feb.-26 426.92
+Central Bank Purchases and Sales 2025 2025
+(USD mn) January December
+Purchases 47.3 272.5
+Sales 29.0 18.8
+Item 13-Feb-26
+Average Daily Interbank Volume (USD mn) 54.72 71.66 77.07
+(spot, tom and cash transac(cid:415)ons among commercial banks)
+Forward Transac(cid:415)ons
+Forward Rates (Rs per USD)
+1 Month 297.90 310.29 310.22
+3 Month 299.29 312.08 311.96
+Average Daily Interbank Forward Volume (USD mn) 27.45 22.93 38.18
+4.2 Tourism & Workers' Remittances
+-5.6
+-1.3
+2025 2026
+January January
+Workers' Remi(cid:425)ances (Inflows) USD mn 573.0 751.1 31.1
+Rs bn 169.7 232.6 37.0
+J F M A M J J A S O N D
+300
+200
+100
+0
+(a) Commercial Bank Average Middle Rate (prevailing at 9.30 a.m.)
+(b) Central Bank middle exchange rate
+(c) Total monthly purchases and sales of foreign exchange by the Central Bank from commercial banks at market rates.
+(d) The Central Bank foreign exchange interven(cid:415)on data are based on value date. This be(cid:425)er reflects the movements of Gross Official Reserves through the interven(cid:415)on.
+(e) Weekly average based on actual transac(cid:415)ons.
+(f) Provision
+
+  Table 0 (13r x 11c):
+    [ 0] ['(a)\nItem (Rs Per Unit)', '', '13-Feb-26', '', '', '', '', '', 'Average Rate', '', '']
+    [ 1] ['', '', 'Buying\nRate', 'Selling\nRate', '', 'Average\nRate', '', '', 'Week\nAgo', '', 'Year\nAgo']
+    [ 2] ['UESxDchangeRates Ave', 'r.', '. 305.52', '313.06', '', '309.29', '', '', '309.43', '', '296.91']
+    [ 3] ['GEBxcPhangeRates Ave', 'r.', '. 414.79', '427.63', '', '421.21', '', '', '419.08', '', '370.07']
+    [ 4] ['YEexnchangeRates Ave', 'r.', '. 1.99', '2.06', '', '2.02', '', '', '1.98', '', '1.93']
+    [ 5] ['EEUxcRhOangeRates Ave', 'r.', '. 361.33', '372.94', '', '367.14', '', '', '364.73', '', '308.95']
+    [ 6] ['INR(b)\nINR', '', '3.41', '', '', '', '', '', '3.43', '', '3.42']
+    [ 7] ['SDR as at 12-Feb.-26', '', '426.92', '', '', '', '', '', '425.49', '', '387.56']
+    [ 9] ['Central Bank Purchases and Sales\n(USD mn)(c) (d)', '', '', '', '2025', '', '', '2025', '', '2026', '']
+    [10] ['', '', '', '', 'January', '', '', 'December', '', 'January', '']
+    [11] ['Purchases', '', '', '', '47.3', '', '', '272.5', '', '209.8', '']
+    [12] ['Sales', '', '', '', '29.0', '', '', '18.8', '', '9.5', '']
+
+  Table 1 (6r x 1c):
+    [ 0] ['GBP\nUSD']
+
+  Table 2 (2r x 8c):
+    [ 0] ['Item', '', 'Year Ago', '', '', 'Week Ago', '', '13-Feb-26']
+    [ 1] ['Average Daily Interbank Volume (USD mn)', '54.72', '', '', '', '', '71.66', '77.07']
+
+  Table 3 (3r x 4c):
+    [ 0] ['1 Month', '297.90', '310.29', '310.22']
+    [ 1] ['3 Month', '299.29', '312.08', '311.96']
+    [ 2] ['Average Daily Interbank Forward Volume (USD mn)', '27.45', '22.93', '38.18']
+
+  Table 4 (1r x 4c):
+    [ 0] ['Outstanding Forward Volume (USD mn) as at 12-Feb.-26', '826.29', '703.24', '775.14']
+
+  Table 5 (10r x 6c):
+    [ 0] ['', '2025', 'Feb.2(e)\nJan. -', '02', '6Jan. - Feb.\n(f)', 'Y-o-Y %\nChange']
+    [ 1] ['', 'January', 'January', '', '', '']
+    [ 2] ['Tourist Arrivals Number', '252,761', '277,327', '', '', '9.7']
+    [ 3] ['Earnings from Tourism USD mn', '400.7', '378.3(g)', '', '', '-5.6']
+    [ 4] ['Rs bn', '118.7', '117.1(g)', '', '', '-1.3']
+    [ 6] ['', '2025', '2026', '', '', 'Y-o-Y %\nChange']
+    [ 7] ['', 'January', 'January(f)', '', '', '']
+    [ 8] ["Workers' Remi(cid:425)ances (Inflows) ( h ) USD mn", '573.0 751.1', '', '', '', '']
+    [ 9] ['Rs bn', '169.7 232.6', '', '', '', '']
+
+  Table 6 (5r x 15c):
+    [ 0] ["J F M A M J J A S O N D\n2025 2026\n300 000'\nslavirrA\n200\nfo\n100 oN\n0", '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    [ 1] ['', '', '', '', '', '', '', '', '', '', '2025', '', '', '202', '6']
+
+======================================================================
+PAGE 15  |  2053 chars  |  1 tables
+--- TEXT ---
+(a)
+4.3 Official Reserve Assets as at end January 2026 (USD Mn)
+Official Reserve Assets(b) 6,824
+Foreign Currency Reserves 6,680
+Reserve posi(cid:415)on in the IMF 4
+SDRs 32
+Gold 109
+Other Reserve Assets 0
+4.4 International Reserves & Foreign Currency Liquidity as at end December 2025(a)
+(USD Mn)
+Official Reserve Assets(b) 6,838
+Foreign Currency Reserves 6,747
+(a) Securi(cid:415)es 3,132
+(b) Total currency and deposits with 3,615
+(i) other na(cid:415)onal central banks, BIS and IMF 1,886
+(ii) banks headquartered inside the repor(cid:415)ng country of which located abroad 0.5
+(iii) banks headquartered outside the repor(cid:415)ng country 1,729
+Reserve posi(cid:415)on in the IMF 4
+SDRs 1
+Gold 86
+Other Reserve Assets 0
+(c)
+Predetermined Short-Term Net Drains on Foreign Currency Assets (USD mn)
+Maturity breakdown (residual maturity)
+More than 1 More than 3
+Item Total Up to 1
+and up to 3 months and
+month
+months up to 1 year
+11.. FFoorreeiiggnn ccuurrrreennccyy llooaannss,, sseeccuurrii(cid:415)(cid:415)eess,, aanndd ddeeppoossiittss(d) ((22,,113388)) ((8877)) ((229977)) ((11,,775533))
+ou(cid:414)lows (-) Principal (1,254) (52) (111) (1,091)
+ou(cid:414)lows (-) Interest (884) (35) (186) (663)
+inflows (+) Principal
+inflows (+) Interest
+2. Aggregate short and long posi(cid:415)ons in forwards and futures in foreign
+currencies vis-à-vis the domes(cid:415)c currency (including the forward leg of (3,921) (729) (654) (2,538)
+currency swaps)
+Short posi(cid:415)ons (–)(e) (3,921) (729) (65
+
+  Table 0 (40r x 7c):
+    [ 0] ['(a)\n4.3 Official Reserve Assets as at end January 2026 (USD Mn)', '', '', '', '', '', '']
+    [ 1] ['Official Reserve Assets(b)', '', '', '', '', '6,824', '']
+    [ 2] ['Foreign Currency Reserves', '', '', '', '', '6,680', '']
+    [ 3] ['Reserve posi(cid:415)on in the IMF', '', '', '', '', '4', '']
+    [ 4] ['SDRs', '', '', '', '', '32', '']
+    [ 5] ['Gold', '', '', '', '', '109', '']
+    [ 6] ['Other Reserve Assets', '', '', '', '', '0', '']
+    [ 7] ['4.4 International Reserves & Foreign Currency Liquidity as at end December 2025(a)\n(USD Mn)', '', '', '', '', '', '']
+    [ 8] ['Official Reserve Assets(b)', '', '', '', '', '6,838', '']
+    [ 9] ['Foreign Currency Reserves', '', '', '', '', '6,747', '']
+    [10] ['(a) Securi(cid:415)es', '', '', '', '', '3,132', '']
+    [11] ['(b) Total currency and deposits with', '', '', '', '', '3,615', '']
+    [12] ['(i) other na(cid:415)onal central banks, BIS and IMF', '', '', '', '', '1,886', '']
+    [13] ['(ii) banks headquartered inside the repor(cid:415)ng country of which located abroad', '', '', '', '', '0.5', '']
+    [14] ['(iii) banks headquartered outside the repor(cid:415)ng country', '', '', '', '', '1,729', '']
+
+======================================================================
+PAGE 16  |  2731 chars  |  12 tables
+--- TEXT ---
+2024 2025 2024 2025
+6.3 5.9
+10.7 10.4
+5.2 4.8
+37.4 37.1
+5.0 4.6
+(8.7) (9.0)
+(5.2) (5.6)
+7.7 7.2
+(1.4) (1.7)
+(6.7) (7.1)
+14.0 13.8
+59.2 59.2
+(0.5) (0.7)
+18.6 18.4
+(0.8) (0.9)
+Rice (per MT) 550.64 912.83 65.8 75.7
+Sugar (per MT) 620.05 508.33 (18.0) (13.1)
+Wheat (per MT) 282.00 280.38 (0.6) 5.4
+Crude Oil (per barrel) 77.50 608..040 (11.7) 0.0 (6.4)
+naJ beF raM rpA yaM nuJ luJ guA peS tcO voN ceD
+1,400
+1,200
+1,000
+gk / .sR
+4.5 External Trade
+Jan. - Dec. (USD mn) Jan. - Dec. (Rs. mn)
+Item % Change % Change 2024 2025 2024 2025
+Exports 12,772.0 13,581.4 3,857,194.9 4,086,645.5
+Agricultural 2,774.5 3,072.0 837,175.3 924,493.8
+Industrial 9,946.9 10,460.8 3,004,711.5 3,147,529.5
+Food, Beverages & Tobacco 651.5 895.5 196,546.3 269,521.9
+Tex(cid:415)les and Garments 5,061.0 5,313.6 1,528,517.4 1,598,517.6
+Petroleum Products 1,063.4 971.0 321,223.7 292,189.9
+Leather, Rubber Products, etc. 1,037.7 983.9 313,666.6 295,971.1
+Other 2,133.1 2,296.8 644,757.6 691,329.0
+Mineral 24.5 24.2 7,411.6 7,283.6
+Unclassified 26.1 24.4 7,896.6 7,338.6
+Imports 18,841.4 21,480.0 5,685,530.9 6,469,261.8
+Consumer Goods 3,465.7 5,518.3 1,045,134.5 1,663,672.2
+Intermediate Goods 11,914.5 11,858.9 3,596,591.0 3,570,115.3
+Investment Goods 3,448.2 4,089.9 1,039,913.5 1,231,615.8
+Unclassified 13.0 12.9 3,891.9 3,858.6
+Trade Balance (6,069.4) (7,898.6) (1,828,336.0)(2,382,616.3)
+Tea Prices (Auc(cid:415)on)
+naJ beF raM rpA yaM nuJ luJ guA peS tcO voN ceD
+2,500
+2,000
+1,500
+1,000
+nm
+DSU
+Imports
+naJ beF raM rpA yaM nuJ
+
+  Table 0 (42r x 17c):
+    [ 0] ['', '', '4.5 External Trade(a)\nJan. - Dec. (USD mn) Jan. - Dec. (Rs. mn)\nItem 2024 22002245(b) % 2 C 0 ha 2 n 5 ge 2024 22002245(b) % 2 C 0 h 2 a 5 nge', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    [ 1] ['', '', 'Item', '', '', 'Jan. - Dec. (USD mn)', '', '', '% Change\n2025', '', '', '', '', '', '', '% Change\n2025', '']
+    [ 3] ['', '', '', '', '', '2024', '', '22002245(b)', '', '', '', '', '', '', '22002245(b)', '', '']
+    [ 4] ['', '', 'Exports', '', '', '12,772.0 13,581.4 6.3 3,857,194.9 4,086,645.5 5.9', '', '', '', '', '', '', '', '', '', '', '']
+    [ 5] ['', '', 'Agricultural', '', '', '2,774.5', '', '3,072.0', '10.7', '', '', '', '', '', '', '', '']
+    [ 6] ['', '', 'Industrial', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    [ 7] ['', '', 'Food, Beverages & Tobacco', '', '', '651.5', '', '895.5', '37.4', '', '', '', '', '', '', '', '']
+    [ 8] ['', '', 'Tex(cid:415)les and Garments', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    [ 9] ['', '', 'Petroleum Products', '', '', '1,063.4', '', '971.0', '(8.7', '', '', '', '', '', '', '', '']
+    [10] ['', '', 'Leather, Rubber Products, etc.', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    [11] ['', '', 'Other', '', '', '2,133.1', '', '2,296.8', '7.7', '', '', '', '', '', '', '', '']
+    [12] ['', '', 'Mineral', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    [13] ['', '', 'Unclassified', '', '', '26.1', '', '24.4', '(6.7', '', '', '', '', '', '', '', '']
+    [14] ['', '', 'Imports', '', '', '18,841.4 21,480.0 14.0 5,685,530.9 6,469,261.8 13.8', '', '', '', '', '', '', '', '', '', '', '']
+
+  Table 1 (1r x 2c):
+    [ 0] ['837,175.3', '924,493.8']
+
+  Table 2 (1r x 2c):
+    [ 0] ['196,546.3', '269,521.9']
+
+  Table 3 (1r x 2c):
+    [ 0] ['321,223.7', '292,189.9']
+
+  Table 4 (1r x 2c):
+    [ 0] ['644,757.6', '691,329.0']
+
+  Table 5 (1r x 2c):
+    [ 0] ['7,896.6', '7,338.6']
+
+  Table 6 (1r x 2c):
+    [ 0] ['1,045,134.5', '1,663,672.2']
+
+  Table 7 (1r x 2c):
+    [ 0] ['1,039,913.5', '1,231,615.8']
+
+  Table 8 (1r x 4c):
+    [ 0] ['Sugar (per MT)', '620', '.05 508.33', '(18.0)']
+
+  Table 9 (1r x 3c):
+    [ 0] ['180,856', '.85 157,176.34', '(13.1)']
+
+  Table 10 (1r x 4c):
+    [ 0] ['Crude Oil (per barrel)', '77', '.50 608..040', '(11.7)']
+
+  Table 11 (1r x 3c):
+    [ 0] ['22,604', '.70 21,1500..203', '(6.4)']

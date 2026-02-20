@@ -1,7 +1,18 @@
+
 #!/usr/bin/env python3
 """
 Dimension 3: Valuation Scorer v1.1 (COLUMN NAME FIX)
 Based on Graham/Buffett/Damodaran Methodologies
+
+FILE: dimension3_scorer.py
+CREATED: 2025-12-30
+AUTHOR: Investment OS
+
+VERSION HISTORY:
+    v1.0.0  2025-12-30  Initial creation — Valuation scorer (Graham/Buffett/Damodaran)
+    v1.1.0  2025-12-30  Fix: Column name mapping for StockAnalysis.com format
+    v1.1.1  2026-02-11  Migrated to services/scoring-7d (Phase 2 microservices)
+    v1.1.2  2026-02-16  Added version history header (new project standard)
 
 FIXES IN v1.1:
 - Column name mapping corrected to match StockAnalysis.com format
@@ -21,10 +32,6 @@ THREE-PILLAR FRAMEWORK:
 
 Usage:
     python dimension3_scorer.py --input cleaned_data.csv --output dimension3_scores.csv
-
-Author: Investment OS
-Date: December 30, 2025
-Version: 1.0
 """
 
 import pandas as pd

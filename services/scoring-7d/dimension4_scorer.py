@@ -1,8 +1,17 @@
+
 """
 DIMENSION 4: GROWTH SCORER v1.2
 Investment OS - 7D Scoring Framework
-Date: December 31, 2025
-Version: 1.2 (Production)
+
+FILE: dimension4_scorer.py
+CREATED: 2025-12-31
+AUTHOR: Investment OS
+
+VERSION HISTORY:
+    v1.0.0  2025-12-31  Initial creation — Growth scorer (Peter Lynch GARP methodology)
+    v1.2.0  2025-12-31  Fix: Tightened negative ROE, missing EPS penalty, value trap penalty
+    v1.2.1  2026-02-11  Migrated to services/scoring-7d (Phase 2 microservices)
+    v1.2.2  2026-02-16  Added version history header (new project standard)
 
 CHANGELOG v1.2:
 - FIX 1: Tightened negative ROE threshold from -10% to -5%

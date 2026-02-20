@@ -1,15 +1,16 @@
 
+
 #!/bin/bash
 #
-# INVESTMENT OS - WEEKLY SCORING (Phase 2 Migration)
-# Uses standardized filenames + configurable data path
-# Date: January 4, 2026
+# FILE: weekly_scoring_complete.sh
+# DESCRIPTION: Full weekly scoring pipeline (non-parallel, legacy)
+# CREATED: 2026-01-04
+# AUTHOR: Investment OS
 #
-# Migration Notes:
-# - SCRIPT_DIR changed: /opt/selenium_automation -> /opt/investment-os/services/scoring-7d
-# - LOG_DIR changed: $SCRIPT_DIR/logs -> /opt/investment-os/v5_logs
-# - DATA_FILE paths updated to /opt/investment-os/
-# - Original: /opt/selenium_automation/weekly_scoring_complete.sh
+# VERSION HISTORY:
+#     v1.0.0  2026-01-04  Initial creation — Full weekly scoring pipeline
+#     v1.0.1  2026-02-10  Migrated to services/scoring-7d (Phase 2 microservices)
+#     v1.0.2  2026-02-16  Added version history header (new project standard)
 #
 
 set -e

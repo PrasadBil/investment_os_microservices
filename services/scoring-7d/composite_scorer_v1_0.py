@@ -1,8 +1,19 @@
+
 """
 INVESTMENT OS - UNIFIED COMPOSITE SCORER v1.0
 7-Dimensional Scoring Framework
-Date: January 1, 2026
-Version: 1.0 (Production)
+
+FILE: composite_scorer_v1_0.py
+CREATED: 2026-01-01
+AUTHOR: Investment OS
+
+VERSION HISTORY:
+    v1.0.0  2026-01-01  Initial creation — 7-dimensional weighted composite scorer
+    v1.0.1  2026-02-10  Migrated to services/scoring-7d (Phase 2 microservices)
+    v1.0.2  2026-02-16  Fix: NaN sector in interpretation (was showing "nan compounder")
+                         Fix: Sector loading — extract from any dimension file, not just first
+                         Fix: Empty sector analysis — filter NaN, add "Unclassified" bucket
+                         Added: Version history header (new project standard)
 
 ARCHITECTURE: Weighted composite of 7 institutional-grade dimensions
 
@@ -203,17 +214,23 @@ class CompositeScorer:
             return "Poor"
     
     def _get_interpretation(self, score: float, sector: str) -> str:
-        """Generate human-readable interpretation"""
-        if score >= 85:
-            return f"Exceptional {sector} compounder - top-tier quality across all dimensions"
-        elif score >= 70:
-            return f"Strong {sector} business - quality company at reasonable valuation"
-        elif score >= 55:
-            return f"Moderate {sector} business - average quality or mixed signals"
-        elif score >= 40:
-            return f"Weak {sector} business - below-average quality with significant issues"
+        """Generate human-readable interpretation (v1.0.2: NaN-safe sector handling)"""
+        # Guard against NaN/None/empty sector — prevents "nan compounder" in reports
+        if sector is None or (isinstance(sector, float) and pd.isna(sector)) or str(sector).strip().lower() in ('nan', 'unknown', ''):
+            sector_label = ""
         else:
-            return f"Poor {sector} business - avoid, multiple red flags across dimensions"
+            sector_label = f"{sector} "
+
+        if score >= 85:
+            return f"Exceptional {sector_label}compounder - top-tier quality across all dimensions"
+        elif score >= 70:
+            return f"Strong {sector_label}business - quality company at reasonable valuation"
+        elif score >= 55:
+            return f"Moderate {sector_label}business - average quality or mixed signals"
+        elif score >= 40:
+            return f"Weak {sector_label}business - below-average quality with significant issues"
+        else:
+            return f"Poor {sector_label}business - avoid, multiple red flags across dimensions"
     
     def _get_recommendation(self, score: float, dimensions: Dict) -> str:
         """Generate investment recommendation based on score and dimensions"""
@@ -266,7 +283,8 @@ def load_dimension_scores(dimension_files: Dict[str, str]) -> pd.DataFrame:
     print("=" * 80)
     
     merged = None
-    
+    sector_data = None  # v1.0.2: Track sector data separately
+
     # Mapping for standardized column names
     column_mapping = {
         'dimension1': 'dimension1_profitability',
@@ -277,48 +295,59 @@ def load_dimension_scores(dimension_files: Dict[str, str]) -> pd.DataFrame:
         'dimension6': 'dimension6_moat',
         'dimension7': 'dimension7_sentiment'
     }
-    
+
     for dim_name, file_path in dimension_files.items():
         print(f"\nLoading {dim_name}...")
         try:
             df = pd.read_csv(file_path)
-            
+
             # Get the score column name (dimension1_profitability, dimension_1_score, etc.)
             score_cols = [col for col in df.columns if col.startswith('dimension')]
             if not score_cols:
                 print(f"  ⚠️  No dimension score column found in {file_path}")
                 continue
-            
+
             score_col = score_cols[0]
-            
+
             # Standardize column name to expected format
             standard_col_name = column_mapping.get(dim_name, score_col)
-            
+
             # Keep only symbol and score column, rename to standard name
             df_subset = df[['symbol', score_col]].copy()
             df_subset = df_subset.rename(columns={score_col: standard_col_name})
-            
+
+            # v1.0.2: Extract sector from ANY dimension file that has it (not just first)
+            if 'sector' in df.columns and sector_data is None:
+                _sector = df[['symbol', 'sector']].dropna(subset=['sector'])
+                if len(_sector) > 0:
+                    sector_data = _sector.drop_duplicates(subset=['symbol'], keep='first')
+                    print(f"  📊 Sector data found: {len(sector_data)} stocks with sector labels")
+
             # Merge with main dataframe
             if merged is None:
                 merged = df_subset
-                # Also get sector if available
-                if 'sector' in df.columns:
-                    merged = df[['symbol', 'sector']].copy()
-                    merged = merged.merge(df_subset, on='symbol', how='outer')
             else:
                 merged = merged.merge(df_subset, on='symbol', how='outer')
-            
+
             print(f"  ✅ Loaded {len(df)} stocks as '{standard_col_name}'")
-            
+
         except Exception as e:
             print(f"  ❌ Error loading {file_path}: {e}")
-    
+
+    # v1.0.2: Merge sector data if found in any dimension file
+    if merged is not None and sector_data is not None:
+        merged = merged.merge(sector_data, on='symbol', how='left')
+        populated = merged['sector'].notna().sum()
+        print(f"\n📊 Sector mapping: {populated}/{len(merged)} stocks have sector labels")
+    elif merged is not None:
+        print("\n⚠️  No sector data found in any dimension file (sector analysis will show 'Unclassified')")
+
     if merged is not None:
         print(f"\n✅ Total stocks after merge: {len(merged)}")
         print(f"Columns: {list(merged.columns)}")
     else:
         print("\n❌ No dimension files loaded successfully")
-    
+
     return merged
 
 
@@ -339,6 +368,13 @@ def calculate_composite_scores(dimension_data: pd.DataFrame) -> pd.DataFrame:
     results = []
     
     for idx, row in dimension_data.iterrows():
+        # v1.0.2: Sanitize sector — prevent NaN from leaking into reports
+        raw_sector = row.get('sector', None)
+        if raw_sector is None or (isinstance(raw_sector, float) and pd.isna(raw_sector)):
+            clean_sector = ''
+        else:
+            clean_sector = str(raw_sector).strip()
+
         # Build metrics object with standardized column names
         metrics = CompositeMetrics(
             symbol=row.get('symbol', 'UNKNOWN'),
@@ -349,7 +385,7 @@ def calculate_composite_scores(dimension_data: pd.DataFrame) -> pd.DataFrame:
             d5_management=row.get('dimension5_management'),
             d6_moat=row.get('dimension6_moat'),
             d7_sentiment=row.get('dimension7_sentiment'),
-            sector=row.get('sector', 'Unknown')
+            sector=clean_sector
         )
         
         # Calculate composite score
@@ -469,18 +505,29 @@ def generate_summary_report(composite_df: pd.DataFrame, output_file: str = 'comp
         report.append(f"    {row['recommendation']}")
         report.append("")
     
-    # Sector breakdown
+    # Sector breakdown (v1.0.2: Handle missing/NaN sectors gracefully)
     report.append("=" * 80)
     report.append("SECTOR ANALYSIS")
     report.append("=" * 80)
     report.append("")
-    
-    sector_stats = composite_df.groupby('sector')['composite_score'].agg(['count', 'mean', 'std'])
-    report.append(f"{'Sector':<15} {'Count':<8} {'Mean':<8} {'Std':<8}")
+
+    # Clean sector column: replace NaN/empty with 'Unclassified'
+    sector_col = composite_df['sector'].copy() if 'sector' in composite_df.columns else pd.Series(['Unclassified'] * len(composite_df))
+    sector_col = sector_col.fillna('Unclassified')
+    sector_col = sector_col.replace('', 'Unclassified')
+    sector_col = sector_col.replace('nan', 'Unclassified')
+    _df_for_sector = composite_df.copy()
+    _df_for_sector['_sector_clean'] = sector_col
+
+    sector_stats = _df_for_sector.groupby('_sector_clean')['composite_score'].agg(['count', 'mean', 'std'])
+    sector_stats = sector_stats.sort_values('mean', ascending=False)
+
+    report.append(f"{'Sector':<20} {'Count':<8} {'Mean':<8} {'Std':<8}")
     report.append("─" * 50)
-    
+
     for sector, row in sector_stats.iterrows():
-        report.append(f"{sector:<15} {int(row['count']):<8} {row['mean']:<8.1f} {row['std']:<8.1f}")
+        std_val = row['std'] if pd.notna(row['std']) else 0.0
+        report.append(f"{str(sector)[:20]:<20} {int(row['count']):<8} {row['mean']:<8.1f} {std_val:<8.1f}")
     
     report.append("")
     report.append("=" * 80)

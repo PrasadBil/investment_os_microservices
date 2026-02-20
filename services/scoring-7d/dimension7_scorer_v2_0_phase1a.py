@@ -1,7 +1,18 @@
+
 #!/usr/bin/env python3
 """
 DIMENSION 7 SCORER V2.0 - PHASE 1A
 Investment OS - Market Sentiment Enhancement
+
+FILE: dimension7_scorer_v2_0_phase1a.py
+CREATED: 2026-01-07
+AUTHOR: Investment OS
+
+VERSION HISTORY:
+    v2.0.0-1a  2026-01-07  Initial creation — Phase 1A scorer (3 components: Activity, Volatility, Recognition)
+    v2.0.1-1a  2026-02-10  Migrated to services/scoring-7d (Phase 2 microservices)
+    v2.0.2-1a  2026-02-16  Added version history header (new project standard)
+
 Phase 1, Day 3: Parallel Scoring Implementation
 
 PURPOSE:

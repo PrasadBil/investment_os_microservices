@@ -1,0 +1,128 @@
+2026-02-15 16:10:45,094 - INFO - Setting up Chrome driver...
+2026-02-15 16:10:45,095 - INFO - ====== WebDriver manager ======
+2026-02-15 16:10:45,179 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-15 16:10:45,697 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-15 16:10:46,202 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/143.0.7499.192/chromedriver-linux64/chromedriver] found in cache
+2026-02-15 16:10:46,508 - INFO - Chrome driver ready
+2026-02-15 16:10:46,508 - INFO - ==================================================
+2026-02-15 16:10:46,508 - INFO - STEP 1: Logging in to StockAnalysis.com
+2026-02-15 16:10:46,508 - INFO - ==================================================
+2026-02-15 16:10:51,472 - INFO - Entering email...
+2026-02-15 16:10:51,577 - INFO - Entering password...
+2026-02-15 16:10:51,663 - INFO - Clicking login button...
+2026-02-15 16:10:57,941 - INFO - Login successful
+2026-02-15 16:10:57,941 - INFO - Post-login URL: https://stockanalysis.com/#
+2026-02-15 16:10:57,941 - INFO - ==================================================
+2026-02-15 16:10:57,941 - INFO - STEP 2: Navigating to Stock Screener
+2026-02-15 16:10:57,941 - INFO - ==================================================
+2026-02-15 16:10:57,941 - INFO - Going to: https://stockanalysis.com/stocks/screener/
+2026-02-15 16:11:06,618 - INFO - Current URL: https://stockanalysis.com/stocks/screener/
+2026-02-15 16:11:06,618 - INFO - Arrived at Stock Screener page
+2026-02-15 16:11:06,618 - INFO - Checking Exchange Country...
+2026-02-15 16:11:09,640 - INFO -    Found country button: United States
+2026-02-15 16:11:09,640 - INFO -    Country is not Sri Lanka, changing it...
+2026-02-15 16:11:11,787 - INFO -    Changed country to Sri Lanka
+2026-02-15 16:11:14,787 - INFO - Setting rows per page to 500...
+2026-02-15 16:11:16,816 - INFO -    Found rows button: 20 Rows
+2026-02-15 16:11:19,160 - INFO -    Changed to 500 rows
+2026-02-15 16:11:22,161 - INFO - Screener configured correctly
+2026-02-15 16:11:22,161 - INFO - ==================================================
+2026-02-15 16:11:22,161 - INFO - STEP 3: Collecting All Views
+2026-02-15 16:11:22,161 - INFO - ==================================================
+2026-02-15 16:11:22,161 - INFO - Total views: 13
+2026-02-15 16:11:22,161 - INFO - Each view: ALL 296 stocks on ONE page
+2026-02-15 16:11:22,161 - INFO - Total parameters: 235 across all views
+2026-02-15 16:11:22,161 - INFO - ==================================================
+2026-02-15 16:11:22,161 - INFO - 
+[1/13] Processing view_0...
+2026-02-15 16:11:22,161 - INFO -    Clicking view_0 tab...
+2026-02-15 16:11:24,178 - INFO -       Found view_0
+2026-02-15 16:11:31,591 - INFO -    Loaded view_0
+2026-02-15 16:11:34,748 - INFO -    Saved: view_0.html
+2026-02-15 16:11:34,748 - INFO - 
+[2/13] Processing view_1...
+2026-02-15 16:11:34,748 - INFO -    Clicking view_1 tab...
+2026-02-15 16:11:36,766 - INFO -       Found view_1
+2026-02-15 16:11:44,131 - INFO -    Loaded view_1
+2026-02-15 16:11:47,279 - INFO -    Saved: view_1.html
+2026-02-15 16:11:47,280 - INFO - 
+[3/13] Processing view_2...
+2026-02-15 16:11:47,280 - INFO -    Clicking view_2 tab...
+2026-02-15 16:11:49,316 - INFO -       Found view_2
+2026-02-15 16:11:56,695 - INFO -    Loaded view_2
+2026-02-15 16:11:59,857 - INFO -    Saved: view_2.html
+2026-02-15 16:11:59,858 - INFO - 
+[4/13] Processing view_3...
+2026-02-15 16:11:59,858 - INFO -    Clicking view_3 tab...
+2026-02-15 16:12:01,880 - INFO -       Found view_3
+2026-02-15 16:12:09,338 - INFO -    Loaded view_3
+2026-02-15 16:12:12,528 - INFO -    Saved: view_3.html
+2026-02-15 16:12:12,528 - INFO - 
+[5/13] Processing view_4...
+2026-02-15 16:12:12,528 - INFO -    Clicking view_4 tab...
+2026-02-15 16:12:14,553 - INFO -       Found view_4
+2026-02-15 16:12:21,814 - INFO -    Loaded view_4
+2026-02-15 16:12:25,174 - INFO -    Saved: view_4.html
+2026-02-15 16:12:25,175 - INFO - 
+[6/13] Processing view_5...
+2026-02-15 16:12:25,175 - INFO -    Clicking view_5 tab...
+2026-02-15 16:12:27,196 - INFO -       Found view_5
+2026-02-15 16:12:34,654 - INFO -    Loaded view_5
+2026-02-15 16:12:37,797 - INFO -    Saved: view_5.html
+2026-02-15 16:12:37,798 - INFO - 
+[7/13] Processing view_6...
+2026-02-15 16:12:37,798 - INFO -    Clicking view_6 tab...
+2026-02-15 16:12:39,818 - INFO -       Found view_6
+2026-02-15 16:12:47,266 - INFO -    Loaded view_6
+2026-02-15 16:12:50,416 - INFO -    Saved: view_6.html
+2026-02-15 16:12:50,417 - INFO - 
+[8/13] Processing view_7...
+2026-02-15 16:12:50,417 - INFO -    Clicking view_7 tab...
+2026-02-15 16:12:52,438 - INFO -       Found view_7
+2026-02-15 16:12:59,708 - INFO -    Loaded view_7
+2026-02-15 16:13:02,885 - INFO -    Saved: view_7.html
+2026-02-15 16:13:02,886 - INFO - 
+[9/13] Processing view_8...
+2026-02-15 16:13:02,887 - INFO -    Clicking view_8 tab...
+2026-02-15 16:13:04,909 - INFO -       Found view_8
+2026-02-15 16:13:12,277 - INFO -    Loaded view_8
+2026-02-15 16:13:15,446 - INFO -    Saved: view_8.html
+2026-02-15 16:13:15,447 - INFO - 
+[10/13] Processing view_9...
+2026-02-15 16:13:15,447 - INFO -    Clicking view_9 tab...
+2026-02-15 16:13:17,472 - INFO -       Found view_9
+2026-02-15 16:13:24,820 - INFO -    Loaded view_9
+2026-02-15 16:13:28,157 - INFO -    Saved: view_9.html
+2026-02-15 16:13:28,157 - INFO - 
+[11/13] Processing view_10...
+2026-02-15 16:13:28,157 - INFO -    Clicking view_10 tab...
+2026-02-15 16:13:30,176 - INFO -       Found view_10
+2026-02-15 16:13:37,884 - INFO -    Loaded view_10
+2026-02-15 16:13:41,034 - INFO -    Saved: view_10.html
+2026-02-15 16:13:41,035 - INFO - 
+[12/13] Processing view_11...
+2026-02-15 16:13:41,035 - INFO -    Clicking view_11 tab...
+2026-02-15 16:13:43,055 - INFO -       Found view_11
+2026-02-15 16:13:50,372 - INFO -    Loaded view_11
+2026-02-15 16:13:53,518 - INFO -    Saved: view_11.html
+2026-02-15 16:13:53,518 - INFO - 
+[13/13] Processing view_12...
+2026-02-15 16:13:53,518 - INFO -    Clicking view_12 tab...
+2026-02-15 16:13:55,536 - INFO -       Found view_12
+2026-02-15 16:14:02,813 - INFO -    Loaded view_12
+2026-02-15 16:14:05,947 - INFO -    Saved: view_12.html
+2026-02-15 16:14:05,948 - INFO - 
+==================================================
+2026-02-15 16:14:05,948 - INFO - ALL 13 VIEWS COLLECTED!
+2026-02-15 16:14:05,948 - INFO - ==================================================
+2026-02-15 16:14:05,948 - INFO - 
+==================================================
+2026-02-15 16:14:05,948 - INFO - DATA COLLECTION COMPLETE!
+2026-02-15 16:14:05,948 - INFO - ==================================================
+2026-02-15 16:14:05,948 - INFO - Location: /opt/investment-os/services/data-collection/html_files/2026-02-15
+2026-02-15 16:14:05,948 - INFO - Files: 13 HTML files
+2026-02-15 16:14:05,948 - INFO - Stocks: 296 per file
+2026-02-15 16:14:05,948 - INFO - Parameters: 235 total
+2026-02-15 16:14:05,948 - INFO - ==================================================
+2026-02-15 16:14:05,948 - INFO - 
+Closing browser...

@@ -1,0 +1,4 @@
+======================================================
+  CBSL Daily Collector START: 2026-02-19 17:30:01 SLK
+======================================================
+/opt/investment-os/services/data-collectors/cron/run_cbsl_daily.sh: line 50: syntax error near unexpected token `('

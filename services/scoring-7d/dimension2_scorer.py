@@ -1,7 +1,18 @@
+
 #!/usr/bin/env python3
 """
 Dimension 2: Financial Strength Scorer v1.1 (FORTRESS FIX)
 Based on Buffett's Balance Sheet Principles + Basel III Standards
+
+FILE: dimension2_scorer.py
+CREATED: 2025-12-30
+AUTHOR: Investment OS
+
+VERSION HISTORY:
+    v1.0.0  2025-12-30  Initial creation — Financial Strength scorer (Basel III)
+    v1.1.0  2025-12-30  Fix: Fortress balance sheet bonus; extended ROA range for banks
+    v1.1.1  2026-02-11  Migrated to services/scoring-7d (Phase 2 microservices)
+    v1.1.2  2026-02-16  Added version history header (new project standard)
 
 FIXES IN v1.1:
 1. Fortress Balance Sheet Bonus: Companies with zero/minimal debt get liquidity credit
@@ -9,10 +20,6 @@ FIXES IN v1.1:
 
 Usage:
     python dimension2_scorer.py --input cleaned_data.csv --output dimension2_scores.csv
-
-Author: Investment OS
-Date: December 30, 2025
-Version: 1.1
 """
 
 import pandas as pd

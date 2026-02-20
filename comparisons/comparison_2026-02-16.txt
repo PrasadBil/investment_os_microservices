@@ -1,0 +1,72 @@
+================================================================================
+D7 V1.0 VS V2.0 PHASE 1A COMPARISON
+================================================================================
+
+📊 Loading scores...
+   v1.0: 298 stocks
+   v1.0 columns: ['symbol', 'dimension7_sentiment', 'activity_score', 'momentum_score', 'recognition_score', 'modifiers', 'penalties', 'sector', 'interpretation']
+   v2.0: 297 stocks
+   v2.0 columns: ['symbol', 'rank', 'dimension7_v2_score', 'c1_trading_activity', 'c2_volatility_adj']...
+   ⚠️  Using column 'dimension7_sentiment' as v1.0 score
+   Common: 295 stocks
+
+📈 CORRELATION ANALYSIS:
+   Pearson Correlation: 0.288
+   Significance: *
+   ❌ Low agreement (<0.70)
+
+📊 DISTRIBUTION COMPARISON:
+                 v1.0      v2.0      Delta
+   Mean:          69.7      50.2     -19.5
+   Median:        69.0      49.3     -19.8
+   Std Dev:       15.5      11.2      -4.2
+
+   Score Changes:
+   Improved (delta > +5):  19 stocks
+   Similar (±5):           28 stocks
+   Declined (delta < -5):  248 stocks
+
+🏆 TOP 20 OVERLAP:
+   Common stocks: 1/20 (5%)
+   v1.0 only: 19 stocks
+   v2.0 only: 19 stocks
+   ❌ Major divergence (<50%)
+
+🎯 TEST STOCKS COMPARISON:
+
+   Stock          v1.0   v2.0   Delta Density        
+   ------------------------------------------------------------
+   JKH.N0000      72.3   62.5    -9.8 mixed          
+   LOFC.N0000     40.0   50.2   +10.2 mixed          
+   LOLC.N0000     65.3   48.2   -17.1 retail         
+   CTC.N0000      74.3   41.4   -32.9 retail         
+   LION.N0000     67.3   38.8   -28.5 retail         
+
+📈 TOP 5 IMPROVERS (v2.0 gains):
+    symbol  dimension7_score  dimension7_v2_score  delta trade_density_class
+KAHA.N0000             13.75                 48.6  34.85               mixed
+REEF.N0000             21.80                 42.7  20.90               mixed
+ CWL.N0000             61.55                 78.2  16.65               mixed
+CITW.N0000             40.00                 56.5  16.50               mixed
+ SHL.N0000             40.00                 55.4  15.40               mixed
+
+📉 TOP 5 DECLINERS (v2.0 drops):
+    symbol  dimension7_score  dimension7_v2_score  delta trade_density_class
+SMOT.N0000            100.00                 39.9 -60.10              retail
+LDEV.N0000            100.00                 42.2 -57.80              retail
+CINS.X0000             93.65                 37.0 -56.65              retail
+ MSL.N0000            100.00                 43.6 -56.40              retail
+MASK.N0000             86.65                 32.0 -54.65              retail
+
+💡 INSIGHTS BY TRADE DENSITY:
+   Institutional  :  13 stocks, avg delta:  -8.1
+   Mixed          : 104 stocks, avg delta: -10.5
+   Retail         : 178 stocks, avg delta: -25.6
+
+================================================================================
+✅ COMPARISON COMPLETE
+================================================================================
+
+📊 ASSESSMENT:
+   ❌ v2.0 shows significant divergence from v1.0
+   ❌ Investigate scoring methodology

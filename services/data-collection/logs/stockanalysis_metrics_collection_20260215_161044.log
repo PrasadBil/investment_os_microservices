@@ -1,0 +1,279 @@
+=====================================================================
+STOCKANALYSIS METRICS COLLECTION (235 Parameters) - Sun Feb 15 16:10:44 +0530 2026
+=====================================================================
+
+STEP 1: Collecting data from StockAnalysis.com...
+2026-02-15 16:10:45,094 - INFO - Setting up Chrome driver...
+2026-02-15 16:10:45,095 - INFO - ====== WebDriver manager ======
+2026-02-15 16:10:45,179 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-15 16:10:45,697 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-15 16:10:46,202 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/143.0.7499.192/chromedriver-linux64/chromedriver] found in cache
+2026-02-15 16:10:46,508 - INFO - Chrome driver ready
+2026-02-15 16:10:46,508 - INFO - ==================================================
+2026-02-15 16:10:46,508 - INFO - STEP 1: Logging in to StockAnalysis.com
+2026-02-15 16:10:46,508 - INFO - ==================================================
+2026-02-15 16:10:51,472 - INFO - Entering email...
+2026-02-15 16:10:51,577 - INFO - Entering password...
+2026-02-15 16:10:51,663 - INFO - Clicking login button...
+2026-02-15 16:10:57,941 - INFO - Login successful
+2026-02-15 16:10:57,941 - INFO - Post-login URL: https://stockanalysis.com/#
+2026-02-15 16:10:57,941 - INFO - ==================================================
+2026-02-15 16:10:57,941 - INFO - STEP 2: Navigating to Stock Screener
+2026-02-15 16:10:57,941 - INFO - ==================================================
+2026-02-15 16:10:57,941 - INFO - Going to: https://stockanalysis.com/stocks/screener/
+2026-02-15 16:11:06,618 - INFO - Current URL: https://stockanalysis.com/stocks/screener/
+2026-02-15 16:11:06,618 - INFO - Arrived at Stock Screener page
+2026-02-15 16:11:06,618 - INFO - Checking Exchange Country...
+2026-02-15 16:11:09,640 - INFO -    Found country button: United States
+2026-02-15 16:11:09,640 - INFO -    Country is not Sri Lanka, changing it...
+2026-02-15 16:11:11,787 - INFO -    Changed country to Sri Lanka
+2026-02-15 16:11:14,787 - INFO - Setting rows per page to 500...
+2026-02-15 16:11:16,816 - INFO -    Found rows button: 20 Rows
+2026-02-15 16:11:19,160 - INFO -    Changed to 500 rows
+2026-02-15 16:11:22,161 - INFO - Screener configured correctly
+2026-02-15 16:11:22,161 - INFO - ==================================================
+2026-02-15 16:11:22,161 - INFO - STEP 3: Collecting All Views
+2026-02-15 16:11:22,161 - INFO - ==================================================
+2026-02-15 16:11:22,161 - INFO - Total views: 13
+2026-02-15 16:11:22,161 - INFO - Each view: ALL 296 stocks on ONE page
+2026-02-15 16:11:22,161 - INFO - Total parameters: 235 across all views
+2026-02-15 16:11:22,161 - INFO - ==================================================
+2026-02-15 16:11:22,161 - INFO - 
+[1/13] Processing view_0...
+2026-02-15 16:11:22,161 - INFO -    Clicking view_0 tab...
+2026-02-15 16:11:24,178 - INFO -       Found view_0
+2026-02-15 16:11:31,591 - INFO -    Loaded view_0
+2026-02-15 16:11:34,748 - INFO -    Saved: view_0.html
+2026-02-15 16:11:34,748 - INFO - 
+[2/13] Processing view_1...
+2026-02-15 16:11:34,748 - INFO -    Clicking view_1 tab...
+2026-02-15 16:11:36,766 - INFO -       Found view_1
+2026-02-15 16:11:44,131 - INFO -    Loaded view_1
+2026-02-15 16:11:47,279 - INFO -    Saved: view_1.html
+2026-02-15 16:11:47,280 - INFO - 
+[3/13] Processing view_2...
+2026-02-15 16:11:47,280 - INFO -    Clicking view_2 tab...
+2026-02-15 16:11:49,316 - INFO -       Found view_2
+2026-02-15 16:11:56,695 - INFO -    Loaded view_2
+2026-02-15 16:11:59,857 - INFO -    Saved: view_2.html
+2026-02-15 16:11:59,858 - INFO - 
+[4/13] Processing view_3...
+2026-02-15 16:11:59,858 - INFO -    Clicking view_3 tab...
+2026-02-15 16:12:01,880 - INFO -       Found view_3
+2026-02-15 16:12:09,338 - INFO -    Loaded view_3
+2026-02-15 16:12:12,528 - INFO -    Saved: view_3.html
+2026-02-15 16:12:12,528 - INFO - 
+[5/13] Processing view_4...
+2026-02-15 16:12:12,528 - INFO -    Clicking view_4 tab...
+2026-02-15 16:12:14,553 - INFO -       Found view_4
+2026-02-15 16:12:21,814 - INFO -    Loaded view_4
+2026-02-15 16:12:25,174 - INFO -    Saved: view_4.html
+2026-02-15 16:12:25,175 - INFO - 
+[6/13] Processing view_5...
+2026-02-15 16:12:25,175 - INFO -    Clicking view_5 tab...
+2026-02-15 16:12:27,196 - INFO -       Found view_5
+2026-02-15 16:12:34,654 - INFO -    Loaded view_5
+2026-02-15 16:12:37,797 - INFO -    Saved: view_5.html
+2026-02-15 16:12:37,798 - INFO - 
+[7/13] Processing view_6...
+2026-02-15 16:12:37,798 - INFO -    Clicking view_6 tab...
+2026-02-15 16:12:39,818 - INFO -       Found view_6
+2026-02-15 16:12:47,266 - INFO -    Loaded view_6
+2026-02-15 16:12:50,416 - INFO -    Saved: view_6.html
+2026-02-15 16:12:50,417 - INFO - 
+[8/13] Processing view_7...
+2026-02-15 16:12:50,417 - INFO -    Clicking view_7 tab...
+2026-02-15 16:12:52,438 - INFO -       Found view_7
+2026-02-15 16:12:59,708 - INFO -    Loaded view_7
+2026-02-15 16:13:02,885 - INFO -    Saved: view_7.html
+2026-02-15 16:13:02,886 - INFO - 
+[9/13] Processing view_8...
+2026-02-15 16:13:02,887 - INFO -    Clicking view_8 tab...
+2026-02-15 16:13:04,909 - INFO -       Found view_8
+2026-02-15 16:13:12,277 - INFO -    Loaded view_8
+2026-02-15 16:13:15,446 - INFO -    Saved: view_8.html
+2026-02-15 16:13:15,447 - INFO - 
+[10/13] Processing view_9...
+2026-02-15 16:13:15,447 - INFO -    Clicking view_9 tab...
+2026-02-15 16:13:17,472 - INFO -       Found view_9
+2026-02-15 16:13:24,820 - INFO -    Loaded view_9
+2026-02-15 16:13:28,157 - INFO -    Saved: view_9.html
+2026-02-15 16:13:28,157 - INFO - 
+[11/13] Processing view_10...
+2026-02-15 16:13:28,157 - INFO -    Clicking view_10 tab...
+2026-02-15 16:13:30,176 - INFO -       Found view_10
+2026-02-15 16:13:37,884 - INFO -    Loaded view_10
+2026-02-15 16:13:41,034 - INFO -    Saved: view_10.html
+2026-02-15 16:13:41,035 - INFO - 
+[12/13] Processing view_11...
+2026-02-15 16:13:41,035 - INFO -    Clicking view_11 tab...
+2026-02-15 16:13:43,055 - INFO -       Found view_11
+2026-02-15 16:13:50,372 - INFO -    Loaded view_11
+2026-02-15 16:13:53,518 - INFO -    Saved: view_11.html
+2026-02-15 16:13:53,518 - INFO - 
+[13/13] Processing view_12...
+2026-02-15 16:13:53,518 - INFO -    Clicking view_12 tab...
+2026-02-15 16:13:55,536 - INFO -       Found view_12
+2026-02-15 16:14:02,813 - INFO -    Loaded view_12
+2026-02-15 16:14:05,947 - INFO -    Saved: view_12.html
+2026-02-15 16:14:05,948 - INFO - 
+==================================================
+2026-02-15 16:14:05,948 - INFO - ALL 13 VIEWS COLLECTED!
+2026-02-15 16:14:05,948 - INFO - ==================================================
+2026-02-15 16:14:05,948 - INFO - 
+==================================================
+2026-02-15 16:14:05,948 - INFO - DATA COLLECTION COMPLETE!
+2026-02-15 16:14:05,948 - INFO - ==================================================
+2026-02-15 16:14:05,948 - INFO - Location: /opt/investment-os/services/data-collection/html_files/2026-02-15
+2026-02-15 16:14:05,948 - INFO - Files: 13 HTML files
+2026-02-15 16:14:05,948 - INFO - Stocks: 296 per file
+2026-02-15 16:14:05,948 - INFO - Parameters: 235 total
+2026-02-15 16:14:05,948 - INFO - ==================================================
+2026-02-15 16:14:05,948 - INFO - 
+Closing browser...
+PASS: Data collection successful
+
+STEP 2: Processing data...
+================================================================================
+ENHANCED DATA PROCESSOR v2.0
+Now includes view_10 balance sheet extraction!
+================================================================================
+================================================================================
+PROCESSING DATA FOR: 2026-02-15
+================================================================================
+  View 0: 298 stocks, 20 columns
+  View 1: 298 stocks, 20 columns
+  View 2: 298 stocks, 20 columns
+  View 3: 298 stocks, 20 columns
+  View 4: 298 stocks, 20 columns
+  View 5: 298 stocks, 20 columns
+  View 6: 298 stocks, 20 columns
+  View 7: 298 stocks, 20 columns
+  View 8: 298 stocks, 20 columns
+  View 9: 298 stocks, 20 columns
+  View 10: 298 stocks, 20 columns
+
+  Processing view_10 (balance sheet + debt data)...
+    cash                     : 296/298 parsed
+    netCash                  : 296/298 parsed
+    debt                     : 281/298 parsed
+    assets                   : 296/298 parsed
+    liabilities              : 296/298 parsed
+    equity                   : 296/298 parsed
+    workingCapital           : 296/298 parsed
+    netWorkingCapital        : 244/298 parsed
+    tangibleBookValue        : 296/298 parsed
+  View 10 processed: 19 columns extracted
+  View 11: 298 stocks, 20 columns
+  View 12: 298 stocks, 11 columns
+
+Extracted 13 views
+
+================================================================================
+MERGING ALL VIEWS
+================================================================================
+  Starting with view_0: 298 stocks, 20 columns
+  + view_1: added 19 columns (total: 39)
+  + view_2: added 19 columns (total: 58)
+  + view_3: added 19 columns (total: 77)
+  + view_4: added 19 columns (total: 96)
+  + view_5: added 19 columns (total: 115)
+  + view_6: added 19 columns (total: 134)
+  + view_7: added 19 columns (total: 153)
+  + view_8: added 19 columns (total: 172)
+  + view_9: added 19 columns (total: 191)
+  + view_10: added 19 columns (total: 210)
+  + view_11: added 19 columns (total: 229)
+  + view_12: added 10 columns (total: 239)
+
+Final merged data: 298 stocks, 239 columns
+
+================================================================================
+CALCULATING DERIVED METRICS
+================================================================================
+
+  Parsing B/T/M suffixes in all columns...
+     Parsed 22 columns with B/T/M suffixes
+  Calculating Asset Turnover (Revenue / Total Assets)...
+    Coverage: 293/298 (98.3%)
+  Calculating Capex Intensity (Capex / Revenue * 100)...
+    Coverage: 275/298 (92.3%)
+  Calculating FCF Margin (FCF / Revenue * 100)...
+    Coverage: 275/298 (92.3%)
+  Calculating Debt/Assets (Total Debt / Total Assets * 100)...
+    Coverage: 281/298 (94.3%)
+
+Derived metrics calculated
+
+================================================================================
+SAVING OUTPUTS
+================================================================================
+  CSV saved: output/2026-02-15/cleaned_data.csv
+     298 stocks, 246 columns
+  SQL reference saved: output/2026-02-15/import_cse_20260215.sql
+
+================================================================================
+DATA QUALITY REPORT
+================================================================================
+
+Total Stocks: 298
+Total Columns: 246
+
+Balance Sheet:
+  PASS total_assets             : 296/298 ( 99.3%)
+  PASS total_liabilities        : 296/298 ( 99.3%)
+  PASS total_equity             : 296/298 ( 99.3%)
+
+Operations:
+  PASS revenue                  : 293/298 ( 98.3%)
+  PASS fcf                      : 277/298 ( 93.0%)
+  PASS capex                    : 277/298 ( 93.0%)
+
+Efficiency:
+  PASS asset_turnover           : 293/298 ( 98.3%)
+  PASS capex_intensity          : 275/298 ( 92.3%)
+  PASS fcf_margin               : 275/298 ( 92.3%)
+
+Profitability:
+  PASS roa                      : 298/298 (100.0%)
+  PASS roe                      : 298/298 (100.0%)
+  PASS roic                     : 298/298 (100.0%)
+
+================================================================================
+DATA PROCESSING COMPLETE!
+================================================================================
+
+Output file: output/2026-02-15/cleaned_data.csv
+Ready for Supabase upload!
+PASS: Data processing successful
+
+STEP 3: Uploading to Supabase...
+2026-02-15 16:14:13 | stockanalysis_metrics_uploader | INFO | ======================================================================
+2026-02-15 16:14:13 | stockanalysis_metrics_uploader | INFO | UPLOADING TO SUPABASE
+2026-02-15 16:14:13 | stockanalysis_metrics_uploader | INFO | ======================================================================
+2026-02-15 16:14:13 | stockanalysis_metrics_uploader | INFO | Reading CSV: output/2026-02-15/cleaned_data.csv
+2026-02-15 16:14:13 | stockanalysis_metrics_uploader | INFO |    Rows: 298
+2026-02-15 16:14:13 | stockanalysis_metrics_uploader | INFO |    Columns: 246
+2026-02-15 16:14:13 | stockanalysis_metrics_uploader | INFO | Capping extreme values...
+2026-02-15 16:14:14 | stockanalysis_metrics_uploader | INFO |    Capped 1543 extreme values
+2026-02-15 16:14:14 | stockanalysis_metrics_uploader | INFO | Cleaning data...
+2026-02-15 16:14:14 | stockanalysis_metrics_uploader | INFO | Uploading 298 records in 3 batches...
+2026-02-15 16:14:15 | stockanalysis_metrics_uploader | INFO |    Batch 1/3: 100 records uploaded
+2026-02-15 16:14:16 | stockanalysis_metrics_uploader | INFO |    Batch 2/3: 100 records uploaded
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO |    Batch 3/3: 98 records uploaded
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | 
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | ======================================================================
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | UPLOAD SUMMARY
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | ======================================================================
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | Success: 298 records
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | Errors: 0 records
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | Total: 298 records
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | Capped: 1543 extreme values
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | ALL DATA UPLOADED SUCCESSFULLY!
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | Supabase upload completed successfully
+PASS: Supabase upload successful
+
+=====================================================================
+STOCKANALYSIS METRICS COLLECTION COMPLETE - Sun Feb 15 16:14:17 +0530 2026
+SQL file: output/2026-02-15/import_cse_20260215.sql
+=====================================================================

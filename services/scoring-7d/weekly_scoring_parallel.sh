@@ -1,8 +1,19 @@
 
 #!/bin/bash
 #
-# WEEKLY SCORING AUTOMATION - PARALLEL v1.0 & v2.0 (Phase 2 Migration)
-# Investment OS - Dimension 7 Dual-Track Deployment
+# FILE: weekly_scoring_parallel.sh
+# DESCRIPTION: Weekly scoring automation — parallel v1.0 & v2.0 deployment
+# CREATED: 2026-01-07
+# AUTHOR: Investment OS
+# SCHEDULE: Every Saturday 6:00 PM (after data collection)
+#
+# VERSION HISTORY:
+#     v1.0.0  2026-01-07  Initial creation — parallel v1/v2 scoring pipeline
+#     v1.0.1  2026-02-10  Migrated to services/scoring-7d (Phase 2 microservices)
+#     v1.1.0  2026-02-15  Updated Step 3 to use Phase 1B-D scorer (5 components)
+#     v1.2.0  2026-02-16  Fix: Timestamped output filenames (was writing to symlinks)
+#                          Fix: Composite report/CSV use execution-date names
+#                          Added: Version history header (new project standard)
 #
 # PURPOSE:
 # - Run v1.0 (production) for composite scorer
@@ -11,17 +22,7 @@
 # - Upload composite scores to Supabase
 # - No disruption to production
 #
-# SCHEDULE: Every Saturday 6:00 PM (after data collection)
-#
-# VERSION: 1.0
-# DATE: January 7, 2026
-#
-# Migration Notes:
-# - WORK_DIR changed: /opt/selenium_automation -> /opt/investment-os
-# - SERVICE_DIR added: /opt/investment-os/services/scoring-7d
-# - LOG_DIR changed: $WORK_DIR/logs -> $WORK_DIR/v5_logs
-# - All scorer/composite references now in SERVICE_DIR
-# - Original: /opt/selenium_automation/weekly_scoring_parallel.sh
+# ORIGINAL: /opt/selenium_automation/weekly_scoring_parallel.sh
 #
 
 set -e  # Exit on error
@@ -131,12 +132,12 @@ fi
 # STEP 3: RUN DIMENSION 7 V2.0 (PARALLEL)
 # =============================================================================
 
-log_section "STEP 3: Dimension 7 v2.0 Phase 1A (PARALLEL)"
+log_section "STEP 3: Dimension 7 v2.0 Phase 1B-D (PARALLEL)"
 
-if [ -f "dimension7_scorer_v2_0_phase1a.py" ]; then
-    log "Running v2.0 Phase 1A scorer..."
+if [ -f "dimension7_scorer_v2_0_phase1bcd.py" ]; then
+    log "Running v2.0 Phase 1B-D scorer (5 components)..."
 
-    python3 dimension7_scorer_v2_0_phase1a.py \
+    python3 dimension7_scorer_v2_0_phase1bcd.py \
         --input cse_metrics.csv \
         --output dimension7_v2_scores.csv \
         --report dimension7_v2_report.txt \
@@ -144,7 +145,7 @@ if [ -f "dimension7_scorer_v2_0_phase1a.py" ]; then
 
     if [ $? -eq 0 ] && [ -f "dimension7_v2_scores.csv" ]; then
         V2_COUNT=$(wc -l < dimension7_v2_scores.csv)
-        log "v2.0 scoring complete: $V2_COUNT stocks"
+        log "v2.0 Phase 1B-D scoring complete: $V2_COUNT stocks"
 
         # Backup v2.0 scores
         cp dimension7_v2_scores.csv "$OUTPUT_DIR/dimension7_v2_scores_$DATE.csv"
@@ -153,8 +154,22 @@ if [ -f "dimension7_scorer_v2_0_phase1a.py" ]; then
         log "ERROR: v2.0 scoring failed"
         # Don't exit - v1.0 is what matters for production
     fi
+elif [ -f "dimension7_scorer_v2_0_phase1a.py" ]; then
+    log "WARNING: Phase 1B-D scorer not found, falling back to Phase 1A"
+    python3 dimension7_scorer_v2_0_phase1a.py \
+        --input cse_metrics.csv \
+        --output dimension7_v2_scores.csv \
+        --report dimension7_v2_report.txt \
+        >> "$LOG_FILE" 2>&1
+    if [ $? -eq 0 ] && [ -f "dimension7_v2_scores.csv" ]; then
+        V2_COUNT=$(wc -l < dimension7_v2_scores.csv)
+        log "v2.0 Phase 1A (fallback) scoring complete: $V2_COUNT stocks"
+        cp dimension7_v2_scores.csv "$OUTPUT_DIR/dimension7_v2_scores_$DATE.csv"
+    else
+        log "ERROR: v2.0 fallback scoring failed"
+    fi
 else
-    log "ERROR: dimension7_scorer_v2_0_phase1a.py not found"
+    log "ERROR: No v2.0 scorer found (neither phase1bcd nor phase1a)"
     log "   Skipping v2.0 parallel scoring"
 fi
 
@@ -219,6 +234,10 @@ done
 
 log_section "STEP 6: Composite Scoring (Production)"
 
+# v1.2.0: Use timestamped filenames — prevents symlink overwrites
+COMPOSITE_CSV="composite_scores_${TIMESTAMP}.csv"
+COMPOSITE_REPORT="composite_report_${TIMESTAMP}.txt"
+
 if [ -f "composite_scorer_v1_1.py" ]; then
     log "Running composite scorer v1.1 (with watch list)..."
     log "IMPORTANT: Using v1.0 dimension 7 scores (production unchanged)"
@@ -231,25 +250,24 @@ if [ -f "composite_scorer_v1_1.py" ]; then
         --d5 dimension5_scores.csv \
         --d6 dimension6_scores.csv \
         --d7 dimension7_scores.csv \
-        --output composite_scores.csv \
-        --report composite_report.txt \
+        --output "$COMPOSITE_CSV" \
+        --report "$COMPOSITE_REPORT" \
         >> "$LOG_FILE" 2>&1
 
-    if [ $? -eq 0 ]; then
-        # Find the actual output file (might have timestamp)
-        COMPOSITE_FILE=$(ls -t composite_scores*.csv 2>/dev/null | head -1)
-
-        if [ -z "$COMPOSITE_FILE" ]; then
-            log "ERROR: No composite_scores*.csv file found"
-            exit 1
-        fi
-
+    if [ $? -eq 0 ] && [ -f "$COMPOSITE_CSV" ]; then
+        COMPOSITE_FILE="$COMPOSITE_CSV"
         COMPOSITE_COUNT=$(tail -n +2 "$COMPOSITE_FILE" | wc -l)
         log "Composite scoring complete: $COMPOSITE_COUNT stocks"
-        log "   Output file: $COMPOSITE_FILE"
+        log "   CSV:    $COMPOSITE_CSV"
+        log "   Report: $COMPOSITE_REPORT"
+
+        # Update symlinks to latest
+        ln -sf "$COMPOSITE_CSV" composite_scores.csv
+        ln -sf "$COMPOSITE_REPORT" composite_report.txt
 
         # Backup composite scores
         cp "$COMPOSITE_FILE" "$OUTPUT_DIR/composite_scores_$DATE.csv"
+        cp "$COMPOSITE_REPORT" "$OUTPUT_DIR/composite_report_$DATE.txt"
     else
         log "ERROR: Composite scoring failed"
         exit 1
@@ -266,23 +284,22 @@ elif [ -f "composite_scorer_v1_0.py" ]; then
         --d5 dimension5_scores.csv \
         --d6 dimension6_scores.csv \
         --d7 dimension7_scores.csv \
-        --output composite_scores.csv \
-        --report composite_report.txt \
+        --output "$COMPOSITE_CSV" \
+        --report "$COMPOSITE_REPORT" \
         >> "$LOG_FILE" 2>&1
 
-    if [ $? -eq 0 ]; then
-        COMPOSITE_FILE=$(ls -t composite_scores*.csv 2>/dev/null | head -1)
-
-        if [ -z "$COMPOSITE_FILE" ]; then
-            log "ERROR: No composite_scores*.csv file found"
-            exit 1
-        fi
-
+    if [ $? -eq 0 ] && [ -f "$COMPOSITE_CSV" ]; then
+        COMPOSITE_FILE="$COMPOSITE_CSV"
         COMPOSITE_COUNT=$(tail -n +2 "$COMPOSITE_FILE" | wc -l)
         log "Composite scoring complete: $COMPOSITE_COUNT stocks"
-        log "   Output file: $COMPOSITE_FILE"
+        log "   CSV:    $COMPOSITE_CSV"
+        log "   Report: $COMPOSITE_REPORT"
+
+        ln -sf "$COMPOSITE_CSV" composite_scores.csv
+        ln -sf "$COMPOSITE_REPORT" composite_report.txt
 
         cp "$COMPOSITE_FILE" "$OUTPUT_DIR/composite_scores_$DATE.csv"
+        cp "$COMPOSITE_REPORT" "$OUTPUT_DIR/composite_report_$DATE.txt"
     else
         log "ERROR: Composite scoring failed"
         exit 1
@@ -328,7 +345,8 @@ log "Weekly Scoring Complete!"
 log ""
 log "Production (v1.0):"
 log "  Dimension 7 v1.0: dimension7_scores.csv"
-log "  Composite scores: composite_scores.csv"
+log "  Composite CSV:    $COMPOSITE_CSV"
+log "  Composite Report: $COMPOSITE_REPORT"
 log "  Uploaded to Supabase"
 log ""
 log "Parallel Validation (v2.0):"

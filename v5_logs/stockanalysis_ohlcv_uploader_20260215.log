@@ -1,0 +1,28 @@
+2026-02-15 08:53:21 | stockanalysis_ohlcv_uploader | ERROR | Usage: python3 stockanalysis_ohlcv_uploader.py <csv_file>
+2026-02-15 08:53:21 | stockanalysis_ohlcv_uploader | ERROR |    OR: Run after stockanalysis_ohlcv_collector.py
+2026-02-15 16:08:44 | stockanalysis_ohlcv_uploader | INFO | 
+2026-02-15 16:08:44 | stockanalysis_ohlcv_uploader | INFO | ======================================================================
+2026-02-15 16:08:44 | stockanalysis_ohlcv_uploader | INFO | UPLOADING PRICES TO SUPABASE
+2026-02-15 16:08:44 | stockanalysis_ohlcv_uploader | INFO | ======================================================================
+2026-02-15 16:08:44 | stockanalysis_ohlcv_uploader | INFO | File: output/2026-02-15/prices_20260215_160842.csv
+2026-02-15 16:08:44 | stockanalysis_ohlcv_uploader | INFO | Rows: 296
+2026-02-15 16:08:44 | stockanalysis_ohlcv_uploader | INFO | Columns: ['symbol', 'price', 'date', 'time', 'timestamp']
+2026-02-15 16:08:44 | stockanalysis_ohlcv_uploader | INFO | Uploading 296 prices in 3 batches...
+2026-02-15 16:08:46 | stockanalysis_ohlcv_uploader | INFO |    Batch 1/3: 100 prices uploaded
+2026-02-15 16:08:46 | stockanalysis_ohlcv_uploader | INFO |    Batch 2/3: 100 prices uploaded
+2026-02-15 16:08:46 | stockanalysis_ohlcv_uploader | INFO |    Batch 3/3: 96 prices uploaded
+2026-02-15 16:08:46 | stockanalysis_ohlcv_uploader | INFO | 
+2026-02-15 16:08:46 | stockanalysis_ohlcv_uploader | INFO | ======================================================================
+2026-02-15 16:08:46 | stockanalysis_ohlcv_uploader | INFO | UPLOAD SUMMARY
+2026-02-15 16:08:46 | stockanalysis_ohlcv_uploader | INFO | ======================================================================
+2026-02-15 16:08:46 | stockanalysis_ohlcv_uploader | INFO | Success: 296 prices
+2026-02-15 16:08:46 | stockanalysis_ohlcv_uploader | INFO | Errors: 0 prices
+2026-02-15 16:08:46 | stockanalysis_ohlcv_uploader | INFO | Total: 296 prices
+2026-02-15 16:08:46 | stockanalysis_ohlcv_uploader | INFO | ALL PRICES UPLOADED SUCCESSFULLY!
+2026-02-15 16:08:46 | stockanalysis_ohlcv_uploader | INFO | 
+2026-02-15 16:08:46 | stockanalysis_ohlcv_uploader | INFO | ======================================================================
+2026-02-15 16:08:46 | stockanalysis_ohlcv_uploader | INFO | PRICE UPLOAD COMPLETE!
+2026-02-15 16:08:46 | stockanalysis_ohlcv_uploader | INFO | ======================================================================
+2026-02-15 16:08:46 | stockanalysis_ohlcv_uploader | INFO | Table: daily_prices
+2026-02-15 16:08:46 | stockanalysis_ohlcv_uploader | INFO | Runtime: ~15 seconds
+2026-02-15 16:08:46 | stockanalysis_ohlcv_uploader | INFO | ======================================================================

@@ -1,0 +1,33 @@
+2026-02-15 08:52:25,432 - INFO - ======================================================================
+2026-02-15 08:52:25,433 - INFO - CSV DOWNLOAD (SPATIAL TRIANGULATION)
+2026-02-15 08:52:25,433 - INFO - Time: 2026-02-15 08:52:25
+2026-02-15 08:52:25,433 - INFO - ======================================================================
+2026-02-15 08:52:25,433 - INFO - Setting up Chrome driver...
+2026-02-15 08:52:25,433 - INFO - ====== WebDriver manager ======
+2026-02-15 08:52:25,526 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-15 08:52:26,035 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-15 08:52:26,594 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/143.0.7499.192/chromedriver-linux64/chromedriver] found in cache
+2026-02-15 08:52:26,964 - INFO - Chrome driver ready
+2026-02-15 08:52:26,964 - INFO - Download directory: /opt/investment-os/services/data-collection/downloads
+2026-02-15 08:52:26,964 - INFO - Logging in to StockAnalysis.com...
+2026-02-15 08:52:37,517 - INFO - Login successful
+2026-02-15 08:52:37,517 - INFO - ======================================================================
+2026-02-15 08:52:37,517 - INFO - DOWNLOADING CSV (SPATIAL TRIANGULATION)
+2026-02-15 08:52:37,517 - INFO - ======================================================================
+2026-02-15 08:52:37,517 - INFO -    Cleared old file: trade-summary.csv
+2026-02-15 08:52:37,517 - INFO - Going to: https://stockanalysis.com/watchlist/
+2026-02-15 08:52:44,033 - INFO - Looking for 'Daily_Price' tab...
+2026-02-15 08:52:47,242 - INFO - Using spatial triangulation to find Options...
+2026-02-15 08:52:47,242 - INFO -    Hint: Options is next to 'Chart View' button
+2026-02-15 08:52:47,266 - INFO -    Found Chart View anchor
+2026-02-15 08:52:47,283 - INFO -    Found Options (Strategy 2: near Chart View)
+2026-02-15 08:52:47,283 - INFO -    Clicking Options dropdown...
+2026-02-15 08:52:47,347 - INFO -    Options dropdown opened
+2026-02-15 08:52:48,347 - INFO - Looking for 'Download to CSV' option...
+2026-02-15 08:52:48,384 - INFO -    Found Download to CSV
+2026-02-15 08:52:48,443 - INFO -    Clicked Download to CSV
+2026-02-15 08:52:48,443 - INFO -    Waiting for download to complete...
+2026-02-15 08:53:18,452 - ERROR -    Download timeout
+2026-02-15 08:53:18,452 - ERROR - CSV download failed
+2026-02-15 08:53:18,453 - INFO - 
+Closing browser...

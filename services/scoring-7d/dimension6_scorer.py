@@ -1,8 +1,17 @@
+
 """
 DIMENSION 6: BUSINESS QUALITY / MOAT SCORER v1.1
 Investment OS - 7D Scoring Framework
-Date: January 1, 2026
-Version: 1.1 (Production - Investment Vehicle Fix)
+
+FILE: dimension6_scorer.py
+CREATED: 2026-01-01
+AUTHOR: Investment OS
+
+VERSION HISTORY:
+    v1.0.0  2026-01-01  Initial creation — Business Quality/Moat scorer
+    v1.1.0  2026-01-01  Fix: Investment vehicle cap at 70 (Ceylon Guardian)
+    v1.1.1  2026-02-11  Migrated to services/scoring-7d (Phase 2 microservices)
+    v1.1.2  2026-02-16  Added version history header (new project standard)
 
 CHANGELOG v1.1:
 - FIX: Investment vehicles (industry='Investment Advice') capped at 70

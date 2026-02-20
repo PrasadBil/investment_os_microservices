@@ -1,0 +1,23 @@
+2026-02-15 16:14:13 | stockanalysis_metrics_uploader | INFO | ======================================================================
+2026-02-15 16:14:13 | stockanalysis_metrics_uploader | INFO | UPLOADING TO SUPABASE
+2026-02-15 16:14:13 | stockanalysis_metrics_uploader | INFO | ======================================================================
+2026-02-15 16:14:13 | stockanalysis_metrics_uploader | INFO | Reading CSV: output/2026-02-15/cleaned_data.csv
+2026-02-15 16:14:13 | stockanalysis_metrics_uploader | INFO |    Rows: 298
+2026-02-15 16:14:13 | stockanalysis_metrics_uploader | INFO |    Columns: 246
+2026-02-15 16:14:13 | stockanalysis_metrics_uploader | INFO | Capping extreme values...
+2026-02-15 16:14:14 | stockanalysis_metrics_uploader | INFO |    Capped 1543 extreme values
+2026-02-15 16:14:14 | stockanalysis_metrics_uploader | INFO | Cleaning data...
+2026-02-15 16:14:14 | stockanalysis_metrics_uploader | INFO | Uploading 298 records in 3 batches...
+2026-02-15 16:14:15 | stockanalysis_metrics_uploader | INFO |    Batch 1/3: 100 records uploaded
+2026-02-15 16:14:16 | stockanalysis_metrics_uploader | INFO |    Batch 2/3: 100 records uploaded
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO |    Batch 3/3: 98 records uploaded
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | 
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | ======================================================================
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | UPLOAD SUMMARY
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | ======================================================================
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | Success: 298 records
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | Errors: 0 records
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | Total: 298 records
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | Capped: 1543 extreme values
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | ALL DATA UPLOADED SUCCESSFULLY!
+2026-02-15 16:14:17 | stockanalysis_metrics_uploader | INFO | Supabase upload completed successfully

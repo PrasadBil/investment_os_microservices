@@ -1,9 +1,11 @@
+
 """
 Configuration file for StockAnalysis.com data collector
 
 Migration: Phase 2 (Feb 2026)
 - Renamed: config.py -> stockanalysis_config.py (avoid collision with common.config)
 - Changed: Hardcoded credentials -> environment variables (STOCKANALYSIS_EMAIL, STOCKANALYSIS_PASSWORD)
+- Fixed: .env must be loaded BEFORE os.getenv() — uses common.config to trigger dotenv loading
 - NOTE: Add STOCKANALYSIS_EMAIL and STOCKANALYSIS_PASSWORD to /opt/investment-os/.env
 - Original: /opt/selenium_automation/config.py
 """
@@ -12,10 +14,27 @@ import os
 from datetime import datetime
 
 # ============================================
+# LOAD .env FILE (Phase 2: Critical — must happen before os.getenv calls)
+# ============================================
+# The common library's Config singleton calls load_dotenv() on first init.
+# Without this, os.getenv() below returns empty strings for credentials.
+from common.config import get_config
+get_config()  # Triggers .env loading via singleton pattern
+
+# ============================================
 # CREDENTIALS (Phase 2: from environment variables)
 # ============================================
 EMAIL = os.getenv('STOCKANALYSIS_EMAIL', '')
 PASSWORD = os.getenv('STOCKANALYSIS_PASSWORD', '')
+
+# Validate credentials are present (fail fast instead of silent empty login)
+if not EMAIL or not PASSWORD:
+    import warnings
+    warnings.warn(
+        "STOCKANALYSIS_EMAIL or STOCKANALYSIS_PASSWORD not set in .env file! "
+        "Login will fail. Check /opt/investment-os/.env",
+        RuntimeWarning
+    )
 
 # ============================================
 # URLS

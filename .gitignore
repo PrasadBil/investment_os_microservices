@@ -1,0 +1,53 @@
+# =============================================================================
+# Investment OS — .gitignore
+# RULE: Credentials, secrets, tokens and local data NEVER go to git.
+# =============================================================================
+
+# Secrets & credentials (NEVER commit these)
+.secrets/
+.env
+.env.*
+!.env.example
+*.json.key
+token.json
+*credentials*.json
+*service_account*.json
+*client_secret*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Data & temp files (large PDFs — archived to GDrive, not git)
+data/temp/
+data/raw/
+*.pdf
+*.csv
+!tests/fixtures/*.pdf
+!tests/fixtures/*.csv
+
+# Logs
+*.log
+v5_logs/
+logs/
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# WebDriver cache
+.wdm/

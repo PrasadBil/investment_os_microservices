@@ -1,0 +1,201 @@
+
+================================================================================
+DIMENSION 7 V2.0 PHASE 1B-D SCORING REPORT (FULL 5-COMPONENT)
+================================================================================
+
+Generated: 2026-02-15 22:17:23
+Stocks Scored: 289
+Phase: 1B-D (All 5 Components Active)
+Metrics Used: 10
+Components: 5
+
+================================================================================
+COMPONENT WEIGHTS
+================================================================================
+
+Component 1 - Trading Activity:         30% (was 40% in Phase 1A)
+  * Trade Volume score (50% of component)
+  * Share Volume score (50% of component)
+  * Trade Density classification (informational)
+
+Component 2 - Volatility Adjustment:    10% (unchanged)
+  * Very stable: +10 bonus
+  * Stable: +5 bonus
+  * Moderate: Neutral
+  * High: -5 penalty
+  * Very high: -10 penalty
+
+Component 3 - Market Recognition:       25% (was 50% in Phase 1A)
+  * Uses v1.0 methodology (analyst data)
+  * Placeholder: 50 (neutral) if no data
+
+Component 4 - Volume Trends:            10% (NEW)
+  * 5D/20D volume ratio (accumulation/distribution)
+  * Higher = recent volume exceeds average = interest building
+
+Component 5 - Multi-Timeframe Momentum: 25% (NEW)
+  * 5D return (30% sub-weight): Recent catalysts
+  * 20D return (40% sub-weight): Most actionable signal
+  * 60D return (30% sub-weight): Sustained trends
+  * Confluence assessment: all-positive to all-negative
+
+Total: 30% + 10% + 25% + 10% + 25% = 100%
+
+================================================================================
+SCORING DISTRIBUTION
+================================================================================
+
+Mean:      65.9
+Median:    66.1
+Std Dev:    7.8
+Min:       53.4
+Max:       80.2
+
+Percentiles:
+  90th:   76.9
+  75th:   72.3
+  50th:   66.1
+  25th:   58.6
+  10th:   54.9
+
+================================================================================
+TOP 20 STOCKS
+================================================================================
+
+
+ 1. JKH.N0000    Score:  80.2
+    Activity:  95.0 | Vol Adj:  60.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: mixed         | Volatility: very_low   | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+ 2. TKYO.N0000   Score:  79.8
+    Activity:  95.0 | Vol Adj:  55.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: institutional | Volatility: low        | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+ 3. SUN.N0000    Score:  79.8
+    Activity:  95.0 | Vol Adj:  55.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: mixed         | Volatility: low        | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+ 4. BIL.N0000    Score:  79.2
+    Activity:  95.0 | Vol Adj:  50.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: mixed         | Volatility: moderate   | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+ 5. PLR.N0000    Score:  79.2
+    Activity:  95.0 | Vol Adj:  50.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: mixed         | Volatility: moderate   | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+ 6. AEL.N0000    Score:  79.2
+    Activity:  95.0 | Vol Adj:  50.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: mixed         | Volatility: moderate   | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+ 7. DOCK.N0000   Score:  79.2
+    Activity:  95.0 | Vol Adj:  50.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: mixed         | Volatility: moderate   | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+ 8. RAL.N0000    Score:  79.2
+    Activity:  95.0 | Vol Adj:  50.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: mixed         | Volatility: moderate   | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+ 9. VPEL.N0000   Score:  78.8
+    Activity:  95.0 | Vol Adj:  45.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: mixed         | Volatility: high       | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+10. TJL.N0000    Score:  78.8
+    Activity:  95.0 | Vol Adj:  45.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: institutional | Volatility: high       | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+11. EXT.N0000    Score:  78.8
+    Activity:  95.0 | Vol Adj:  45.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: mixed         | Volatility: high       | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+12. ACL.N0000    Score:  78.3
+    Activity:  88.5 | Vol Adj:  60.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: mixed         | Volatility: very_low   | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+13. TKYO.X0000   Score:  78.3
+    Activity:  88.5 | Vol Adj:  60.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: institutional | Volatility: very_low   | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+14. COMB.N0000   Score:  78.3
+    Activity:  88.5 | Vol Adj:  60.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: mixed         | Volatility: very_low   | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+15. SAMP.N0000   Score:  78.3
+    Activity:  88.5 | Vol Adj:  60.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: retail        | Volatility: very_low   | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+16. NHL.N0000    Score:  78.2
+    Activity:  95.0 | Vol Adj:  40.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: mixed         | Volatility: very_high  | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+17. EML.N0000    Score:  78.2
+    Activity:  95.0 | Vol Adj:  40.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: mixed         | Volatility: very_high  | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+18. JINS.N0000   Score:  78.2
+    Activity:  95.0 | Vol Adj:  40.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: retail        | Volatility: very_high  | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+19. EMER.N0000   Score:  78.2
+    Activity:  95.0 | Vol Adj:  40.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: mixed         | Volatility: very_high  | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+20. CWL.N0000    Score:  78.2
+    Activity:  95.0 | Vol Adj:  40.0 | Recognition:  50.0 | Vol Trend:  95.0 | Momentum:  95.0
+    Density: mixed         | Volatility: very_high  | Trend: neutral              | Confluence: mixed
+    Momentum: 5D=+0.0% | 20D=+0.0% | 60D=+0.0%
+
+================================================================================
+MOMENTUM CONFLUENCE ANALYSIS
+================================================================================
+
+mixed               : 289 stocks (100.0%)
+
+================================================================================
+VOLUME TREND ANALYSIS
+================================================================================
+
+neutral                  : 289 stocks (100.0%)
+
+================================================================================
+COMPARISON NOTES
+================================================================================
+
+Phase 1A had 3 components (4 metrics):
+  Market Recognition dominated at 50% weight with neutral (50) placeholder.
+  Effective scoring was driven by Trading Activity (40%).
+  Score range was narrow (limited differentiation).
+
+Phase 1B-D has 5 components (10 metrics):
+  No single component dominates (max 30%).
+  Momentum adds differentiation based on actual price trends.
+  Volume trends detect accumulation/distribution early.
+  Expect wider score range and better stock separation.
+
+NEXT STEPS:
+1. Compare Phase 1B-D to v1.0 baseline (compare_d7_versions.py)
+2. Validate on test stocks (CTC, LION, LOFC, LOLC, JKH)
+3. Run weekly for 4 weeks in parallel
+4. Migration Decision: March 15, 2026
+
+================================================================================
+END OF REPORT
+================================================================================

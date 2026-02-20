@@ -1,0 +1,38 @@
+=====================================================================
+STOCKANALYSIS OHLCV COLLECTION (Backup Prices) - Sun Feb 15 09:08:24 +0530 2026
+=====================================================================
+
+STEP 1: Collecting prices (direct extraction)...
+2026-02-15 09:08:25,216 - INFO - ======================================================================
+2026-02-15 09:08:25,216 - INFO - CSV DOWNLOAD (SPATIAL TRIANGULATION)
+2026-02-15 09:08:25,216 - INFO - Time: 2026-02-15 09:08:25
+2026-02-15 09:08:25,216 - INFO - ======================================================================
+2026-02-15 09:08:25,216 - INFO - Setting up Chrome driver...
+2026-02-15 09:08:25,216 - INFO - ====== WebDriver manager ======
+2026-02-15 09:08:25,294 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-15 09:08:25,854 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-15 09:08:26,416 - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/143.0.7499.192/chromedriver-linux64/chromedriver] found in cache
+2026-02-15 09:08:26,729 - INFO - Chrome driver ready
+2026-02-15 09:08:26,729 - INFO - Download directory: /opt/investment-os/services/data-collection/downloads
+2026-02-15 09:08:26,729 - INFO - Logging in to StockAnalysis.com...
+2026-02-15 09:08:36,839 - INFO - Login successful
+2026-02-15 09:08:36,839 - INFO - ======================================================================
+2026-02-15 09:08:36,839 - INFO - DOWNLOADING CSV (SPATIAL TRIANGULATION)
+2026-02-15 09:08:36,839 - INFO - ======================================================================
+2026-02-15 09:08:36,839 - INFO -    Cleared old file: trade-summary.csv
+2026-02-15 09:08:36,839 - INFO - Going to: https://stockanalysis.com/watchlist/
+2026-02-15 09:08:42,892 - INFO - Looking for 'Daily_Price' tab...
+2026-02-15 09:08:46,100 - INFO - Using spatial triangulation to find Options...
+2026-02-15 09:08:46,100 - INFO -    Hint: Options is next to 'Chart View' button
+2026-02-15 09:08:46,122 - INFO -    Found Chart View anchor
+2026-02-15 09:08:46,137 - INFO -    Found Options (Strategy 2: near Chart View)
+2026-02-15 09:08:46,137 - INFO -    Clicking Options dropdown...
+2026-02-15 09:08:46,194 - INFO -    Options dropdown opened
+2026-02-15 09:08:47,195 - INFO - Looking for 'Download to CSV' option...
+2026-02-15 09:08:47,233 - INFO -    Found Download to CSV
+2026-02-15 09:08:47,292 - INFO -    Clicked Download to CSV
+2026-02-15 09:08:47,292 - INFO -    Waiting for download to complete...
+2026-02-15 09:09:17,300 - ERROR -    Download timeout
+2026-02-15 09:09:17,300 - ERROR - CSV download failed
+2026-02-15 09:09:17,301 - INFO - 
+Closing browser...

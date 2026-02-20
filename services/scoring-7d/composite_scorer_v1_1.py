@@ -1,9 +1,17 @@
 
+
 """
 INVESTMENT OS - UNIFIED COMPOSITE SCORER v1.1
 7-Dimensional Scoring Framework + Watch List Integration
-Date: January 3, 2026
-Version: 1.1 (Production - With Regulatory Compliance)
+
+FILE: composite_scorer_v1_1.py
+CREATED: 2026-01-03
+AUTHOR: Investment OS
+
+VERSION HISTORY:
+    v1.1.0  2026-01-03  Initial creation — Watch list integration over v1.0 base
+    v1.1.1  2026-02-10  Migrated to services/scoring-7d (Phase 2 microservices)
+    v1.1.2  2026-02-16  Added version history header (new project standard)
 
 CHANGES FROM v1.0:
 - Added CSE Watch List integration

@@ -1,9 +1,21 @@
 
+
 #!/usr/bin/env python3
 """
 CSE DATA CONNECTOR FOR DIMENSION 7 v2.0
 Investment OS - Market Sentiment Enhancement
-Phase 1, Day 1: Data Integration Module
+
+FILE: cse_data_connector.py
+CREATED: 2026-01-05
+AUTHOR: Investment OS
+
+VERSION HISTORY:
+    v1.0.0  2026-01-05  Initial creation — Supabase CSE data connector with 6 metrics
+    v1.0.1  2026-02-10  Migrated to services/scoring-7d (Phase 2 microservices)
+    v1.1.0  2026-02-16  Fix: Supabase 1000-row pagination limit (was silently truncating)
+                         Added: Deduplication of 2x daily CSE data collection
+                         Added: Data depth reporting (min/max/median trading days per stock)
+    v1.1.1  2026-02-16  Added version history header (new project standard)
 
 PURPOSE:
 Connects to Supabase CSE official data and calculates 6 new metrics:
@@ -82,7 +94,11 @@ def fetch_cse_data(
     symbol: Optional[str] = None
 ) -> pd.DataFrame:
     """
-    Fetch CSE price data from Supabase.
+    Fetch CSE price data from Supabase with pagination.
+
+    Supabase returns max 1,000 rows per query by default.
+    With ~290 stocks × ~30 trading days × 2 collections/day = ~17,000+ rows,
+    we must paginate to get the full dataset.
 
     Args:
         supabase: Supabase client
@@ -104,23 +120,44 @@ def fetch_cse_data(
     print(f"Fetching CSE data from {start_date} to {end_date}...")
 
     try:
-        # Build query
-        query = supabase.table(CSE_TABLE).select('*')
+        # Paginate through all results (Supabase default limit = 1,000 rows)
+        PAGE_SIZE = 1000
+        all_data = []
+        offset = 0
 
-        # Filter by date range
-        query = query.gte(DATE_COL, start_date).lte(DATE_COL, end_date)
+        while True:
+            # Build query with pagination
+            query = supabase.table(CSE_TABLE).select('*')
+            query = query.gte(DATE_COL, start_date).lte(DATE_COL, end_date)
 
-        # Filter by symbol if provided
-        if symbol:
-            query = query.eq('symbol', symbol)
+            # Filter by symbol if provided
+            if symbol:
+                query = query.eq('symbol', symbol)
 
-        # Execute query
-        response = query.execute()
+            # Order consistently for pagination and apply range
+            query = query.order(DATE_COL, desc=False).order('symbol', desc=False)
+            query = query.range(offset, offset + PAGE_SIZE - 1)
+
+            response = query.execute()
+
+            if not response.data:
+                break
+
+            all_data.extend(response.data)
+            fetched = len(response.data)
+            print(f"   Page {offset // PAGE_SIZE + 1}: fetched {fetched} rows "
+                  f"(total so far: {len(all_data):,})")
+
+            # If we got fewer than PAGE_SIZE rows, we've reached the end
+            if fetched < PAGE_SIZE:
+                break
+
+            offset += PAGE_SIZE
 
         # Convert to DataFrame
-        if response.data:
-            df = pd.DataFrame(response.data)
-            print(f"Fetched {len(df):,} records for {df['symbol'].nunique()} stocks")
+        if all_data:
+            df = pd.DataFrame(all_data)
+            print(f"Fetched {len(df):,} total records for {df['symbol'].nunique()} stocks")
 
             # Rename columns to standard names
             df = df.rename(columns={
@@ -139,8 +176,24 @@ def fetch_cse_data(
                 if col in df.columns:
                     df[col] = pd.to_numeric(df[col], errors='coerce')
 
+            # Deduplicate: CSE data collected 2x daily (10 AM + 4 PM)
+            # Keep latest entry per stock per day (4 PM = end-of-day prices)
+            pre_dedup = len(df)
+            df = df.sort_values(['symbol', 'trade_date']).drop_duplicates(
+                subset=['symbol', 'trade_date'], keep='last'
+            )
+            post_dedup = len(df)
+            if pre_dedup != post_dedup:
+                print(f"Deduplicated: {pre_dedup:,} → {post_dedup:,} rows "
+                      f"(removed {pre_dedup - post_dedup:,} duplicates)")
+
             # Sort by symbol and date
             df = df.sort_values(['symbol', 'trade_date']).reset_index(drop=True)
+
+            # Report data depth per stock
+            rows_per_stock = df.groupby('symbol').size()
+            print(f"Data depth: {rows_per_stock.min()}-{rows_per_stock.max()} "
+                  f"trading days per stock (median: {rows_per_stock.median():.0f})")
 
             return df
         else:

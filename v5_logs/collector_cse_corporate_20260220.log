@@ -1,0 +1,56 @@
+======================================================
+  CSE Corporate Actions Collector START: 2026-02-20 00:31:33 SLK
+======================================================
+2026-02-20 00:31:34 | INFO    | runner | 
+============================================================
+  source=cse_daily | date=2026-02-20 | force=False
+  CSE Daily Market Report (Corporate Actions)
+============================================================
+2026-02-20 00:31:34 | INFO    | runner | ✅ Configuration loaded
+2026-02-20 00:31:34 | INFO    | runner | Connecting to Supabase: https://crsnnyjxfnpwnjxfdilx.supabase.co...
+2026-02-20 00:31:34 | INFO    | runner | ✅ Supabase client initialized
+2026-02-20 00:31:34 | INFO    | collector.cse_daily | ============================================================
+  RUN START | source=cse_daily | date=2026-02-20 | run_id=89cef3f07cea
+============================================================
+2026-02-20 00:31:34 | INFO    | runner | ============================================================
+  RUN START | source=cse_daily | date=2026-02-20 | run_id=89cef3f07cea
+============================================================
+2026-02-20 00:31:34 | INFO    | collector.cse_daily | [DISCOVER] Starting...
+2026-02-20 00:31:34 | INFO    | runner | [DISCOVER] Starting...
+2026-02-20 00:31:36 | INFO    | collector.cse_daily | [DISCOVER] No existing row for 2026-02-20 — proceeding.
+2026-02-20 00:31:36 | INFO    | runner | [DISCOVER] No existing row for 2026-02-20 — proceeding.
+2026-02-20 00:31:36 | INFO    | collector.cse_daily | [DISCOVER] Complete in 1.09s
+2026-02-20 00:31:36 | INFO    | runner | [DISCOVER] Complete in 1.09s
+2026-02-20 00:31:36 | INFO    | collector.cse_daily | [DOWNLOAD] Starting...
+2026-02-20 00:31:36 | INFO    | runner | [DOWNLOAD] Starting...
+2026-02-20 00:31:36 | INFO    | runner | ====== WebDriver manager ======
+2026-02-20 00:31:36 | INFO    | runner | Get LATEST chromedriver version for google-chrome
+2026-02-20 00:31:36 | INFO    | runner | Get LATEST chromedriver version for google-chrome
+2026-02-20 00:31:37 | INFO    | runner | Get LATEST chromedriver version for google-chrome
+2026-02-20 00:31:38 | INFO    | runner | WebDriver version 143.0.7499.192 selected
+2026-02-20 00:31:38 | INFO    | runner | Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/linux64/chromedriver-linux64.zip
+2026-02-20 00:31:38 | INFO    | runner | About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/linux64/chromedriver-linux64.zip
+2026-02-20 00:31:38 | INFO    | runner | Driver downloading response is 200
+2026-02-20 00:31:39 | INFO    | runner | Get LATEST chromedriver version for google-chrome
+2026-02-20 00:31:39 | INFO    | runner | Driver has been saved in cache [/root/.wdm/drivers/chromedriver/linux64/143.0.7499.192]
+2026-02-20 00:31:40 | INFO    | collector.cse_daily | [DOWNLOAD] Chrome driver initialized.
+2026-02-20 00:31:40 | INFO    | runner | [DOWNLOAD] Chrome driver initialized.
+2026-02-20 00:31:40 | INFO    | collector.cse_daily | [DOWNLOAD] Navigating to https://www.cse.lk/publications/cse-daily
+2026-02-20 00:31:40 | INFO    | runner | [DOWNLOAD] Navigating to https://www.cse.lk/publications/cse-daily
+2026-02-20 00:31:40 | INFO    | collector.cse_daily | [DOWNLOAD] Angular render detected — page has download content.
+2026-02-20 00:31:40 | INFO    | runner | [DOWNLOAD] Angular render detected — page has download content.
+2026-02-20 00:31:41 | ERROR   | collector.cse_daily | PIPELINE FAILED at DOWNLOAD | Could not find PDF download element on https://www.cse.lk/publications/cse-daily. Screenshot: /opt/investment-os/services/data-collectors/data/temp/cse_download_debug.png  HTML: /opt/investment-os/services/data-collectors/data/temp/cse_download_debug.html. Check the HTML dump for the correct selector.
+2026-02-20 00:31:41 | ERROR   | runner | PIPELINE FAILED at DOWNLOAD | Could not find PDF download element on https://www.cse.lk/publications/cse-daily. Screenshot: /opt/investment-os/services/data-collectors/data/temp/cse_download_debug.png  HTML: /opt/investment-os/services/data-collectors/data/temp/cse_download_debug.html. Check the HTML dump for the correct selector.
+2026-02-20 00:31:41 | WARNING | collector.cse_daily | [ALERT] Could not send failure email: EmailSender.send_html() got an unexpected keyword argument 'html_body'
+2026-02-20 00:31:41 | WARNING | runner | [ALERT] Could not send failure email: EmailSender.send_html() got an unexpected keyword argument 'html_body'
+
+──────────────────────────────────────────────────
+  ✗ FAILURE
+  source:   cse_daily
+  date:     2026-02-20
+  stage:    DOWNLOAD
+  rows:     0
+  time:     6.5s
+  error:    Could not find PDF download element on https://www.cse.lk/publications/cse-daily. Screenshot: /opt/investment-os/services/data-collectors/data/temp/cse_download_debug.png  HTML: /opt/investment-os/services/data-collectors/data/temp/cse_download_debug.html. Check the HTML dump for the correct selector.
+──────────────────────────────────────────────────
+

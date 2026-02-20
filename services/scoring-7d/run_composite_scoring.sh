@@ -1,14 +1,15 @@
 
 #!/bin/bash
 #
-# AUTO-COMPOSITE SCORER WITH SUPABASE UPLOAD - Investment OS v2.0
-# Automatically detects versions, runs scoring, and uploads to Supabase
-# Date: January 4, 2026
+# FILE: run_composite_scoring.sh
+# DESCRIPTION: Auto composite scorer with Supabase upload
+# CREATED: 2026-01-04
+# AUTHOR: Investment OS
 #
-# Migration: Phase 2 (Feb 2026)
-# - Paths: cd "$(dirname "$0")" keeps script relative to services/scoring-7d/
-# - Added: Supabase upload via upload_composite_to_supabase.py
-# - Original: /opt/selenium_automation/run_composite_scoring.sh
+# VERSION HISTORY:
+#     v1.0.0  2026-01-04  Initial creation — Auto composite scorer with Supabase upload
+#     v1.0.1  2026-02-12  Migrated to services/scoring-7d (Phase 2 microservices)
+#     v1.0.2  2026-02-16  Added version history header (new project standard)
 #
 
 set -e

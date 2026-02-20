@@ -1,17 +1,24 @@
 
+
 #!/usr/bin/env python3
 """
 D7 V1.0 VS V2.0 COMPARISON SCRIPT
 Compare scoring results between versions
+
+FILE: compare_d7_versions.py
+CREATED: 2026-01-07
+AUTHOR: Investment OS
+
+VERSION HISTORY:
+    v1.0.0  2026-01-07  Initial creation — v1 vs v2 comparison with correlation analysis
+    v1.0.1  2026-02-12  Migrated to services/scoring-7d (Phase 2 microservices)
+    v1.0.2  2026-02-16  Added version history header (new project standard)
 
 PURPOSE:
 - Load v1.0 and v2.0 scores
 - Calculate correlation
 - Identify differences
 - Validate improvements
-
-VERSION: 1.0
-DATE: January 7, 2026
 """
 
 import pandas as pd

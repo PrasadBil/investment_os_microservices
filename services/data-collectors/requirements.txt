@@ -1,0 +1,43 @@
+# Investment OS — Data Collectors Requirements
+# Service 6: Unified Data Collection Framework
+# Last updated: 2026-02-18 (Sprint 0)
+#
+# Install on VPS:
+#   pip install -r requirements.txt --break-system-packages
+#
+# Add packages incrementally as sprints complete:
+#   Sprint 0: Framework only (no new deps beyond common library)
+#   Sprint 1: pdfplumber (CBSL Daily)
+#   Sprint 2: pdfplumber (already installed)
+#   Sprint 3: selenium, google-api-python-client (CSE + Google Drive)
+
+# ── PDF Parsing (Sprint 1+) ─────────────────────────────────────────────────
+pdfplumber>=0.10.0,<1.0.0          # Primary PDF extraction tool (pdfminer.six wrapper)
+pdfminer.six>=20221105             # pdfplumber dependency (pin for stability)
+Pillow>=9.0.0,<11.0.0              # pdfplumber image support (for page rendering if needed)
+
+# ── HTTP Downloads ───────────────────────────────────────────────────────────
+requests>=2.31.0,<3.0.0            # HTTP GET for CBSL direct downloads
+urllib3>=2.0.0,<3.0.0              # requests dependency
+
+# ── Browser Automation (Sprint 3: CSE) ──────────────────────────────────────
+selenium>=4.15.0,<5.0.0            # CSE Daily Report download (requires JS)
+webdriver-manager>=4.0.0,<5.0.0   # Auto-manages ChromeDriver versions
+
+# ── Google Drive (Sprint 3: CSE archival) ────────────────────────────────────
+google-api-python-client>=2.100.0,<3.0.0   # Google Drive API v3
+google-auth>=2.23.0,<3.0.0                 # Service account auth
+google-auth-httplib2>=0.1.0,<1.0.0        # httplib2 transport for google-auth
+
+# ── Data Processing ──────────────────────────────────────────────────────────
+pandas>=2.0.0,<3.0.0               # Table normalization, date handling
+python-dateutil>=2.8.0             # Flexible date parsing from PDF text
+
+# ── Testing ──────────────────────────────────────────────────────────────────
+pytest>=7.4.0,<9.0.0               # Test runner
+pytest-cov>=4.1.0                  # Coverage reports
+
+# ── Common Library (already deployed on VPS) ─────────────────────────────────
+# supabase>=2.0.0,<3.0.0           # Installed in common library requirements
+# python-dotenv>=1.0.0             # Installed in common library requirements
+# Note: common library at /opt/investment-os/packages/ is on PYTHONPATH

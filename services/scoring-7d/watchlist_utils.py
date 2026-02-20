@@ -1,6 +1,16 @@
+
 """
 WATCH LIST UTILITY - Investment OS
-Date: January 3, 2026
+
+FILE: watchlist_utils.py
+CREATED: 2026-01-03
+AUTHOR: Investment OS
+
+VERSION HISTORY:
+    v1.0.0  2026-01-03  Initial creation — CSE watch list checker utility
+    v1.0.1  2026-02-10  Migrated to services/scoring-7d (Phase 2 microservices)
+                         Replaced dotenv/load_dotenv with common.database.get_supabase_client()
+    v1.0.2  2026-02-16  Added version history header (new project standard)
 
 PURPOSE:
 Utility functions for checking CSE watch list status from Supabase.
@@ -16,12 +26,6 @@ USAGE:
 
     # Get all watch list stocks
     all_watch_list = checker.get_all_watch_list_stocks()
-
-Migration: Phase 2 (Feb 2026)
-- Replaced: dotenv + manual supabase create_client -> common.database.get_supabase_client()
-- Removed: os.getenv('SUPABASE_URL'), os.getenv('SUPABASE_KEY')
-- Removed: SUPABASE_AVAILABLE guard (common library handles connection)
-- Original: /opt/selenium_automation/watchlist_utils.py
 """
 
 from typing import List, Optional, Set

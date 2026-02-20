@@ -1,0 +1,39 @@
+======================================================
+  CBSL Weekly Collector START: 2026-02-19 09:48:41 SLK
+======================================================
+  Collection date passed to discover(): 2026-02-19
+2026-02-19 09:48:41 | INFO    | runner | 
+============================================================
+  source=cbsl_weekly | date=2026-02-19 | force=False
+  CBSL Weekly Economic Indicators
+============================================================
+2026-02-19 09:48:41 | INFO    | runner | ✅ Configuration loaded
+2026-02-19 09:48:41 | INFO    | runner | Connecting to Supabase: https://crsnnyjxfnpwnjxfdilx.supabase.co...
+2026-02-19 09:48:42 | INFO    | runner | ✅ Supabase client initialized
+2026-02-19 09:48:42 | INFO    | collector.cbsl_weekly | ============================================================
+  RUN START | source=cbsl_weekly | date=2026-02-19 | run_id=6bc20fd1859b
+============================================================
+2026-02-19 09:48:42 | INFO    | runner | ============================================================
+  RUN START | source=cbsl_weekly | date=2026-02-19 | run_id=6bc20fd1859b
+============================================================
+2026-02-19 09:48:42 | INFO    | collector.cbsl_weekly | [DISCOVER] Starting...
+2026-02-19 09:48:42 | INFO    | runner | [DISCOVER] Starting...
+2026-02-19 09:48:42 | INFO    | collector.cbsl_weekly | [DISCOVER] Trying Friday 2026-02-13: https://www.cbsl.gov.lk/sites/default/files/cbslweb_documents/statistics/wei/WEI_20260213_e.pdf
+2026-02-19 09:48:42 | INFO    | runner | [DISCOVER] Trying Friday 2026-02-13: https://www.cbsl.gov.lk/sites/default/files/cbslweb_documents/statistics/wei/WEI_20260213_e.pdf
+2026-02-19 09:48:42 | INFO    | collector.cbsl_weekly | [IDEMPOTENCY] Row exists in cbsl_weekly_real_sector for 2026-02-13.
+2026-02-19 09:48:42 | INFO    | runner | [IDEMPOTENCY] Row exists in cbsl_weekly_real_sector for 2026-02-13.
+2026-02-19 09:48:42 | INFO    | collector.cbsl_weekly | [DISCOVER] Complete in 0.37s
+2026-02-19 09:48:42 | INFO    | runner | [DISCOVER] Complete in 0.37s
+2026-02-19 09:48:42 | INFO    | collector.cbsl_weekly | [DISCOVER] Already collected for 2026-02-19 — skipping pipeline.
+2026-02-19 09:48:42 | INFO    | runner | [DISCOVER] Already collected for 2026-02-19 — skipping pipeline.
+
+──────────────────────────────────────────────────
+  ✓ SUCCESS
+  source:   cbsl_weekly
+  date:     2026-02-19
+  stage:    DISCOVER
+  rows:     0
+  time:     0.4s
+──────────────────────────────────────────────────
+
+2026-02-19 09:48:42 | INFO    | runner | Skipped (already collected). Use --force to re-collect.

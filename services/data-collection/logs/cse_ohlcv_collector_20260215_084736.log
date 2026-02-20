@@ -1,0 +1,81 @@
+2026-02-15 08:47:36,366 - INFO - ======================================================================
+2026-02-15 08:47:36,366 - INFO - CSE COLLECTOR - STEP 1
+2026-02-15 08:47:36,366 - INFO - Time: 2026-02-15 08:47:36
+2026-02-15 08:47:36,366 - INFO - ======================================================================
+2026-02-15 08:47:36,366 - INFO - Setting up Chrome driver...
+2026-02-15 08:47:36,366 - INFO - ====== WebDriver manager ======
+2026-02-15 08:47:37,235 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-15 08:47:37,805 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-15 08:47:38,310 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-15 08:47:39,792 - INFO - WebDriver version 143.0.7499.192 selected
+2026-02-15 08:47:39,796 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/linux64/chromedriver-linux64.zip
+2026-02-15 08:47:39,797 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/linux64/chromedriver-linux64.zip
+2026-02-15 08:47:40,044 - INFO - Driver downloading response is 200
+2026-02-15 08:47:40,161 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-15 08:47:40,917 - INFO - Driver has been saved in cache [/root/.wdm/drivers/chromedriver/linux64/143.0.7499.192]
+2026-02-15 08:47:42,205 - INFO - Chrome driver ready
+2026-02-15 08:47:42,206 - INFO - ======================================================================
+2026-02-15 08:47:42,206 - INFO - DOWNLOADING CSE TRADE SUMMARY CSV
+2026-02-15 08:47:42,206 - INFO - ======================================================================
+2026-02-15 08:47:42,206 - INFO - Navigating to: https://www.cse.lk/equity/trade-summary
+2026-02-15 08:47:47,650 - INFO - Page loaded
+2026-02-15 08:47:47,812 - INFO - Screenshot: /opt/investment-os/services/data-collection/downloads/step1_page_loaded.png
+2026-02-15 08:47:47,812 - INFO - 
+2026-02-15 08:47:47,812 - INFO - STEP 1: Selecting 'All' entries...
+2026-02-15 08:47:47,812 - INFO -    Using Prasad's simple logic: Click '25' -> Select last option
+2026-02-15 08:47:47,812 - INFO -    Looking for '25' button...
+2026-02-15 08:47:47,828 - INFO -    Found 'Show' text
+2026-02-15 08:47:47,854 - INFO -    Found '25' button near 'Show'
+2026-02-15 08:47:47,854 - INFO -    Clicking '25' to open dropdown...
+2026-02-15 08:47:47,941 - INFO -    Clicked '25', dropdown should be open
+2026-02-15 08:47:48,942 - INFO -    Looking for 'All' option in dropdown...
+2026-02-15 08:47:48,952 - INFO -    Found 'All' option
+2026-02-15 08:47:48,952 - INFO -    Clicking 'All' option...
+2026-02-15 08:47:49,781 - INFO -    Selected 'All' entries!
+2026-02-15 08:47:52,944 - INFO - Screenshot: /opt/investment-os/services/data-collection/downloads/step2_all_selected.png
+2026-02-15 08:47:52,944 - INFO - 
+2026-02-15 08:47:52,944 - INFO - STEP 2: Finding Download button...
+2026-02-15 08:47:52,944 - INFO -    Using spatial triangulation (date/time anchor)...
+2026-02-15 08:47:52,944 - INFO -    Strategy A: Finding date/time as anchor...
+2026-02-15 08:47:52,959 - INFO -    Found date/time anchor
+2026-02-15 08:47:52,981 - INFO -    Found Download button (near date/time)
+2026-02-15 08:47:52,981 - INFO -    Clicking Download button...
+2026-02-15 08:47:53,059 - INFO -    Clicked Download button
+2026-02-15 08:47:55,302 - INFO - Screenshot: /opt/investment-os/services/data-collection/downloads/step3_clicked_download.png
+2026-02-15 08:47:55,302 - INFO - 
+2026-02-15 08:47:55,302 - INFO - STEP 3: Finding CSV option...
+2026-02-15 08:47:55,302 - INFO -    Strategy A: Looking for dropdown menu...
+2026-02-15 08:47:55,319 - INFO -    Strategy A failed: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'CSV')] | //li[contains(text(), 'CSV')] | //div[contains(text(), 'CSV')]"}
+  (Session info: chrome=143.0.7499.169); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x57c1127cb40a <unknown>
+#1 0x57c1121ff76b <unknown>
+#2 0x57c112250e88 <unknown>
+#3 0x57c1122510c1 <unknown>
+#4 0x57c11229f2c4 <unknown>
+#5 0x57c11229c760 <unknown>
+#6 0x57c1122437b2 <unknown>
+#7 0x57c112244461 <unknown>
+#8 0x57c112793df9 <unknown>
+#9 0x57c112796d5d <unknown>
+#10 0x57c11277cb41 <unknown>
+#11 0x57c11279793b <unknown>
+#12 0x57c112763870 <unknown>
+#13 0x57c1127b8828 <unknown>
+#14 0x57c1127b89fc <unknown>
+#15 0x57c1127ca763 <unknown>
+#16 0x75458329caa4 <unknown>
+#17 0x754583329c6c <unknown>
+
+2026-02-15 08:47:55,319 - INFO -    Strategy B: Looking for CSV button...
+2026-02-15 08:47:55,329 - INFO -    Found CSV button
+2026-02-15 08:47:55,329 - INFO -    Clicking CSV option...
+2026-02-15 08:47:55,391 - INFO -    Clicked CSV option
+2026-02-15 08:47:55,391 - INFO - 
+2026-02-15 08:47:55,391 - INFO -    Waiting for download to complete...
+2026-02-15 08:47:55,392 - INFO -    Downloaded: trade-summary.csv (22,441 bytes)
+2026-02-15 08:47:55,392 - INFO - 
+2026-02-15 08:47:55,393 - INFO - ======================================================================
+2026-02-15 08:47:55,393 - INFO - COLLECTION COMPLETE!
+2026-02-15 08:47:55,394 - INFO - ======================================================================
+2026-02-15 08:47:55,394 - INFO - File: /opt/investment-os/services/data-collection/downloads/trade-summary.csv

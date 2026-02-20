@@ -1,14 +1,19 @@
 
+
 #!/usr/bin/env python3
 """
 Upload composite scores CSV to Supabase
-FIXED VERSION - Uses INSERT instead of UPSERT
-Allows multiple uploads per day for historical tracking
 
-Migration: Phase 2 (Feb 2026)
-- Replaced: dotenv/load_dotenv + supabase.create_client -> common.database.get_supabase_client()
-- Removed: manual SUPABASE_URL/KEY environment variable handling
-- Original: /opt/selenium_automation/upload_composite_to_supabase.py
+FILE: upload_composite_to_supabase.py
+CREATED: 2026-01-04
+AUTHOR: Investment OS
+
+VERSION HISTORY:
+    v1.0.0  2026-01-04  Initial creation — Supabase uploader (UPSERT method)
+    v1.1.0  2026-01-04  Fix: Uses INSERT instead of UPSERT for historical tracking
+    v1.1.1  2026-02-12  Migrated to services/scoring-7d (Phase 2 microservices)
+                         Replaced dotenv/load_dotenv with common.database.get_supabase_client()
+    v1.1.2  2026-02-16  Added version history header (new project standard)
 """
 
 import os

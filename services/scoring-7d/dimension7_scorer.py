@@ -1,9 +1,17 @@
 
+
 """
 DIMENSION 7: MARKET SENTIMENT SCORER v1.0
 Investment OS - 7D Scoring Framework
-Date: January 1, 2026
-Version: 1.0 (Production - Percentile-Based)
+
+FILE: dimension7_scorer.py
+CREATED: 2026-01-01
+AUTHOR: Investment OS
+
+VERSION HISTORY:
+    v1.0.0  2026-01-01  Initial creation — Market Sentiment scorer (percentile-based)
+    v1.0.1  2026-02-11  Migrated to services/scoring-7d (Phase 2 microservices)
+    v1.0.2  2026-02-16  Added version history header (new project standard)
 
 FRAMEWORK: Trading Activity + Price Momentum + Market Recognition
 

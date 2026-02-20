@@ -1,7 +1,18 @@
+
 #!/usr/bin/env python3
 """
 Dimension 1: Profitability Scorer v2.1 (FINANCIAL FIX)
 Based on Warren Buffett's 1987 Shareholder Letter Methodology
+
+FILE: dimension1_scorer.py
+CREATED: 2025-12-30
+AUTHOR: Investment OS
+
+VERSION HISTORY:
+    v2.0.0  2025-12-30  Initial creation — Profitability scorer (Buffett 1987 methodology)
+    v2.1.0  2025-12-30  Fix: Financial companies ROA scaling; Profit Margin for financials
+    v2.1.1  2026-02-10  Migrated to services/scoring-7d (Phase 2 microservices)
+    v2.1.2  2026-02-16  Added version history header (new project standard)
 
 FIXES IN v2.1 (Financial Companies):
 1. Component 2: ROA scaled properly for banks (3%+ = excellent, not poor)
@@ -10,10 +21,6 @@ FIXES IN v2.1 (Financial Companies):
 
 Usage:
     python dimension1_scorer_v2.1.py --input cleaned_data.csv --output dimension1_scores_v2.1.csv
-
-Author: Investment OS
-Date: December 30, 2025
-Version: 2.1
 """
 
 import pandas as pd

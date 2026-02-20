@@ -1,0 +1,363 @@
+======================================================
+  CSE Corporate Actions Collector START: 2026-02-19 21:45:29 SLK
+======================================================
+2026-02-19 21:45:30 | INFO    | runner | 
+============================================================
+  source=cse_daily | date=2026-02-19 | force=False
+  CSE Daily Market Report (Corporate Actions)
+============================================================
+Traceback (most recent call last):
+  File "/opt/investment-os/services/data-collectors/collector_runner.py", line 419, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/investment-os/services/data-collectors/collector_runner.py", line 410, in main
+    return run_source(
+           ^^^^^^^^^^^
+  File "/opt/investment-os/services/data-collectors/collector_runner.py", line 218, in run_source
+    collector: BaseCollector = CollectorClass(
+                               ^^^^^^^^^^^^^^^
+TypeError: CSEReportCollector.__init__() got an unexpected keyword argument 'source_id'
+======================================================
+  CSE Corporate Actions Collector START: 2026-02-19 21:53:32 SLK
+======================================================
+2026-02-19 21:53:33 | INFO    | runner | 
+============================================================
+  source=cse_daily | date=2026-02-19 | force=False
+  CSE Daily Market Report (Corporate Actions)
+============================================================
+2026-02-19 21:53:33 | INFO    | runner | ✅ Configuration loaded
+2026-02-19 21:53:33 | INFO    | runner | Connecting to Supabase: https://crsnnyjxfnpwnjxfdilx.supabase.co...
+2026-02-19 21:53:33 | INFO    | runner | ✅ Supabase client initialized
+2026-02-19 21:53:33 | INFO    | collector.cse_daily | ============================================================
+  RUN START | source=cse_daily | date=2026-02-19 | run_id=50693c077b1f
+============================================================
+2026-02-19 21:53:33 | INFO    | runner | ============================================================
+  RUN START | source=cse_daily | date=2026-02-19 | run_id=50693c077b1f
+============================================================
+2026-02-19 21:53:33 | INFO    | collector.cse_daily | [DISCOVER] Starting...
+2026-02-19 21:53:33 | INFO    | runner | [DISCOVER] Starting...
+2026-02-19 21:53:34 | INFO    | collector.cse_daily | [DISCOVER] No existing row for 2026-02-19 — proceeding.
+2026-02-19 21:53:34 | INFO    | runner | [DISCOVER] No existing row for 2026-02-19 — proceeding.
+2026-02-19 21:53:34 | INFO    | collector.cse_daily | [DISCOVER] Complete in 1.14s
+2026-02-19 21:53:34 | INFO    | runner | [DISCOVER] Complete in 1.14s
+2026-02-19 21:53:34 | INFO    | collector.cse_daily | [DOWNLOAD] Starting...
+2026-02-19 21:53:34 | INFO    | runner | [DOWNLOAD] Starting...
+2026-02-19 21:53:34 | INFO    | runner | ====== WebDriver manager ======
+2026-02-19 21:53:34 | INFO    | runner | Get LATEST chromedriver version for google-chrome
+2026-02-19 21:53:35 | INFO    | runner | Get LATEST chromedriver version for google-chrome
+2026-02-19 21:53:35 | INFO    | runner | Driver [/root/.wdm/drivers/chromedriver/linux64/143.0.7499.192/chromedriver-linux64/chromedriver] found in cache
+2026-02-19 21:53:36 | INFO    | collector.cse_daily | [DOWNLOAD] Chrome driver initialized.
+2026-02-19 21:53:36 | INFO    | runner | [DOWNLOAD] Chrome driver initialized.
+2026-02-19 21:53:36 | INFO    | collector.cse_daily | [DOWNLOAD] Navigating to https://www.cse.lk/publications/cse-daily
+2026-02-19 21:53:36 | INFO    | runner | [DOWNLOAD] Navigating to https://www.cse.lk/publications/cse-daily
+2026-02-19 21:54:07 | WARNING | collector.cse_daily | [DOWNLOAD] CSS wait timed out — using 10s fallback sleep.
+2026-02-19 21:54:07 | WARNING | runner | [DOWNLOAD] CSS wait timed out — using 10s fallback sleep.
+2026-02-19 21:54:17 | ERROR   | collector.cse_daily | PIPELINE FAILED at DOWNLOAD | Could not find PDF link on https://www.cse.lk/publications/cse-daily. Debug screenshot saved to /opt/investment-os/services/data-collectors/data/temp/cse_download_debug.png. Update CSS selector in _selenium_download().
+2026-02-19 21:54:17 | ERROR   | runner | PIPELINE FAILED at DOWNLOAD | Could not find PDF link on https://www.cse.lk/publications/cse-daily. Debug screenshot saved to /opt/investment-os/services/data-collectors/data/temp/cse_download_debug.png. Update CSS selector in _selenium_download().
+2026-02-19 21:54:17 | WARNING | collector.cse_daily | [ALERT] Could not send failure email: EmailSender.send_html() got an unexpected keyword argument 'html_body'
+2026-02-19 21:54:17 | WARNING | runner | [ALERT] Could not send failure email: EmailSender.send_html() got an unexpected keyword argument 'html_body'
+
+──────────────────────────────────────────────────
+  ✗ FAILURE
+  source:   cse_daily
+  date:     2026-02-19
+  stage:    DOWNLOAD
+  rows:     0
+  time:     43.9s
+  error:    Could not find PDF link on https://www.cse.lk/publications/cse-daily. Debug screenshot saved to /opt/investment-os/services/data-collectors/data/temp/cse_download_debug.png. Update CSS selector in _selenium_download().
+──────────────────────────────────────────────────
+
+======================================================
+  CSE Corporate Actions Collector START: 2026-02-19 22:02:50 SLK
+======================================================
+2026-02-19 22:02:51 | INFO    | runner | 
+============================================================
+  source=cse_daily | date=2026-02-19 | force=False
+  CSE Daily Market Report (Corporate Actions)
+============================================================
+2026-02-19 22:02:51 | INFO    | runner | ✅ Configuration loaded
+2026-02-19 22:02:51 | INFO    | runner | Connecting to Supabase: https://crsnnyjxfnpwnjxfdilx.supabase.co...
+2026-02-19 22:02:51 | INFO    | runner | ✅ Supabase client initialized
+2026-02-19 22:02:51 | INFO    | collector.cse_daily | ============================================================
+  RUN START | source=cse_daily | date=2026-02-19 | run_id=f5b5ebc302f0
+============================================================
+2026-02-19 22:02:51 | INFO    | runner | ============================================================
+  RUN START | source=cse_daily | date=2026-02-19 | run_id=f5b5ebc302f0
+============================================================
+2026-02-19 22:02:51 | INFO    | collector.cse_daily | [DISCOVER] Starting...
+2026-02-19 22:02:51 | INFO    | runner | [DISCOVER] Starting...
+2026-02-19 22:02:52 | INFO    | collector.cse_daily | [DISCOVER] No existing row for 2026-02-19 — proceeding.
+2026-02-19 22:02:52 | INFO    | runner | [DISCOVER] No existing row for 2026-02-19 — proceeding.
+2026-02-19 22:02:52 | INFO    | collector.cse_daily | [DISCOVER] Complete in 0.86s
+2026-02-19 22:02:52 | INFO    | runner | [DISCOVER] Complete in 0.86s
+2026-02-19 22:02:52 | INFO    | collector.cse_daily | [DOWNLOAD] Starting...
+2026-02-19 22:02:52 | INFO    | runner | [DOWNLOAD] Starting...
+2026-02-19 22:02:52 | INFO    | runner | ====== WebDriver manager ======
+2026-02-19 22:02:52 | INFO    | runner | Get LATEST chromedriver version for google-chrome
+2026-02-19 22:02:53 | INFO    | runner | Get LATEST chromedriver version for google-chrome
+2026-02-19 22:02:53 | INFO    | runner | Driver [/root/.wdm/drivers/chromedriver/linux64/143.0.7499.192/chromedriver-linux64/chromedriver] found in cache
+2026-02-19 22:02:53 | INFO    | collector.cse_daily | [DOWNLOAD] Chrome driver initialized.
+2026-02-19 22:02:53 | INFO    | runner | [DOWNLOAD] Chrome driver initialized.
+2026-02-19 22:02:53 | INFO    | collector.cse_daily | [DOWNLOAD] Navigating to https://www.cse.lk/publications/cse-daily
+2026-02-19 22:02:53 | INFO    | runner | [DOWNLOAD] Navigating to https://www.cse.lk/publications/cse-daily
+2026-02-19 22:02:54 | INFO    | collector.cse_daily | [DOWNLOAD] Angular render detected — page has download content.
+2026-02-19 22:02:54 | INFO    | runner | [DOWNLOAD] Angular render detected — page has download content.
+2026-02-19 22:02:55 | INFO    | collector.cse_daily | [DOWNLOAD] Found element via XPath: //button[contains(normalize-space(.), 'Download')] | text='Download'
+2026-02-19 22:02:55 | INFO    | runner | [DOWNLOAD] Found element via XPath: //button[contains(normalize-space(.), 'Download')] | text='Download'
+2026-02-19 22:02:56 | INFO    | collector.cse_daily | [DOWNLOAD] Click triggered — waiting for download...
+2026-02-19 22:02:56 | INFO    | runner | [DOWNLOAD] Click triggered — waiting for download...
+2026-02-19 22:03:03 | INFO    | collector.cse_daily | [DOWNLOAD] Moved to /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf (25,557,339 bytes)
+2026-02-19 22:03:03 | INFO    | runner | [DOWNLOAD] Moved to /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf (25,557,339 bytes)
+2026-02-19 22:03:03 | INFO    | collector.cse_daily | [DOWNLOAD] Complete in 10.88s
+2026-02-19 22:03:03 | INFO    | runner | [DOWNLOAD] Complete in 10.88s
+2026-02-19 22:03:03 | INFO    | collector.cse_daily | [PARSE] Starting...
+2026-02-19 22:03:03 | INFO    | runner | [PARSE] Starting...
+2026-02-19 22:03:03 | INFO    | collector.cse_daily | [PARSE] Parsing: /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf
+2026-02-19 22:03:03 | INFO    | runner | [PARSE] Parsing: /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf
+2026-02-19 22:03:03 | INFO    | runner | [PARSER] PDF opened: 300 pages
+2026-02-19 22:03:06 | INFO    | runner | [PARSER] Sections detected: {'right_issues': 11, 'share_subdivisions': 12, 'scrip_dividends': 12, 'cash_dividends': 13, 'watch_list': 14, 'trading_suspended': 15}
+2026-02-19 22:03:06 | INFO    | runner | [PARSER:RIGHT_ISSUES] 9 records extracted
+2026-02-19 22:03:06 | INFO    | runner | [PARSER:SPLITS] 5 records extracted
+2026-02-19 22:03:06 | INFO    | runner | [PARSER:SCRIP_DIV] 0 records extracted
+2026-02-19 22:03:06 | INFO    | runner | [PARSER:CASH_DIV] 20 records extracted
+2026-02-19 22:03:06 | INFO    | runner | [PARSER:WATCH] 20 records extracted
+2026-02-19 22:03:06 | INFO    | runner | [PARSER:SUSPENDED] 10 records extracted
+2026-02-19 22:03:06 | INFO    | collector.cse_daily | [PARSE] right_issues=9 | splits=5 | dividends=20 | watch_list=30 | total=128
+2026-02-19 22:03:06 | INFO    | runner | [PARSE] right_issues=9 | splits=5 | dividends=20 | watch_list=30 | total=128
+2026-02-19 22:03:06 | INFO    | collector.cse_daily | [PARSE] Complete in 3.50s
+2026-02-19 22:03:06 | INFO    | runner | [PARSE] Complete in 3.50s
+2026-02-19 22:03:06 | INFO    | collector.cse_daily | [STORE] Starting...
+2026-02-19 22:03:06 | INFO    | runner | [STORE] Starting...
+2026-02-19 22:03:07 | ERROR   | collector.cse_daily | PIPELINE FAILED at STORE | Supabase upsert failed for cse_corporate_actions: {'message': 'ON CONFLICT DO UPDATE command cannot affect row a second time', 'code': '21000', 'hint': 'Ensure that no rows proposed for insertion within the same command have duplicate constrained values.', 'details': None}
+2026-02-19 22:03:07 | ERROR   | runner | PIPELINE FAILED at STORE | Supabase upsert failed for cse_corporate_actions: {'message': 'ON CONFLICT DO UPDATE command cannot affect row a second time', 'code': '21000', 'hint': 'Ensure that no rows proposed for insertion within the same command have duplicate constrained values.', 'details': None}
+2026-02-19 22:03:07 | WARNING | collector.cse_daily | [ALERT] Could not send failure email: EmailSender.send_html() got an unexpected keyword argument 'html_body'
+2026-02-19 22:03:07 | WARNING | runner | [ALERT] Could not send failure email: EmailSender.send_html() got an unexpected keyword argument 'html_body'
+
+──────────────────────────────────────────────────
+  ✗ FAILURE
+  source:   cse_daily
+  date:     2026-02-19
+  stage:    STORE
+  rows:     0
+  time:     15.6s
+  error:    Supabase upsert failed for cse_corporate_actions: {'message': 'ON CONFLICT DO UPDATE command cannot affect row a second time', 'code': '21000', 'hint': 'Ensure that no rows proposed for insertion within the same command have duplicate constrained values.', 'details': None}
+──────────────────────────────────────────────────
+
+======================================================
+  CSE Corporate Actions Collector START: 2026-02-19 22:27:52 SLK
+======================================================
+2026-02-19 22:27:52 | INFO    | runner | 
+============================================================
+  source=cse_daily | date=2026-02-19 | force=False
+  CSE Daily Market Report (Corporate Actions)
+============================================================
+2026-02-19 22:27:53 | INFO    | runner | ✅ Configuration loaded
+2026-02-19 22:27:53 | INFO    | runner | Connecting to Supabase: https://crsnnyjxfnpwnjxfdilx.supabase.co...
+2026-02-19 22:27:53 | INFO    | runner | ✅ Supabase client initialized
+2026-02-19 22:27:53 | INFO    | collector.cse_daily | ============================================================
+  RUN START | source=cse_daily | date=2026-02-19 | run_id=f21c7e229f99
+============================================================
+2026-02-19 22:27:53 | INFO    | runner | ============================================================
+  RUN START | source=cse_daily | date=2026-02-19 | run_id=f21c7e229f99
+============================================================
+2026-02-19 22:27:53 | INFO    | collector.cse_daily | [DISCOVER] Starting...
+2026-02-19 22:27:53 | INFO    | runner | [DISCOVER] Starting...
+2026-02-19 22:27:54 | INFO    | collector.cse_daily | [DISCOVER] No existing row for 2026-02-19 — proceeding.
+2026-02-19 22:27:54 | INFO    | runner | [DISCOVER] No existing row for 2026-02-19 — proceeding.
+2026-02-19 22:27:54 | INFO    | collector.cse_daily | [DISCOVER] Complete in 0.82s
+2026-02-19 22:27:54 | INFO    | runner | [DISCOVER] Complete in 0.82s
+2026-02-19 22:27:54 | INFO    | collector.cse_daily | [DOWNLOAD] Starting...
+2026-02-19 22:27:54 | INFO    | runner | [DOWNLOAD] Starting...
+2026-02-19 22:27:54 | INFO    | collector.cse_daily | [DOWNLOAD] Using cached file: /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf
+2026-02-19 22:27:54 | INFO    | runner | [DOWNLOAD] Using cached file: /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf
+2026-02-19 22:27:54 | INFO    | collector.cse_daily | [DOWNLOAD] Complete in 0.04s
+2026-02-19 22:27:54 | INFO    | runner | [DOWNLOAD] Complete in 0.04s
+2026-02-19 22:27:54 | INFO    | collector.cse_daily | [PARSE] Starting...
+2026-02-19 22:27:54 | INFO    | runner | [PARSE] Starting...
+2026-02-19 22:27:54 | INFO    | collector.cse_daily | [PARSE] Parsing: /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf
+2026-02-19 22:27:54 | INFO    | runner | [PARSE] Parsing: /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf
+2026-02-19 22:27:54 | INFO    | runner | [PARSER] PDF opened: 300 pages
+2026-02-19 22:27:57 | INFO    | runner | [PARSER] Sections detected: {'right_issues': 11, 'share_subdivisions': 12, 'scrip_dividends': 12, 'cash_dividends': 13, 'watch_list': 14, 'trading_suspended': 15}
+2026-02-19 22:27:57 | INFO    | runner | [PARSER:RIGHT_ISSUES] 9 records extracted
+2026-02-19 22:27:57 | INFO    | runner | [PARSER:SPLITS] 5 records extracted
+2026-02-19 22:27:57 | INFO    | runner | [PARSER:SCRIP_DIV] 0 records extracted
+2026-02-19 22:27:57 | INFO    | runner | [PARSER:CASH_DIV] 20 records extracted
+2026-02-19 22:27:57 | INFO    | runner | [PARSER:WATCH] 20 records extracted
+2026-02-19 22:27:57 | INFO    | runner | [PARSER:SUSPENDED] 10 records extracted
+2026-02-19 22:27:57 | INFO    | collector.cse_daily | [PARSE] right_issues=9 | splits=5 | dividends=20 | watch_list=30 | total=128
+2026-02-19 22:27:57 | INFO    | runner | [PARSE] right_issues=9 | splits=5 | dividends=20 | watch_list=30 | total=128
+2026-02-19 22:27:57 | INFO    | collector.cse_daily | [PARSE] Complete in 3.48s
+2026-02-19 22:27:57 | INFO    | runner | [PARSE] Complete in 3.48s
+2026-02-19 22:27:57 | INFO    | collector.cse_daily | [STORE] Starting...
+2026-02-19 22:27:57 | INFO    | runner | [STORE] Starting...
+2026-02-19 22:27:57 | ERROR   | collector.cse_daily | PIPELINE FAILED at STORE | Supabase upsert failed for cse_corporate_actions: {'message': 'ON CONFLICT DO UPDATE command cannot affect row a second time', 'code': '21000', 'hint': 'Ensure that no rows proposed for insertion within the same command have duplicate constrained values.', 'details': None}
+2026-02-19 22:27:57 | ERROR   | runner | PIPELINE FAILED at STORE | Supabase upsert failed for cse_corporate_actions: {'message': 'ON CONFLICT DO UPDATE command cannot affect row a second time', 'code': '21000', 'hint': 'Ensure that no rows proposed for insertion within the same command have duplicate constrained values.', 'details': None}
+2026-02-19 22:27:57 | WARNING | collector.cse_daily | [ALERT] Could not send failure email: EmailSender.send_html() got an unexpected keyword argument 'html_body'
+2026-02-19 22:27:57 | WARNING | runner | [ALERT] Could not send failure email: EmailSender.send_html() got an unexpected keyword argument 'html_body'
+
+──────────────────────────────────────────────────
+  ✗ FAILURE
+  source:   cse_daily
+  date:     2026-02-19
+  stage:    STORE
+  rows:     0
+  time:     4.6s
+  error:    Supabase upsert failed for cse_corporate_actions: {'message': 'ON CONFLICT DO UPDATE command cannot affect row a second time', 'code': '21000', 'hint': 'Ensure that no rows proposed for insertion within the same command have duplicate constrained values.', 'details': None}
+──────────────────────────────────────────────────
+
+======================================================
+  CSE Corporate Actions Collector START: 2026-02-19 22:44:08 SLK
+======================================================
+2026-02-19 22:44:08 | INFO    | runner | 
+============================================================
+  source=cse_daily | date=2026-02-19 | force=False
+  CSE Daily Market Report (Corporate Actions)
+============================================================
+2026-02-19 22:44:09 | INFO    | runner | ✅ Configuration loaded
+2026-02-19 22:44:09 | INFO    | runner | Connecting to Supabase: https://crsnnyjxfnpwnjxfdilx.supabase.co...
+2026-02-19 22:44:09 | INFO    | runner | ✅ Supabase client initialized
+2026-02-19 22:44:09 | INFO    | collector.cse_daily | ============================================================
+  RUN START | source=cse_daily | date=2026-02-19 | run_id=abb19bb90e7f
+============================================================
+2026-02-19 22:44:09 | INFO    | runner | ============================================================
+  RUN START | source=cse_daily | date=2026-02-19 | run_id=abb19bb90e7f
+============================================================
+2026-02-19 22:44:09 | INFO    | collector.cse_daily | [DISCOVER] Starting...
+2026-02-19 22:44:09 | INFO    | runner | [DISCOVER] Starting...
+2026-02-19 22:44:10 | INFO    | collector.cse_daily | [DISCOVER] No existing row for 2026-02-19 — proceeding.
+2026-02-19 22:44:10 | INFO    | runner | [DISCOVER] No existing row for 2026-02-19 — proceeding.
+2026-02-19 22:44:10 | INFO    | collector.cse_daily | [DISCOVER] Complete in 1.27s
+2026-02-19 22:44:10 | INFO    | runner | [DISCOVER] Complete in 1.27s
+2026-02-19 22:44:10 | INFO    | collector.cse_daily | [DOWNLOAD] Starting...
+2026-02-19 22:44:10 | INFO    | runner | [DOWNLOAD] Starting...
+2026-02-19 22:44:10 | INFO    | collector.cse_daily | [DOWNLOAD] Using cached file: /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf
+2026-02-19 22:44:10 | INFO    | runner | [DOWNLOAD] Using cached file: /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf
+2026-02-19 22:44:10 | INFO    | collector.cse_daily | [DOWNLOAD] Complete in 0.03s
+2026-02-19 22:44:10 | INFO    | runner | [DOWNLOAD] Complete in 0.03s
+2026-02-19 22:44:10 | INFO    | collector.cse_daily | [PARSE] Starting...
+2026-02-19 22:44:10 | INFO    | runner | [PARSE] Starting...
+2026-02-19 22:44:10 | INFO    | collector.cse_daily | [PARSE] Parsing: /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf
+2026-02-19 22:44:10 | INFO    | runner | [PARSE] Parsing: /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf
+2026-02-19 22:44:10 | INFO    | runner | [PARSER] PDF opened: 300 pages
+2026-02-19 22:44:13 | INFO    | runner | [PARSER] Sections detected: {'right_issues': 11, 'share_subdivisions': 12, 'scrip_dividends': 12, 'cash_dividends': 13, 'watch_list': 14, 'trading_suspended': 15}
+2026-02-19 22:44:14 | INFO    | runner | [PARSER:RIGHT_ISSUES] 9 records extracted
+2026-02-19 22:44:14 | INFO    | runner | [PARSER:SPLITS] 5 records extracted
+2026-02-19 22:44:14 | INFO    | runner | [PARSER:SCRIP_DIV] 0 records extracted
+2026-02-19 22:44:14 | INFO    | runner | [PARSER:CASH_DIV] 20 records extracted
+2026-02-19 22:44:14 | INFO    | runner | [PARSER:WATCH] 20 records extracted
+2026-02-19 22:44:14 | INFO    | runner | [PARSER:SUSPENDED] 10 records extracted
+2026-02-19 22:44:14 | INFO    | collector.cse_daily | [PARSE] right_issues=9 | splits=5 | dividends=20 | watch_list=30 | total=128
+2026-02-19 22:44:14 | INFO    | runner | [PARSE] right_issues=9 | splits=5 | dividends=20 | watch_list=30 | total=128
+2026-02-19 22:44:14 | INFO    | collector.cse_daily | [PARSE] Complete in 3.43s
+2026-02-19 22:44:14 | INFO    | runner | [PARSE] Complete in 3.43s
+2026-02-19 22:44:14 | INFO    | collector.cse_daily | [STORE] Starting...
+2026-02-19 22:44:14 | INFO    | runner | [STORE] Starting...
+2026-02-19 22:44:14 | ERROR   | collector.cse_daily | PIPELINE FAILED at STORE | Supabase upsert failed for cse_corporate_actions: {'message': 'ON CONFLICT DO UPDATE command cannot affect row a second time', 'code': '21000', 'hint': 'Ensure that no rows proposed for insertion within the same command have duplicate constrained values.', 'details': None}
+2026-02-19 22:44:14 | ERROR   | runner | PIPELINE FAILED at STORE | Supabase upsert failed for cse_corporate_actions: {'message': 'ON CONFLICT DO UPDATE command cannot affect row a second time', 'code': '21000', 'hint': 'Ensure that no rows proposed for insertion within the same command have duplicate constrained values.', 'details': None}
+2026-02-19 22:44:14 | WARNING | collector.cse_daily | [ALERT] Could not send failure email: EmailSender.send_html() got an unexpected keyword argument 'html_body'
+2026-02-19 22:44:14 | WARNING | runner | [ALERT] Could not send failure email: EmailSender.send_html() got an unexpected keyword argument 'html_body'
+
+──────────────────────────────────────────────────
+  ✗ FAILURE
+  source:   cse_daily
+  date:     2026-02-19
+  stage:    STORE
+  rows:     0
+  time:     5.0s
+  error:    Supabase upsert failed for cse_corporate_actions: {'message': 'ON CONFLICT DO UPDATE command cannot affect row a second time', 'code': '21000', 'hint': 'Ensure that no rows proposed for insertion within the same command have duplicate constrained values.', 'details': None}
+──────────────────────────────────────────────────
+
+======================================================
+  CSE Corporate Actions Collector START: 2026-02-19 22:59:22 SLK
+======================================================
+2026-02-19 22:59:23 | INFO    | runner | 
+============================================================
+  source=cse_daily | date=2026-02-19 | force=False
+  CSE Daily Market Report (Corporate Actions)
+============================================================
+2026-02-19 22:59:23 | INFO    | runner | ✅ Configuration loaded
+2026-02-19 22:59:23 | INFO    | runner | Connecting to Supabase: https://crsnnyjxfnpwnjxfdilx.supabase.co...
+2026-02-19 22:59:24 | INFO    | runner | ✅ Supabase client initialized
+2026-02-19 22:59:24 | INFO    | collector.cse_daily | ============================================================
+  RUN START | source=cse_daily | date=2026-02-19 | run_id=9d9437ef25f1
+============================================================
+2026-02-19 22:59:24 | INFO    | runner | ============================================================
+  RUN START | source=cse_daily | date=2026-02-19 | run_id=9d9437ef25f1
+============================================================
+2026-02-19 22:59:24 | INFO    | collector.cse_daily | [DISCOVER] Starting...
+2026-02-19 22:59:24 | INFO    | runner | [DISCOVER] Starting...
+2026-02-19 22:59:24 | INFO    | collector.cse_daily | [DISCOVER] No existing row for 2026-02-19 — proceeding.
+2026-02-19 22:59:24 | INFO    | runner | [DISCOVER] No existing row for 2026-02-19 — proceeding.
+2026-02-19 22:59:24 | INFO    | collector.cse_daily | [DISCOVER] Complete in 0.50s
+2026-02-19 22:59:24 | INFO    | runner | [DISCOVER] Complete in 0.50s
+2026-02-19 22:59:24 | INFO    | collector.cse_daily | [DOWNLOAD] Starting...
+2026-02-19 22:59:24 | INFO    | runner | [DOWNLOAD] Starting...
+2026-02-19 22:59:24 | INFO    | collector.cse_daily | [DOWNLOAD] Using cached file: /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf
+2026-02-19 22:59:24 | INFO    | runner | [DOWNLOAD] Using cached file: /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf
+2026-02-19 22:59:24 | INFO    | collector.cse_daily | [DOWNLOAD] Complete in 0.03s
+2026-02-19 22:59:24 | INFO    | runner | [DOWNLOAD] Complete in 0.03s
+2026-02-19 22:59:24 | INFO    | collector.cse_daily | [PARSE] Starting...
+2026-02-19 22:59:24 | INFO    | runner | [PARSE] Starting...
+2026-02-19 22:59:24 | INFO    | collector.cse_daily | [PARSE] Parsing: /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf
+2026-02-19 22:59:24 | INFO    | runner | [PARSE] Parsing: /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf
+2026-02-19 22:59:24 | INFO    | runner | [PARSER] PDF opened: 300 pages
+2026-02-19 22:59:27 | INFO    | runner | [PARSER] Sections detected: {'right_issues': 11, 'share_subdivisions': 12, 'scrip_dividends': 12, 'cash_dividends': 13, 'watch_list': 14, 'trading_suspended': 15}
+2026-02-19 22:59:28 | INFO    | runner | [PARSER:RIGHT_ISSUES] 9 records extracted
+2026-02-19 22:59:28 | INFO    | runner | [PARSER:SPLITS] 5 records extracted
+2026-02-19 22:59:28 | INFO    | runner | [PARSER:SCRIP_DIV] 0 records extracted
+2026-02-19 22:59:28 | INFO    | runner | [PARSER:CASH_DIV] 20 records extracted
+2026-02-19 22:59:28 | INFO    | runner | [PARSER:WATCH] 20 records extracted
+2026-02-19 22:59:28 | INFO    | runner | [PARSER:SUSPENDED] 10 records extracted
+2026-02-19 22:59:28 | INFO    | collector.cse_daily | [PARSE] right_issues=9 | splits=5 | dividends=20 | watch_list=30 | total=128
+2026-02-19 22:59:28 | INFO    | runner | [PARSE] right_issues=9 | splits=5 | dividends=20 | watch_list=30 | total=128
+2026-02-19 22:59:28 | INFO    | collector.cse_daily | [PARSE] Complete in 3.40s
+2026-02-19 22:59:28 | INFO    | runner | [PARSE] Complete in 3.40s
+2026-02-19 22:59:28 | INFO    | collector.cse_daily | [STORE] Starting...
+2026-02-19 22:59:28 | INFO    | runner | [STORE] Starting...
+2026-02-19 22:59:28 | INFO    | collector.cse_daily | [STORE] Deduplicated master: 64 → 60 rows (removed 4 duplicate conflict keys)
+2026-02-19 22:59:28 | INFO    | runner | [STORE] Deduplicated master: 64 → 60 rows (removed 4 duplicate conflict keys)
+2026-02-19 22:59:28 | INFO    | collector.cse_daily | [STORE] Deduplicated watch_list: 30 → 20 rows (removed 10 duplicate conflict keys)
+2026-02-19 22:59:28 | INFO    | runner | [STORE] Deduplicated watch_list: 30 → 20 rows (removed 10 duplicate conflict keys)
+2026-02-19 22:59:28 | INFO    | collector.cse_daily | [STORE] Upserted 60 rows → cse_corporate_actions
+2026-02-19 22:59:28 | INFO    | runner | [STORE] Upserted 60 rows → cse_corporate_actions
+2026-02-19 22:59:28 | INFO    | collector.cse_daily | [STORE] Upserted 9 rows → cse_right_issues
+2026-02-19 22:59:28 | INFO    | runner | [STORE] Upserted 9 rows → cse_right_issues
+2026-02-19 22:59:28 | INFO    | collector.cse_daily | [STORE] Upserted 20 rows → cse_dividends
+2026-02-19 22:59:28 | INFO    | runner | [STORE] Upserted 20 rows → cse_dividends
+2026-02-19 22:59:28 | INFO    | collector.cse_daily | [STORE] Upserted 20 rows → cse_watch_list_history
+2026-02-19 22:59:28 | INFO    | runner | [STORE] Upserted 20 rows → cse_watch_list_history
+2026-02-19 22:59:28 | INFO    | collector.cse_daily | [STORE] Upserted 5 rows → cse_share_splits
+2026-02-19 22:59:28 | INFO    | runner | [STORE] Upserted 5 rows → cse_share_splits
+2026-02-19 22:59:28 | INFO    | collector.cse_daily | [STORE] Complete in 0.54s
+2026-02-19 22:59:28 | INFO    | runner | [STORE] Complete in 0.54s
+2026-02-19 22:59:28 | INFO    | collector.cse_daily | [ARCHIVE] Starting...
+2026-02-19 22:59:28 | INFO    | runner | [ARCHIVE] Starting...
+2026-02-19 22:59:28 | INFO    | runner | file_cache is only supported with oauth2client<4.0.0
+2026-02-19 22:59:28 | INFO    | runner | [GDrive] Service initialized | credentials=gdrive_credentials.json
+2026-02-19 22:59:29 | INFO    | runner | [GDrive] Uploading CSE_Daily_Report_2026-02-19.pdf (25,557,339 bytes) → Drive/CSE Daily Reports/2026/02/
+2026-02-19 22:59:30 | INFO    | runner | [GDrive] Created folder: CSE Daily Reports (id=1JioV0z3VJXagUPVc5eQLdZ1pLyOz27hp)
+2026-02-19 22:59:31 | INFO    | runner | [GDrive] Created folder: 2026 (id=1cpcZE8MxXhbMxM16_2PJ2SrKJFgd2gKf)
+2026-02-19 22:59:51 | INFO    | runner | [GDrive] Created folder: 02 (id=1aDuoPqHn5FSg9tgLMf5chuWCDV-wRyZO)
+2026-02-19 22:59:52 | WARNING | runner | Encountered 403 Forbidden with reason "storageQuotaExceeded"
+2026-02-19 22:59:52 | WARNING | collector.cse_daily | [ARCHIVE] Drive upload failed (non-fatal): Google Drive API error during upload: <HttpError 403 when requesting None returned "Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.". Details: "[{'message': 'Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.', 'domain': 'usageLimits', 'reason': 'storageQuotaExceeded'}]">
+2026-02-19 22:59:52 | WARNING | runner | [ARCHIVE] Drive upload failed (non-fatal): Google Drive API error during upload: <HttpError 403 when requesting None returned "Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.". Details: "[{'message': 'Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.', 'domain': 'usageLimits', 'reason': 'storageQuotaExceeded'}]">
+2026-02-19 22:59:52 | INFO    | collector.cse_daily | [ARCHIVE] Complete in 23.71s
+2026-02-19 22:59:52 | INFO    | runner | [ARCHIVE] Complete in 23.71s
+2026-02-19 22:59:52 | INFO    | collector.cse_daily | PIPELINE COMPLETE | rows=114 | archive=/opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf | 28.2s
+2026-02-19 22:59:52 | INFO    | runner | PIPELINE COMPLETE | rows=114 | archive=/opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf | 28.2s
+
+──────────────────────────────────────────────────
+  ✓ SUCCESS
+  source:   cse_daily
+  date:     2026-02-19
+  stage:    ARCHIVE
+  rows:     114
+  time:     28.2s
+  archive:  /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260219.pdf
+  tables:   cse_corporate_actions, cse_right_issues, cse_dividends, cse_watch_list_history, cse_share_splits
+──────────────────────────────────────────────────
+
+------------------------------------------------------
+  STATUS: SUCCESS
+  END: 2026-02-19 22:59:52 SLK
+======================================================
