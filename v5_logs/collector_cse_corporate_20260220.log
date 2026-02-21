@@ -54,3 +54,79 @@
   error:    Could not find PDF download element on https://www.cse.lk/publications/cse-daily. Screenshot: /opt/investment-os/services/data-collectors/data/temp/cse_download_debug.png  HTML: /opt/investment-os/services/data-collectors/data/temp/cse_download_debug.html. Check the HTML dump for the correct selector.
 ──────────────────────────────────────────────────
 
+======================================================
+  CSE Corporate Actions Collector START: 2026-02-20 21:54:29 SLK
+======================================================
+2026-02-20 21:54:29 | INFO    | runner | 
+============================================================
+  source=cse_daily | date=2026-02-20 | force=False
+  CSE Daily Market Report (Corporate Actions)
+============================================================
+2026-02-20 21:54:30 | INFO    | runner | ✅ Configuration loaded
+2026-02-20 21:54:30 | INFO    | runner | Connecting to Supabase: https://crsnnyjxfnpwnjxfdilx.supabase.co...
+2026-02-20 21:54:30 | INFO    | runner | ✅ Supabase client initialized
+2026-02-20 21:54:30 | INFO    | collector.cse_daily | ============================================================
+  RUN START | source=cse_daily | date=2026-02-20 | run_id=ee91f63cbc80
+============================================================
+2026-02-20 21:54:30 | INFO    | runner | ============================================================
+  RUN START | source=cse_daily | date=2026-02-20 | run_id=ee91f63cbc80
+============================================================
+2026-02-20 21:54:30 | INFO    | collector.cse_daily | [DISCOVER] Starting...
+2026-02-20 21:54:30 | INFO    | runner | [DISCOVER] Starting...
+2026-02-20 21:54:30 | INFO    | collector.cse_daily | [DISCOVER] No existing row for 2026-02-20 — proceeding.
+2026-02-20 21:54:30 | INFO    | runner | [DISCOVER] No existing row for 2026-02-20 — proceeding.
+2026-02-20 21:54:30 | INFO    | collector.cse_daily | [DISCOVER] Complete in 0.54s
+2026-02-20 21:54:30 | INFO    | runner | [DISCOVER] Complete in 0.54s
+2026-02-20 21:54:30 | INFO    | collector.cse_daily | [DOWNLOAD] Starting...
+2026-02-20 21:54:30 | INFO    | runner | [DOWNLOAD] Starting...
+2026-02-20 21:54:30 | INFO    | runner | ====== WebDriver manager ======
+2026-02-20 21:54:30 | INFO    | runner | Get LATEST chromedriver version for google-chrome
+2026-02-20 21:54:31 | INFO    | runner | Get LATEST chromedriver version for google-chrome
+2026-02-20 21:54:32 | INFO    | runner | Driver [/root/.wdm/drivers/chromedriver/linux64/143.0.7499.192/chromedriver-linux64/chromedriver] found in cache
+2026-02-20 21:54:32 | INFO    | collector.cse_daily | [DOWNLOAD] Chrome driver initialized.
+2026-02-20 21:54:32 | INFO    | runner | [DOWNLOAD] Chrome driver initialized.
+2026-02-20 21:54:32 | INFO    | collector.cse_daily | [DOWNLOAD] Navigating to https://www.cse.lk/publications/cse-daily
+2026-02-20 21:54:32 | INFO    | runner | [DOWNLOAD] Navigating to https://www.cse.lk/publications/cse-daily
+2026-02-20 21:54:33 | INFO    | collector.cse_daily | [DOWNLOAD] Angular render detected — page has download content.
+2026-02-20 21:54:33 | INFO    | runner | [DOWNLOAD] Angular render detected — page has download content.
+2026-02-20 21:54:33 | INFO    | collector.cse_daily | [DOWNLOAD] Found element via XPath: //button[contains(translate(normalize-space(.), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'download')] | text='Download'
+2026-02-20 21:54:33 | INFO    | runner | [DOWNLOAD] Found element via XPath: //button[contains(translate(normalize-space(.), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'download')] | text='Download'
+2026-02-20 21:54:34 | INFO    | collector.cse_daily | [DOWNLOAD] Click triggered — waiting for download...
+2026-02-20 21:54:34 | INFO    | runner | [DOWNLOAD] Click triggered — waiting for download...
+2026-02-20 21:54:41 | INFO    | collector.cse_daily | [DOWNLOAD] Moved to /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260220.pdf (26,634,196 bytes)
+2026-02-20 21:54:41 | INFO    | runner | [DOWNLOAD] Moved to /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260220.pdf (26,634,196 bytes)
+2026-02-20 21:54:41 | INFO    | collector.cse_daily | [DOWNLOAD] Complete in 11.10s
+2026-02-20 21:54:41 | INFO    | runner | [DOWNLOAD] Complete in 11.10s
+2026-02-20 21:54:41 | INFO    | collector.cse_daily | [PARSE] Starting...
+2026-02-20 21:54:41 | INFO    | runner | [PARSE] Starting...
+2026-02-20 21:54:41 | INFO    | collector.cse_daily | [PARSE] Parsing: /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260220.pdf
+2026-02-20 21:54:41 | INFO    | runner | [PARSE] Parsing: /opt/investment-os/services/data-collectors/data/temp/cse_daily_20260220.pdf
+2026-02-20 21:54:42 | INFO    | runner | [PARSER] PDF opened: 297 pages
+2026-02-20 21:54:45 | INFO    | runner | [PARSER] Sections detected: {'right_issues': 11, 'share_subdivisions': 11, 'scrip_dividends': 11, 'cash_dividends': 11, 'watch_list': 11, 'trading_suspended': 11}
+2026-02-20 21:54:45 | WARNING | runner | [PARSER:RIGHT_ISSUES] Expected 2 tables, found fewer.
+2026-02-20 21:54:45 | INFO    | runner | [PARSER:SPLITS] 0 records extracted
+2026-02-20 21:54:45 | INFO    | runner | [PARSER:SCRIP_DIV] 0 records extracted
+2026-02-20 21:54:45 | INFO    | runner | [PARSER:CASH_DIV] 0 records extracted
+2026-02-20 21:54:45 | INFO    | runner | [PARSER:WATCH] 0 records extracted
+2026-02-20 21:54:45 | INFO    | runner | [PARSER:SUSPENDED] 0 records extracted
+2026-02-20 21:54:45 | INFO    | collector.cse_daily | [PARSE] right_issues=0 | splits=0 | dividends=0 | watch_list=0 | total=0
+2026-02-20 21:54:45 | INFO    | runner | [PARSE] right_issues=0 | splits=0 | dividends=0 | watch_list=0 | total=0
+2026-02-20 21:54:45 | ERROR   | collector.cse_daily | PIPELINE FAILED at PARSE | Parser returned 0 rows from all sections. Run: python parsers/cse_report_parser.py --analyze <pdf_path>
+2026-02-20 21:54:45 | ERROR   | runner | PIPELINE FAILED at PARSE | Parser returned 0 rows from all sections. Run: python parsers/cse_report_parser.py --analyze <pdf_path>
+2026-02-20 21:54:45 | INFO    | runner | Connecting to smtp.gmail.com:587...
+2026-02-20 21:54:46 | INFO    | runner | Logging in as pra.bil.wicky@gmail.com...
+2026-02-20 21:54:47 | INFO    | runner | Sending to pra.bil.wicky@gmail.com...
+2026-02-20 21:54:48 | INFO    | runner | Email sent successfully
+2026-02-20 21:54:48 | INFO    | collector.cse_daily | [ALERT] Failure email sent.
+2026-02-20 21:54:48 | INFO    | runner | [ALERT] Failure email sent.
+
+──────────────────────────────────────────────────
+  ✗ FAILURE
+  source:   cse_daily
+  date:     2026-02-20
+  stage:    PARSE
+  rows:     0
+  time:     15.1s
+  error:    Parser returned 0 rows from all sections. Run: python parsers/cse_report_parser.py --analyze <pdf_path>
+──────────────────────────────────────────────────
+

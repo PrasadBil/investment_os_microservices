@@ -1,4 +1,3 @@
-
 """
 base_collector.py — Abstract Base Collector for Investment OS Data Collection Framework
 

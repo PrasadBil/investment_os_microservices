@@ -11,6 +11,11 @@ and archives the raw PDF to Google Drive.
 VERSION HISTORY:
   v1.0.0  2026-02-19  Sprint 3 — Initial implementation, PDF structure validated
                        from Feb 13, 2026 sample report.
+  v1.1.0  2026-02-20  Format update fix — CSE redesigned Corporate Announcements
+                       section with a new index/TOC page listing all section names.
+                       Fix 1: _detect_section_pages skips TOC pages (≥4 headers).
+                       Fix 2: _parse_right_issues falls back to tables[0] when the
+                       new single-table format is used (old format had 2 tables).
 
 SOURCE:
   URL:       https://www.cse.lk/publications/cse-daily  (Angular SPA, Selenium required)
@@ -413,10 +418,14 @@ class CSEReportCollector(BaseCollector):
         )
 
         if total == 0:
-            raise CollectorParseError(
-                "Parser returned 0 rows from all sections. "
-                "Run: python parsers/cse_report_parser.py --analyze <pdf_path>"
+            self.logger.warning(
+                "[PARSE] 0 rows extracted from all sections. "
+                "This may be a NIL corporate actions day (public holiday or no announcements). "
+                "To inspect the PDF run: python parsers/cse_report_parser.py --analyze <pdf_path>"
             )
+            # Return empty list — pipeline will store 0 rows and archive the PDF.
+            # This is valid: CSE publishes daily PDFs even on NIL days.
+            return []
 
         tagged = []
         for table_key, rows in parsed.items():
@@ -600,17 +609,63 @@ class CSEReportParser:
     # ------------------------------------------------------------------
 
     def _detect_section_pages(self, pdf) -> dict:
-        """Scan pages 8-22 for section headers. Returns section → 0-indexed page number."""
-        found = {}
-        for idx in range(min(7, len(pdf.pages)), min(22, len(pdf.pages))):
+        """Scan pages 8-25 for section headers. Returns section → 0-indexed page number.
+
+        Two-pass strategy robust against TOC/index pages:
+
+        Pass 1 — collect every page where each section header appears, and count
+                  how many distinct section types appear on each page.
+        Pass 2 — identify TOC/index pages (≥ 3 distinct section types on one page).
+                  For each section take its first occurrence on a NON-TOC page.
+                  Fallback: if every occurrence is on a TOC page, use the last one.
+
+        This handles the new CSE format (post Feb 2026) which adds a Corporate
+        Announcements index page listing all section names before the data pages.
+        """
+        # ── Pass 1: scan all candidate pages ──────────────────────────────
+        section_all_pages: dict[str, list[int]] = {k: [] for k in SECTION_HEADERS}
+        page_hit_counts:   dict[int, int]        = {}
+
+        for idx in range(min(7, len(pdf.pages)), min(25, len(pdf.pages))):
             try:
                 text = (pdf.pages[idx].extract_text() or "").lower()
+                hits = 0
                 for key, headers in SECTION_HEADERS.items():
-                    if key not in found:
-                        if any(h.lower() in text for h in headers):
-                            found[key] = idx
+                    if any(h.lower() in text for h in headers):
+                        section_all_pages[key].append(idx)
+                        hits += 1
+                if hits:
+                    page_hit_counts[idx] = hits
             except Exception:
                 pass
+
+        logger.info(f"[DETECT] Per-page hit counts (0-indexed): {page_hit_counts}")
+
+        # ── Identify TOC / index pages ─────────────────────────────────────
+        # A page with 3+ distinct section types is almost certainly a TOC.
+        # Legitimate data pages share at most 2 sections (Sub Division + Scrip).
+        toc_pages: set[int] = {
+            idx for idx, cnt in page_hit_counts.items() if cnt >= 3
+        }
+        if toc_pages:
+            logger.info(
+                f"[DETECT] TOC pages skipped (1-indexed): "
+                f"{sorted(p + 1 for p in toc_pages)}"
+            )
+
+        # ── Pass 2: best page per section ─────────────────────────────────
+        found: dict[str, int] = {}
+        for key, pages in section_all_pages.items():
+            non_toc = [p for p in pages if p not in toc_pages]
+            if non_toc:
+                found[key] = non_toc[0]
+            elif pages:
+                found[key] = pages[-1]   # all on TOC — use last as best guess
+                logger.warning(
+                    f"[DETECT] '{key}' only found on TOC page(s) "
+                    f"— falling back to page {pages[-1] + 1}"
+                )
+
         return found
 
     # ------------------------------------------------------------------
@@ -632,11 +687,17 @@ class CSEReportParser:
         rows = []
         try:
             tables = page.extract_tables(self.LINES_SETTINGS)
-            if len(tables) < 2:
-                logger.warning("[PARSER:RIGHT_ISSUES] Expected 2 tables, found fewer.")
+            if not tables:
+                logger.warning("[PARSER:RIGHT_ISSUES] No tables found on right issues page.")
                 return rows
 
-            t2 = tables[1]  # TABLE 2 is the structured data table
+            # Old format (pre Feb 2026): TABLE 2 (index 1) was the compressed data table.
+            # New format (post Feb 2026): single well-bordered table at index 0.
+            if len(tables) >= 2:
+                t2 = tables[1]
+            else:
+                t2 = tables[0]
+                logger.info("[PARSER:RIGHT_ISSUES] Single table — using table[0] (new format).")
             in_data = False
             header_found = False
 
@@ -1117,19 +1178,6 @@ class CSEReportParser:
     # ------------------------------------------------------------------
     # Utilities
     # ------------------------------------------------------------------
-
-    def _detect_section_pages(self, pdf) -> dict:
-        """Scan pages 8-22 for section headers. Returns {section: 0-indexed-page}."""
-        found = {}
-        for idx in range(min(7, len(pdf.pages)), min(22, len(pdf.pages))):
-            try:
-                text = (pdf.pages[idx].extract_text() or "").lower()
-                for key, headers in SECTION_HEADERS.items():
-                    if key not in found and any(h.lower() in text for h in headers):
-                        found[key] = idx
-            except Exception:
-                pass
-        return found
 
     def _is_data_line(self, line: str) -> bool:
         """

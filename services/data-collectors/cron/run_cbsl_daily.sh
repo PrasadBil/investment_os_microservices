@@ -6,6 +6,7 @@
 #
 # VERSION HISTORY:
 #   v1.0.0  2026-02-18  Sprint 0 skeleton — ready for Sprint 1 implementation
+#   v1.1.0  2026-02-18  Sprint 1 — pass yesterday's date (CBSL publication lag)
 #
 # CRON ENTRY (add to VPS crontab: crontab -e):
 #   30 11 * * 1-5 /opt/investment-os/services/data-collectors/cron/run_cbsl_daily.sh
@@ -31,14 +32,18 @@ echo "  CBSL Daily Collector START: $(date '+%Y-%m-%d %H:%M:%S SLK')"
 echo "======================================================"
 
 # ── Run collector ─────────────────────────────────────────────────────────────
+# CBSL publishes the previous BUSINESS day's indicators each morning.
+# "yesterday" breaks on Mondays (yesterday=Sunday, no CBSL publication).
+# Python gives us the correct previous business day regardless of weekday.
 INDICATORS_DATE="$(python3 -c "
 from datetime import date, timedelta
 d = date.today() - timedelta(days=1)
-while d.weekday() >= 5:
+while d.weekday() >= 5:   # skip Saturday(5) and Sunday(6)
     d -= timedelta(days=1)
 print(d.isoformat())
-")""
+")"
 echo "  Collecting indicators for: $INDICATORS_DATE"
+
 python3 collector_runner.py --source "$SOURCE_ID" --date "$INDICATORS_DATE"
 EXIT_CODE=${PIPESTATUS[0]}
 
