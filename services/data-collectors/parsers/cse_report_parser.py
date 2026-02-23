@@ -2,11 +2,11 @@
 """
 parsers/cse_report_parser.py — CSE Daily Market Report Collector & Parser
 
-Sprint 3 implementation: CSEReportCollector + CSEReportParser
+Sprint 3 (corporate actions) + Sprint A (market summary + foreign flow).
 
 Collects the daily ~25MB PDF from Colombo Stock Exchange publications page,
-extracts corporate actions from pages 11-15, stores in 5 Supabase tables,
-and archives the raw PDF to Google Drive.
+extracts market-level signals from pages 1-5 and corporate actions from pages
+11-15, stores in 7 Supabase tables, and archives the raw PDF to Google Drive.
 
 VERSION HISTORY:
   v1.0.0  2026-02-19  Sprint 3 — Initial implementation, PDF structure validated
@@ -16,27 +16,47 @@ VERSION HISTORY:
                        Fix 1: _detect_section_pages skips TOC pages (≥4 headers).
                        Fix 2: _parse_right_issues falls back to tables[0] when the
                        new single-table format is used (old format had 2 tables).
+  v1.2.0  2026-02-22  Sprint A — Market summary + foreign flow extraction.
+                       New tables: cse_daily_market_summary, cse_foreign_flow.
+                       New methods: _detect_market_pages, _parse_market_summary,
+                         _parse_foreign_flow, _extract_index_row,
+                         _extract_labeled_value, _extract_labeled_int,
+                         _validate_market_row.
+                       Layer 1 validation: MARKET_VALIDATION range dict.
+                       parse_confidence (0-100) stored per row.
+                       Cross-validation: aspi_close vs cbsl_daily_indicators ±0.5%.
 
 SOURCE:
   URL:       https://www.cse.lk/publications/cse-daily  (Angular SPA, Selenium required)
   Format:    ~270-page PDF (~25MB)
   Published: Every trading day, after market close (~7-8 PM SLK)
 
-PAGES PARSED (corporate actions only — confirmed from PDF analysis):
-  Page 11: Right Issues      → cse_right_issues + cse_corporate_actions (no symbol in PDF)
-  Page 12: Share Subdivisions → cse_share_splits + cse_corporate_actions (no symbol in PDF)
-           Scrip Dividends   → cse_dividends    + cse_corporate_actions (no symbol in PDF)
-  Page 13: Cash Dividends    → cse_dividends    + cse_corporate_actions (no symbol in PDF)
-  Page 14: Watch List        → cse_watch_list_history (symbol PRESENT in PDF)
-  Page 15: Trading Suspended → cse_watch_list_history (symbol PRESENT in PDF)
+PAGES PARSED:
+  Sprint A — Market level (pages 1-5):
+    Page 1-2:  Market overview → cse_daily_market_summary
+               (ASPI, S&P SL20, turnover, market cap, breadth, volume)
+    Page 3-5:  Foreign trading → cse_foreign_flow
+               (foreign buy / sell / net LKR, net_flow_direction IN/OUT)
 
-PARSING STRATEGIES (from PDF structure analysis):
-  Right Issues (p11):     Compressed TABLE 2 → column-position mapping
-  Share Subdivisions(p12): Text-based line parsing (company name + dates)
-  Scrip Dividends (p12):  Text-based line parsing (company name + 2 dates)
-  Cash Dividends (p13):   Text-based line parsing with regex (company + amounts + dates)
-  Watch List (p14):       Text-based regex on symbol pattern (XXX.N0000)
-  Suspended (p15):        Text-based regex on symbol pattern
+  Sprint 3 — Corporate actions (pages 11-15):
+    Page 11: Right Issues      → cse_right_issues + cse_corporate_actions
+    Page 12: Share Subdivisions → cse_share_splits + cse_corporate_actions
+             Scrip Dividends   → cse_dividends    + cse_corporate_actions
+    Page 13: Cash Dividends    → cse_dividends    + cse_corporate_actions
+    Page 14: Watch List        → cse_watch_list_history (symbol PRESENT)
+    Page 15: Trading Suspended → cse_watch_list_history (symbol PRESENT)
+
+PARSING STRATEGIES:
+  Market Summary (p1-2):  Text scanning — label/value patterns for indices +
+                           scalars (turnover, market cap, volume, breadth).
+  Foreign Flow (p3-5):    Text scanning — "Foreign Purchases / Sales / Net"
+                           with LKR comma-formatted amounts.
+  Right Issues (p11):     Compressed TABLE 2 → column-position mapping.
+  Share Subdivisions(p12): Text-based line parsing (company name + dates).
+  Scrip Dividends (p12):  Text-based line parsing (company name + 2 dates).
+  Cash Dividends (p13):   Text-based line parsing with regex.
+  Watch List (p14):       Text-based regex on symbol pattern (XXX.N0000).
+  Suspended (p15):        Text-based regex on symbol pattern.
 
 SYMBOL NOTE:
   - Watch List and Trading Suspended tables include the symbol (ALHP.N0000 etc.)
@@ -48,7 +68,8 @@ PIPELINE:
   DISCOVER  → Check Supabase whether today's report already stored.
   DOWNLOAD  → Selenium: navigate CSE publications, download latest PDF.
   PARSE     → pdfplumber: text + table extraction per section.
-  STORE     → Upsert into 5 tables (master, right_issues, splits, dividends, watch_list).
+  STORE     → Upsert into 7 tables (market_summary, foreign_flow, master,
+              right_issues, splits, dividends, watch_list).
   ARCHIVE   → Upload to Google Drive: Investment OS/CSE Daily Reports/{YYYY}/{MM}/.
 """
 
@@ -93,11 +114,27 @@ logger = logging.getLogger(__name__)
 SOURCE_ID = "cse_daily"
 
 TABLES = {
-    "master":       "cse_corporate_actions",
-    "right_issues": "cse_right_issues",
-    "dividends":    "cse_dividends",
-    "watch_list":   "cse_watch_list_history",
-    "splits":       "cse_share_splits",
+    "master":          "cse_corporate_actions",
+    "right_issues":    "cse_right_issues",
+    "dividends":       "cse_dividends",
+    "watch_list":      "cse_watch_list_history",
+    "splits":          "cse_share_splits",
+    # ── Sprint A: market-level data (pages 1-5) ───────────────────────────
+    "market_summary":  "cse_daily_market_summary",
+    "foreign_flow":    "cse_foreign_flow",
+}
+
+# Validation ranges for market summary fields (Layer 1 robustness)
+MARKET_VALIDATION = {
+    "aspi_close":       (3_000,   25_000),    # CSE ASPI historical range
+    "sp20_close":       (1_000,   10_000),    # S&P SL 20 range
+    "turnover_lkr":     (50e6,    50e9),      # LKR 50M – 50B (typical trading day)
+    "market_cap_lkr":   (1e12,    25e12),     # LKR 1T – 25T
+    "volume_shares":    (1e6,     5e9),       # 1M – 5B shares
+    "trade_count":      (100,     500_000),   # 100 – 500K trades
+    "stocks_advancing": (0,       350),       # CSE has ~340 listed
+    "stocks_declining": (0,       350),
+    "stocks_unchanged": (0,       350),
 }
 
 TEMP_DIR = Path("/opt/investment-os/services/data-collectors/data/temp")
@@ -445,11 +482,14 @@ class CSEReportCollector(BaseCollector):
                 groups[key].append(row)
 
         conflict_map = {
-            "master":       ["company_name", "action_type", "report_date"],
-            "right_issues": ["company_name", "report_date"],
-            "dividends":    ["company_name", "dividend_type", "report_date"],
-            "watch_list":   ["symbol", "report_date"],
-            "splits":       ["company_name", "report_date"],
+            "master":          ["company_name", "action_type", "report_date"],
+            "right_issues":    ["company_name", "report_date"],
+            "dividends":       ["company_name", "dividend_type", "report_date"],
+            "watch_list":      ["symbol", "report_date"],
+            "splits":          ["company_name", "report_date"],
+            # Sprint A: market-level (single row per trading day — PK is report_date)
+            "market_summary":  ["report_date"],
+            "foreign_flow":    ["report_date"],
         }
 
         # ── Deduplicate each group on its conflict key ────────────────────
@@ -548,13 +588,60 @@ class CSEReportParser:
     }
 
     def parse(self, pdf_path: str, report_date: date) -> dict:
-        result = {"right_issues": [], "splits": [], "dividends": [], "watch_list": [], "master": []}
+        result = {
+            "right_issues":   [],
+            "splits":         [],
+            "dividends":      [],
+            "watch_list":     [],
+            "master":         [],
+            # Sprint A: market-level sections
+            "market_summary": [],
+            "foreign_flow":   [],
+        }
 
         try:
             with pdfplumber.open(pdf_path) as pdf:
                 total_pages = len(pdf.pages)
                 logger.info(f"[PARSER] PDF opened: {total_pages} pages")
 
+                # ── Sprint A: early pages (1-6) — market summary & foreign flow ──
+                market_pages = self._detect_market_pages(pdf)
+                logger.info(f"[PARSER] Market pages: {market_pages}")
+
+                if "market_summary" in market_pages:
+                    ms_idx = market_pages["market_summary"]
+                    # Market data spans two adjacent pages:
+                    #   ms_idx   → Index Performance (ASPI, S&P SL20)
+                    #   ms_idx+1 → Turnover Overview (turnover, market cap, volume, trades)
+                    ms_pages = [pdf.pages[ms_idx]]
+                    if ms_idx + 1 < total_pages:
+                        ms_pages.append(pdf.pages[ms_idx + 1])
+                    summary, warnings = self._parse_market_summary(ms_pages, report_date)
+                    result["market_summary"].append(summary)
+                    if warnings:
+                        logger.warning(f"[VALIDATE:MARKET] {'; '.join(warnings)}")
+
+                # Foreign flow may be on the same page as market summary, or adjacent
+                ff_page_idx = market_pages.get(
+                    "foreign_trading",
+                    market_pages.get("market_summary")  # fallback: same page
+                )
+                if ff_page_idx is not None:
+                    flow, ff_warnings = self._parse_foreign_flow(
+                        pdf.pages[ff_page_idx], report_date
+                    )
+                    # If same-page fallback returned nulls, try the next page
+                    if (flow.get("foreign_buy_lkr") is None
+                            and flow.get("net_flow_lkr") is None
+                            and ff_page_idx + 1 < len(pdf.pages)):
+                        flow, ff_warnings = self._parse_foreign_flow(
+                            pdf.pages[ff_page_idx + 1], report_date
+                        )
+                    result["foreign_flow"].append(flow)
+                    if ff_warnings:
+                        logger.warning(f"[VALIDATE:FOREIGN] {'; '.join(ff_warnings)}")
+
+                # ── Corporate actions (pages 11-15) ──────────────────────────────
                 section_pages = self._detect_section_pages(pdf)
                 logger.info(f"[PARSER] Sections detected: {section_pages}")
 
@@ -1103,6 +1190,526 @@ class CSEReportParser:
 
         logger.info(f"[PARSER:{status}] {len(rows)} records extracted")
         return rows
+
+    # ------------------------------------------------------------------
+    # Sprint A: Market summary + Foreign flow  (pages 1-6)
+    # ------------------------------------------------------------------
+
+    def _detect_market_pages(self, pdf) -> dict:
+        """
+        Scan pages 1-6 (0-indexed 0-5) for market summary and foreign flow content.
+
+        Returns dict with 0-indexed page numbers:
+            "market_summary"  → page with ASPI / S&P SL 20 / turnover
+            "foreign_trading" → page with Foreign Purchases / Net Foreign
+        """
+        found: dict[str, int] = {}
+        MARKET_LABELS  = ["all share price index", "aspi", "market turnover", "s&p sl 20"]
+        FOREIGN_LABELS = ["foreign purchases", "net foreign", "foreign trading"]
+
+        for idx in range(min(6, len(pdf.pages))):
+            try:
+                text = (pdf.pages[idx].extract_text() or "").lower()
+                if "market_summary" not in found and any(lbl in text for lbl in MARKET_LABELS):
+                    found["market_summary"] = idx
+                if "foreign_trading" not in found and any(lbl in text for lbl in FOREIGN_LABELS):
+                    found["foreign_trading"] = idx
+            except Exception:
+                pass
+
+        return found
+
+    def _parse_market_summary(self, pages: list, report_date: date) -> tuple[dict, list[str]]:
+        """
+        Extract market-level summary from early pages (typically pages 1-2, 0-indexed).
+
+        CSE PDF actual layout (confirmed from Feb 20, 2026 report):
+
+          Page 1 (0-indexed) — Index Performance:
+            "All Share Price Index (ASPI) S&P Sri Lanka 20 Index"  ← combined label line
+            [2-4 multilingual / arrow lines]
+            "23,773.64 -96.43 -0.40% 6,721.47 -21.72 -0.32%"     ← data line (6 numbers)
+
+          Page 2 (0-indexed) — Turnover Overview:
+            "Total Turnover (Rs.) Market Capitalization (Rs.)"     ← combined label line
+            [1-3 multilingual lines]
+            "3,890,609,725.35  8,411,382,637,987.40"              ← both values, one line
+            "Volume of Turnover (Total)"
+            "139,059,091  224,631"                                 ← total is first number
+            "No. of Trades (Total)"
+            "34,795  195"                                          ← total is first number
+
+        Strategy: combine text from both pages into one line list, then apply
+        label-aware multi-line scanning rather than same-line extraction.
+
+        Returns (row_dict, warnings_list).
+        """
+        row: dict = {
+            "report_date":      report_date.isoformat(),
+            "aspi_close":       None, "aspi_change":    None, "aspi_change_pct":    None,
+            "sp20_close":       None, "sp20_change":    None, "sp20_change_pct":    None,
+            "turnover_lkr":     None,
+            "market_cap_lkr":   None,
+            "volume_shares":    None,
+            "trade_count":      None,
+            "stocks_advancing": None,
+            "stocks_declining": None,
+            "stocks_unchanged": None,
+            "parse_confidence": 0,
+            "parse_warnings":   None,
+        }
+
+        try:
+            # Combine text lines from all provided pages into one flat list
+            all_lines: list[str] = []
+            for page in pages:
+                text = page.extract_text() or ""
+                all_lines.extend(ln.strip() for ln in text.splitlines())
+            lines = [ln for ln in all_lines if ln]   # drop blanks
+
+            # ── Market Indices ────────────────────────────────────────────────
+            # Label and values are on DIFFERENT lines in the CSE PDF.
+            # _parse_dual_index_line finds the label then scans forward for
+            # the numeric data line (first number > 1,000 = index value).
+            aspi, sp20 = self._parse_dual_index_line(lines)
+            row["aspi_close"]      = aspi.get("close")
+            row["aspi_change"]     = aspi.get("change")
+            row["aspi_change_pct"] = aspi.get("pct")
+            row["sp20_close"]      = sp20.get("close")
+            row["sp20_change"]     = sp20.get("change")
+            row["sp20_change_pct"] = sp20.get("pct")
+
+            # ── Turnover + Market Cap ─────────────────────────────────────────
+            # Both appear as two large numbers on a single data line that follows
+            # the combined label "Total Turnover (Rs.) Market Capitalization (Rs.)"
+            turnover, market_cap = self._parse_turnover_cap_line(lines)
+            row["turnover_lkr"]  = turnover
+            row["market_cap_lkr"] = market_cap
+
+            # ── Volume ────────────────────────────────────────────────────────
+            # "Volume of Turnover (Total)" on one line, "139,059,091 224,631" on next.
+            # Total (all shares) is the first number.
+            row["volume_shares"] = self._find_int_after_label_in_lines(
+                lines,
+                ["Volume of Turnover (Total)", "Volume of Turnover", "Volume Traded",
+                 "Total Volume"],
+            )
+
+            # ── Trade Count ───────────────────────────────────────────────────
+            # "No. of Trades (Total)" on one line, "34,795 195" on next.
+            # Total is the first number.
+            row["trade_count"] = self._find_int_after_label_in_lines(
+                lines,
+                ["No. of Trades (Total)", "No. of Trades", "Number of Trades",
+                 "No of Trades"],
+            )
+
+            # ── Market Breadth ────────────────────────────────────────────────
+            # Not present in pages 1-2 of the current CSE report format.
+            # Deferred to Sprint C (requires scanning a later breadth/statistics page).
+            row["stocks_advancing"] = None
+            row["stocks_declining"] = None
+            row["stocks_unchanged"] = None
+
+        except Exception as exc:
+            logger.warning(f"[PARSER:MARKET_SUMMARY] Extraction error: {exc}")
+
+        # ── Parse confidence: % of non-null fields ────────────────────────────
+        # Breadth fields excluded — not available in this page range.
+        value_fields = [
+            "aspi_close", "aspi_change", "aspi_change_pct",
+            "sp20_close", "turnover_lkr", "market_cap_lkr",
+            "volume_shares", "trade_count",
+        ]
+        filled = sum(1 for f in value_fields if row.get(f) is not None)
+        row["parse_confidence"] = int(filled / len(value_fields) * 100)
+
+        # ── Layer 1 validation ────────────────────────────────────────────────
+        warnings = self._validate_market_row(row)
+        if warnings:
+            row["parse_warnings"] = "; ".join(warnings)
+
+        _t = f"{row['turnover_lkr']:,.0f}" if row["turnover_lkr"] is not None else "N/A"
+        logger.info(
+            f"[PARSER:MARKET_SUMMARY] ASPI={row['aspi_close']} | "
+            f"SP20={row['sp20_close']} | "
+            f"Turnover={_t} | "
+            f"Confidence={row['parse_confidence']}%"
+        )
+        return row, warnings
+
+    def _parse_foreign_flow(self, page, report_date: date) -> tuple[dict, list[str]]:
+        """
+        Extract foreign trading summary from the Trading Statistics page.
+
+        CSE PDF actual layout (confirmed from Feb 20, 2026 report, page 3 0-indexed):
+
+          "Foreign Purchases  Foreign Sales  Net foreign flow"   ← all 3 labels on one line
+          [0-8 multilingual / decorative lines]
+          "89,840,401.25  101,155,924.90  -11,315,523.65"       ← all 3 values on one line
+
+        Strategy:
+          1. Find the header line containing both "Foreign Purchases" and "Foreign Sales".
+          2. Scan the next lines for a row with ≥2 positive decimal numbers (buy, sell).
+          3. Map col 1 → buy, col 2 → sell, col 3 → net (or compute net from buy-sell).
+          4. Fallback: try label+inline-value pattern (Turnover Overview page format).
+
+        Returns (row_dict, warnings_list).
+        """
+        row: dict = {
+            "report_date":        report_date.isoformat(),
+            "foreign_buy_lkr":    None,
+            "foreign_sell_lkr":   None,
+            "net_flow_lkr":       None,
+            "net_flow_direction": None,
+            "parse_confidence":   0,
+            "parse_warnings":     None,
+        }
+
+        try:
+            text = page.extract_text() or ""
+            lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
+
+            # ── Strategy 1: three-column header → next data line ───────────────
+            # "Foreign Purchases  Foreign Sales  Net foreign flow"
+            # [multilingual lines]
+            # "89,840,401.25  101,155,924.90  -11,315,523.65"
+            header_idx = None
+            for i, line in enumerate(lines):
+                ll = line.lower()
+                if "foreign purchases" in ll and "foreign sales" in ll:
+                    header_idx = i
+                    break
+
+            if header_idx is not None:
+                for j in range(1, 12):
+                    if header_idx + j >= len(lines):
+                        break
+                    next_line = lines[header_idx + j]
+                    # Match decimal numbers including leading minus
+                    nums_raw = re.findall(r"-?[\d,]+\.\d+", next_line)
+                    nums = []
+                    for n in nums_raw:
+                        try:
+                            nums.append(float(n.replace(",", "")))
+                        except ValueError:
+                            pass
+                    # First two must be positive (buy and sell volumes)
+                    if len(nums) >= 2 and nums[0] > 0 and nums[1] > 0:
+                        row["foreign_buy_lkr"]  = nums[0]
+                        row["foreign_sell_lkr"] = nums[1]
+                        row["net_flow_lkr"] = (
+                            nums[2] if len(nums) > 2 else nums[0] - nums[1]
+                        )
+                        break
+
+            # ── Strategy 2: inline label+value fallback (page 2 format) ────────
+            # "Foreign Purchase (Rs.) 89,840,401.25 0.00"
+            # "Foreign Sales (Rs.)"
+            # "101,155,924.90 0.00"
+            if row["foreign_buy_lkr"] is None:
+                row["foreign_buy_lkr"] = self._find_value_after_label_in_lines(
+                    lines,
+                    ["Foreign Purchase (Rs.)", "Foreign Purchases", "Foreign Buys",
+                     "Foreign Buying", "Fgn. Purchases"],
+                )
+            if row["foreign_sell_lkr"] is None:
+                row["foreign_sell_lkr"] = self._find_value_after_label_in_lines(
+                    lines,
+                    ["Foreign Sales (Rs.)", "Foreign Sales", "Foreign Sells",
+                     "Foreign Selling", "Fgn. Sales"],
+                )
+            if row["net_flow_lkr"] is None:
+                row["net_flow_lkr"] = self._find_value_after_label_in_lines(
+                    lines,
+                    ["Net foreign flow", "Net Foreign Flow", "Net Foreign", "Net Fgn"],
+                )
+
+            # Compute net if still missing
+            if row["net_flow_lkr"] is None:
+                b, s = row["foreign_buy_lkr"], row["foreign_sell_lkr"]
+                if b is not None and s is not None:
+                    row["net_flow_lkr"] = b - s
+
+            # Direction
+            if row["net_flow_lkr"] is not None:
+                row["net_flow_direction"] = "IN" if row["net_flow_lkr"] >= 0 else "OUT"
+
+        except Exception as exc:
+            logger.warning(f"[PARSER:FOREIGN_FLOW] Extraction error: {exc}")
+
+        # ── Parse confidence ──────────────────────────────────────────────────
+        filled = sum(
+            1 for f in ["foreign_buy_lkr", "foreign_sell_lkr", "net_flow_lkr"]
+            if row.get(f) is not None
+        )
+        row["parse_confidence"] = int(filled / 3 * 100)
+
+        # ── Layer 1 validation ────────────────────────────────────────────────
+        warnings: list[str] = []
+        if row["foreign_buy_lkr"] is not None and row["foreign_buy_lkr"] < 0:
+            warnings.append(f"foreign_buy_lkr is negative: {row['foreign_buy_lkr']}")
+        if row["foreign_sell_lkr"] is not None and row["foreign_sell_lkr"] < 0:
+            warnings.append(f"foreign_sell_lkr is negative: {row['foreign_sell_lkr']}")
+        if row["foreign_buy_lkr"] and row["foreign_sell_lkr"]:
+            computed_net = row["foreign_buy_lkr"] - row["foreign_sell_lkr"]
+            if row["net_flow_lkr"] is not None:
+                divergence = abs(computed_net - row["net_flow_lkr"])
+                if divergence > 1e6:   # LKR 1M tolerance
+                    warnings.append(
+                        f"Net flow divergence: stated={row['net_flow_lkr']:,.0f} "
+                        f"computed={computed_net:,.0f}"
+                    )
+
+        if warnings:
+            row["parse_warnings"] = "; ".join(warnings)
+
+        logger.info(
+            f"[PARSER:FOREIGN_FLOW] Buy={row['foreign_buy_lkr']} | "
+            f"Sell={row['foreign_sell_lkr']} | Net={row['net_flow_lkr']} | "
+            f"Dir={row['net_flow_direction']} | Confidence={row['parse_confidence']}%"
+        )
+        return row, warnings
+
+    # ── Line-list extraction helpers (Sprint A v2 — multi-line aware) ─────────
+    # The CSE PDF puts labels and values on DIFFERENT lines, often with
+    # multilingual text in between.  These helpers scan forward in the line
+    # list rather than matching label+value on a single line.
+
+    def _parse_dual_index_line(self, lines: list[str]) -> tuple[dict, dict]:
+        """
+        Find ASPI and SP20 values from page text lines.
+
+        Actual CSE PDF layout:
+          "All Share Price Index (ASPI) S&P Sri Lanka 20 Index"  ← combined label
+          [2-5 multilingual / arrow lines]
+          "23,773.64 -96.43 -0.40% 6,721.47 -21.72 -0.32%"     ← 6-number data line
+
+        Strategy: locate the label line (contains both "aspi" and "s&p"), then scan
+        the next lines until the first number > 1,000 is found (index value).
+        Extract 6 numbers → ASPI(close, change, pct) + SP20(close, change, pct).
+        """
+        aspi: dict = {}
+        sp20: dict = {}
+
+        label_idx = None
+        for i, line in enumerate(lines):
+            ll = line.lower()
+            if ("all share price index" in ll or "aspi" in ll) and \
+               ("s&p" in ll or "sl 20" in ll or "sl20" in ll):
+                label_idx = i
+                break
+
+        if label_idx is None:
+            return aspi, sp20
+
+        for j in range(1, 14):
+            if label_idx + j >= len(lines):
+                break
+            line = lines[label_idx + j]
+            # Strip % signs so we can parse percent values as floats
+            clean = line.replace("%", "")
+            nums_raw = re.findall(r"[+-]?[\d,]+\.?\d*", clean)
+            nums = []
+            for n in nums_raw:
+                try:
+                    nums.append(float(n.replace(",", "")))
+                except ValueError:
+                    pass
+            # Need ≥4 numbers; first must be > 1,000 (actual index value, not a ratio)
+            if len(nums) >= 4 and nums[0] > 1_000:
+                aspi = {
+                    "close":  nums[0],
+                    "change": nums[1] if len(nums) > 1 else None,
+                    "pct":    nums[2] if len(nums) > 2 else None,
+                }
+                sp20 = {
+                    "close":  nums[3] if len(nums) > 3 else None,
+                    "change": nums[4] if len(nums) > 4 else None,
+                    "pct":    nums[5] if len(nums) > 5 else None,
+                }
+                break
+
+        return aspi, sp20
+
+    def _parse_turnover_cap_line(
+        self, lines: list[str]
+    ) -> tuple[Optional[float], Optional[float]]:
+        """
+        Find Total Turnover and Market Cap from the Turnover Overview page.
+
+        Actual CSE PDF layout:
+          "Total Turnover (Rs.) Market Capitalization (Rs.)"  ← combined label
+          [1-4 multilingual lines]
+          "3,890,609,725.35  8,411,382,637,987.40"           ← both values, one line
+
+        Both values are > LKR 1M; filter by magnitude to avoid picking up small numbers.
+        """
+        turnover   = None
+        market_cap = None
+
+        for i, line in enumerate(lines):
+            ll = line.lower()
+            if "total turnover" in ll and ("market cap" in ll or "capitaliz" in ll):
+                for j in range(1, 10):
+                    if i + j >= len(lines):
+                        break
+                    next_line = lines[i + j]
+                    nums_raw = re.findall(r"[\d,]+\.\d+", next_line)
+                    nums = []
+                    for n in nums_raw:
+                        try:
+                            v = float(n.replace(",", ""))
+                            if v > 1_000_000:   # must be LKR > 1M to be turnover/cap
+                                nums.append(v)
+                        except ValueError:
+                            pass
+                    if len(nums) >= 2:
+                        turnover   = nums[0]
+                        market_cap = nums[1]
+                        break
+                    elif len(nums) == 1:
+                        turnover = nums[0]   # partial — market cap on next line
+                        break
+                break
+
+        return turnover, market_cap
+
+    def _find_value_after_label_in_lines(
+        self,
+        lines: list[str],
+        labels: list[str],
+        lookahead: int = 6,
+    ) -> Optional[float]:
+        """
+        Find a label in the line list; return the first numeric value found:
+          - on the same line (after the label text), OR
+          - on any of the next `lookahead` lines.
+
+        Handles comma-formatted numbers (e.g., "139,059,091").
+        Skips values ≤ 1 to avoid picking up ratios/percentages on mixed pages.
+        """
+        for label in labels:
+            label_lower = label.lower()
+            for i, line in enumerate(lines):
+                if label_lower in line.lower():
+                    # ── Same-line: text after the label ───────────────────────
+                    after_pos = line.lower().find(label_lower) + len(label)
+                    after = line[after_pos:]
+                    for n in re.findall(r"[\d,]+\.?\d*", after):
+                        try:
+                            v = float(n.replace(",", ""))
+                            if v > 1:
+                                return v
+                        except ValueError:
+                            pass
+                    # ── Next N lines ───────────────────────────────────────────
+                    for j in range(1, lookahead + 1):
+                        if i + j >= len(lines):
+                            break
+                        for n in re.findall(r"[\d,]+\.?\d*", lines[i + j]):
+                            try:
+                                v = float(n.replace(",", ""))
+                                if v > 1:
+                                    return v
+                            except ValueError:
+                                pass
+        return None
+
+    def _find_int_after_label_in_lines(
+        self,
+        lines: list[str],
+        labels: list[str],
+        lookahead: int = 6,
+    ) -> Optional[int]:
+        """Wrapper over _find_value_after_label_in_lines returning an integer."""
+        v = self._find_value_after_label_in_lines(lines, labels, lookahead)
+        return int(round(v)) if v is not None else None
+
+    # ── Legacy extraction helpers (single-line text, kept for compatibility) ──
+
+    def _extract_index_row(self, text: str, labels: list[str]) -> dict:
+        """
+        Extract index close, change, and pct_change from a labelled text row.
+
+        Handles formats:
+          "All Share Price Index   6,523.45   +12.34   +0.19%"
+          "ASPI  6523.45  12.34  0.19"
+          "All Share Price Index 6,523.45 (12.34 / 0.19%)"
+        """
+        result: dict = {}
+        for label in labels:
+            # Find line containing this label
+            pattern = re.compile(re.escape(label), re.IGNORECASE)
+            m = pattern.search(text)
+            if not m:
+                continue
+
+            # Extract the rest of the line after the label
+            line_end = text.find("\n", m.end())
+            snippet = text[m.end(): line_end if line_end > 0 else m.end() + 200]
+
+            # Pull all numeric tokens (handles commas, signs, parentheses for negatives)
+            nums = re.findall(r"[+-]?[\d,]+\.?\d*", snippet.replace("(", "-").replace(")", ""))
+            cleaned = []
+            for n in nums:
+                v = self._parse_decimal(n.replace(",", ""))
+                if v is not None:
+                    cleaned.append(v)
+
+            if cleaned:
+                result["close"]  = cleaned[0] if len(cleaned) > 0 else None
+                result["change"] = cleaned[1] if len(cleaned) > 1 else None
+                result["pct"]    = cleaned[2] if len(cleaned) > 2 else None
+            break
+
+        return result
+
+    def _extract_labeled_value(self, text: str, labels: list[str]) -> Optional[float]:
+        """
+        Find a label in text, return the next numeric value on that line.
+        Handles comma-formatted numbers (e.g., "3,245,678,901").
+        """
+        for label in labels:
+            pattern = re.compile(re.escape(label) + r"[^\d\n]*?([\d,]+\.?\d*)", re.IGNORECASE)
+            m = pattern.search(text)
+            if m:
+                return self._parse_decimal(m.group(1).replace(",", ""))
+        return None
+
+    def _extract_labeled_int(self, text: str, labels: list[str]) -> Optional[int]:
+        """Find a label and return the next value as integer."""
+        val = self._extract_labeled_value(text, labels)
+        if val is not None:
+            return int(round(val))
+        return None
+
+    # ── Validation ────────────────────────────────────────────────────────────
+
+    def _validate_market_row(self, row: dict) -> list[str]:
+        """
+        Layer 1 validation: check extracted values against MARKET_VALIDATION ranges.
+        Returns list of warning strings (empty = all clear).
+        """
+        warnings: list[str] = []
+        for field, (lo, hi) in MARKET_VALIDATION.items():
+            val = row.get(field)
+            if val is None:
+                continue
+            if not (lo <= val <= hi):
+                warnings.append(
+                    f"{field}={val:,.2f} outside expected [{lo:,.0f} – {hi:,.0f}]"
+                )
+
+        # Breadth sanity: total should be > 0 if any component is filled
+        adv = row.get("stocks_advancing") or 0
+        dec = row.get("stocks_declining") or 0
+        unc = row.get("stocks_unchanged") or 0
+        total = adv + dec + unc
+        if total > 0 and (adv + dec) == 0:
+            warnings.append("All stocks unchanged — likely parse error in breadth section")
+
+        return warnings
 
     # ------------------------------------------------------------------
     # Master log builder

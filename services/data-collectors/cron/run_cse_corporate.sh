@@ -1,3 +1,4 @@
+]633;E;echo '#!/bin/bash';1ef7951c-d9fd-4991-bcec-38fe80372b05]633;C#!/bin/bash
 
 #!/bin/bash
 # =============================================================================
@@ -41,7 +42,7 @@ if ! command -v google-chrome &> /dev/null && ! command -v chromium-browser &> /
     exit 1
 fi
 
-python3 collector_runner.py --source "$SOURCE_ID"
+python3 collector_runner.py --source "$SOURCE_ID" "$@"
 EXIT_CODE=${PIPESTATUS[0]}
 
 # Cleanup temp files older than 2 days (safety net)

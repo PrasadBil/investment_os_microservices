@@ -1,3 +1,4 @@
+
 """
 source_config.py — Source Configuration Registry for Investment OS Data Collectors
 
@@ -273,17 +274,19 @@ SOURCE_REGISTRY: dict[str, SourceConfig] = {
     ),
 
     # ────────────────────────────────────────────────────────────────────────
-    # CSE DAILY MARKET REPORT (Corporate Actions)
-    # Sprint 3 target — largest file, Selenium + Google Drive
+    # CSE DAILY MARKET REPORT (Market Summary + Corporate Actions)
+    # Sprint 3 (corporate actions) + Sprint A (market summary + foreign flow)
     # ────────────────────────────────────────────────────────────────────────
     "cse_daily": SourceConfig(
         source_id       = "cse_daily",
-        display_name    = "CSE Daily Market Report (Corporate Actions)",
+        display_name    = "CSE Daily Market Report (Market + Corporate Actions)",
         description     = (
             "Daily ~25MB PDF from Colombo Stock Exchange. "
-            "Pages 11-15 contain: right issues, share subdivisions, scrip dividends, "
-            "cash dividends, watch list, and trading suspensions. "
-            "Full PDF archived to Google Drive; only pages 11-15 parsed."
+            "Pages 1-5: market summary (ASPI, S&P SL20, turnover, market cap, "
+            "breadth) and foreign trading flow. "
+            "Pages 11-15: right issues, share subdivisions, scrip/cash dividends, "
+            "watch list, and trading suspensions. "
+            "Full PDF archived to Google Drive; pages 1-5 and 11-15 parsed."
         ),
 
         download_method = "selenium",
@@ -292,19 +295,27 @@ SOURCE_REGISTRY: dict[str, SourceConfig] = {
         date_format     = "",            # Dynamic navigation, not date-in-URL
         base_url        = "https://www.cse.lk",
 
-        # Only pages 11-15 contain corporate actions data
-        # Page 11: Right Issues | Page 12: Share Subdivisions + Scrip Dividends
-        # Page 13: Cash Dividends | Page 14: Watch List | Page 15: Suspended
-        parse_pages     = [11, 12, 13, 14, 15],
+        # Sprint A: pages 1-5 → market summary + foreign flow
+        # Sprint 3: pages 11-15 → corporate actions
+        # Page 1-2:  Market overview (ASPI, S&P20, turnover, market cap, breadth)
+        # Page 3-5:  Foreign trading summary + supplementary market stats
+        # Page 11:   Right Issues | Page 12: Share Subdivisions + Scrip Dividends
+        # Page 13:   Cash Dividends | Page 14: Watch List | Page 15: Suspended
+        parse_pages     = [1, 2, 3, 4, 5, 11, 12, 13, 14, 15],
         parser_class    = "CSEReportParser",   # parsers/cse_report_parser.py
 
         supabase_tables  = [
-            "cse_corporate_actions",    # Master log (all action types in one place)
-            "cse_right_issues",         # Right issue dates + ratios + prices
-            "cse_dividends",            # Cash/scrip dividends with XD/record/payment dates
-            "cse_watch_list_history",   # Watch list and suspension entry/exit
+            # Sprint A: market-level daily signals (new — Feb 2026)
+            "cse_daily_market_summary",  # ASPI, S&P SL20, turnover, market cap, breadth
+            "cse_foreign_flow",          # Foreign buy / sell / net flow (LKR)
+            # Sprint 3: corporate actions (existing)
+            "cse_corporate_actions",     # Master log (all action types in one place)
+            "cse_right_issues",          # Right issue dates + ratios + prices
+            "cse_dividends",             # Cash/scrip dividends with XD/record/payment dates
+            "cse_watch_list_history",    # Watch list and suspension entry/exit (→ VIEW cse_watch_list)
         ],
-        conflict_columns = ["date", "symbol", "action_type"],
+        # Primary idempotency key — market_summary + foreign_flow both keyed on report_date
+        conflict_columns = ["report_date"],
 
         storage_target  = "google_drive",
         # Drive folder structure mirrors date hierarchy for easy Cowork access
@@ -322,6 +333,30 @@ SOURCE_REGISTRY: dict[str, SourceConfig] = {
         url_stable_since    = "2020",      # Published consistently since ~2020
 
         extra = {
+            # ── Sprint A: Market summary page detection ──────────────────────
+            # Labels used by _detect_market_pages() (pages 0-5, 0-indexed)
+            "market_labels": [
+                "all share price index", "aspi", "market turnover", "s&p sl 20",
+            ],
+            "foreign_labels": [
+                "foreign purchases", "net foreign", "foreign trading",
+            ],
+
+            # Sprint A: Layer 1 validation ranges (checked by _validate_market_row)
+            # Format: field_name → (min, max) — values outside range trigger warnings
+            "market_validation": {
+                "aspi_close":       [3_000,   25_000],
+                "sp20_close":       [1_000,   10_000],
+                "turnover_lkr":     [50e6,    50e9  ],
+                "market_cap_lkr":   [1e12,    25e12 ],
+                "volume_shares":    [1e6,     5e9   ],
+                "trade_count":      [100,     500_000],
+                "stocks_advancing": [0,       350   ],
+                "stocks_declining": [0,       350   ],
+                "stocks_unchanged": [0,       350   ],
+            },
+
+            # ── Sprint 3: Corporate actions page detection ───────────────────
             # Section headers used for page-content detection
             # (more resilient than hard page numbers if layout shifts)
             "section_headers": {
@@ -332,17 +367,31 @@ SOURCE_REGISTRY: dict[str, SourceConfig] = {
                 "watch_list":          "Watch List",
                 "trading_suspended":   "Trading Suspended",
             },
-            # Selenium: ChromeDriver settings (reuse config from Service 5 cse_ohlcv_collector)
+
+            # ── Selenium: ChromeDriver settings ─────────────────────────────
+            # (reuse config from Service 5 cse_ohlcv_collector)
             "selenium": {
                 "headless":           True,
                 "download_dir":       "/opt/investment-os/services/data-collectors/data/temp/",
                 "page_load_timeout":  30,
                 "implicit_wait":      10,
             },
-            # Google Drive: folder ID for "Investment OS" root
-            # Set from environment variable GDRIVE_FOLDER_ID (populated in .env)
+
+            # ── Google Drive: archive target ─────────────────────────────────
+            # Folder ID for "Investment OS" root — populated from .env
             "gdrive_folder_env_var": "GDRIVE_FOLDER_ID",
             "gdrive_subfolder":      "CSE Daily Reports",
+
+            # ── Cross-validation target ──────────────────────────────────────
+            # aspi_close from cse_daily_market_summary should match
+            # cbsl_daily_indicators.value WHERE metric_name = 'aspi_close' ± 0.5%
+            # Any divergence > 0.5% flags a parsing error in monitoring.
+            "cross_validate": {
+                "field":            "aspi_close",
+                "against_table":    "cbsl_daily_indicators",
+                "against_metric":   "aspi_close",
+                "tolerance_pct":    0.5,
+            },
         },
     ),
 }
