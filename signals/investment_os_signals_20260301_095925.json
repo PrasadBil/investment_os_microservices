@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-03-01T09:59:25.714271",
+  "stocks_analyzed": 5,
+  "manipulation_contamination": "0%",
+  "signals": [
+    {
+      "stock": "CTHR.N0000",
+      "date": "2026-02-27",
+      "price": 640.0,
+      "signal": "HOLD",
+      "confidence": 50,
+      "expected_return": 0,
+      "hold_period_days": 12,
+      "num_signals": 2,
+      "active_signals": [
+        {
+          "type": "volume",
+          "direction": "BUY",
+          "expected_return": 12.9,
+          "confidence": 99.84,
+          "lag": 10
+        },
+        {
+          "type": "momentum_5d",
+          "direction": "SELL",
+          "expected_return": 0.7000000000000001,
+          "confidence": 99.99,
+          "lag": 12
+        }
+      ],
+      "indicators": {
+        "price": 640.0,
+        "volume": 96626.0,
+        "volume_change": 16.352620623127827,
+        "volatility_20d": 23.0718547906419,
+        "momentum_5d": 4.276985743380846,
+        "momentum_20d": -1.538461538461533,
+        "date": "2026-02-27"
+      }
+    },
+    {
+      "stock": "RCH.N0000",
+      "date": "2026-02-27",
+      "price": 245.0,
+      "signal": "BUY",
+      "confidence": 67.0,
+      "expected_return": 1.0,
+      "hold_period_days": 4,
+      "num_signals": 1,
+      "active_signals": [
+        {
+          "type": "momentum_5d",
+          "direction": "BUY",
+          "expected_return": 1.0,
+          "confidence": 95.71,
+          "lag": 4
+        }
+      ],
+      "indicators": {
+        "price": 245.0,
+        "volume": 2204.0,
+        "volume_change": 0.3036021764584338,
+        "volatility_20d": 35.105755953657244,
+        "momentum_5d": 0.3070624360286489,
+        "momentum_20d": -0.3051881993896277,
+        "date": "2026-02-27"
+      }
+    },
+    {
+      "stock": "GHLL.N0000",
+      "date": "2026-02-27",
+      "price": 18.0,
+      "signal": "HOLD",
+      "confidence": 0,
+      "expected_return": 0,
+      "hold_period_days": 0,
+      "num_signals": 0,
+      "active_signals": [],
+      "indicators": {
+        "price": 18.0,
+        "volume": 12941.0,
+        "volume_change": 0.12230407225022576,
+        "volatility_20d": 32.05783513417112,
+        "momentum_5d": 0.0,
+        "momentum_20d": -1.098901098901095,
+        "date": "2026-02-27"
+      }
+    },
+    {
+      "stock": "NEH.N0000",
+      "date": "2026-02-27",
+      "price": 5200.5,
+      "signal": "SELL",
+      "confidence": 60.66,
+      "expected_return": 0.3,
+      "hold_period_days": 28,
+      "num_signals": 1,
+      "active_signals": [
+        {
+          "type": "momentum_20d",
+          "direction": "SELL",
+          "expected_return": 0.3,
+          "confidence": 86.65,
+          "lag": 28
+        }
+      ],
+      "indicators": {
+        "price": 5200.5,
+        "volume": 100000.0,
+        "volume_change": 1.0,
+        "volatility_20d": 129.45116985819448,
+        "momentum_5d": -18.14747776815928,
+        "momentum_20d": 15.566666666666663,
+        "date": "2026-02-27"
+      }
+    },
+    {
+      "stock": "WIND.N0000",
+      "date": "2026-02-27",
+      "price": 46.1,
+      "signal": "HOLD",
+      "confidence": 0,
+      "expected_return": 0,
+      "hold_period_days": 0,
+      "num_signals": 0,
+      "active_signals": [],
+      "indicators": {
+        "price": 46.1,
+        "volume": 67621.0,
+        "volume_change": 0.4488511717285028,
+        "volatility_20d": 21.05349726299086,
+        "momentum_5d": -0.8602150537634357,
+        "momentum_20d": -4.948453608247416,
+        "date": "2026-02-27"
+      }
+    }
+  ]
+}

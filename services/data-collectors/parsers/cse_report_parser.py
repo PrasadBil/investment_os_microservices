@@ -25,9 +25,33 @@ VERSION HISTORY:
                        Layer 1 validation: MARKET_VALIDATION range dict.
                        parse_confidence (0-100) stored per row.
                        Cross-validation: aspi_close vs cbsl_daily_indicators ±0.5%.
+  v1.3.0  2026-02-25  CSE website migration fix — Angular SPA → Next.js SSR.
+                       Incident: Automated 8PM run failed in 4s on Feb 25, 2026.
+                       Root cause: CSE migrated to Next.js SSR between Feb 24-25.
+                         SSR delivers footer "Download the mobile App" text
+                         instantly — old wait triggered on it before publication
+                         card buttons had mounted (React hydration incomplete).
+                         Old XPath normalize-space(button)='Download' also failed
+                         on new nested <button><div>Download</div></button> DOM.
+                       Fix 1 — Wait gate: now waits specifically for
+                         //button[.//div[normalize-space(.)='Download']]
+                         + 2s sleep for React hydration. Fallback unchanged (15s).
+                       Fix 2 — Spatial triangulation selector strategy:
+                         Enumerate ALL download buttons with parent-container
+                         context logging (aids future debugging). Then scope to
+                         today's featured card via "Daily New" badge XPath before
+                         falling back positionally to [1] (today always first).
+                         Legacy Angular selectors kept at tail as final fallback.
+                         Reference: selenium_collector_old_2views._click_next_button
+                       Fix 3 — Resilient click:
+                         window.scrollBy(0, -150) after scrollIntoView to clear
+                         sticky headers. element.click() → execute_script click
+                         JS fallback to handle React synthetic event propagation.
+                       Data recovery: Feb 25 data recovered same night via wget
+                         CDN URL + --force flag (cached-file path triggered).
 
 SOURCE:
-  URL:       https://www.cse.lk/publications/cse-daily  (Angular SPA, Selenium required)
+  URL:       https://www.cse.lk/publications/cse-daily  (Next.js SSR, Selenium required)
   Format:    ~270-page PDF (~25MB)
   Published: Every trading day, after market close (~7-8 PM SLK)
 
@@ -280,45 +304,84 @@ class CSEReportCollector(BaseCollector):
         self.logger.info(f"[DOWNLOAD] Navigating to {CSE_PUBLICATIONS_URL}")
         driver.get(CSE_PUBLICATIONS_URL)
 
-        # ── Wait for Angular to render ─────────────────────────────────────
-        # Primary: wait for any element containing the text "Download"
-        # Fallback: sleep 15s (Angular SPAs are slow on first paint)
+        # ── Wait for page to render (Next.js SSR, Feb 2026+) ──────────────
+        # CSE migrated from Angular SPA to Next.js SSR in Feb 2026.
+        # SSR delivers the page shell (incl. footer "Download the mobile App")
+        # immediately — the OLD wait fired on that footer text, then ran the
+        # XPath before the publication cards had mounted.  Wait specifically
+        # for an actual publication Download BUTTON (not the footer text).
+        # Fallback: sleep 15s.
         try:
             WebDriverWait(driver, 40).until(
                 EC.presence_of_element_located(
-                    (By.XPATH, "//*[contains(translate(normalize-space(.), "
-                               "'ABCDEFGHIJKLMNOPQRSTUVWXYZ', "
-                               "'abcdefghijklmnopqrstuvwxyz'), 'download')]")
+                    (By.XPATH, "//button[.//div[normalize-space(.)='Download']]")
                 )
             )
-            self.logger.info("[DOWNLOAD] Angular render detected — page has download content.")
+            time.sleep(2)   # allow React hydration + CSS to fully apply
+            self.logger.info("[DOWNLOAD] Page render detected — publication download buttons found.")
         except Exception:
-            self.logger.warning("[DOWNLOAD] Angular wait timed out — using 15s fallback sleep.")
+            self.logger.warning("[DOWNLOAD] Page render wait timed out — using 15s fallback sleep.")
             time.sleep(15)
 
-        # ── Selector cascade ───────────────────────────────────────────────
-        # CSE uses an Angular SPA. PDF links are rendered dynamically and
-        # may NOT have href=*.pdf — the Angular click handler initiates the
-        # download. XPath by visible text "Download" is the most reliable
-        # approach regardless of Angular version or class-name changes.
+        # ── Selector cascade (Next.js SSR, Feb 2026+) ──────────────────────
+        # CSE migrated to Next.js SSR in Feb 2026. The page always has:
+        #   • 1 featured card (today) — green bg, "Daily New" badge, FIRST button
+        #   • 5 previous-day cards   — each with their own Download button
+        # Spatial triangulation: enumerate ALL download buttons first (aids
+        # debugging), then scope to the featured card container before falling
+        # back positionally.  Direct-click then JS-click for React hydration.
 
         pdf_link = None
 
-        # Strategy A: XPath by visible text (handles Angular Material buttons,
-        # <a> tags, <button> tags, <span> wrappers, etc.)
+        # ── Strategy A: Spatial (container-first enumeration) ─────────────
+        # Step 1 — enumerate all download buttons and log context (parent section)
+        try:
+            all_dl_btns = driver.find_elements(
+                By.XPATH, "//button[.//div[normalize-space(.)='Download']]"
+            )
+            self.logger.info(
+                f"[DOWNLOAD] Spatial scan: {len(all_dl_btns)} Download button(s) found on page"
+            )
+            for i, btn in enumerate(all_dl_btns[:8]):
+                try:
+                    parent_ctx = driver.execute_script(
+                        "var el=arguments[0];"
+                        "while(el && el.tagName!='SECTION' && el.tagName!='ARTICLE'"
+                        " && !(el.className||'').includes('card')) el=el.parentElement;"
+                        "return el ? (el.innerText||'').substring(0,80) : '';", btn
+                    )
+                    self.logger.info(
+                        f"[DOWNLOAD]   btn[{i}] visible={btn.is_displayed()} "
+                        f"ctx='{parent_ctx.strip()[:60]}'"
+                    )
+                except Exception:
+                    self.logger.info(f"[DOWNLOAD]   btn[{i}] visible={btn.is_displayed()}")
+        except Exception as e:
+            self.logger.warning(f"[DOWNLOAD] Spatial scan failed: {e}")
+            all_dl_btns = []
+
+        # Step 2 — try scoped candidates: most-specific (featured card) → positional → legacy
         xpath_candidates = [
-            # Exact-text button or anchor
+            # ── Next.js layout (CSE Feb 2026+) — today's featured card ────
+            # Featured card carries a "Daily New" badge — scope Download to it
+            "//section[.//div[normalize-space(.)='Daily New']]"
+            "//button[.//div[normalize-space(.)='Download']]",
+            # Featured card: green-background section (class-based fallback)
+            "//section[.//div[contains(@class,'bg-green-600')]]"
+            "//button[.//div[normalize-space(.)='Download']]",
+            # First download button on page (today's featured is always first)
+            "(//button[.//div[normalize-space(.)='Download']])[1]",
+            # Any button with a child div saying exactly "Download"
+            "//button[.//div[normalize-space(.)='Download']]",
+            # ── Legacy Angular selectors (kept as fallback) ────────────────
             "//button[normalize-space(.)='Download']",
             "//a[normalize-space(.)='Download']",
-            # Contains text — covers "Download Now", "Download PDF" etc.
             "//button[contains(normalize-space(.), 'Download')]",
             "//a[contains(normalize-space(.), 'Download')]",
-            # Case-insensitive contains (Angular may capitalise differently)
             "//button[contains(translate(normalize-space(.),"
             " 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'download')]",
             "//a[contains(translate(normalize-space(.),"
             " 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'download')]",
-            # Span/div inside a clickable parent
             "//*[contains(@class,'download') or contains(@class,'Download')]",
         ]
 
@@ -391,10 +454,18 @@ class CSEReportCollector(BaseCollector):
             )
 
         driver.execute_script("arguments[0].scrollIntoView(true);", pdf_link)
+        driver.execute_script("window.scrollBy(0, -150);")  # clear any sticky header
         time.sleep(1)
         pre_click = set(TEMP_DIR.glob("*.pdf"))
-        pdf_link.click()
-        self.logger.info("[DOWNLOAD] Click triggered — waiting for download...")
+        try:
+            pdf_link.click()
+            self.logger.info("[DOWNLOAD] Click triggered (direct) — waiting for download...")
+        except Exception as click_err:
+            self.logger.warning(
+                f"[DOWNLOAD] Direct click failed ({click_err}) — trying JS click..."
+            )
+            driver.execute_script("arguments[0].click();", pdf_link)
+            self.logger.info("[DOWNLOAD] Click triggered (JS fallback) — waiting for download...")
 
         downloaded = self._wait_for_download(pre_click, timeout_seconds=120)
         shutil.move(str(downloaded), str(dest_path))

@@ -1,240 +1,128 @@
-
 #!/bin/bash
-# ============================================================================
-# INVESTMENT OS - AUTOMATED DAILY WORKFLOW (Phase 2 Migration)
-# ============================================================================
-# Runs daily at 6:30 PM SLK time
-# Generates calendar signals + tier1 signals and sends email notification
+# =============================================================================
+# run_daily_signals.sh
+# Investment OS NEW PLATFORM — Daily Signals Generator + Supabase Upload
 #
 # Location: /opt/investment-os/services/calendar-signals/run_daily_signals.sh
 #
-# Migration Notes:
-# - WORKDIR changed: /opt/selenium_automation → /opt/investment-os
-# - Python scripts use common library (no more inline create_client/load_dotenv)
-# - Email sent via common.email_sender (no more inline SMTP or mail command)
-# - PYTHONPATH already configured in ~/.bashrc (Phase 1)
+# Schedule: Mon–Fri 6:30 PM LKT
+# Crontab:  0 13 * * 1-5   /opt/investment-os/services/calendar-signals/run_daily_signals.sh
+#           (13:00 UTC = 6:30 PM LKT)
 #
-# Original: /opt/selenium_automation/run_daily_signals.sh
-#           /opt/selenium_automation/run_daily_signals_simple.sh
-# ============================================================================
+# Generator: daily_trading_workflow.py (new platform)
+#   Loads CSE data from Supabase → generates tier1 signals → saves JSON
+#   Saves signal JSON to: config.SIGNALS_DIR/investment_os_signals_YYYYMMDD_HHMMSS.json
+#                         i.e. /opt/investment-os/signals/investment_os_signals_YYYYMMDD_HHMMSS.json
+#   Shell uses glob to find today's latest file (date-stamped, no fixed timestamp).
+#
+# Writes: cse_daily_signals (upsert on signal_date)
+# =============================================================================
 
-set -e  # Exit on any error
+set -euo pipefail
 
-# ============================================================================
-# CONFIGURATION
-# ============================================================================
-
-WORKDIR="/opt/investment-os"
-SERVICE_DIR="${WORKDIR}/services/calendar-signals"
-LOGDIR="${WORKDIR}/v5_logs"
-SIGNALDIR="${WORKDIR}/signals"
-
-TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+# ── Config ────────────────────────────────────────────────────────────────────
+SERVICE_DIR="/opt/investment-os/services/calendar-signals"
+LOG_DIR="/opt/investment-os/v5_logs"
 DATE=$(date +%Y-%m-%d)
-SIGNAL_FILE="${SIGNALDIR}/signals_${TIMESTAMP}.json"
-LOG_FILE="${LOGDIR}/daily_signals_${TIMESTAMP}.log"
-LATEST_SIGNAL="${SIGNALDIR}/latest_signal.json"
+LOG_FILE="${LOG_DIR}/daily_signals_${DATE}.log"
+ENV_FILE="/opt/investment-os/.env"
 
-# ============================================================================
-# SETUP
-# ============================================================================
+# New platform generator (Python — called with python3, NOT bash)
+WORKFLOW_SCRIPT="${SERVICE_DIR}/daily_trading_workflow.py"
+SIGNALS_DIR="/opt/investment-os/signals"
+DATE_COMPACT=$(date +%Y%m%d)
+# Signal file is date+time stamped — find latest for today (|| true prevents set -e from killing script when no file exists yet)
+SIGNAL_JSON=$(ls "${SIGNALS_DIR}/investment_os_signals_${DATE_COMPACT}_"*.json 2>/dev/null | sort | tail -1 || true)
+SIGNAL_TXT=""   # no txt fallback for new platform generator
 
-mkdir -p "${LOGDIR}"
-mkdir -p "${SIGNALDIR}"
+UPLOAD_SCRIPT="${SERVICE_DIR}/upload_daily_signals.py"
+PYTHONPATH_NEW="/opt/investment-os/packages"
 
-echo "======================================================================" | tee -a "${LOG_FILE}"
-echo "INVESTMENT OS - AUTOMATED DAILY WORKFLOW" | tee -a "${LOG_FILE}"
-echo "Started: $(date)" | tee -a "${LOG_FILE}"
-echo "Working Directory: ${WORKDIR}" | tee -a "${LOG_FILE}"
-echo "======================================================================" | tee -a "${LOG_FILE}"
+# ── Setup ─────────────────────────────────────────────────────────────────────
+mkdir -p "${LOG_DIR}"
 
-cd "${WORKDIR}"
+log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*" | tee -a "${LOG_FILE}"; }
 
-# ============================================================================
-# STEP 1: VERIFY DATA FRESHNESS (uses common library)
-# ============================================================================
+log "============================================"
+log "DAILY SIGNALS + UPLOAD — START"
+log "============================================"
+log "Date:      ${DATE}"
+log "Log:       ${LOG_FILE}"
+log "Generator: python3 ${WORKFLOW_SCRIPT}"
+log "Signals:   ${SIGNALS_DIR}/investment_os_signals_${DATE_COMPACT}_*.json"
+log "Upload:    ${UPLOAD_SCRIPT}"
 
-echo "" | tee -a "${LOG_FILE}"
-echo "Step 1: Verifying data freshness..." | tee -a "${LOG_FILE}"
-
-python3 << 'PYTHON_CHECK' >> "${LOG_FILE}" 2>&1
-from datetime import datetime, timedelta
-from common.database import get_supabase_client
-
-client = get_supabase_client()
-today = datetime.now().date()
-yesterday = today - timedelta(days=1)
-
-response = client.table('cse_daily_prices').select('collection_date').order('collection_date', desc=True).limit(1).execute()
-
-if response.data:
-    latest_date = response.data[0]['collection_date']
-    print(f"Latest data: {latest_date}")
-
-    latest = datetime.strptime(latest_date, '%Y-%m-%d').date()
-
-    if latest >= yesterday:
-        print("Data is fresh")
-        exit(0)
-    else:
-        print(f"Data is stale (last update: {latest})")
-        exit(1)
-else:
-    print("No data found")
-    exit(1)
-PYTHON_CHECK
-
-DATA_CHECK=$?
-
-if [ $DATA_CHECK -ne 0 ]; then
-    echo "WARNING: Data may be stale. Proceeding anyway..." | tee -a "${LOG_FILE}"
-fi
-
-# ============================================================================
-# STEP 2: RUN CALENDAR SIGNAL MONITOR
-# ============================================================================
-
-echo "" | tee -a "${LOG_FILE}"
-echo "Step 2: Running calendar signal monitor..." | tee -a "${LOG_FILE}"
-
-cd "${SERVICE_DIR}"
-python3 calendar_signal_monitor.py >> "${LOG_FILE}" 2>&1
-
-echo "Calendar signals generated" | tee -a "${LOG_FILE}"
-
-# ============================================================================
-# STEP 3: GENERATE TIER 1 TRADING SIGNALS
-# ============================================================================
-
-echo "" | tee -a "${LOG_FILE}"
-echo "Step 3: Generating tier 1 trading signals..." | tee -a "${LOG_FILE}"
-
-cd "${SERVICE_DIR}"
-python3 daily_trading_workflow.py >> "${LOG_FILE}" 2>&1
-
-SIGNAL_GEN_EXIT=$?
-
-if [ $SIGNAL_GEN_EXIT -ne 0 ]; then
-    echo "ERROR: Signal generation failed!" | tee -a "${LOG_FILE}"
-
-    # Send error notification via common library
-    cd "${WORKDIR}"
-    python3 << PYTHON_ERROR >> "${LOG_FILE}" 2>&1
-from common.email_sender import EmailSender
-sender = EmailSender()
-sender.send_report(
-    "Investment OS - Signal Generation FAILED",
-    "Signal generation failed at $(date).\nCheck logs: ${LOG_FILE}"
-)
-PYTHON_ERROR
-
-    exit 1
-fi
-
-echo "Tier 1 signals generated" | tee -a "${LOG_FILE}"
-
-# ============================================================================
-# STEP 4: COPY LATEST SIGNAL
-# ============================================================================
-
-echo "" | tee -a "${LOG_FILE}"
-echo "Step 4: Saving latest signal..." | tee -a "${LOG_FILE}"
-
-LATEST_GEN=$(ls -t ${SIGNALDIR}/investment_os_signals_*.json 2>/dev/null | head -1)
-
-if [ -n "$LATEST_GEN" ]; then
-    cp "$LATEST_GEN" "${LATEST_SIGNAL}"
-    echo "Signal saved: ${LATEST_SIGNAL}" | tee -a "${LOG_FILE}"
+# ── Safe .env loading (never use source .env) ─────────────────────────────────
+if [ -f "${ENV_FILE}" ]; then
+  log "✅ Loading env from ${ENV_FILE}"
+  while IFS= read -r line || [[ -n "$line" ]]; do
+    [[ -z "$line" || "$line" =~ ^[[:space:]]*# ]] && continue
+    if [[ "$line" =~ ^[A-Za-z_][A-Za-z0-9_]*= ]]; then
+      export "$line" 2>/dev/null || true
+    fi
+  done < "${ENV_FILE}"
 else
-    echo "No signal file found in ${SIGNALDIR}" | tee -a "${LOG_FILE}"
+  log "⚠  No .env at ${ENV_FILE}"
 fi
 
-# ============================================================================
-# STEP 5: SEND EMAIL NOTIFICATION (via common library)
-# ============================================================================
+# ── Pre-flight ────────────────────────────────────────────────────────────────
+if [ ! -f "${UPLOAD_SCRIPT}" ]; then
+  log "❌ Upload script not found: ${UPLOAD_SCRIPT}"
+  exit 1
+fi
 
-echo "" | tee -a "${LOG_FILE}"
-echo "Step 5: Sending email notification..." | tee -a "${LOG_FILE}"
+# ── STEP 1: Run signal generator (new platform) ───────────────────────────────
+log ""
+log "============================================"
+log "STEP 1: Running Daily Signal Generator"
+log "============================================"
 
-cd "${WORKDIR}"
-python3 << 'PYTHON_EMAIL' >> "${LOG_FILE}" 2>&1
-import json
-from common.email_sender import EmailSender
+if [ -f "${WORKFLOW_SCRIPT}" ]; then
+  cd "${SERVICE_DIR}"   # daily_trading_workflow.py imports local module tier1_signal_generator
+  PYTHONPATH="${PYTHONPATH_NEW}" python3 "${WORKFLOW_SCRIPT}" 2>&1 | tee -a "${LOG_FILE}"
+  WORKFLOW_EXIT=${PIPESTATUS[0]}
+  if [ ${WORKFLOW_EXIT} -ne 0 ]; then
+    log "❌ Workflow exited with code ${WORKFLOW_EXIT}"
+    exit ${WORKFLOW_EXIT}
+  fi
+  log "✅ Signal generator complete"
+else
+  log "⚠  Workflow script not found at ${WORKFLOW_SCRIPT} — skipping (upload-only mode)"
+fi
 
-try:
-    # Load latest signal
-    with open('/opt/investment-os/signals/latest_signal.json', 'r') as f:
-        data = json.load(f)
+# ── STEP 2: Upload to Supabase (new platform) ─────────────────────────────────
+log ""
+log "============================================"
+log "STEP 2: Uploading to Supabase (new platform)"
+log "============================================"
 
-    signals = data['signals']
-    actionable = [s for s in signals if s['signal'] != 'HOLD' and s['confidence'] >= 80]
+# Re-resolve glob after generator has run (in case it wasn't set before)
+if [ -z "${SIGNAL_JSON}" ]; then
+  SIGNAL_JSON=$(ls "${SIGNALS_DIR}/investment_os_signals_${DATE_COMPACT}_"*.json 2>/dev/null | sort | tail -1)
+fi
 
-    # Build email body
-    body = "Investment OS Daily Trading Signals\n"
-    body += "=" * 60 + "\n"
-    body += f"Generated: {data['generated_at']}\n"
-    body += f"Stocks Analyzed: {data['stocks_analyzed']}\n"
-    body += f"Manipulation Contamination: {data['manipulation_contamination']}\n"
-    body += "=" * 60 + "\n\n"
+if [ -n "${SIGNAL_JSON}" ] && [ -f "${SIGNAL_JSON}" ]; then
+  SIGNAL_ARG="--signal-json ${SIGNAL_JSON}"
+  log "Signal source: ${SIGNAL_JSON} (JSON)"
+else
+  log "❌ No signal file found matching ${SIGNALS_DIR}/investment_os_signals_${DATE_COMPACT}_*.json"
+  exit 1
+fi
 
-    if not actionable:
-        body += "NO HIGH-CONFIDENCE SIGNALS TODAY\n\n"
-        body += "Market conditions unclear. No trades recommended.\n"
-        body += "Action: HOLD all positions.\n"
-    else:
-        body += f"{len(actionable)} HIGH-CONFIDENCE SIGNAL(S) (>80%):\n\n"
+PYTHONPATH="${PYTHONPATH_NEW}" python3 "${UPLOAD_SCRIPT}" \
+  ${SIGNAL_ARG} \
+  --date "${DATE}" \
+  2>&1 | tee -a "${LOG_FILE}"
+UPLOAD_EXIT=${PIPESTATUS[0]}
 
-        for i, signal in enumerate(actionable, 1):
-            body += f"TRADE #{i}: {signal['stock']}\n"
-            body += f"  Action: {signal['signal']}\n"
-            body += f"  Price: Rs {signal['price']:.2f}\n"
-            body += f"  Confidence: {signal['confidence']:.1f}%\n"
-            body += f"  Expected Return: {signal['expected_return']:.2f}%\n"
-            body += f"  Hold Period: {signal['hold_period_days']} days\n"
+if [ ${UPLOAD_EXIT} -ne 0 ]; then
+  log "❌ Upload failed with code ${UPLOAD_EXIT}"
+  exit ${UPLOAD_EXIT}
+fi
 
-            if signal['signal'] == 'BUY':
-                stop = signal['price'] * 0.95
-                target = signal['price'] * (1 + signal['expected_return']/100)
-                body += f"  Stop Loss: Rs {stop:.2f} (5% below)\n"
-                body += f"  Target: Rs {target:.2f}\n"
-
-            body += "\n"
-
-    body += "=" * 60 + "\n"
-    body += "Full details: /opt/investment-os/signals/latest_signal.json\n"
-
-    # Send via common library
-    sender = EmailSender()
-    sender.send_report(f"Investment OS Daily Signals - {data['generated_at'][:10]}", body)
-    print("Email sent successfully")
-
-except Exception as e:
-    print(f"Email failed: {e}")
-    print("Signal files still available locally")
-
-PYTHON_EMAIL
-
-# ============================================================================
-# STEP 6: CLEANUP OLD FILES
-# ============================================================================
-
-echo "" | tee -a "${LOG_FILE}"
-echo "Step 6: Cleaning up old files..." | tee -a "${LOG_FILE}"
-
-find "${SIGNALDIR}" -name "signals_*.json" -mtime +30 -delete 2>/dev/null || true
-find "${LOGDIR}" -name "daily_signals_*.log" -mtime +30 -delete 2>/dev/null || true
-
-echo "Cleaned up files older than 30 days" | tee -a "${LOG_FILE}"
-
-# ============================================================================
-# COMPLETION
-# ============================================================================
-
-echo "" | tee -a "${LOG_FILE}"
-echo "======================================================================" | tee -a "${LOG_FILE}"
-echo "WORKFLOW COMPLETE! $(date)" | tee -a "${LOG_FILE}"
-echo "Signal File: ${SIGNAL_FILE}" | tee -a "${LOG_FILE}"
-echo "Log File: ${LOG_FILE}" | tee -a "${LOG_FILE}"
-echo "======================================================================" | tee -a "${LOG_FILE}"
+log ""
+log "============================================"
+log "DAILY SIGNALS + UPLOAD — DONE"
+log "============================================"
 
 exit 0

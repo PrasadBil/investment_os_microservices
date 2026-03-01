@@ -1,0 +1,122 @@
+================================================================================
+D7 V1.0 VS V2.0 COMPARISON  |  Run: 2026-02-25 10:08:45
+================================================================================
+
+📊 Loading scores...
+   v1.0  → 298 stocks  |  file: dimension7_scores.csv
+   v1.0 columns: ['symbol', 'dimension7_sentiment', 'activity_score', 'momentum_score', 'recognition_score', 'modifiers', 'penalties', 'sector', 'interpretation']
+   v2.0  → 297 stocks  |  file: dimension7_v2_scores.csv
+   v2.0 columns (first 8): ['symbol', 'rank', 'dimension7_v2_score', 'c1_trading_activity', 'c2_volatility_adj', 'c3_market_recognition', 'c4_volume_trends', 'c5_momentum']...
+
+🔍 Detected v2.0 scorer version: PHASE1BCD
+   ✅ Full 5-component scorer (Trading 30% | Volatility 10% | Recognition 25% | Volume 10% | Momentum 25%)
+   ⚠️  Using column 'dimension7_sentiment' as v1.0 score (auto-detected)
+
+   Common stocks for comparison: 295
+
+────────────────────────────────────────────────────────────
+📈  CORRELATION ANALYSIS
+────────────────────────────────────────────────────────────
+   Pearson Correlation:  0.288
+   Assessment:          ❌ Low agreement (<0.70) — investigate methodology
+
+────────────────────────────────────────────────────────────
+📊  DISTRIBUTION COMPARISON
+────────────────────────────────────────────────────────────
+   Metric            v1.0      v2.0     Delta
+   Mean              69.7      50.2     -19.5
+   Median            69.0      49.3     -19.8
+   Std Dev           15.5      11.2      -4.2
+   Min               13.8      27.8
+   Max              100.0      78.2
+
+   Score Movement:
+   Improved  (Δ > +5) :   19 stocks (6%)
+   Similar   (±5)     :   28 stocks (9%)
+   Declined  (Δ < -5) :  248 stocks (84%)
+
+────────────────────────────────────────────────────────────
+🏆  TOP-20 RANK STABILITY
+────────────────────────────────────────────────────────────
+   Common stocks in top-20:  1/20  (5%)
+   Entered top-20 (v2 only): ['AAIC.N0000', 'AEL.N0000', 'CALF.N0000', 'COMB.N0000', 'CRL.N0000', 'CWL.N0000', 'EMER.N0000', 'EXT.N0000', 'HNB.N0000', 'KPHL.N0000', 'LMF.N0000', 'MDL.N0000', 'NDB.N0000', 'NHL.N0000', 'PLR.N0000', 'SCAP.N0000', 'SHOT.X0000', 'SINH.N0000', 'VPEL.N0000']
+   Exited top-20 (v1 only):  ['AAF.N0000', 'ASHO.N0000', 'CFVF.N0000', 'COCO.N0000', 'COCR.N0000', 'CTEA.N0000', 'DOCK.N0000', 'HNB.X0000', 'KCAB.N0000', 'LAMB.N0000', 'LDEV.N0000', 'LFIN.N0000', 'LIOC.N0000', 'MSL.N0000', 'NEH.N0000', 'SMOT.N0000', 'SPEN.N0000', 'SUN.N0000', 'WATA.N0000']
+   Assessment:  ❌ Major divergence (<50%) — investigate
+
+────────────────────────────────────────────────────────────
+🎯  TEST STOCKS (Key Holdings)
+────────────────────────────────────────────────────────────
+
+       symbol  dimension7_score  dimension7_v2_score  delta trade_density_class        volume_trend momentum_confluence
+ JKH.N0000             72.35                 62.5  -9.85               mixed strong_distribution     mostly_negative
+LOFC.N0000             40.00                 50.2  10.20               mixed strong_distribution      full_downtrend
+LOLC.N0000             65.35                 48.2 -17.15              retail strong_distribution     mostly_positive
+ CTC.N0000             74.35                 41.4 -32.95              retail strong_distribution     mostly_negative
+LION.N0000             67.35                 38.8 -28.55              retail strong_distribution        full_uptrend
+
+────────────────────────────────────────────────────────────
+📈  TOP 5 IMPROVERS  (v2.0 gains)
+────────────────────────────────────────────────────────────
+    symbol  dimension7_score  dimension7_v2_score  delta trade_density_class        volume_trend
+KAHA.N0000             13.75                 48.6  34.85               mixed strong_accumulation
+REEF.N0000             21.80                 42.7  20.90               mixed strong_distribution
+ CWL.N0000             61.55                 78.2  16.65               mixed strong_accumulation
+CITW.N0000             40.00                 56.5  16.50               mixed   mild_distribution
+ SHL.N0000             40.00                 55.4  15.40               mixed strong_distribution
+
+────────────────────────────────────────────────────────────
+📉  TOP 5 DECLINERS  (v2.0 drops)
+────────────────────────────────────────────────────────────
+    symbol  dimension7_score  dimension7_v2_score  delta trade_density_class        volume_trend
+SMOT.N0000            100.00                 39.9 -60.10              retail strong_accumulation
+LDEV.N0000            100.00                 42.2 -57.80              retail   mild_accumulation
+CINS.X0000             93.65                 37.0 -56.65              retail   mild_distribution
+ MSL.N0000            100.00                 43.6 -56.40              retail   mild_accumulation
+MASK.N0000             86.65                 32.0 -54.65              retail strong_distribution
+
+────────────────────────────────────────────────────────────
+💡  INSIGHTS BY TRADE DENSITY
+────────────────────────────────────────────────────────────
+   Class             Count   Avg v1.0   Avg v2.0     Avg Δ
+   Institutional        13       68.0       60.0      -8.1
+   Mixed               104       68.3       57.7     -10.5
+   Retail              178       70.7       45.1     -25.6
+
+────────────────────────────────────────────────────────────
+📦  VOLUME TREND DISTRIBUTION  (Phase 1B-D new — Component 4)
+────────────────────────────────────────────────────────────
+   strong_distribution    154 stocks  |  avg D7 v2.0: 46.1
+   mild_distribution       49 stocks  |  avg D7 v2.0: 51.8
+   strong_accumulation     39 stocks  |  avg D7 v2.0: 59.4
+   mild_accumulation       33 stocks  |  avg D7 v2.0: 54.0
+   neutral                 20 stocks  |  avg D7 v2.0: 53.4
+
+────────────────────────────────────────────────────────────
+🚀  MOMENTUM CONFLUENCE  (Phase 1B-D new — Component 5)
+────────────────────────────────────────────────────────────
+   mostly_negative         90 stocks  |  avg D7 v2.0: 47.0
+   mostly_positive         80 stocks  |  avg D7 v2.0: 53.1
+   full_downtrend          59 stocks  |  avg D7 v2.0: 43.0
+   full_uptrend            41 stocks  |  avg D7 v2.0: 62.8
+   mixed                   25 stocks  |  avg D7 v2.0: 48.7
+
+   5D Return distribution:  mean=+1.3%  median=-0.2%  std=10.0%  (n=295)
+
+   20D Return distribution:  mean=+7.0%  median=-0.1%  std=41.5%  (n=295)
+
+   60D Return distribution:  mean=+5.4%  median=+0.0%  std=24.9%  (n=295)
+
+================================================================================
+📊  FINAL ASSESSMENT
+================================================================================
+   ❌ v2.0 shows SIGNIFICANT divergence from v1.0
+   ❌ RECOMMENDATION: Investigate scoring methodology before deployment
+
+   Correlation:      0.288
+   Top-20 Overlap:   1/20
+   Scorer Phase:     phase1bcd
+   Assessment:       INVESTIGATE_DIVERGENCE
+
+================================================================================
+✅  COMPARISON COMPLETE  |  2026-02-25 10:08:45
+================================================================================
