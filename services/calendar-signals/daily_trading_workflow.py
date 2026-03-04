@@ -139,9 +139,9 @@ def prioritize_signals(signals):
     high_confidence = [s for s in actionable if s['confidence'] >= 80]
 
     if not high_confidence:
-        logger.info(f"{len(actionable)} signals found, but all below 80% confidence.")
-        print("Action: Skip trading today or reduce position sizes.")
-        return actionable  # Return them anyway for review
+        logger.info(f"{len(actionable)} signals found, but all below 80% confidence threshold — no action required.")
+        print("Action: Skip trading today. Signals below 80% threshold.")
+        return []  # Below threshold — don't surface as ACTION REQUIRED in email
 
     # Sort by confidence (highest first)
     prioritized = sorted(high_confidence, key=lambda x: x['confidence'], reverse=True)
@@ -183,16 +183,18 @@ def generate_trading_plan(signals):
         if signal['signal'] == 'BUY':
             stop_loss = signal['price'] * 0.95
             target = signal['price'] * (1 + signal['expected_return']/100)
-            print(f"  Stop Loss: Rs {stop_loss:.2f} (5% below entry)")
-            print(f"  Target: Rs {target:.2f} ({signal['expected_return']:.1f}% profit)")
+            print(f"  Buy At: Rs {signal['price']:.2f}")
+            print(f"  Stop Loss: Rs {stop_loss:.2f} (exit if drops 5%)")
+            print(f"  Target: Rs {target:.2f} ({signal['expected_return']:.1f}% upside)")
             print(f"  Hold Period: ~{signal['hold_period_days']} days")
 
         elif signal['signal'] == 'SELL':
-            # For short selling (if allowed) or selling existing position
-            stop_loss = signal['price'] * 1.05
-            target = signal['price'] * (1 - signal['expected_return']/100)
-            print(f"  Stop Loss: Rs {stop_loss:.2f} (5% above entry)")
-            print(f"  Target: Rs {target:.2f} ({signal['expected_return']:.1f}% profit)")
+            # SELL = exit existing holding (CSE has no short selling)
+            risk_level = signal['price'] * 1.05
+            downside_target = signal['price'] * (1 - signal['expected_return']/100)
+            print(f"  Sell At: Rs {signal['price']:.2f} (sell existing holding)")
+            print(f"  Risk Level: Rs {risk_level:.2f} (thesis fails if price rises above this)")
+            print(f"  Downside Target: Rs {downside_target:.2f} ({signal['expected_return']:.1f}% downside)")
             print(f"  Hold Period: ~{signal['hold_period_days']} days")
 
         print(f"  Suggested Position Size: 2-8% of portfolio")
@@ -232,16 +234,17 @@ def send_email_report(signals: list, prioritized: list) -> bool:
         lines.append("-" * 60)
         for i, s in enumerate(prioritized[:2], 1):
             lines.append(f"  TRADE #{i}: {s['stock']} — {s['signal']}")
-            lines.append(f"    Entry:       Rs {s['price']:.2f}")
             lines.append(f"    Confidence:  {s['confidence']:.1f}%")
             lines.append(f"    Return:      {s['expected_return']:.2f}%")
             lines.append(f"    Hold Period: ~{s['hold_period_days']} days")
             if s['signal'] == 'BUY':
-                lines.append(f"    Stop Loss:   Rs {s['price'] * 0.95:.2f}  (5% below entry)")
+                lines.append(f"    Buy At:      Rs {s['price']:.2f}")
+                lines.append(f"    Stop Loss:   Rs {s['price'] * 0.95:.2f}  (exit if drops 5%)")
                 lines.append(f"    Target:      Rs {s['price'] * (1 + s['expected_return']/100):.2f}")
             elif s['signal'] == 'SELL':
-                lines.append(f"    Stop Loss:   Rs {s['price'] * 1.05:.2f}  (5% above entry)")
-                lines.append(f"    Target:      Rs {s['price'] * (1 - s['expected_return']/100):.2f}")
+                lines.append(f"    Sell At:     Rs {s['price']:.2f}  (sell existing holding)")
+                lines.append(f"    Risk Level:  Rs {s['price'] * 1.05:.2f}  (thesis fails if price rises above this)")
+                lines.append(f"    Downside Target: Rs {s['price'] * (1 - s['expected_return']/100):.2f}")
             lines.append("")
     else:
         lines.append("No high-confidence signals today (all below 80%).")
@@ -256,7 +259,8 @@ def send_email_report(signals: list, prioritized: list) -> bool:
 
     lines.append("")
     lines.append("Execute trades MANUALLY on your broker platform.")
-    lines.append("Set stop loss orders (5% below entry for BUY).")
+    lines.append("BUY: set stop loss 5% below buy price.")
+    lines.append("SELL: sell existing holding. If price rises 5% above sell price, thesis is invalidated — reassess.")
 
     body = "\n".join(lines)
     subject = f"Investment OS — Daily Signals {today}: {len(buy_signals)} BUY | {len(sell_signals)} SELL | {len(hold_signals)} HOLD"
